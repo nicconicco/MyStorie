@@ -21,12 +21,16 @@ public class MainActivity extends BaseActivity {
 
     @AfterViews
     void init() {
-        Log.d("\n\n\n\n\n\n\n\n"+TAG, this.getString(R.string.state_after_view)+"\n\n\n\n\n");
+        Log.d(getString(R.string.tag_next_flow), this.getString(R.string.state_after_view));
+    }
+
+    @Click(R.id.btn_one)
+    void onClickBtnOne(){
+        Log.d(getString(R.string.tag_next_flow), this.getString(R.string.click) + " : onClickBtnOne");
     }
 
     @Click(R.id.btn_two)
-    void opa(){
-        Log.d("\n\n\n\n\n\n\n\n\n"+TAG, this.getString(R.string.click)+"\n\n\n\n\n");
-        Toast.makeText(this, "opa", Toast.LENGTH_LONG).show();
+    void onClickBtnTwo(){
+        Log.d(getString(R.string.tag_next_flow), this.getString(R.string.click) + " : onClickBtnTwo");
     }
 }

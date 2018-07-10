@@ -5,4 +5,5 @@
     <string name="flavor">Flavor:</string>
     <string name="state_after_view">AfterViews</string>
     <string name="click">Click</string>
+    <string name="tag_next_flow">NEXT_FLOW</string>
 </resources>
