@@ -1,13 +1,20 @@
 apply plugin: 'com.android.application'
-//apply plugin: 'android-apt'
 
 // Build Variants Names
 def mock_code = "0"
 def api_code = "1"
 
-
 android {
 
+    // Manter isto no top, senão ele não consegue enxergar
+    signingConfigs {
+        theReleaseKey {
+            storeFile file('/Users/cgalves/Documents/GitHub/MyStorie/mykeystore.jks')
+            storePassword "123456"
+            keyAlias "MYSTORIE"
+            keyPassword "123456"
+        }
+    }
 
     compileSdkVersion 26
     defaultConfig {
@@ -19,57 +26,54 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = ["resourcePackageName": android.defaultConfig.applicationId]
+            }
+        }
     }
 
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            applicationIdSuffix ".release"
+            signingConfig signingConfigs.theReleaseKey
+        }
+        jnidebug {
+            initWith debug
+            jniDebuggable true
+            applicationIdSuffix ".jidebug"
         }
     }
-//    flavorDimensions "mock", "prod"
-////    flavorDimensions "all"
-//    productFlavors {
-//        kotlinMvp {
-//            applicationIdSuffix ".kotlin_mvp"
-//            versionNameSuffix "-kotlin_mvp"
-//            buildConfigField "int", "API", mock_code
-//            dimension "mock"
-//        }
-//        javaMvpFactory {
-//            applicationIdSuffix ".java_mvp_factory"
-//            versionNameSuffix "-java_mvp_factory"
-//            buildConfigField "int", "API", api_code
-//            dimension "mock"
-//        }
-//        javaMvpFastmock {
-//            applicationIdSuffix ".java_mvp_fastmock"
-//            versionNameSuffix "-java_mvp_fastmock"
-//            buildConfigField "int", "API", mock_code
-//            dimension "prod"
-//        }
-//        javaMvvm {
-//            applicationIdSuffix ".java_mvvm"
-//            versionNameSuffix "-java_mvvm"
-//            buildConfigField "int", "API", mock_code
-//            dimension "mock"
-//        }
-//    }
+
+    flavorDimensions "all"
+    productFlavors {
+        javaMVP_FASTMOCK {
+            applicationId "com.mystorie.cgalves.mystorie.mvpf"
+        }
+
+        javaMVP_ENVIROMENT {
+            applicationId "com.mystorie.cgalves.mystorie.mvpe"
+        }
+
+        javaMVP_API {
+            applicationId "com.mystorie.cgalves.mystorie.mvpa"
+        }
+
+        javaMVVM_FASTMOCK {
+            applicationId "com.mystorie.cgalves.mystorie.mvvm"
+        }
+    }
 }
 
 
 apply plugin: 'com.android.application'
-//apply plugin: 'android-apt'
-def AAVersion = '4.4.0'
 def androidAnnotationsVersion = "4.4.0"
 
 dependencies {
-
     annotationProcessor "org.androidannotations:androidannotations:$androidAnnotationsVersion"
     implementation "org.androidannotations:androidannotations-api:$androidAnnotationsVersion"
-
-//    annotationProcessor "org.androidannotations:androidannotations:$AAVersion"
-//    implementation "org.androidannotations:androidannotations-api:$AAVersion"
 }
 
 dependencies {
@@ -86,9 +90,6 @@ dependencies {
     implementation glide
     testImplementation testingDependencies.junit
     testImplementation testingDependencies.mockito
-
-    implementation 'com.jakewharton:butterknife:8.8.1'
-    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
 }
 
 
