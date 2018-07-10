@@ -4,11 +4,11 @@ import android.content.Intent;
 import android.os.Handler;
 import android.util.Log;
 
-import com.mystorie.cgalves.mystorie.MainActivity_;
 import com.mystorie.cgalves.mystorie.common.activity.BaseActivity;
 import com.mystorie.cgalves.mystorie.R;
 import com.mystorie.cgalves.mystorie.common.utils.AlertDialogUtils;
 import com.mystorie.cgalves.mystorie.common.utils.AndroidUtils;
+import com.mystorie.cgalves.mystorie.view.home.MainActivity_;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EActivity;
