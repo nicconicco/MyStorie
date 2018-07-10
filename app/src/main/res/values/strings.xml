@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyStorie</string>
+    <string name="btn_one">BtnOne</string>
+    <string name="btn_two">BtnTwo</string>
+</resources>

@@ -1,0 +1,98 @@
+apply plugin: 'com.android.application'
+//apply plugin: 'android-apt'
+
+// Build Variants Names
+def mock_code = "0"
+def api_code = "1"
+
+
+android {
+
+
+    compileSdkVersion 26
+    defaultConfig {
+        buildToolsVersion "27.0.1"
+        applicationId "com.mystorie.cgalves.mystorie"
+        minSdkVersion 23
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+//    flavorDimensions "mock", "prod"
+////    flavorDimensions "all"
+//    productFlavors {
+//        kotlinMvp {
+//            applicationIdSuffix ".kotlin_mvp"
+//            versionNameSuffix "-kotlin_mvp"
+//            buildConfigField "int", "API", mock_code
+//            dimension "mock"
+//        }
+//        javaMvpFactory {
+//            applicationIdSuffix ".java_mvp_factory"
+//            versionNameSuffix "-java_mvp_factory"
+//            buildConfigField "int", "API", api_code
+//            dimension "mock"
+//        }
+//        javaMvpFastmock {
+//            applicationIdSuffix ".java_mvp_fastmock"
+//            versionNameSuffix "-java_mvp_fastmock"
+//            buildConfigField "int", "API", mock_code
+//            dimension "prod"
+//        }
+//        javaMvvm {
+//            applicationIdSuffix ".java_mvvm"
+//            versionNameSuffix "-java_mvvm"
+//            buildConfigField "int", "API", mock_code
+//            dimension "mock"
+//        }
+//    }
+}
+
+
+apply plugin: 'com.android.application'
+//apply plugin: 'android-apt'
+def AAVersion = '4.4.0'
+def androidAnnotationsVersion = "4.4.0"
+
+dependencies {
+
+    annotationProcessor "org.androidannotations:androidannotations:$androidAnnotationsVersion"
+    implementation "org.androidannotations:androidannotations-api:$androidAnnotationsVersion"
+
+//    annotationProcessor "org.androidannotations:androidannotations:$AAVersion"
+//    implementation "org.androidannotations:androidannotations-api:$AAVersion"
+}
+
+dependencies {
+    implementation supportDependencies.appCompat
+    implementation supportDependencies.design
+    implementation supportDependencies.recyclerView
+    implementation supportDependencies.cardView
+    implementation retrofitDependencies.retrofit
+    implementation retrofitDependencies.gson
+    implementation retrofitDependencies.rxAdapterJava
+    implementation rxDependencies.rxAndroid
+    implementation rxDependencies.rxJava
+    implementation circleImageView
+    implementation glide
+    testImplementation testingDependencies.junit
+    testImplementation testingDependencies.mockito
+
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+}
+
+
+
+repositories {
+    mavenCentral()
+}
