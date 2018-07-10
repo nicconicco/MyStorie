@@ -1,10 +1,10 @@
-package com.mystorie.cgalves.mystorie;
+package com.mystorie.cgalves.mystorie.view.home;
 
 
-import android.app.Activity;
-import android.os.Bundle;
 import android.util.Log;
-import android.widget.Toast;
+
+import com.mystorie.cgalves.mystorie.R;
+import com.mystorie.cgalves.mystorie.common.activity.BaseActivity;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Click;

@@ -1,8 +1,10 @@
-package com.mystorie.cgalves.mystorie;
+package com.mystorie.cgalves.mystorie.common.activity;
 
-import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+
+import com.mystorie.cgalves.mystorie.Constants;
+import com.mystorie.cgalves.mystorie.R;
 
 /**
  * Created by Scopus on 10/07/18.

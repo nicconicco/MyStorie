@@ -65,6 +65,10 @@ android {
             applicationId "com.mystorie.cgalves.mystorie.mvvm"
         }
     }
+    compileOptions {
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
+    }
 }
 
 
@@ -96,4 +100,7 @@ dependencies {
 
 repositories {
     mavenCentral()
+}
+dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:+'
 }

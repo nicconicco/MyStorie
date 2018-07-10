@@ -6,4 +6,7 @@
     <string name="state_after_view">AfterViews</string>
     <string name="click">Click</string>
     <string name="tag_next_flow">NEXT_FLOW</string>
+    <string name="not_keep_activities_mode_info">Ops, o modo desenvolvedor tá habilitado no celular. Desativa a opção “Não manter atividades” e depois volta aqui ;)</string>
+    <string name="ok">Ok</string>
+    <string name="exit">Sair</string>
 </resources>
