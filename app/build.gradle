@@ -94,6 +94,7 @@ dependencies {
     implementation glide
     testImplementation testingDependencies.junit
     testImplementation testingDependencies.mockito
+    api busEvent
 }
 
 

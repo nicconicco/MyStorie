@@ -9,14 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".view.splash.SplashActivity_">
+        <activity android:name=".feature.view.splash.SplashActivity_">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.home.MainActivity_"></activity>
+        <activity android:name=".feature.view.home.MainActivity_"></activity>
     </application>
 
 </manifest>

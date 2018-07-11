@@ -1,4 +1,4 @@
-package com.mystorie.cgalves.mystorie.view.splash;
+package com.mystorie.cgalves.mystorie.feature.view.splash;
 
 import android.content.Intent;
 import android.os.Handler;
@@ -8,7 +8,7 @@ import com.mystorie.cgalves.mystorie.common.activity.BaseActivity;
 import com.mystorie.cgalves.mystorie.R;
 import com.mystorie.cgalves.mystorie.common.utils.AlertDialogUtils;
 import com.mystorie.cgalves.mystorie.common.utils.AndroidUtils;
-import com.mystorie.cgalves.mystorie.view.home.MainActivity_;
+import com.mystorie.cgalves.mystorie.feature.view.home.MainActivity_;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EActivity;

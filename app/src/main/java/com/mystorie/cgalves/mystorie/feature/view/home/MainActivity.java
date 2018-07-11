@@ -1,4 +1,4 @@
-package com.mystorie.cgalves.mystorie.view.home;
+package com.mystorie.cgalves.mystorie.feature.view.home;
 
 
 import android.util.Log;
