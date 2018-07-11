@@ -71,8 +71,6 @@ android {
     }
 }
 
-// ------------ //
-// AA colocado separado pois da muito bug com flavors
 
 apply plugin: 'com.android.application'
 def androidAnnotationsVersion = "4.4.0"
@@ -81,8 +79,6 @@ dependencies {
     annotationProcessor "org.androidannotations:androidannotations:$androidAnnotationsVersion"
     implementation "org.androidannotations:androidannotations-api:$androidAnnotationsVersion"
 }
-
-// ------------ //
 
 dependencies {
     implementation supportDependencies.appCompat
@@ -98,7 +94,6 @@ dependencies {
     implementation glide
     testImplementation testingDependencies.junit
     testImplementation testingDependencies.mockito
-    api busEvent
 }
 
 
