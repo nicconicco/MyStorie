@@ -9,6 +9,7 @@ import com.mystorie.cgalves.mystorie.R;
 import com.mystorie.cgalves.mystorie.common.utils.AlertDialogUtils;
 import com.mystorie.cgalves.mystorie.common.utils.AndroidUtils;
 import com.mystorie.cgalves.mystorie.feature.view.home.MainActivity_;
+import com.mystorie.cgalves.mystorie.feature.view.login.view.LoginActivity_;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EActivity;
@@ -24,7 +25,7 @@ public class SplashActivity extends BaseActivity {
             AndroidUtils.getActualDeviceInformation();
         } else {
             new Handler().postDelayed(() -> {
-                MainActivity_.intent(getBaseContext()).flags(Intent.FLAG_ACTIVITY_NEW_TASK).start();
+                LoginActivity_.intent(getBaseContext()).flags(Intent.FLAG_ACTIVITY_NEW_TASK).start();
                 overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 finish();
             }, 3000);
