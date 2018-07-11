@@ -2,8 +2,6 @@ package com.mystorie.cgalves.mystorie.common.factory;
 
 import android.content.Context;
 
-import com.mystorie.cgalves.mystorie.model.factory.LoginAbstractCall;
-
 import org.greenrobot.eventbus.EventBus;
 
 /**

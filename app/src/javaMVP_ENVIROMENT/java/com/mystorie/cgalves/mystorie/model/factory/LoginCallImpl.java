@@ -18,7 +18,7 @@ public class LoginCallImpl extends LoginAbstractCall {
 
     @Override
     public void login(String username, String password) {
-        // Estou no mock, por isso posso passar o que quiser.
-        bus.post("LOGIN COMPLETO MOCK");
+        // Estou no ENVIROMENT, por isso posso passar o que quiser.
+        bus.post("LOGIN COMPLETO ENVIROMENT");
     }
 }

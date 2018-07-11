@@ -2,10 +2,9 @@ package com.mystorie.cgalves.mystorie.feature.view.login.presenter;
 
 import com.mystorie.cgalves.mystorie.common.factory.APIAbstractFactory;
 import com.mystorie.cgalves.mystorie.common.presenter.BasePresenter;
-import com.mystorie.cgalves.mystorie.model.factory.LoginAbstractCall;
+import com.mystorie.cgalves.mystorie.common.factory.LoginAbstractCall;
 
 import org.androidannotations.annotations.AfterInject;
-import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EBean;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
