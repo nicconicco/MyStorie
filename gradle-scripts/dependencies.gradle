@@ -12,6 +12,9 @@ ext {
   junitVersion = '4.12'
   mockitoVersion = '2.8.47'
   busVersion = '3.0.0'
+  parseServerVersion = '1.16.3'
+  facebookVersion = '[4,5)'
+
 
   //Packages
   anotattionPackage = 'org.androidannotations'
@@ -24,6 +27,8 @@ ext {
   mockitoPackage = 'org.mockito'
   kotlinPackage = 'org.jetbrains.kotlin'
   busPackage = 'org.greenrobot'
+  parseServerPackage = 'com.parse'
+  facebookPackage = 'com.facebook.android'
 
   supportDependencies = [
 
@@ -62,6 +67,10 @@ ext {
   ]
 
   busEvent = buildDependency(busPackage, 'eventbus', busVersion)
+
+  parseServer = buildDependency(parseServerPackage, 'parse-android', parseServerVersion)
+
+  facebook = buildDependency(facebookPackage, 'facebook-login', facebookVersion)
 }
 
 static String buildDependency(String pack, String dependency, String version) {

@@ -14,4 +14,20 @@
     <string name="log_in">LOG IN</string>
     <string name="or">OR</string>
     <string name="login_with_facebook">LOGIN WITH FACEBOOK</string>
+    <!-- SERVER-->
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <string name="back4app_app_id">3xa5tKl6fVImLb7SQrHzUkZ4vJKaMtSI6q9XU02g</string>
+    <string name="back4app_client_key">m3PY6IvMAb1YAUgbijA8Ab0xrLDXzuVJP9aTr3Sg</string>
+    <!-- FACEBOOK -->
+    <string name="facebook_app_id">1929462134019547</string>
+    <string name="fb_login_protocol_scheme">fb1929462134019547</string>
+
+
+    <string name="register">Register</string>
+    <string name="send_email_confirmation">Send-me email to confirm</string>
+    <string name="user">User</string>
+    <string name="email">E-mail</string>
+    <string name="confirm_password">Confirm password</string>
+
+
 </resources>
