@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mystorie.cgalves.mystorie">
+    package="com.cgalves.mystorie">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -33,16 +33,16 @@
             android:name="com.parse.CLIENT_KEY"
             android:value="@string/back4app_client_key" />
 
-        <activity android:name=".feature.view.splash.SplashActivity_">
+        <activity android:name=".feature.splash.SplashActivity_">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".feature.view.home.MainActivity_" />
-        <activity android:name=".feature.view.login.view.LoginActivity_" />
-        <activity android:name=".feature.view.login.view.RegisterActivity_"></activity>
+        <activity android:name=".feature.home.MainActivity_" />
+        <activity android:name=".feature.login.view.LoginActivity_" />
+        <activity android:name=".feature.login.view.RegisterActivity_"></activity>
     </application>
 
 </manifest>

@@ -19,7 +19,7 @@ android {
     compileSdkVersion 26
     defaultConfig {
         buildToolsVersion "27.0.1"
-        applicationId "com.mystorie.cgalves.mystorie"
+        applicationId "com.cgalves.mystorie"
         minSdkVersion 23
         targetSdkVersion 26
         versionCode 1
@@ -50,19 +50,19 @@ android {
     flavorDimensions "all"
     productFlavors {
         javaMVP_FASTMOCK {
-            applicationId "com.mystorie.cgalves.mystorie.mvpf"
+            applicationId "com.cgalves.mystorie.mvpf"
         }
 
         javaMVP_ENVIROMENT {
-            applicationId "com.mystorie.cgalves.mystorie.mvpe"
+            applicationId "com.cgalves.mystorie.mvpe"
         }
 
         javaMVP_API {
-            applicationId "com.mystorie.cgalves.mystorie.mvpa"
+            applicationId "com.cgalves.mystorie.mvpa"
         }
 
         javaMVVM_FASTMOCK {
-            applicationId "com.mystorie.cgalves.mystorie.mvvm"
+            applicationId "com.cgalves.mystorie.mvvm"
         }
     }
     compileOptions {

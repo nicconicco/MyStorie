@@ -1,4 +1,4 @@
-package com.mystorie.cgalves.mystorie
+package com.cgalves.mystorie
 
 import org.junit.Test
 
