@@ -39,9 +39,12 @@ public class LoginActivity extends BaseActivity implements LoginPresenterView {
         presenter.register();
         Log.d(getString(R.string.tag_next_flow), this.getString(R.string.state_after_view));
 
+//        facebookCalls();
+//        KeyHashUtils.generateKeyHash(this);
+    }
+
+    private void facebookCalls() {
         callbackManager = CallbackManager.Factory.create();
-
-
         LoginButton loginButton = (LoginButton) findViewById(R.id.login_button);
         loginButton.setReadPermissions("email");
         // If using in a fragment
@@ -63,10 +66,7 @@ public class LoginActivity extends BaseActivity implements LoginPresenterView {
                 // App code
             }
         });
-
-
         callbackManager = CallbackManager.Factory.create();
-
         LoginManager.getInstance().registerCallback(callbackManager,
                 new FacebookCallback<LoginResult>() {
                     @Override
@@ -87,10 +87,7 @@ public class LoginActivity extends BaseActivity implements LoginPresenterView {
 
         AccessToken accessToken = AccessToken.getCurrentAccessToken();
         boolean isLoggedIn = accessToken != null && !accessToken.isExpired();
-
         LoginManager.getInstance().logInWithReadPermissions(this, Arrays.asList("public_profile"));
-
-        KeyHashUtils.generateKeyHash(this);
     }
 
     @Override
