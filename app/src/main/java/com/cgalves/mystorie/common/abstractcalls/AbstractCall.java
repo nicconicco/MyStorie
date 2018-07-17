@@ -1,4 +1,4 @@
-package com.cgalves.mystorie.common.factory;
+package com.cgalves.mystorie.common.abstractcalls;
 
 import android.content.Context;
 

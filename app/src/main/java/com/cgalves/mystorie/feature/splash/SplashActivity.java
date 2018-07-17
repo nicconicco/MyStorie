@@ -4,13 +4,13 @@ import android.content.Intent;
 import android.os.Handler;
 import android.util.Log;
 
+import com.cgalves.mystorie.feature.login.view.LoginActivity_;
 import com.facebook.FacebookSdk;
 import com.facebook.appevents.AppEventsLogger;
 import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.activity.BaseActivity;
 import com.cgalves.mystorie.common.utils.AlertDialogUtils;
 import com.cgalves.mystorie.common.utils.AndroidUtils;
-import com.cgalves.mystorie.feature.login.view.LoginActivity_;
 import com.parse.Parse;
 import com.parse.ParseInstallation;
 

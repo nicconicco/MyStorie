@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnCelula"
+    android:background="@color/orange">
+
+    <LinearLayout
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/tTitulo"
+            android:textColor="@color/text_color_font"
+            tools:text="Notícias"
+            android:fontFamily="@font/robotoregular"
+            android:textSize="32sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tSubtitulo"
+            android:textColor="@color/text_color_font_subtitle"
+            tools:text="Fique ligado o que acontece no dia a dia
+do seu candidato"
+            android:maxLines="2"
+            android:fontFamily="@font/robotoregular"
+            android:textSize="28sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

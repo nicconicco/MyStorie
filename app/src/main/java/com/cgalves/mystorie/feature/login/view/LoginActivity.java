@@ -5,6 +5,8 @@ import android.util.Log;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.cgalves.mystorie.feature.home.view.activity.HomeActivity_;
+import com.cgalves.mystorie.feature.login.presenter.LoginContract;
 import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
@@ -14,9 +16,7 @@ import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
 import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.activity.BaseActivity;
-import com.cgalves.mystorie.common.utils.KeyHashUtils;
 import com.cgalves.mystorie.feature.login.presenter.LoginPresenterImpl;
-import com.cgalves.mystorie.feature.login.presenter.LoginPresenterView;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Bean;
@@ -27,10 +27,11 @@ import org.androidannotations.annotations.ViewById;
 import java.util.Arrays;
 
 @EActivity(R.layout.activity_login)
-public class LoginActivity extends BaseActivity implements LoginPresenterView {
+public class LoginActivity extends BaseActivity implements LoginContract.LoginPresenterView {
 
     @Bean
     LoginPresenterImpl<LoginActivity> presenter;
+
     private CallbackManager callbackManager;
 
     @AfterViews
@@ -44,28 +45,29 @@ public class LoginActivity extends BaseActivity implements LoginPresenterView {
     }
 
     private void facebookCalls() {
+        //todo: Facebook
         callbackManager = CallbackManager.Factory.create();
-        LoginButton loginButton = (LoginButton) findViewById(R.id.login_button);
-        loginButton.setReadPermissions("email");
-        // If using in a fragment
-
-        // Callback registration
-        loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
-            @Override
-            public void onSuccess(LoginResult loginResult) {
-                // App code
-            }
-
-            @Override
-            public void onCancel() {
-                // App code
-            }
-
-            @Override
-            public void onError(FacebookException exception) {
-                // App code
-            }
-        });
+//        LoginButton loginButton = (LoginButton) findViewById(R.id.login_button);
+//        loginButton.setReadPermissions("email");
+//        // If using in a fragment
+//
+//        // Callback registration
+//        loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
+//            @Override
+//            public void onSuccess(LoginResult loginResult) {
+//                // App code
+//            }
+//
+//            @Override
+//            public void onCancel() {
+//                // App code
+//            }
+//
+//            @Override
+//            public void onError(FacebookException exception) {
+//                // App code
+//            }
+//        });
         callbackManager = CallbackManager.Factory.create();
         LoginManager.getInstance().registerCallback(callbackManager,
                 new FacebookCallback<LoginResult>() {
@@ -93,6 +95,7 @@ public class LoginActivity extends BaseActivity implements LoginPresenterView {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         callbackManager.onActivityResult(requestCode, resultCode, data);
+        Log.d(getString(R.string.tag_next_flow), "facebook onActivityResult requestCode = "+requestCode+", resultCode = "+resultCode+", data ="+data);
         super.onActivityResult(requestCode, resultCode, data);
     }
 
@@ -128,12 +131,15 @@ public class LoginActivity extends BaseActivity implements LoginPresenterView {
 
     @Click(R.id.btn_register)
     void onClickRegister(){
-        presenter.onClickRegister(this);
+        RegisterActivity_.intent(this).start();
+        overridePendingTransition(R.anim.fade_out, R.anim.fade_in);
         Log.d(getString(R.string.tag_next_flow), this.getString(R.string.click) + " : onClickRegister");
     }
 
     @Override
     public void onLoginResult(String result) {
+        HomeActivity_.intent(this).start();
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
         Toast.makeText(this, result, Toast.LENGTH_LONG).show();
     }
 }

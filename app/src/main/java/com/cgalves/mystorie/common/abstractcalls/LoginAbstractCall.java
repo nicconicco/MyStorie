@@ -1,8 +1,8 @@
-package com.cgalves.mystorie.common.factory;
+package com.cgalves.mystorie.common.abstractcalls;
 
 import android.content.Context;
 
-import com.cgalves.mystorie.common.factory.AbstractCall;
+import com.cgalves.mystorie.common.abstractcalls.AbstractCall;
 
 import org.greenrobot.eventbus.EventBus;
 
@@ -16,5 +16,5 @@ public abstract class LoginAbstractCall extends AbstractCall {
         super(bus, context);
     }
 
-    public abstract void login(String username, String passwa);
+    public abstract void login(String username, String password);
 }

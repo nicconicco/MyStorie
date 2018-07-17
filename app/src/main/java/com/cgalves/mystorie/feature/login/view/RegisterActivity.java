@@ -5,8 +5,8 @@ import android.widget.EditText;
 
 import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.activity.BaseActivity;
+import com.cgalves.mystorie.feature.login.presenter.LoginContract;
 import com.cgalves.mystorie.feature.login.presenter.LoginPresenterImpl;
-import com.cgalves.mystorie.feature.login.presenter.LoginPresenterView;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Bean;
@@ -18,7 +18,7 @@ import static com.cgalves.mystorie.common.utils.AlertDialogUtils.showAlertWarnin
 
 
 @EActivity(R.layout.activity_register)
-public class RegisterActivity extends BaseActivity implements LoginPresenterView {
+public class RegisterActivity extends BaseActivity implements LoginContract.LoginPresenterView {
 
     @Bean
     LoginPresenterImpl<RegisterActivity> presenter;

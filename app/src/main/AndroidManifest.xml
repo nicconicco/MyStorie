@@ -7,6 +7,7 @@
 
     <application
         android:allowBackup="true"
+        android:name=".MyStorieApplication"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -14,15 +15,16 @@
         android:theme="@style/AppTheme.NoActionBar">
 
         <!-- FACEBOOK -->
-        <meta-data android:name="com.facebook.sdk.ApplicationId"
-            android:value="@string/facebook_app_id"/>
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
 
-        <activity android:name="com.facebook.FacebookActivity"
-            android:configChanges=
-                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:label="@string/app_name" />
 
-        <!-- SERVER-->
+        <!-- SERVER -->
         <meta-data
             android:name="com.parse.SERVER_URL"
             android:value="@string/back4app_server_url" />
@@ -40,9 +42,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".feature.home.MainActivity_" />
         <activity android:name=".feature.login.view.LoginActivity_" />
-        <activity android:name=".feature.login.view.RegisterActivity_"></activity>
+        <activity android:name=".feature.login.view.RegisterActivity_" />
+        <activity android:name=".feature.home.view.activity.HomeActivity_"></activity>
     </application>
 
 </manifest>

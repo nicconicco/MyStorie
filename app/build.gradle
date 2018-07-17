@@ -9,7 +9,7 @@ android {
     // Manter isto no top, senão ele não consegue enxergar
     signingConfigs {
         theReleaseKey {
-            storeFile file('/Users/cgalves/Documents/GitHub/MyStorie/mykeystore.jks')
+            storeFile file('/Users/cgalves/Documents/GitHub/MyStorieApplication/mykeystore.jks')
             storePassword "123456"
             keyAlias "MYSTORIE"
             keyPassword "123456"
@@ -40,11 +40,11 @@ android {
             applicationIdSuffix ".release"
             signingConfig signingConfigs.theReleaseKey
         }
-        jnidebug {
-            initWith debug
-            jniDebuggable true
-            applicationIdSuffix ".jidebug"
-        }
+//        jnidebug {
+//            initWith debug
+//            jniDebuggable true
+//            applicationIdSuffix ".jidebug"
+//        }
     }
 
     flavorDimensions "all"
@@ -119,6 +119,9 @@ dependencies {
     implementation 'com.android.support.constraint:constraint-layout:+'
 }
 
+dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:+'
+}
 dependencies {
     implementation 'com.android.support.constraint:constraint-layout:+'
 }

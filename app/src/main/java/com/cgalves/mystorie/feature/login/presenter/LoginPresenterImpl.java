@@ -1,12 +1,11 @@
 package com.cgalves.mystorie.feature.login.presenter;
 
-import android.content.Context;
 import android.util.Log;
 
 import com.cgalves.mystorie.common.factory.APIAbstractFactory;
-import com.cgalves.mystorie.common.factory.LoginAbstractCall;
+import com.cgalves.mystorie.common.abstractcalls.LoginAbstractCall;
 import com.cgalves.mystorie.common.presenter.BasePresenter;
-import com.cgalves.mystorie.feature.login.view.RegisterActivity_;
+import com.cgalves.mystorie.MyStorieApplication;
 import com.parse.ParseUser;
 
 import org.androidannotations.annotations.AfterInject;
@@ -19,7 +18,7 @@ import org.greenrobot.eventbus.ThreadMode;
  */
 
 @EBean
-public class LoginPresenterImpl <V extends LoginPresenterView> extends BasePresenter<V> implements LoginPresenter<V> {
+public class LoginPresenterImpl <V extends LoginContract.LoginPresenterView> extends BasePresenter<V> implements LoginContract.LoginPresenter<V> {
 
     private static final String TAG = LoginPresenterImpl.class.getSimpleName();
     LoginAbstractCall loginAbstractCall;
@@ -37,12 +36,8 @@ public class LoginPresenterImpl <V extends LoginPresenterView> extends BasePrese
 
     @Subscribe(sticky = true, threadMode = ThreadMode.MAIN)
     public void onLoginResultCall(String resultLogin) {
+        MyStorieApplication.getsInstance().setToken(resultLogin);
         getMvpView().onLoginResult(resultLogin);
-    }
-
-    @Override
-    public void onClickRegister(Context context) {
-        RegisterActivity_.intent(context).start();
     }
 
     @Override
@@ -64,7 +59,4 @@ public class LoginPresenterImpl <V extends LoginPresenterView> extends BasePrese
             }
         });
     }
-
-
-
 }

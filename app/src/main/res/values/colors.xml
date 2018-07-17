@@ -8,4 +8,7 @@
     <color name="blue_hint">#45515f</color>
     <color name="background_toolbar">#beccdb</color>
     <color name="blue_twitter">#8291a7</color>
+    <color name="orange">#FFBA5C</color>
+    <color name="text_color_font">#1F2D3D</color>
+    <color name="text_color_font_subtitle">#8492A6</color>
 </resources>
