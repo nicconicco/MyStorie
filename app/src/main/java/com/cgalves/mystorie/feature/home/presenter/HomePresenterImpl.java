@@ -4,6 +4,7 @@ import com.cgalves.mystorie.common.abstractcalls.HomeAbstractCall;
 import com.cgalves.mystorie.common.factory.APIAbstractFactory;
 import com.cgalves.mystorie.common.presenter.BasePresenter;
 import com.cgalves.mystorie.feature.home.model.Image;
+import com.cgalves.mystorie.feature.home.model.ImageResponse;
 import com.cgalves.mystorie.feature.home.model.Section;
 import com.cgalves.mystorie.feature.login.presenter.LoginPresenterImpl;
 import com.cgalves.mystorie.MyStorieApplication;
@@ -38,8 +39,8 @@ public class HomePresenterImpl<V extends HomeContract.HomePresenterView> extends
         homeAbstractCall.findImageTopHeader(token);
     }
     @Subscribe(sticky = true, threadMode = ThreadMode.MAIN)
-    public void onImageTopHeaderLoaded(List<Image> list) {
-        getMvpView().onResultImages(list);
+    public void onImageTopHeaderLoaded(ImageResponse imageResponse) {
+        getMvpView().onResultImages(imageResponse.getList());
     }
 
     // end call top header

@@ -44,11 +44,9 @@ public class PhotosAdapter extends PagerAdapter {
         LayoutInflater inflater = LayoutInflater.from(context);
         ViewGroup layout = (ViewGroup) inflater.inflate(R.layout.custom_viewpager_home, container, false);
         ImageView imageView = layout.findViewById(R.id.img);
-        TextView txt = layout.findViewById(R.id.txt);
 
         try {
             imageView.setImageDrawable(list.get(position).getImage());
-            txt.setText(list.get(position).getTitle());
         } catch (Exception e) {
             Log.e(Constants.ERROR_EXCEPTION, e.getMessage());
         }

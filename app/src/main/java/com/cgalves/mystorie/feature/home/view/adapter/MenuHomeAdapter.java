@@ -36,7 +36,6 @@ public class MenuHomeAdapter extends RecyclerView.Adapter<MenuHomeAdapter.ViewHo
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view;
-
         view = LayoutInflater.from(parent.getContext()).inflate(R.layout.adapter_section_home, parent, false);
         return new ViewHolderSection(view);
     }

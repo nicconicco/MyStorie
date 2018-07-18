@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginBottom="1dp"
+            android:textColor="@color/blue_facebook"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:text="Bem vindo"
+            android:fontFamily="@font/robotoblack"/>
+    </LinearLayout>
+
+    <View
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line"></View>
+    <FrameLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/photos_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/background_toolbar" />
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="50dp"
+            android:layout_height="10dp"
+            app:tabIndicatorColor="@color/transparent"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="10dp"
+            app:tabBackground="@drawable/tab_selector"
+            />
+    </FrameLayout>
+
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line"></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="left|center"
+            android:textSize="16sp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/text_color_font"
+            android:text="@string/veja_secoes"
+            tools:text="Veja aqui as seções em destaque!"
+            android:fontFamily="@font/robotoregular"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|right"
+            android:layout_marginRight="20dp"
+            android:textSize="12sp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/text_color_font_subtitle"
+            android:text="@string/ou_menu"
+            tools:text="Veja aqui as seções em destaque!"
+            android:fontFamily="@font/robotoregular"/>
+    </LinearLayout>
+
+    <View
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line"></View>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/recycler_list"
+        android:layout_height="0dp"></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

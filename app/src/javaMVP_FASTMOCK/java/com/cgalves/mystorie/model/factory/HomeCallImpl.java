@@ -6,6 +6,7 @@ import android.support.v4.content.ContextCompat;
 import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.abstractcalls.HomeAbstractCall;
 import com.cgalves.mystorie.feature.home.model.Image;
+import com.cgalves.mystorie.feature.home.model.ImageResponse;
 import com.cgalves.mystorie.feature.home.model.Section;
 
 import org.greenrobot.eventbus.EventBus;
@@ -44,8 +45,11 @@ public class HomeCallImpl extends HomeAbstractCall {
         list.add(img2);
         list.add(img4);
 
+        ImageResponse imageResponse = new ImageResponse();
+        imageResponse.setList(list);
+
         //todo: transformar em um json response
-        post(list, bus);
+        post(imageResponse, bus);
     }
 
     @Override
@@ -57,16 +61,16 @@ public class HomeCallImpl extends HomeAbstractCall {
         Section section3 = new Section();
 
         section1.setName("Notícias");
-        section2.setSubTitle("Fique ligado o que acontece no dia a dia \n" +
+        section1.setSubTitle("Fique ligado o que acontece no dia a dia \n" +
                 "do seu candidato");
-        section3.setId(10123123142L);
+        section1.setId(10123123142L);
 
-        section1.setName("Novidades!");
+        section2.setName("Novidades!");
         section2.setSubTitle("Veja quais são as novidades do seu candidato");
-        section3.setId(10123123143L);
+        section2.setId(10123123143L);
 
-        section1.setName("Contato");
-        section2.setSubTitle("Caso queira receber mais informações entre\n" +
+        section3.setName("Contato");
+        section3.setSubTitle("Caso queira receber mais informações entre\n" +
                 "em contato com a gente!");
         section3.setId(10123123144L);
 

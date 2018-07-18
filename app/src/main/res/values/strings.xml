@@ -28,6 +28,9 @@
     <string name="user">User</string>
     <string name="email">E-mail</string>
     <string name="confirm_password">Confirm password</string>
+    <string name="acompanhe_o_dia_dia">Acompanhe o dia-a-dia do seu candidato por aqui</string>
+    <string name="veja_secoes">Veja aqui as seções em destaque!</string>
+    <string name="ou_menu">Ou acesse pelo menu ali na esquerda superior ;)</string>
 
 
 </resources>

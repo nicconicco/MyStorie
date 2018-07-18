@@ -7,13 +7,13 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@color/background_toolbar">
+        android:background="@color/blue_facebook">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:textColor="@color/blue_hint"
+            android:textColor="@color/white"
             android:text="@string/register"
             android:textSize="18sp"
             android:textStyle="bold" />
