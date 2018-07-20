@@ -34,6 +34,14 @@
     <string name="criar_nova_noticia">Criar nova noticia</string>
     <string name="criar_nova_novidade">Criar nova novidade</string>
     <string name="atualizar_contato">Atualizar contato</string>
+    <string name="visualizar_noticias">Visualizar minhas noticias</string>
+    <string name="visualizar_novidades">Visualizar minhas novidades</string>
+    <string name="entre_em_contato">Entre em contato com a gente pelo email: meustorie@meustorie.com</string>
+    <string name="todos_os_direitos">Todos os direitos de imagem a este aplicativo são aprovados pela pessoa física\n\ncontato: nicolaugalves@gmail.com</string>
+    <string name="facebook_miss_information">Voce ainda nao cadastrou a pagina web do seu facebook</string>
+    <string name="twitter_miss_information">Voce ainda nao cadastrou a pagina web do seu twitter</string>
+    <string name="cellphone_miss_information">Voce ainda nao cadastrou celular</string>
+    <string name="email_miss_information">Voce nao cadastrou ainda um email</string>
 
 
 </resources>

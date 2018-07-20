@@ -12,17 +12,37 @@ public class Contact extends ParseObject {
     private static final String FIELD_FACEBOOK = "facebookUrl";
     private static final String FIELD_TWITTER = "twitterUrl";
     private static final String FIELD_CELLPHONE = "cellphone";
+    private static final String FIELD_EMAIL = "email";
+    private static final String FIELD_IMAGE = "imgProfile";
 
     public Contact() {
         super();
     }
 
-    public Contact(String facebook, String twitter, String cellphone, ParseUser owner) {
+    public Contact(String facebook, String twitter, String cellphone, String email, String image, ParseUser owner) {
         super();
         setFacebook(facebook);
         setTwitter(twitter);
+        setEmail(email);
+        setImage(image);
         setCellphone(cellphone);
         setOwner(owner);
+    }
+
+    public void setImage(String value) {
+        put(FIELD_IMAGE, value);
+    }
+
+    public String getImage() {
+        return getString(FIELD_IMAGE);
+    }
+
+    public void setEmail(String value) {
+        put(FIELD_EMAIL, value);
+    }
+
+    public String getEmail() {
+        return getString(FIELD_EMAIL);
     }
 
     public void setFacebook(String value) {
@@ -50,7 +70,7 @@ public class Contact extends ParseObject {
     }
 
     // Get the user for this item
-    public ParseUser getUser()  {
+    public ParseUser getUser() {
         return getParseUser(FIELD_OWNER);
     }
 

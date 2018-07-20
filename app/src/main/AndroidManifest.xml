@@ -35,18 +35,20 @@
             android:name="com.parse.CLIENT_KEY"
             android:value="@string/back4app_client_key" />
 
-        <activity android:name=".feature.CommonUser.splash.SplashActivity_">
+        <activity android:name=".feature.splash.SplashActivity_">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".feature.CommonUser.login.view.LoginActivity_" />
-        <activity android:name=".feature.CommonUser.login.view.RegisterActivity_" />
-        <activity android:name=".feature.CommonUser.home.view.activity.HomeActivity_" />
-        <activity android:name=".feature.AdminUser.home.view.activity.MasterHomeActivity_" />
-        <activity android:name=".feature.CommonUser.home.model.ContactEditActivity_"></activity>
+        <activity android:name=".feature.login.view.RegisterActivity_" />
+        <activity android:name=".feature.login.view.LoginActivity_" />
+        <activity android:name=".feature.home.view.activity.HomeActivity_" />
+        <activity android:name=".feature.admin.home.MasterHomeActivity_" />
+        <activity android:name=".feature.admin.contact.ContactEditActivity_" />
+        <activity android:name=".feature.admin.novidades.NovidadeMenuActivity_" />
+        <activity android:name=".feature.admin.noticias.NoticiasMenuActivity_"></activity>
     </application>
 
 </manifest>

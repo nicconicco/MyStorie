@@ -85,10 +85,7 @@ public class HomeActivity extends BaseActivity implements HomeContract.HomePrese
         mDrawerToggle.syncState();
     }
 
-    private void setupToolbar() {
-        toolbar.setTitle(getString(R.string.app_name));
-        setSupportActionBar(toolbar);
-    }
+
 
     @Override
     protected void onDestroy() {
