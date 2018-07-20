@@ -3,20 +3,21 @@ package com.cgalves.mystorie.feature.login.view;
 import android.content.Intent;
 import android.util.Log;
 import android.widget.EditText;
-import android.widget.Toast;
 
+import com.cgalves.mystorie.MyStorieApplication;
+import com.cgalves.mystorie.R;
+import com.cgalves.mystorie.common.activity.BaseActivity;
 import com.cgalves.mystorie.feature.home.view.activity.HomeActivity_;
+import com.cgalves.mystorie.feature.home.view.activity.MasterHomeActivity_;
 import com.cgalves.mystorie.feature.login.presenter.LoginContract;
+import com.cgalves.mystorie.feature.login.presenter.LoginPresenterImpl;
 import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
 import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
-import com.facebook.login.widget.LoginButton;
-import com.cgalves.mystorie.R;
-import com.cgalves.mystorie.common.activity.BaseActivity;
-import com.cgalves.mystorie.feature.login.presenter.LoginPresenterImpl;
+import com.parse.ParseUser;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Bean;
@@ -126,6 +127,8 @@ public class LoginActivity extends BaseActivity implements LoginContract.LoginPr
 
     @Click(R.id.btn_twitter)
     void onClickTwitter(){
+        presenter.doLogin(etUserName.getText().toString(), etPassword.getText().toString());
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
         Log.d(getString(R.string.tag_next_flow), this.getString(R.string.click) + " : onClickTwitter");
     }
 
@@ -137,9 +140,16 @@ public class LoginActivity extends BaseActivity implements LoginContract.LoginPr
     }
 
     @Override
-    public void onLoginResult(String result) {
-        HomeActivity_.intent(this).start();
-        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
-        Toast.makeText(this, result, Toast.LENGTH_LONG).show();
+    public void onLoginResult(ParseUser result) {
+
+        MyStorieApplication.getsInstance().setToken(result.getSessionToken());
+        Boolean isAdmin = (boolean) result.get("admin");
+        if (isAdmin) {
+            MasterHomeActivity_.intent(this).start();
+            overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+        } else {
+            HomeActivity_.intent(this).start();
+            overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+        }
     }
 }

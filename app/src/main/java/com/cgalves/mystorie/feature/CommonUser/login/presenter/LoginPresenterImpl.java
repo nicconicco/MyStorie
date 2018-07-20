@@ -35,8 +35,8 @@ public class LoginPresenterImpl <V extends LoginContract.LoginPresenterView> ext
     }
 
     @Subscribe(sticky = true, threadMode = ThreadMode.MAIN)
-    public void onLoginResultCall(String resultLogin) {
-        MyStorieApplication.getsInstance().setToken(resultLogin);
+    public void onLoginResultCall(ParseUser resultLogin) {
+        MyStorieApplication.getsInstance().setToken("token");
         getMvpView().onLoginResult(resultLogin);
     }
 
@@ -48,12 +48,12 @@ public class LoginPresenterImpl <V extends LoginContract.LoginPresenterView> ext
         user.setPassword(email);
         user.signUpInBackground(e -> {
             try{
-                if (e == null) {
-                    getMvpView().onLoginResult(username);
-                } else {
-                    ParseUser.logOut();
-                    getMvpView().onLoginResult(e.getMessage());
-                }
+//                if (e == null) {
+//                    getMvpView().onLoginResult("");
+//                } else {
+//                    ParseUser.logOut();
+//                    getMvpView().onLoginResult(e.getMessage());
+//                }
             }catch (Exception error){
                 Log.e(TAG, error.getMessage());
             }

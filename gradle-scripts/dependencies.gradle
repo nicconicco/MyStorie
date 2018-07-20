@@ -13,6 +13,8 @@ ext {
   mockitoVersion = '2.8.47'
   busVersion = '3.0.0'
   parseServerVersion = '1.16.3'
+  parserServerBoltsVersion = '1.4.0'
+  okhttpVersion = '3.8.1'
   facebookVersion = '[4,5)'
 
 
@@ -28,7 +30,9 @@ ext {
   kotlinPackage = 'org.jetbrains.kotlin'
   busPackage = 'org.greenrobot'
   parseServerPackage = 'com.parse'
+  parseServerBoltsPackage = 'com.parse.bolts'
   facebookPackage = 'com.facebook.android'
+  okHttpPackage = 'com.squareup.okhttp3'
 
   supportDependencies = [
 
@@ -66,9 +70,14 @@ ext {
           anotation : buildDependency(anotattionPackage, 'androidannotations-api', androidAnnotationsVersion)
   ]
 
+  okhttp = [
+          okhttpInterceptor :  buildDependency(okHttpPackage, 'logging-interceptor', okhttpVersion)
+  ]
+
   busEvent = buildDependency(busPackage, 'eventbus', busVersion)
 
-  parseServer = buildDependency(parseServerPackage, 'parse-android', parseServerVersion)
+  parseServer = [ buildDependency(parseServerPackage, 'parse-android', parseServerVersion),
+                  buildDependency(parseServerBoltsPackage, 'bolts-android', parserServerBoltsVersion)]
 
   facebook = buildDependency(facebookPackage, 'facebook-login', facebookVersion)
 }

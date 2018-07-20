@@ -1,10 +1,8 @@
 package com.cgalves.mystorie.feature.login.presenter;
 
-import android.content.Context;
-
 import com.cgalves.mystorie.common.presenter.MvpPresenter;
 import com.cgalves.mystorie.common.presenter.MvpView;
-import com.cgalves.mystorie.feature.login.view.LoginActivity;
+import com.parse.ParseUser;
 
 /**
  * Created by Scopus on 17/07/18.
@@ -18,6 +16,6 @@ public class LoginContract {
     }
 
     public interface LoginPresenterView extends MvpView {
-        void onLoginResult(String result);
+        void onLoginResult(ParseUser result);
     }
 }

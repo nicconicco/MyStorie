@@ -25,7 +25,7 @@ public class LoginCallImpl extends LoginAbstractCall {
         Log.d(TAG, "LoginCallImpl.login()");
         ParseUser.logInInBackground(username,password, (parseUser, e) -> {
             if (parseUser != null) {
-                bus.post("Login realizado com sucesso");
+                bus.post(parseUser);
             } else {
                 ParseUser.logOut();
                 bus.post(e.getMessage());
