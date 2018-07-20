@@ -48,12 +48,12 @@ public class LoginPresenterImpl <V extends LoginContract.LoginPresenterView> ext
         user.setPassword(email);
         user.signUpInBackground(e -> {
             try{
-//                if (e == null) {
-//                    getMvpView().onLoginResult("");
-//                } else {
-//                    ParseUser.logOut();
-//                    getMvpView().onLoginResult(e.getMessage());
-//                }
+                if (e == null) {
+                    getMvpView().onLoginResult(ParseUser.getCurrentUser());
+                } else {
+                    ParseUser.logOut();
+                    getMvpView().onLoginResult(null);
+                }
             }catch (Exception error){
                 Log.e(TAG, error.getMessage());
             }
