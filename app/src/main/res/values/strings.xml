@@ -42,6 +42,7 @@
     <string name="twitter_miss_information">Voce ainda nao cadastrou a pagina web do seu twitter</string>
     <string name="cellphone_miss_information">Voce ainda nao cadastrou celular</string>
     <string name="email_miss_information">Voce nao cadastrou ainda um email</string>
+    <string name="title_activity_main3">Main3Activity</string>
 
 
 </resources>

@@ -15,7 +15,8 @@
     </style>
 
     <style name="DrawerIcon" parent="Widget.AppCompat.DrawerArrowToggle">
-        <item name="color">@color/white</item></style>
+        <item name="color">@color/white</item>
+    </style>
 
     <style name="ToolbarStyle" parent="@style/ThemeOverlay.AppCompat.ActionBar">
         <!-- Customize color of navigation drawer icon and back arrow -->
@@ -25,4 +26,8 @@
     <color name="colorPrimary">#8d0102</color>
     <color name="colorPrimaryDark">#ff0000</color>
     <color name="colorAccent">#1f00ff</color>
+
+    <style name="AppTheme.NoActionBar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

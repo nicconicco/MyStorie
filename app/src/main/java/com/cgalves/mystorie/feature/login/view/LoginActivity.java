@@ -135,7 +135,7 @@ public class LoginActivity extends BaseActivity implements LoginContract.LoginPr
     @Click(R.id.btn_register)
     void onClickRegister(){
         RegisterActivity_.intent(this).start();
-        overridePendingTransition(R.anim.fade_out, R.anim.fade_in);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
         Log.d(getString(R.string.tag_next_flow), this.getString(R.string.click) + " : onClickRegister");
     }
 

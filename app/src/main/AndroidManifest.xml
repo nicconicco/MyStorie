@@ -46,9 +46,10 @@
         <activity android:name=".feature.login.view.LoginActivity_" />
         <activity android:name=".feature.home.view.activity.HomeActivity_" />
         <activity android:name=".feature.admin.home.MasterHomeActivity_" />
-        <activity android:name=".feature.admin.contact.ContactEditActivity_" />
+        <activity android:name=".feature.admin.contact.ContactActivity_" />
         <activity android:name=".feature.admin.novidades.NovidadeMenuActivity_" />
-        <activity android:name=".feature.admin.noticias.NoticiasMenuActivity_"></activity>
+        <activity android:name=".feature.admin.noticias.NoticiasMenuActivity_" />
+        <activity android:name=".feature.admin.contact.ContactEditActivity_" />
     </application>
 
 </manifest>

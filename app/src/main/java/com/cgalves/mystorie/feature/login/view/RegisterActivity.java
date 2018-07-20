@@ -23,9 +23,13 @@ public class RegisterActivity extends BaseActivity implements LoginContract.Logi
 
     @Bean
     LoginPresenterImpl<RegisterActivity> presenter;
+    @ViewById
+    EditText etUsername, etEmail, etPassword, etPasswordTwo;
 
     @AfterViews
     void init(){
+        setupToolbar();
+        toolbar.setTitle("Register");
         presenter.attachView(this);
         presenter.register();
         Log.d(getString(R.string.tag_next_flow), this.getString(R.string.state_after_view));
@@ -37,17 +41,6 @@ public class RegisterActivity extends BaseActivity implements LoginContract.Logi
         presenter.unregister();
         presenter.detachView();
     }
-    @ViewById(R.id.et_username)
-    EditText etUsername;
-
-    @ViewById(R.id.et_email)
-    EditText etEmail;
-
-    @ViewById(R.id.et_password)
-    EditText etPassword;
-
-    @ViewById(R.id.et_password_two)
-    EditText etPasswordTwo;
 
     @Click(R.id.btn_registration)
     void onClickRegistration(){
