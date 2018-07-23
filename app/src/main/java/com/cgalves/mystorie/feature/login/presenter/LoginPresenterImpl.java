@@ -18,7 +18,7 @@ import org.greenrobot.eventbus.ThreadMode;
  */
 
 @EBean
-public class LoginPresenterImpl <V extends LoginContract.LoginPresenterView> extends BasePresenter<V> implements LoginContract.LoginPresenter<V> {
+public class LoginPresenterImpl<V extends LoginContract.LoginPresenterView> extends BasePresenter<V> implements LoginContract.LoginPresenter<V> {
 
     private static final String TAG = LoginPresenterImpl.class.getSimpleName();
     LoginAbstractCall loginAbstractCall;
@@ -36,8 +36,17 @@ public class LoginPresenterImpl <V extends LoginContract.LoginPresenterView> ext
 
     @Subscribe(sticky = true, threadMode = ThreadMode.MAIN)
     public void onLoginResultCall(ParseUser resultLogin) {
-        MyStorieApplication.getsInstance().setToken("token");
-        getMvpView().onLoginResult(resultLogin);
+        MyStorieApplication.getsInstance().setToken(resultLogin.getSessionToken());
+
+        boolean isAdmin = false;
+
+        try {
+            isAdmin = (boolean) resultLogin.get("admin");
+        } catch (Exception e) {
+            Log.e(TAG, e.getMessage());
+        }
+
+        getMvpView().onLoginResult(isAdmin);
     }
 
     @Override
@@ -47,14 +56,14 @@ public class LoginPresenterImpl <V extends LoginContract.LoginPresenterView> ext
         user.setEmail(password);
         user.setPassword(email);
         user.signUpInBackground(e -> {
-            try{
+            try {
                 if (e == null) {
-                    getMvpView().onLoginResult(ParseUser.getCurrentUser());
+                    getMvpView().onResultRegistration(ParseUser.getCurrentUser());
                 } else {
                     ParseUser.logOut();
                     getMvpView().onLoginResult(null);
                 }
-            }catch (Exception error){
+            } catch (Exception error) {
                 Log.e(TAG, error.getMessage());
             }
         });

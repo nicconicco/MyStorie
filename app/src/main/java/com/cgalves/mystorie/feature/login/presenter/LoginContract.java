@@ -16,6 +16,7 @@ public class LoginContract {
     }
 
     public interface LoginPresenterView extends MvpView {
-        void onLoginResult(ParseUser result);
+        void onLoginResult(Boolean isAdmin);
+        void onResultRegistration(ParseUser result);
     }
 }

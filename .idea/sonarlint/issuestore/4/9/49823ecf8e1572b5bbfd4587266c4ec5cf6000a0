@@ -1,0 +1,17 @@
+
+\squid:UnusedPrivateMethod0"2Remove this unused private "facebookCalls" method.(§•²ÿúÿÿÿÿ
+gsquid:CommentedOutCodeLine,"<This block of commented-out lines of code should be removed.(ŸÏúåúÿÿÿÿ
+gsquid:CommentedOutCodeLine3"<This block of commented-out lines of code should be removed.(ž¥¢Þþÿÿÿÿ
+gsquid:CommentedOutCodeLine8"<This block of commented-out lines of code should be removed.(ØÑíÏûÿÿÿÿ
+asquid:CommentedOutCodeLine:"<This block of commented-out lines of code should be removed.(Â¹ðO
+gsquid:CommentedOutCodeLine<"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+gsquid:CommentedOutCodeLine?"<This block of commented-out lines of code should be removed.(ðêüÿÿÿÿ
+gsquid:CommentedOutCodeLineA"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+bsquid:CommentedOutCodeLineD"<This block of commented-out lines of code should be removed.(à¢ƒŽ
+gsquid:CommentedOutCodeLineF"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+Nsquid:S11351"2Complete the task associated to this TODO comment.(‘ŸÎûÿÿÿÿÿ
+Ksquid:S1481\"/Remove this unused "isLoggedIn" local variable.(øØ»†øÿÿÿÿ
+™squid:S1186›"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‹ØôÐ
+Zsquid:S1854\">Remove this useless assignment to local variable "isLoggedIn".(øØ»†øÿÿÿÿ
+nsquid:UselessImportCheck"ERemove this unused import 'com.cgalves.mystorie.MyStorieApplication'.(µ„ºªüÿÿÿÿ
+jsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(¸á“üÿÿÿÿ

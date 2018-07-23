@@ -1,5 +1,11 @@
 apply plugin: 'com.android.application'
 
+// SONAR CONFIG
+apply plugin: 'org.sonarqube'
+
+// JACOCO CONFIG
+apply plugin: 'jacoco'
+
 // Build Variants Names
 def mock_code = "0"
 def api_code = "1"
@@ -39,6 +45,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             applicationIdSuffix ".release"
             signingConfig signingConfigs.theReleaseKey
+
+            // Config sonarqube
+            testCoverageEnabled true
         }
 //        jnidebug {
 //            initWith debug
@@ -108,45 +117,19 @@ dependencies {
     implementation 'com.google.android.gms:play-services-maps:11.8.0'
 }
 
+// JACOCO CONFIG
+task jacocoTestReport(type: JacocoReport, dependsOn: 'testDebugUnitTest') {
 
+    reports {
+        xml.enabled = true
+        html.enabled = true
+    }
 
-repositories {
-    mavenCentral()
-}
-dependencies {
-    implementation 'com.android.support.constraint:constraint-layout:+'
-}
-dependencies {
-    implementation 'com.android.support.constraint:constraint-layout:+'
-}
+    def fileFilter = ['**/R.class', '**/R$*.class', '**/BuildConfig.*', '**/Manifest*.*', '**/*Test*.*', 'android/**/*.*']
+    def debugTree = fileTree(dir: "${buildDir}/intermediates/classes/debug", excludes: fileFilter)
+    def mainSrc = "${project.projectDir}/src/main/java"
 
-dependencies {
-    implementation 'com.android.support.constraint:constraint-layout:+'
-}
-dependencies {
-    implementation 'com.android.support.constraint:constraint-layout:+'
-}
-
-dependencies {
-    implementation 'com.android.support.constraint:constraint-layout:+'
-}
-
-dependencies {
-    implementation 'com.android.support.constraint:constraint-layout:+'
-}
-
-dependencies {
-    implementation 'com.android.support.constraint:constraint-layout:+'
-}
-
-dependencies {
-    implementation 'com.android.support.constraint:constraint-layout:+'
-}
-
-dependencies {
-    implementation 'com.android.support.constraint:constraint-layout:+'
-}
-
-dependencies {
-    implementation 'com.android.support.constraint:constraint-layout:+'
+    sourceDirectories = files([mainSrc])
+    classDirectories = files([debugTree])
+    executionData = files("${buildDir}/jacoco/testDebugUnitTest.exec")
 }

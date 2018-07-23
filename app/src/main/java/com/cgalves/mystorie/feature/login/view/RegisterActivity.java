@@ -48,7 +48,12 @@ public class RegisterActivity extends BaseActivity implements LoginContract.Logi
     }
 
     @Override
-    public void onLoginResult(ParseUser result) {
+    public void onLoginResult(Boolean isAdmin) {
+
+    }
+
+    @Override
+    public void onResultRegistration(ParseUser result) {
         showAlertWarning(RegisterActivity.this, "Wellcome "+etUsername.getText().toString());
     }
 }
