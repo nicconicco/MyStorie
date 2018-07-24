@@ -38,6 +38,7 @@ public class HomePresenterImpl<V extends HomeContract.HomePresenterView> extends
         String token = MyStorieApplication.getsInstance().getToken();
         homeAbstractCall.findImageTopHeader(token);
     }
+
     @Subscribe(sticky = true, threadMode = ThreadMode.MAIN)
     public void onImageTopHeaderLoaded(ImageResponse imageResponse) {
         getMvpView().onResultImages(imageResponse.getList());
@@ -53,6 +54,6 @@ public class HomePresenterImpl<V extends HomeContract.HomePresenterView> extends
 
     @Subscribe(sticky = true, threadMode = ThreadMode.MAIN)
     public void onSectionBodyLoaded(List<Section> list) {
-            getMvpView().onResultSectionBody(list);
+        getMvpView().onResultSectionBody(list);
     }
 }

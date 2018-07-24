@@ -14,7 +14,7 @@ import org.androidannotations.annotations.RootContext;
  */
 
 @EBean
-public class BasePresenter<V extends MvpView > implements MvpPresenter<V>{
+public class BasePresenter<V extends MvpView> implements MvpPresenter<V> {
 
     @RootContext
     protected Context context;

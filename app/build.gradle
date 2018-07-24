@@ -6,9 +6,16 @@ apply plugin: 'org.sonarqube'
 // JACOCO CONFIG
 apply plugin: 'jacoco'
 
-// Build Variants Names
-def mock_code = "0"
-def api_code = "1"
+// Checkstyle config
+apply plugin: 'checkstyle'
+check.dependsOn 'checkstyle'
+
+task checkstyle(type: Checkstyle) {
+    configFile file("$project.rootDir/config/checkstyle/checkstyle.xml")
+    source 'src'
+    include '**/*.java'
+    classpath = files()
+}
 
 android {
 
@@ -80,7 +87,7 @@ android {
     }
 }
 
-
+// AA config
 apply plugin: 'com.android.application'
 def androidAnnotationsVersion = "4.4.0"
 

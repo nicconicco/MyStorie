@@ -13,13 +13,15 @@ import java.util.List;
 
 public class HomeContract {
 
-    public interface HomePresenter <V extends HomePresenterView & MvpView> extends MvpPresenter<V> {
+    public interface HomePresenter<V extends HomePresenterView & MvpView> extends MvpPresenter<V> {
         void findImagesTopHeader();
+
         void findSectionInBody();
     }
 
     public interface HomePresenterView extends MvpView {
         void onResultImages(List<Image> result);
+
         void onResultSectionBody(List<Section> result);
     }
 }

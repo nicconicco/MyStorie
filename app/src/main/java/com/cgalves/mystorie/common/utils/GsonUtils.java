@@ -13,17 +13,18 @@ import java.util.List;
  */
 
 public class GsonUtils {
-    public static <T>List<T> jsonToObjectList(String json) {
-        Type collectionType = new TypeToken<List<T>>(){}.getType();
+    public static <T> List<T> jsonToObjectList(String json) {
+        Type collectionType = new TypeToken<List<T>>() {
+        }.getType();
         return new Gson()
-                .fromJson( json , collectionType);
+                .fromJson(json, collectionType);
     }
 
     public static String objectToJson(Object object) {
         try {
             Gson gson = new Gson();
             return gson.toJson(object);
-        }catch (Exception e) {
+        } catch (Exception e) {
             Log.d("ERROR: ", e.getMessage());
             return "";
         }
