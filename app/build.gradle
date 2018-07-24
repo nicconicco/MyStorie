@@ -12,6 +12,9 @@ apply plugin: 'findbugs'
 // Checkstyle config
 apply plugin: 'checkstyle'
 
+// PMD CONFIG
+apply plugin: 'pmd'
+
 task checkstyle(type: Checkstyle) {
     configFile file("$project.rootDir/config/checkstyle/checkstyle.xml")
     source 'src'
@@ -40,7 +43,22 @@ task findbugs(type: FindBugs) {
 
     classpath = files()
 }
-check.dependsOn 'checkstyle', 'findbugs'
+
+task pmd(type: Pmd) {
+    description 'Identifying potential problems mainly dead code, duplicated code, cyclomatic complexity and overcomplicated expressions'
+    group 'verification'
+    ruleSetFiles = files("$project.rootDir/config/pmd-ruleset.xml")
+    source = fileTree('src/main/java')
+    include '**/*.java'
+    exclude '**/gen/**'
+
+    reports {
+        xml.enabled = false
+        html.enabled = true
+        html.destination = "$project.buildDir/outputs/pmd/pmd.html"
+    }
+}
+check.dependsOn 'checkstyle', 'findbugs', 'pmd'
 
 
 android {

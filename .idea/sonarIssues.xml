@@ -93,6 +93,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/config/pmd-ruleset.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../sonarserver/sonarqube-7.2.1/conf/sonar.properties">
           <value>
             <set />
