@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.util.Log;
 import android.widget.EditText;
 
-import com.cgalves.mystorie.MyStorieApplication;
 import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.activity.BaseActivity;
 import com.cgalves.mystorie.feature.admin.home.MasterHomeActivity_;

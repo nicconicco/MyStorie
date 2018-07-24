@@ -35,9 +35,18 @@ http://172.16.210.131:9001/about
 // depois de configurar o gradle vc da ese comando no terminal do própio android studio:
 
 
-/gradlew sonarqube \
+./gradlew sonarqube \
   -Dsonar.host.url=http://172.16.210.131:9001 \
   -Dsonar.login=875d3a929b094b3f8183c79980e36090a59f94e0
 
+
+
   ele gera um aplicativo já caso nao exista.
+
+
+  Acontece o seguinte erro as vezes de dizer q ele ja ta funcionando..
+
+  a unica maneira que achei foi dar stop no servidor e ficar tentando.. ai ele chegou uma nova analise
+
+
 ​

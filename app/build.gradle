@@ -6,9 +6,11 @@ apply plugin: 'org.sonarqube'
 // JACOCO CONFIG
 apply plugin: 'jacoco'
 
+// FindBugs
+apply plugin: 'findbugs'
+
 // Checkstyle config
 apply plugin: 'checkstyle'
-check.dependsOn 'checkstyle'
 
 task checkstyle(type: Checkstyle) {
     configFile file("$project.rootDir/config/checkstyle/checkstyle.xml")
@@ -16,6 +18,30 @@ task checkstyle(type: Checkstyle) {
     include '**/*.java'
     classpath = files()
 }
+
+task findbugs(type: FindBugs) {
+    ignoreFailures = false
+    effort = 'max'
+    reportLevel = 'high'
+    excludeFilter = new File("${project.rootDir}/config/findbugs-filter.xml")
+    classes = files("${project.rootDir}/app/build/intermediates/classes")
+
+    source 'src'
+    include '**/*.java'
+    exclude '**/gen/**'
+
+    reports {
+        xml.enabled = false
+        xml.withMessages = true
+        html.enabled = !xml.isEnabled()
+        xml.destination "$project.buildDir/outputs/findbugs/findbugs-output.xml"
+        html.destination "$project.buildDir/outputs/findbugs/findbugs-output.html"
+    }
+
+    classpath = files()
+}
+check.dependsOn 'checkstyle', 'findbugs'
+
 
 android {
 

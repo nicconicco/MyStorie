@@ -9,11 +9,11 @@ import static com.cgalves.mystorie.common.model.Novidade.FIELD_OWNER;
 @ParseClassName("Contact")
 public class Contact extends ParseObject {
 
-    private static final String FIELD_FACEBOOK = "facebookUrl";
-    private static final String FIELD_TWITTER = "twitterUrl";
-    private static final String FIELD_CELLPHONE = "cellphone";
-    private static final String FIELD_EMAIL = "email";
-    private static final String FIELD_IMAGE = "imgProfile";
+    private static final String FIELD_FACEBOOK ="facebookUrl";
+    private static final String FIELD_TWITTER ="twitterUrl";
+    private static final String FIELD_CELLPHONE ="cellphone";
+    private static final String FIELD_EMAIL ="email";
+    private static final String FIELD_IMAGE ="imgProfile";
 
     public Contact() {
         super();
