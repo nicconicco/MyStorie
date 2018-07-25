@@ -30,6 +30,6 @@ public class DetailActivity extends BaseActivity {
         setupToolbar();
         toolbar.setTitle(detailSection.getName());
         tvTxt.setText(detailSection.getTxt());
-        Glide.with(this).load(detailSection.getImage()).into(img);
+        Glide.with(this).load(detailSection.getImage()).override(800, 600).into(img);
     }
 }

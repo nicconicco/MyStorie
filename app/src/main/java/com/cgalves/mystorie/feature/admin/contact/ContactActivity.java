@@ -37,6 +37,8 @@ public class ContactActivity extends BaseActivity {
     void init() {
         setupToolbarContact();
 
+
+
         ParseQuery<Contact> query = ParseQuery.getQuery(Contact.class);
         query.whereEqualTo("owner", ParseUser.getCurrentUser());
         query.findInBackground((objects, e) -> {

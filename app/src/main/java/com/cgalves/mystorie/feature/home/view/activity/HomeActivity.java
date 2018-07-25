@@ -16,6 +16,7 @@ import android.widget.ListView;
 
 import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.activity.BaseActivity;
+import com.cgalves.mystorie.feature.admin.contact.ContactActivity_;
 import com.cgalves.mystorie.feature.home.model.Image;
 import com.cgalves.mystorie.feature.home.model.Section;
 import com.cgalves.mystorie.feature.home.presenter.HomeContract;
@@ -131,7 +132,12 @@ public class HomeActivity extends BaseActivity implements HomeContract.HomePrese
         return section -> {
             presenter.unregister();
             presenter.detachView();
-            ListSectionActivity_.intent(HomeActivity.this).section(section).start();
+
+            if("Contato".equals(section.getName())) {
+                ContactActivity_.intent(this).start();
+            } else {
+                ListSectionActivity_.intent(HomeActivity.this).section(section).start();
+            }
         };
     }
 

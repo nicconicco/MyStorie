@@ -5,6 +5,7 @@ import com.cgalves.mystorie.common.abstractcalls.ListSectionAbstractCall;
 import com.cgalves.mystorie.common.factory.APIAbstractFactory;
 import com.cgalves.mystorie.common.model.DetailSection;
 import com.cgalves.mystorie.common.presenter.BasePresenter;
+import com.cgalves.mystorie.feature.admin.contact.ContactActivity_;
 import com.cgalves.mystorie.feature.home.model.Section;
 
 import org.androidannotations.annotations.AfterInject;
