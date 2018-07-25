@@ -7,7 +7,6 @@ import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
@@ -24,6 +23,7 @@ import com.cgalves.mystorie.feature.home.presenter.HomePresenterImpl;
 import com.cgalves.mystorie.feature.home.view.adapter.DrawerMenuLeftSideAdapter;
 import com.cgalves.mystorie.feature.home.view.adapter.MenuHomeAdapter;
 import com.cgalves.mystorie.feature.home.view.adapter.PhotosAdapter;
+import com.cgalves.mystorie.feature.list.view.activity.ListSectionActivity_;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Bean;
@@ -48,8 +48,6 @@ public class HomeActivity extends BaseActivity implements HomeContract.HomePrese
     @ViewById
     ListView leftDrawer;
 
-    @ViewById
-    Toolbar toolbar;
 
     android.support.v7.app.ActionBarDrawerToggle mDrawerToggle;
     private String[] mNavigationDrawerItemTitles;
@@ -122,9 +120,18 @@ public class HomeActivity extends BaseActivity implements HomeContract.HomePrese
         setupMenuLeftSide(result);
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        presenter.attachView(this);
+        presenter.register();
+    }
+
     private MenuHomeAdapter.OnClickListener onClickListener() {
         return section -> {
-
+            presenter.unregister();
+            presenter.detachView();
+            ListSectionActivity_.intent(HomeActivity.this).section(section).start();
         };
     }
 

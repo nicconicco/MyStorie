@@ -121,9 +121,9 @@ android {
             applicationId "com.cgalves.mystorie.mvpa"
         }
 
-        javaMVVM_FASTMOCK {
-            applicationId "com.cgalves.mystorie.mvvm"
-        }
+//        javaMVVM_FASTMOCK {
+//            applicationId "com.cgalves.mystorie.mvvm"
+//        }
     }
     compileOptions {
         targetCompatibility 1.8
@@ -169,6 +169,12 @@ dependencies {
 }
 
 // JACOCO CONFIG
+dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:+'
+}
+dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:+'
+}
 task jacocoTestReport(type: JacocoReport, dependsOn: 'testDebugUnitTest') {
 
     reports {
