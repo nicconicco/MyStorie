@@ -3,6 +3,7 @@ package com.cgalves.mystorie.model.factory;
 import android.content.Context;
 
 import com.cgalves.mystorie.common.abstractcalls.LoginAbstractCall;
+import com.parse.ParseUser;
 
 import org.greenrobot.eventbus.EventBus;
 
