@@ -20,7 +20,7 @@ public class BasePresenter<V extends MvpView> implements MvpPresenter<V> {
     protected Context context;
 
     @Bean
-    protected BusProvider bus;
+    protected BusProvider busProvider;
 
     private V mMvpView;
 
@@ -36,15 +36,15 @@ public class BasePresenter<V extends MvpView> implements MvpPresenter<V> {
 
     @Override
     public void register() {
-        if (!bus.bus().isRegistered(this)) {
-            bus.bus().register(this);
+        if (!busProvider.bus().isRegistered(this)) {
+            busProvider.bus().register(this);
         }
     }
 
     @Override
     public void unregister() {
-        if (bus.bus().isRegistered(this)) {
-            bus.bus().unregister(this);
+        if (busProvider.bus().isRegistered(this)) {
+            busProvider.bus().unregister(this);
         }
     }
 

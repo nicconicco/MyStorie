@@ -25,7 +25,7 @@ public class LoginPresenterImpl<V extends LoginContract.LoginPresenterView> exte
 
     @AfterInject
     void init() {
-        loginAbstractCall = APIAbstractFactory.getFactory(context).getLoginCall(bus.bus(), context);
+        loginAbstractCall = APIAbstractFactory.getFactory(context).getLoginCall(busProvider.bus(), context);
     }
 
     // Call Login

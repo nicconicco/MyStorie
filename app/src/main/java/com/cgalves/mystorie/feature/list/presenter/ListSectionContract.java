@@ -3,9 +3,7 @@ package com.cgalves.mystorie.feature.list.presenter;
 import com.cgalves.mystorie.common.model.DetailSection;
 import com.cgalves.mystorie.common.presenter.MvpPresenter;
 import com.cgalves.mystorie.common.presenter.MvpView;
-import com.cgalves.mystorie.feature.home.model.Image;
 import com.cgalves.mystorie.feature.home.model.Section;
-import com.cgalves.mystorie.feature.home.presenter.HomeContract;
 
 import java.util.List;
 

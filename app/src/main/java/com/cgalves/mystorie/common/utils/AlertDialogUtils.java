@@ -2,8 +2,6 @@ package com.cgalves.mystorie.common.utils;
 
 import android.app.Activity;
 import android.app.Dialog;
-import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;

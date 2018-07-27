@@ -30,14 +30,16 @@ public class BaseActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    protected void setupToolbar() {
+    protected void setupToolbar(boolean backFlag) {
         toolbar = findViewById(R.id.toolbar);
 
         if(toolbar != null) {
             toolbar.setTitle(getString(R.string.app_name));
             setSupportActionBar(toolbar);
-            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-            getSupportActionBar().setDisplayShowHomeEnabled(true);
+            if(backFlag) {
+                getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+                getSupportActionBar().setDisplayShowHomeEnabled(true);
+            }
         }
     }
 

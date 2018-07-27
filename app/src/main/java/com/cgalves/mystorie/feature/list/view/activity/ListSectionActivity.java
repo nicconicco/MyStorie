@@ -35,7 +35,7 @@ public class ListSectionActivity extends BaseActivity implements ListSectionCont
 
     @AfterViews
     void init() {
-        setupToolbar();
+        setupToolbar(true);
         toolbar.setTitle(section.getName());
 
         presenter.attachView(this);

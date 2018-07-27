@@ -28,8 +28,8 @@ public class RegisterActivity extends BaseActivity implements LoginContract.Logi
 
     @AfterViews
     void init() {
-        setupToolbar();
-        toolbar.setTitle("Register");
+        setupToolbar(true);
+        toolbar.setTitle("");
         presenter.attachView(this);
         presenter.register();
         Log.d(getString(R.string.tag_next_flow), this.getString(R.string.state_after_view));
@@ -49,16 +49,15 @@ public class RegisterActivity extends BaseActivity implements LoginContract.Logi
 
     @Override
     public void onLoginResult(boolean isAdmin) {
-        showAlertWarning(RegisterActivity.this, "Wellcome " + etUsername.getText().toString());
     }
 
     @Override
     public void onResultRegistration(ParseUser result) {
-        showAlertWarning(RegisterActivity.this, "Wellcome " + etUsername.getText().toString());
+        showAlertWarning(RegisterActivity.this, "Bem-vindo! " + etUsername.getText().toString());
     }
 
     @Override
     public void onError(String error) {
-
+        showAlertWarning(RegisterActivity.this, "Ops, ocorreu o seguinte erro: "+error);
     }
 }

@@ -21,7 +21,7 @@ public class DetailSection implements Parcelable {
         return txt;
     }
 
-    private void setTxt(String txt) {
+    public void setTxt(String txt) {
         this.txt = txt;
     }
 

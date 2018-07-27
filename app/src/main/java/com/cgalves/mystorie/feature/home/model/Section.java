@@ -3,8 +3,6 @@ package com.cgalves.mystorie.feature.home.model;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import java.io.Serializable;
-
 /**
  * Created by Scopus on 17/07/18.
  */

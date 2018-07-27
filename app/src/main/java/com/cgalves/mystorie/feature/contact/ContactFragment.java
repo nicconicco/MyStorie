@@ -1,26 +1,35 @@
-package com.cgalves.mystorie.feature.admin.contact;
+package com.cgalves.mystorie.feature.contact;
 
+import android.os.Bundle;
 import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.cgalves.mystorie.R;
-import com.cgalves.mystorie.common.activity.BaseActivity;
+import com.cgalves.mystorie.common.fragment.BaseFragment;
 import com.cgalves.mystorie.common.model.Contact;
 import com.cgalves.mystorie.common.utils.GsonUtils;
+import com.cgalves.mystorie.feature.admin.contact.ContactEditActivity_;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Click;
-import org.androidannotations.annotations.EActivity;
+import org.androidannotations.annotations.EFragment;
 import org.androidannotations.annotations.ViewById;
 
 import java.util.ArrayList;
 
-@EActivity(R.layout.activity_contact)
-public class ContactActivity extends BaseActivity {
+/**
+ * Created by scopus on 27/07/18.
+ */
+
+@EFragment
+public class ContactFragment extends BaseFragment {
 
     @ViewById
     ImageView ivProfile;
@@ -33,9 +42,9 @@ public class ContactActivity extends BaseActivity {
         ContactEditActivity_.intent(this).start();
     }
 
-    @AfterViews
-    void init() {
-        setupToolbarContact();
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_contatos, container, false);
+
         ParseQuery<Contact> query = ParseQuery.getQuery(Contact.class);
         query.whereEqualTo("owner", ParseUser.getCurrentUser());
         query.findInBackground((objects, e) -> {
@@ -59,11 +68,8 @@ public class ContactActivity extends BaseActivity {
                 Log.d("score", "Error: " + e.getMessage());
             }
         });
-    }
 
-    private void setupToolbarContact() {
-        setupToolbar(true);
-        toolbar.setTitle("MEU CONTATO");
+        return view;
     }
 
     private void configFirstContactInformation() {
@@ -72,4 +78,5 @@ public class ContactActivity extends BaseActivity {
         contact.setOwner(ParseUser.getCurrentUser());
         contact.saveInBackground();
     }
+
 }

@@ -6,8 +6,6 @@ import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.abstractcalls.ListSectionAbstractCall;
 import com.cgalves.mystorie.common.model.DetailSection;
 import com.cgalves.mystorie.feature.home.model.Section;
-import com.parse.ParseObject;
-import com.parse.ParseUser;
 
 import org.greenrobot.eventbus.EventBus;
 

@@ -27,7 +27,7 @@ public class DetailActivity extends BaseActivity {
 
     @AfterViews
     void init() {
-        setupToolbar();
+        setupToolbar(true);
         toolbar.setTitle(detailSection.getName());
         tvTxt.setText(detailSection.getTxt());
         Glide.with(this).load(detailSection.getImage()).override(800, 600).into(img);

@@ -3,7 +3,6 @@ package com.cgalves.mystorie.feature.home.presenter;
 import com.cgalves.mystorie.common.abstractcalls.HomeAbstractCall;
 import com.cgalves.mystorie.common.factory.APIAbstractFactory;
 import com.cgalves.mystorie.common.presenter.BasePresenter;
-import com.cgalves.mystorie.feature.home.model.Image;
 import com.cgalves.mystorie.feature.home.model.ImageResponse;
 import com.cgalves.mystorie.feature.home.model.Section;
 import com.cgalves.mystorie.feature.login.presenter.LoginPresenterImpl;
@@ -28,13 +27,15 @@ public class HomePresenterImpl<V extends HomeContract.HomePresenterView> extends
 
     @AfterInject
     void init() {
-        homeAbstractCall = APIAbstractFactory.getFactory(context).getHomeCall(bus.bus(), context);
+        homeAbstractCall = APIAbstractFactory.getFactory(context).getHomeCall(busProvider.bus(), context);
     }
 
 
     // call top header
     @Override
     public void findImagesTopHeader() {
+
+
         String token = MyStorieApplication.getsInstance().getToken();
         homeAbstractCall.findImageTopHeader(token);
     }

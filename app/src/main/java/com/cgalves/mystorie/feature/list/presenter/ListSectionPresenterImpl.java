@@ -1,11 +1,9 @@
 package com.cgalves.mystorie.feature.list.presenter;
 
-import com.cgalves.mystorie.common.abstractcalls.HomeAbstractCall;
 import com.cgalves.mystorie.common.abstractcalls.ListSectionAbstractCall;
 import com.cgalves.mystorie.common.factory.APIAbstractFactory;
 import com.cgalves.mystorie.common.model.DetailSection;
 import com.cgalves.mystorie.common.presenter.BasePresenter;
-import com.cgalves.mystorie.feature.admin.contact.ContactActivity_;
 import com.cgalves.mystorie.feature.home.model.Section;
 
 import org.androidannotations.annotations.AfterInject;
@@ -26,7 +24,7 @@ public class ListSectionPresenterImpl<V extends ListSectionContract.ListSectioPr
 
     @AfterInject
     void init() {
-        listSectionAbstractCall = APIAbstractFactory.getFactory(context).getListSectionCall(bus.bus(), context);
+        listSectionAbstractCall = APIAbstractFactory.getFactory(context).getListSectionCall(busProvider.bus(), context);
     }
 
     @Override

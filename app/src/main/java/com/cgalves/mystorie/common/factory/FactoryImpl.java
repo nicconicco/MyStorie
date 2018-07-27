@@ -5,9 +5,11 @@ import android.content.Context;
 import com.cgalves.mystorie.common.abstractcalls.HomeAbstractCall;
 import com.cgalves.mystorie.common.abstractcalls.ListSectionAbstractCall;
 import com.cgalves.mystorie.common.abstractcalls.LoginAbstractCall;
+import com.cgalves.mystorie.common.abstractcalls.NoticiasAbstractCall;
 import com.cgalves.mystorie.model.factory.HomeCallImpl;
 import com.cgalves.mystorie.model.factory.ListSectionCallImpl;
 import com.cgalves.mystorie.model.factory.LoginCallImpl;
+import com.cgalves.mystorie.model.factory.NoticiasCallImpl;
 
 import org.greenrobot.eventbus.EventBus;
 
@@ -30,5 +32,10 @@ class FactoryImpl extends APIAbstractFactory {
     @Override
     public ListSectionAbstractCall getListSectionCall(EventBus bus, Context context) {
         return new ListSectionCallImpl(bus, context);
+    }
+
+    @Override
+    public NoticiasAbstractCall getNoticiasCall(EventBus bus, Context context) {
+        return new NoticiasCallImpl(bus, context);
     }
 }

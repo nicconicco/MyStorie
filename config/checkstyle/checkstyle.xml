@@ -9,5 +9,4 @@
         <module name="Indentation"/>
         <module name="RedundantImport"/>
     </module>
-    
 </module>
