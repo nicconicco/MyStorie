@@ -19,6 +19,7 @@ public class LoginCallImpl extends LoginAbstractCall {
     @Override
     public void login(String username, String password) {
         // Estou no mock, por isso posso passar o que quiser.
-        bus.post("token:k5kw4IpSv2xJ59YqGAUw03zOtuSGdOzK");
+        ParseUser p = new ParseUser();
+        bus.post(p);
     }
 }

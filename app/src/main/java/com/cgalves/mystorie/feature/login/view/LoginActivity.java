@@ -143,7 +143,7 @@ public class LoginActivity extends BaseActivity implements LoginContract.LoginPr
 
     @Override
     public void onLoginResult(boolean isAdmin) {
-        progressBar.getDialog().dismiss();
+        progressBar.dismiss();
         if (isAdmin) {
             MasterHomeActivity_.intent(this).start();
             overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
@@ -155,7 +155,7 @@ public class LoginActivity extends BaseActivity implements LoginContract.LoginPr
 
     @Override
     public void onError(String error) {
-        progressBar.getDialog().dismiss();
+        progressBar.dismiss();
         Toast.makeText(this, error, Toast.LENGTH_LONG).show();
     }
 }

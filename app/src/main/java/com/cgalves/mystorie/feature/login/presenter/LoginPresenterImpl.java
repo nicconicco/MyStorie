@@ -77,6 +77,12 @@ public class LoginPresenterImpl <V extends LoginContract.LoginPresenterView> ext
     }
 
     private boolean isAdmin(ParseUser result) {
-        return (boolean) result.get("admin");
+        if(result != null) {
+            if(result.get("admin") != null) {
+                return (boolean) result.get("admin");
+            }
+        }
+
+        return false;
     }
 }
