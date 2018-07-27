@@ -18,7 +18,7 @@ import org.greenrobot.eventbus.ThreadMode;
  */
 
 @EBean
-public class LoginPresenterImpl <V extends LoginContract.LoginPresenterView> extends BasePresenter<V> implements LoginContract.LoginPresenter<V> {
+public class LoginPresenterImpl<V extends LoginContract.LoginPresenterView> extends BasePresenter<V> implements LoginContract.LoginPresenter<V> {
 
     private static final String TAG = LoginPresenterImpl.class.getSimpleName();
     LoginAbstractCall loginAbstractCall;
@@ -36,6 +36,7 @@ public class LoginPresenterImpl <V extends LoginContract.LoginPresenterView> ext
 
     @Subscribe(sticky = true, threadMode = ThreadMode.MAIN)
     public void onLoginResultCall(ParseUser resultLogin) {
+<<<<<<< HEAD
         setToken(resultLogin);
         getMvpView().onLoginResult(isAdmin(resultLogin));
     }
@@ -43,6 +44,19 @@ public class LoginPresenterImpl <V extends LoginContract.LoginPresenterView> ext
     @Subscribe(sticky = true, threadMode = ThreadMode.MAIN)
     public void onError(String error) {
         getMvpView().onError(error);
+=======
+        MyStorieApplication.getsInstance().setToken(resultLogin.getSessionToken());
+
+        boolean isAdmin = false;
+
+        try {
+            isAdmin = (boolean) resultLogin.get("admin");
+        } catch (Exception e) {
+            Log.e(TAG, e.getMessage());
+        }
+
+        getMvpView().onLoginResult(isAdmin);
+>>>>>>> master
     }
 
     @Override
@@ -52,15 +66,19 @@ public class LoginPresenterImpl <V extends LoginContract.LoginPresenterView> ext
         user.setEmail(password);
         user.setPassword(email);
         user.signUpInBackground(e -> {
-            try{
+            try {
                 if (e == null) {
+<<<<<<< HEAD
                     ParseUser result = ParseUser.getCurrentUser();
                     setUserInformation(result);
+=======
+                    getMvpView().onResultRegistration(ParseUser.getCurrentUser());
+>>>>>>> master
                 } else {
                     ParseUser.logOut();
                     getMvpView().onError(e.getMessage());
                 }
-            }catch (Exception error){
+            } catch (Exception error) {
                 Log.e(TAG, error.getMessage());
                 getMvpView().onError(error.getMessage());
             }

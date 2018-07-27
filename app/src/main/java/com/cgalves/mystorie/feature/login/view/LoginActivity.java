@@ -41,7 +41,7 @@ public class LoginActivity extends BaseActivity implements LoginContract.LoginPr
     private CallbackManager callbackManager;
 
     @AfterViews
-    void init(){
+    void init() {
         presenter.attachView(this);
         presenter.register();
         Log.d(getString(R.string.tag_next_flow), this.getString(R.string.state_after_view));
@@ -101,7 +101,7 @@ public class LoginActivity extends BaseActivity implements LoginContract.LoginPr
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         callbackManager.onActivityResult(requestCode, resultCode, data);
-        Log.d(getString(R.string.tag_next_flow), "facebook onActivityResult requestCode = "+requestCode+", resultCode = "+resultCode+", data ="+data);
+        Log.d(getString(R.string.tag_next_flow), "facebook onActivityResult requestCode = " + requestCode + ", resultCode = " + resultCode + ", data =" + data);
         super.onActivityResult(requestCode, resultCode, data);
     }
 
@@ -123,27 +123,41 @@ public class LoginActivity extends BaseActivity implements LoginContract.LoginPr
     }
 
     @Click(R.id.btn_facebook)
-    void onClickFacebook(){
+    void onClickFacebook() {
         Log.d(getString(R.string.tag_next_flow), this.getString(R.string.click) + " : onClickFacebook");
     }
 
+<<<<<<< HEAD
 //    @Click(R.id.btn_twitter)
 //    void onClickTwitter(){
 //        presenter.doLogin(etUserName.getText().toString(), etPassword.getText().toString());
 //        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
 //        Log.d(getString(R.string.tag_next_flow), this.getString(R.string.click) + " : onClickTwitter");
 //    }
+=======
+    @Click(R.id.btn_twitter)
+    void onClickTwitter() {
+        presenter.doLogin(etUserName.getText().toString(), etPassword.getText().toString());
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+        Log.d(getString(R.string.tag_next_flow), this.getString(R.string.click) + " : onClickTwitter");
+    }
+>>>>>>> master
 
     @Click(R.id.btn_register)
-    void onClickRegister(){
+    void onClickRegister() {
         RegisterActivity_.intent(this).start();
         overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
         Log.d(getString(R.string.tag_next_flow), this.getString(R.string.click) + " : onClickRegister");
     }
 
     @Override
+<<<<<<< HEAD
     public void onLoginResult(boolean isAdmin) {
         progressBar.dismiss();
+=======
+    public void onLoginResult(Boolean isAdmin) {
+
+>>>>>>> master
         if (isAdmin) {
             MasterHomeActivity_.intent(this).start();
             overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
@@ -154,8 +168,13 @@ public class LoginActivity extends BaseActivity implements LoginContract.LoginPr
     }
 
     @Override
+<<<<<<< HEAD
     public void onError(String error) {
         progressBar.dismiss();
         Toast.makeText(this, error, Toast.LENGTH_LONG).show();
+=======
+    public void onResultRegistration(ParseUser result) {
+
+>>>>>>> master
     }
 }

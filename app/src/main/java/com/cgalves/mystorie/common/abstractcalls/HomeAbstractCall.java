@@ -2,12 +2,7 @@ package com.cgalves.mystorie.common.abstractcalls;
 
 import android.content.Context;
 
-import com.cgalves.mystorie.feature.home.model.Image;
-import com.cgalves.mystorie.feature.home.model.Section;
-
 import org.greenrobot.eventbus.EventBus;
-
-import java.util.List;
 
 /**
  * Created by Scopus on 11/07/18.

@@ -19,7 +19,10 @@ public class LoginCallImpl extends LoginAbstractCall {
 
     @Override
     public void login(String username, String password) {
+<<<<<<< HEAD
         // Estou no mock, por isso posso passar o que quiser.
+=======
+>>>>>>> master
         ParseUser p = new ParseUser();
         bus.post(p);
     }

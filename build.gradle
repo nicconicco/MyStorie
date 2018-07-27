@@ -1,13 +1,18 @@
 apply from: 'gradle-scripts/dependencies.gradle'
 
+
 buildscript {
     repositories {
         jcenter()
         google()
+        mavenCentral()
+        mavenLocal()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.0.1'
         classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+        // SONAR CONFIG
+        classpath 'org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:+'
     }
 
     allprojects {

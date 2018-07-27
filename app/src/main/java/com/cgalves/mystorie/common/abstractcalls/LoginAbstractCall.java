@@ -1,9 +1,5 @@
 package com.cgalves.mystorie.common.abstractcalls;
-
 import android.content.Context;
-
-import com.cgalves.mystorie.common.abstractcalls.AbstractCall;
-
 import org.greenrobot.eventbus.EventBus;
 
 /**

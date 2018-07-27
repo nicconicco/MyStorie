@@ -26,7 +26,7 @@ public class RegisterActivity extends BaseActivity implements LoginContract.Logi
     EditText etUsername, etEmail, etPassword, etPasswordTwo;
 
     @AfterViews
-    void init(){
+    void init() {
         setupToolbar();
         toolbar.setTitle("Register");
         presenter.attachView(this);
@@ -42,13 +42,23 @@ public class RegisterActivity extends BaseActivity implements LoginContract.Logi
     }
 
     @Click(R.id.btn_registration)
-    void onClickRegistration(){
-       presenter.doRegistration(etUsername.getText().toString(), etPassword.getText().toString(), etEmail.getText().toString());
+    void onClickRegistration() {
+        presenter.doRegistration(etUsername.getText().toString(), etPassword.getText().toString(), etEmail.getText().toString());
     }
 
     @Override
+<<<<<<< HEAD
     public void onLoginResult(boolean isAdmin) {
         showAlertWarning(RegisterActivity.this, "Wellcome "+etUsername.getText().toString());
+=======
+    public void onLoginResult(Boolean isAdmin) {
+
+    }
+
+    @Override
+    public void onResultRegistration(ParseUser result) {
+        showAlertWarning(RegisterActivity.this, "Wellcome " + etUsername.getText().toString());
+>>>>>>> master
     }
 
     @Override

@@ -3,6 +3,7 @@ package com.cgalves.mystorie.common.factory;
 import android.content.Context;
 
 import com.cgalves.mystorie.common.abstractcalls.HomeAbstractCall;
+import com.cgalves.mystorie.common.abstractcalls.ListSectionAbstractCall;
 import com.cgalves.mystorie.common.abstractcalls.LoginAbstractCall;
 
 import org.greenrobot.eventbus.EventBus;
@@ -19,4 +20,5 @@ public abstract class APIAbstractFactory {
 
     public abstract LoginAbstractCall getLoginCall(EventBus bus, Context context);
     public abstract HomeAbstractCall getHomeCall(EventBus bus, Context context);
+    public abstract ListSectionAbstractCall getListSectionCall(EventBus bus, Context context);
 }
