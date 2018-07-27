@@ -7,6 +7,7 @@ import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.activity.BaseActivity;
 import com.cgalves.mystorie.feature.login.presenter.LoginContract;
 import com.cgalves.mystorie.feature.login.presenter.LoginPresenterImpl;
+import com.parse.ParseUser;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Bean;
@@ -47,18 +48,13 @@ public class RegisterActivity extends BaseActivity implements LoginContract.Logi
     }
 
     @Override
-<<<<<<< HEAD
     public void onLoginResult(boolean isAdmin) {
-        showAlertWarning(RegisterActivity.this, "Wellcome "+etUsername.getText().toString());
-=======
-    public void onLoginResult(Boolean isAdmin) {
-
+        showAlertWarning(RegisterActivity.this, "Wellcome " + etUsername.getText().toString());
     }
 
     @Override
     public void onResultRegistration(ParseUser result) {
         showAlertWarning(RegisterActivity.this, "Wellcome " + etUsername.getText().toString());
->>>>>>> master
     }
 
     @Override

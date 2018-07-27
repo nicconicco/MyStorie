@@ -17,6 +17,7 @@ import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
 import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
+import com.parse.ParseUser;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Bean;
@@ -114,8 +115,6 @@ public class LoginActivity extends BaseActivity implements LoginContract.LoginPr
 
     @Click(R.id.btn_login)
     void onClickLogin() {
-//        progressBar.show(this);
-
         progressBar.show(getSupportFragmentManager(), "Whatever");
         presenter.doLogin(etUserName.getText().toString(), etPassword.getText().toString());
         Log.d(getString(R.string.tag_next_flow), this.getString(R.string.click) + " : doLogin");
@@ -127,21 +126,12 @@ public class LoginActivity extends BaseActivity implements LoginContract.LoginPr
         Log.d(getString(R.string.tag_next_flow), this.getString(R.string.click) + " : onClickFacebook");
     }
 
-<<<<<<< HEAD
 //    @Click(R.id.btn_twitter)
 //    void onClickTwitter(){
 //        presenter.doLogin(etUserName.getText().toString(), etPassword.getText().toString());
 //        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
 //        Log.d(getString(R.string.tag_next_flow), this.getString(R.string.click) + " : onClickTwitter");
 //    }
-=======
-    @Click(R.id.btn_twitter)
-    void onClickTwitter() {
-        presenter.doLogin(etUserName.getText().toString(), etPassword.getText().toString());
-        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
-        Log.d(getString(R.string.tag_next_flow), this.getString(R.string.click) + " : onClickTwitter");
-    }
->>>>>>> master
 
     @Click(R.id.btn_register)
     void onClickRegister() {
@@ -151,13 +141,9 @@ public class LoginActivity extends BaseActivity implements LoginContract.LoginPr
     }
 
     @Override
-<<<<<<< HEAD
     public void onLoginResult(boolean isAdmin) {
         progressBar.dismiss();
-=======
-    public void onLoginResult(Boolean isAdmin) {
 
->>>>>>> master
         if (isAdmin) {
             MasterHomeActivity_.intent(this).start();
             overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
@@ -168,13 +154,13 @@ public class LoginActivity extends BaseActivity implements LoginContract.LoginPr
     }
 
     @Override
-<<<<<<< HEAD
     public void onError(String error) {
         progressBar.dismiss();
         Toast.makeText(this, error, Toast.LENGTH_LONG).show();
-=======
+    }
+
+    @Override
     public void onResultRegistration(ParseUser result) {
 
->>>>>>> master
     }
 }
