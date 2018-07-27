@@ -3,8 +3,8 @@ package com.cgalves.mystorie.feature.login.view;
 import android.content.Intent;
 import android.util.Log;
 import android.widget.EditText;
+import android.widget.Toast;
 
-import com.cgalves.mystorie.MyStorieApplication;
 import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.activity.BaseActivity;
 import com.cgalves.mystorie.feature.admin.home.MasterHomeActivity_;
@@ -17,7 +17,6 @@ import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
 import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
-import com.parse.ParseUser;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Bean;
@@ -27,11 +26,17 @@ import org.androidannotations.annotations.ViewById;
 
 import java.util.Arrays;
 
-@EActivity(R.layout.activity_login)
+@EActivity(R.layout.activity_login_v2)
 public class LoginActivity extends BaseActivity implements LoginContract.LoginPresenterView {
 
     @Bean
     LoginPresenterImpl<LoginActivity> presenter;
+
+    @ViewById(R.id.et_username)
+    EditText etUserName;
+
+    @ViewById(R.id.et_password)
+    EditText etPassword;
 
     private CallbackManager callbackManager;
 
@@ -107,14 +112,11 @@ public class LoginActivity extends BaseActivity implements LoginContract.LoginPr
         presenter.detachView();
     }
 
-    @ViewById(R.id.et_username)
-    EditText etUserName;
-
-    @ViewById(R.id.et_password)
-    EditText etPassword;
-
     @Click(R.id.btn_login)
     void onClickLogin() {
+//        progressBar.show(this);
+
+        progressBar.show(getSupportFragmentManager(), "Whatever");
         presenter.doLogin(etUserName.getText().toString(), etPassword.getText().toString());
         Log.d(getString(R.string.tag_next_flow), this.getString(R.string.click) + " : doLogin");
         Log.d(getString(R.string.tag_next_flow), this.getString(R.string.click) + " : onClickLogin");
@@ -125,12 +127,12 @@ public class LoginActivity extends BaseActivity implements LoginContract.LoginPr
         Log.d(getString(R.string.tag_next_flow), this.getString(R.string.click) + " : onClickFacebook");
     }
 
-    @Click(R.id.btn_twitter)
-    void onClickTwitter(){
-        presenter.doLogin(etUserName.getText().toString(), etPassword.getText().toString());
-        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
-        Log.d(getString(R.string.tag_next_flow), this.getString(R.string.click) + " : onClickTwitter");
-    }
+//    @Click(R.id.btn_twitter)
+//    void onClickTwitter(){
+//        presenter.doLogin(etUserName.getText().toString(), etPassword.getText().toString());
+//        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+//        Log.d(getString(R.string.tag_next_flow), this.getString(R.string.click) + " : onClickTwitter");
+//    }
 
     @Click(R.id.btn_register)
     void onClickRegister(){
@@ -140,10 +142,8 @@ public class LoginActivity extends BaseActivity implements LoginContract.LoginPr
     }
 
     @Override
-    public void onLoginResult(ParseUser result) {
-
-        MyStorieApplication.getsInstance().setToken(result.getSessionToken());
-        Boolean isAdmin = (boolean) result.get("admin");
+    public void onLoginResult(boolean isAdmin) {
+        progressBar.getDialog().dismiss();
         if (isAdmin) {
             MasterHomeActivity_.intent(this).start();
             overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
@@ -151,5 +151,11 @@ public class LoginActivity extends BaseActivity implements LoginContract.LoginPr
             HomeActivity_.intent(this).start();
             overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
         }
+    }
+
+    @Override
+    public void onError(String error) {
+        progressBar.getDialog().dismiss();
+        Toast.makeText(this, error, Toast.LENGTH_LONG).show();
     }
 }

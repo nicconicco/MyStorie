@@ -43,6 +43,10 @@
     <string name="cellphone_miss_information">Voce ainda nao cadastrou celular</string>
     <string name="email_miss_information">Voce nao cadastrou ainda um email</string>
     <string name="title_activity_main3">Main3Activity</string>
+    <string name="esqueci_a_senha">Esqueci a senha</string>
+    <string name="login">Login</string>
+    <string name="esqueceu_sua_senha">Esqueceu sua senha?</string>
+    <string name="please_wait">Aguarde..</string>
 
 
 </resources>

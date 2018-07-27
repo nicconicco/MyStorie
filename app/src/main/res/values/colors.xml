@@ -12,4 +12,6 @@
     <color name="text_color_font">#1F2D3D</color>
     <color name="text_color_font_subtitle">#8492A6</color>
     <color name="blue_facebook">#5359a8</color>
+    <color name="primary">#1565c0</color>
+    <color name="black">#000000</color>
 </resources>

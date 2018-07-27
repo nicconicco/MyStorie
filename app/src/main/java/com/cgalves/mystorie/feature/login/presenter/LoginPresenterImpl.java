@@ -36,8 +36,13 @@ public class LoginPresenterImpl <V extends LoginContract.LoginPresenterView> ext
 
     @Subscribe(sticky = true, threadMode = ThreadMode.MAIN)
     public void onLoginResultCall(ParseUser resultLogin) {
-        MyStorieApplication.getsInstance().setToken("token");
-        getMvpView().onLoginResult(resultLogin);
+        setToken(resultLogin);
+        getMvpView().onLoginResult(isAdmin(resultLogin));
+    }
+
+    @Subscribe(sticky = true, threadMode = ThreadMode.MAIN)
+    public void onError(String error) {
+        getMvpView().onError(error);
     }
 
     @Override
@@ -49,14 +54,29 @@ public class LoginPresenterImpl <V extends LoginContract.LoginPresenterView> ext
         user.signUpInBackground(e -> {
             try{
                 if (e == null) {
-                    getMvpView().onLoginResult(ParseUser.getCurrentUser());
+                    ParseUser result = ParseUser.getCurrentUser();
+                    setUserInformation(result);
                 } else {
                     ParseUser.logOut();
-                    getMvpView().onLoginResult(null);
+                    getMvpView().onError(e.getMessage());
                 }
             }catch (Exception error){
                 Log.e(TAG, error.getMessage());
+                getMvpView().onError(error.getMessage());
             }
         });
+    }
+
+    private void setUserInformation(ParseUser result) {
+        setToken(result);
+        getMvpView().onLoginResult(isAdmin(result));
+    }
+
+    private void setToken(ParseUser result) {
+        MyStorieApplication.getsInstance().setToken(result.getSessionToken());
+    }
+
+    private boolean isAdmin(ParseUser result) {
+        return (boolean) result.get("admin");
     }
 }

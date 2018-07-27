@@ -7,6 +7,7 @@ import android.view.MenuItem;
 
 import com.cgalves.mystorie.BuildConfig;
 import com.cgalves.mystorie.R;
+import com.cgalves.mystorie.common.dialog.CustomProgressDialog;
 
 
 /**
@@ -15,6 +16,7 @@ import com.cgalves.mystorie.R;
 
 public class BaseActivity extends AppCompatActivity {
 
+    public static CustomProgressDialog progressBar = new CustomProgressDialog();
     public Toolbar toolbar;
 
     @Override
