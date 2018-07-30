@@ -58,16 +58,12 @@ public class NoticiasFragment extends Fragment implements NoticiasContract.Notic
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
-
-
     }
 
     @AfterInject
     void calledAfterInjection() {
         presenter.attachView(this);
         presenter.register();
-
     }
 
     @Override
@@ -75,8 +71,16 @@ public class NoticiasFragment extends Fragment implements NoticiasContract.Notic
         super.setMenuVisibility(menuVisible);
 
         if (menuVisible) {
-            verifiyIfPresenterIsNotNull();
+            if(verifiyIfPresenterIsNotNull()) {
+                presenter.findSectionNoticias();
+            }
         }
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        recyclerList.setAdapter(menuHomeAdapter);
     }
 
     private boolean verifiyIfPresenterIsNotNull() {
@@ -93,7 +97,6 @@ public class NoticiasFragment extends Fragment implements NoticiasContract.Notic
     @Override
     public void onResulSectiontNoticias(NoticiasResponseList result) {
         menuHomeAdapter = new NoticiasAdapter(getContext(), result.getNoticiaList(), onClickListener());
-
         recyclerList.setAdapter(menuHomeAdapter);
     }
 

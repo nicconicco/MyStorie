@@ -19,6 +19,4 @@ public class NovidadesFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_novidades, container, false);
         return rootView;
     }
-
-
 }

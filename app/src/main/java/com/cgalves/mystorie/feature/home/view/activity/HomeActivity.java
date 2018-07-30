@@ -65,6 +65,7 @@ public class HomeActivity extends BaseActivity implements HomeContract.HomePrese
     void init() {
         setupToolbar(false);
         toolbar.setTitle("");
+        toolbar.setBackgroundColor(getColor(R.color.transparent));
 
         presenter.attachView(this);
         presenter.register();
@@ -142,8 +143,6 @@ public class HomeActivity extends BaseActivity implements HomeContract.HomePrese
         ViewPager viewPager = findViewById(R.id.viewpager);
         HomeFragmentPagerAdapter adapter = new HomeFragmentPagerAdapter(this, getSupportFragmentManager());
         viewPager.setAdapter(adapter);
-        TabLayout tabLayout = findViewById(R.id.sliding_tabs);
-
         tabLayout.setupWithViewPager(viewPager);
     }
 

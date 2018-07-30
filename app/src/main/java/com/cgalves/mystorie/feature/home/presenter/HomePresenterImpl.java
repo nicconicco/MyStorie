@@ -9,6 +9,7 @@ import com.cgalves.mystorie.feature.login.presenter.LoginPresenterImpl;
 import com.cgalves.mystorie.MyStorieApplication;
 
 import org.androidannotations.annotations.AfterInject;
+import org.androidannotations.annotations.App;
 import org.androidannotations.annotations.EBean;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
@@ -22,6 +23,10 @@ import java.util.List;
 @EBean
 public class HomePresenterImpl<V extends HomeContract.HomePresenterView> extends BasePresenter<V> implements HomeContract.HomePresenter<V> {
 
+
+    @App
+    MyStorieApplication application;
+
     private static final String TAG = LoginPresenterImpl.class.getSimpleName();
     HomeAbstractCall homeAbstractCall;
 
@@ -30,13 +35,10 @@ public class HomePresenterImpl<V extends HomeContract.HomePresenterView> extends
         homeAbstractCall = APIAbstractFactory.getFactory(context).getHomeCall(busProvider.bus(), context);
     }
 
-
     // call top header
     @Override
     public void findImagesTopHeader() {
-
-
-        String token = MyStorieApplication.getsInstance().getToken();
+        String token = application.getToken();
         homeAbstractCall.findImageTopHeader(token);
     }
 
@@ -46,10 +48,9 @@ public class HomePresenterImpl<V extends HomeContract.HomePresenterView> extends
     }
 
     // end call top header
-
     @Override
     public void findSectionInBody() {
-        String token = MyStorieApplication.getsInstance().getToken();
+        String token = application.getToken();
         homeAbstractCall.findSectionsInBody(token);
     }
 

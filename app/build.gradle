@@ -168,13 +168,6 @@ dependencies {
     implementation 'com.google.android.gms:play-services-maps:11.8.0'
 }
 
-// JACOCO CONFIG
-dependencies {
-    implementation 'com.android.support.constraint:constraint-layout:+'
-}
-dependencies {
-    implementation 'com.android.support.constraint:constraint-layout:+'
-}
 task jacocoTestReport(type: JacocoReport, dependsOn: 'testDebugUnitTest') {
 
     reports {

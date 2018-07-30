@@ -6,13 +6,14 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".MyStorieApplication"
+        android:name=".MyStorieApplication_"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
+
 
         <!-- FACEBOOK -->
         <meta-data
@@ -51,7 +52,8 @@
         <activity android:name=".feature.admin.novidades.NovidadeMenuActivity_" />
         <activity android:name=".feature.admin.noticias.NoticiasMenuActivity_" />
         <activity android:name=".feature.admin.contact.ContactEditActivity_" />
-        <activity android:name=".feature.list.view.activity.DetailActivity_" />
+        <activity android:name=".feature.list.view.activity.DetailActivity_"
+            android:theme="@style/MyStorieTheme"/>
         <activity android:name=".feature.list.view.activity.ListSectionActivity_"></activity>
     </application>
 

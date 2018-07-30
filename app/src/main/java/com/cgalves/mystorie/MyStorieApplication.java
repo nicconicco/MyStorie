@@ -8,6 +8,8 @@ import com.cgalves.mystorie.common.model.Novidade;
 import com.parse.Parse;
 import com.parse.ParseObject;
 
+import org.androidannotations.annotations.EApplication;
+
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
 
@@ -15,17 +17,15 @@ import okhttp3.logging.HttpLoggingInterceptor;
  * Created by Scopus on 17/07/18.
  */
 
+@EApplication
 public class MyStorieApplication extends Application {
 
-    private static MyStorieApplication isntance = null;
     private String token;
 
     @Override
     public void onCreate() {
         super.onCreate();
-
         configParseServer();
-        isntance = this;
     }
 
     private void configParseServer() {
@@ -50,12 +50,6 @@ public class MyStorieApplication extends Application {
         ParseObject.registerSubclass(Noticia.class);
         ParseObject.registerSubclass(Novidade.class);
         ParseObject.registerSubclass(Contact.class);
-    }
-
-    public static MyStorieApplication getsInstance() {
-        if (isntance == null)
-            isntance = new MyStorieApplication();
-        return isntance;
     }
 
     public void setToken(String token) {

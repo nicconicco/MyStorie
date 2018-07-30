@@ -9,6 +9,7 @@ import com.cgalves.mystorie.MyStorieApplication;
 import com.parse.ParseUser;
 
 import org.androidannotations.annotations.AfterInject;
+import org.androidannotations.annotations.App;
 import org.androidannotations.annotations.EBean;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
@@ -19,6 +20,10 @@ import org.greenrobot.eventbus.ThreadMode;
 
 @EBean
 public class LoginPresenterImpl<V extends LoginContract.LoginPresenterView> extends BasePresenter<V> implements LoginContract.LoginPresenter<V> {
+
+
+    @App
+    MyStorieApplication application;
 
     private static final String TAG = LoginPresenterImpl.class.getSimpleName();
     LoginAbstractCall loginAbstractCall;
@@ -74,7 +79,7 @@ public class LoginPresenterImpl<V extends LoginContract.LoginPresenterView> exte
     }
 
     private void setToken(ParseUser result) {
-        MyStorieApplication.getsInstance().setToken(result.getSessionToken());
+        application.setToken(result.getSessionToken());
     }
 
     private boolean isAdmin(ParseUser result) {
