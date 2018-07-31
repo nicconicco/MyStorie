@@ -1,21 +1,21 @@
 package com.cgalves.mystorie.feature.home.view.activity;
 
+import android.content.Intent;
 import android.support.design.widget.TabLayout;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
-import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.activity.BaseActivity;
-import com.cgalves.mystorie.feature.contact.ContactFragment;
+import com.cgalves.mystorie.common.model.User;
 import com.cgalves.mystorie.feature.home.model.Image;
 import com.cgalves.mystorie.feature.home.model.Section;
 import com.cgalves.mystorie.feature.home.presenter.HomeContract;
@@ -23,11 +23,11 @@ import com.cgalves.mystorie.feature.home.presenter.HomePresenterImpl;
 import com.cgalves.mystorie.feature.home.view.adapter.DrawerMenuLeftSideAdapter;
 import com.cgalves.mystorie.feature.home.view.adapter.HomeFragmentPagerAdapter;
 import com.cgalves.mystorie.feature.home.view.adapter.MenuHomeAdapter;
-import com.cgalves.mystorie.feature.noticias.view.fragment.NoticiasFragment_;
-import com.cgalves.mystorie.feature.novidades.view.fragment.NovidadesFragment;
+import com.cgalves.mystorie.feature.section.SectionActivity_;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Bean;
+import org.androidannotations.annotations.Click;
 import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.ViewById;
 
@@ -35,6 +35,10 @@ import java.util.List;
 
 @EActivity(R.layout.activity_home)
 public class HomeActivity extends BaseActivity implements HomeContract.HomePresenterView {
+
+    @ViewById
+    TextView tvUserName;
+
     @ViewById
     ViewPager viewpager;
 
@@ -51,8 +55,12 @@ public class HomeActivity extends BaseActivity implements HomeContract.HomePrese
     DrawerLayout drawerLayout;
 
     // Unnecessary put an recycler when the menu have too mutch 20 elements
+
     @ViewById
-    ListView leftDrawer;
+    LinearLayout leftDrawer;
+
+    @ViewById
+    ListView listview;
 
 
     android.support.v7.app.ActionBarDrawerToggle mDrawerToggle;
@@ -116,11 +124,13 @@ public class HomeActivity extends BaseActivity implements HomeContract.HomePrese
         });
     }
 
-    private void setupMenuLeftSide(List<Section> result) {
+    private void setupMenuLeftSide(List<Section> result, User user) {
         mNavigationDrawerItemTitles = getResources().getStringArray(R.array.navigation_drawer_items_array);
+
+        tvUserName.setText("Bem vindo! "+user.getName());
         DrawerMenuLeftSideAdapter adapter = new DrawerMenuLeftSideAdapter(this, result);
-        leftDrawer.setAdapter(adapter);
-        leftDrawer.setOnItemClickListener(new DrawerItemClickListener());
+        listview.setAdapter(adapter);
+        listview.setOnItemClickListener(new DrawerItemClickListener());
         drawerLayout.addDrawerListener(mDrawerToggle);
 
         setupDrawerToggle();
@@ -148,8 +158,8 @@ public class HomeActivity extends BaseActivity implements HomeContract.HomePrese
 
 
     @Override
-    public void onResultSectionBody(List<Section> result) {
-        setupMenuLeftSide(result);
+    public void onResultSectionBody(List<Section> result, User user) {
+        setupMenuLeftSide(result, user);
     }
 
     @Override
@@ -169,6 +179,11 @@ public class HomeActivity extends BaseActivity implements HomeContract.HomePrese
         return super.onOptionsItemSelected(item);
     }
 
+    @Click(R.id.btn_exit)
+    void onClickLogout() {
+        finish();
+    }
+
     private class DrawerItemClickListener implements android.widget.AdapterView.OnItemClickListener {
         @Override
         public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
@@ -176,35 +191,22 @@ public class HomeActivity extends BaseActivity implements HomeContract.HomePrese
         }
 
         private void selectItem(int position) {
-            Fragment fragment = null;
-
             switch (position) {
                 case 0:
-                    fragment = new NoticiasFragment_();
+                    SectionActivity_.intent(HomeActivity.this).sectionName(getString(R.string.noticias)).start();
                     break;
                 case 1:
-                    fragment = new NovidadesFragment();
+                    SectionActivity_.intent(HomeActivity.this).sectionName(getString(R.string.novidades)).start();
                     break;
                 case 2:
-                    fragment = new ContactFragment();
+                    SectionActivity_.intent(HomeActivity.this).sectionName(getString(R.string.contato)).start();
                     break;
-
                 default:
                     break;
-
             }
 
-            if (fragment != null) {
-                FragmentManager fragmentManager = getSupportFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.content_frame, fragment).commit();
-
-                leftDrawer.setItemChecked(position, true);
-                leftDrawer.setSelection(position);
-                setTitle(mNavigationDrawerItemTitles[position]);
-                drawerLayout.closeDrawer(leftDrawer);
-            } else {
-                Log.e(TAG, "Error in creating fragment");
-            }
+            setTitle(mNavigationDrawerItemTitles[position]);
+            drawerLayout.closeDrawer(leftDrawer);
         }
     }
 }

@@ -20,6 +20,7 @@ public class LoginCallImpl extends LoginAbstractCall {
     @Override
     public void login(String username, String password) {
         ParseUser p = new ParseUser();
+        p.setUsername("Fake Test");
         bus.post(p);
     }
 }

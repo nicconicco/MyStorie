@@ -1,5 +1,6 @@
 package com.cgalves.mystorie.feature.home.presenter;
 
+import com.cgalves.mystorie.common.model.User;
 import com.cgalves.mystorie.common.presenter.MvpPresenter;
 import com.cgalves.mystorie.common.presenter.MvpView;
 import com.cgalves.mystorie.feature.home.model.Image;
@@ -22,6 +23,6 @@ public class HomeContract {
     public interface HomePresenterView extends MvpView {
         void onResultImages(List<Image> result);
 
-        void onResultSectionBody(List<Section> result);
+        void onResultSectionBody(List<Section> result, User user);
     }
 }

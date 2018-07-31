@@ -21,7 +21,6 @@ import org.greenrobot.eventbus.ThreadMode;
 @EBean
 public class LoginPresenterImpl<V extends LoginContract.LoginPresenterView> extends BasePresenter<V> implements LoginContract.LoginPresenter<V> {
 
-
     @App
     MyStorieApplication application;
 
@@ -80,6 +79,7 @@ public class LoginPresenterImpl<V extends LoginContract.LoginPresenterView> exte
 
     private void setToken(ParseUser result) {
         application.setToken(result.getSessionToken());
+        application.setName(result.getUsername());
     }
 
     private boolean isAdmin(ParseUser result) {

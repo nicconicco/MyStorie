@@ -10,8 +10,11 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.cgalves.mystorie.R;
+import com.cgalves.mystorie.common.fragment.BaseFragment;
 import com.cgalves.mystorie.common.model.DetailSection;
 import com.cgalves.mystorie.feature.list.view.activity.DetailActivity_;
 import com.cgalves.mystorie.feature.novidades.model.NovidadesResponseList;
@@ -22,7 +25,9 @@ import com.cgalves.mystorie.feature.novidades.view.adapter.NovidadesAdapter;
 import org.androidannotations.annotations.AfterInject;
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Bean;
+import org.androidannotations.annotations.Click;
 import org.androidannotations.annotations.EFragment;
+import org.androidannotations.annotations.FragmentArg;
 import org.androidannotations.annotations.ViewById;
 
 /**
@@ -31,7 +36,16 @@ import org.androidannotations.annotations.ViewById;
 
 
 @EFragment
-public class NovidadesFragment extends Fragment implements NovidadesContract.NovidadesPresenterView {
+public class NovidadesFragment extends BaseFragment implements NovidadesContract.NovidadesPresenterView {
+
+    @ViewById
+    LinearLayout toolbarFragment;
+
+    @FragmentArg
+    boolean showToolBarBack = false;
+
+    @ViewById
+    TextView tvTitle;
 
     @Bean
     NovidadesPresenterImpl<NovidadesFragment> presenter;
@@ -41,9 +55,13 @@ public class NovidadesFragment extends Fragment implements NovidadesContract.Nov
 
     private NovidadesAdapter novidadesAdapter;
 
+    @Click(R.id.btn_back)
+    void onClickBack() {
+        getActivity().finish();
+    }
 
     @AfterInject
-    void afterINject() {
+    void afterInject() {
         presenter.attachView(this);
         presenter.register();
     }
@@ -51,6 +69,8 @@ public class NovidadesFragment extends Fragment implements NovidadesContract.Nov
     @AfterViews
     void calledAfterViews() {
         Log.d(NovidadesFragment.class.getName(), "calledAfterViewInjection");
+        showToolbarOrNot(showToolBarBack, toolbarFragment);
+        tvTitle.setText(getString(R.string.novidades));
 
         presenter.attachView(this);
         presenter.register();
@@ -107,8 +127,10 @@ public class NovidadesFragment extends Fragment implements NovidadesContract.Nov
     public void onDestroy() {
         super.onDestroy();
         Log.d(NovidadesFragment.class.getName(), "onDestroy");
-        presenter.detachView();
-        presenter.unregister();
+        if(verifiyIfPresenterIsNotNull()) {
+            presenter.detachView();
+            presenter.unregister();
+        }
     }
 
     @Override

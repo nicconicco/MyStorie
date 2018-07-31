@@ -21,6 +21,7 @@ import okhttp3.logging.HttpLoggingInterceptor;
 public class MyStorieApplication extends Application {
 
     private String token;
+    private String name;
 
     @Override
     public void onCreate() {
@@ -58,5 +59,13 @@ public class MyStorieApplication extends Application {
 
     public String getToken() {
         return token;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
     }
 }

@@ -2,6 +2,7 @@ package com.cgalves.mystorie.feature.home.presenter;
 
 import com.cgalves.mystorie.common.abstractcalls.HomeAbstractCall;
 import com.cgalves.mystorie.common.factory.APIAbstractFactory;
+import com.cgalves.mystorie.common.model.User;
 import com.cgalves.mystorie.common.presenter.BasePresenter;
 import com.cgalves.mystorie.feature.home.model.ImageResponse;
 import com.cgalves.mystorie.feature.home.model.Section;
@@ -22,7 +23,6 @@ import java.util.List;
 
 @EBean
 public class HomePresenterImpl<V extends HomeContract.HomePresenterView> extends BasePresenter<V> implements HomeContract.HomePresenter<V> {
-
 
     @App
     MyStorieApplication application;
@@ -56,6 +56,6 @@ public class HomePresenterImpl<V extends HomeContract.HomePresenterView> extends
 
     @Subscribe(sticky = true, threadMode = ThreadMode.MAIN)
     public void onSectionBodyLoaded(List<Section> list) {
-        getMvpView().onResultSectionBody(list);
+        getMvpView().onResultSectionBody(list, new User(application.getName()));
     }
 }

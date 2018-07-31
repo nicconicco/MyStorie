@@ -10,8 +10,11 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.cgalves.mystorie.R;
+import com.cgalves.mystorie.common.fragment.BaseFragment;
 import com.cgalves.mystorie.common.model.DetailSection;
 import com.cgalves.mystorie.feature.list.view.activity.DetailActivity_;
 import com.cgalves.mystorie.feature.noticias.model.NoticiasResponseList;
@@ -22,7 +25,10 @@ import com.cgalves.mystorie.feature.noticias.view.adapter.NoticiasAdapter;
 import org.androidannotations.annotations.AfterInject;
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Bean;
+import org.androidannotations.annotations.Click;
 import org.androidannotations.annotations.EFragment;
+import org.androidannotations.annotations.Extra;
+import org.androidannotations.annotations.FragmentArg;
 import org.androidannotations.annotations.ViewById;
 
 /**
@@ -31,7 +37,16 @@ import org.androidannotations.annotations.ViewById;
 
 
 @EFragment
-public class NoticiasFragment extends Fragment implements NoticiasContract.NoticiasPresenterView {
+public class NoticiasFragment extends BaseFragment implements NoticiasContract.NoticiasPresenterView {
+
+    @ViewById
+    LinearLayout toolbarFragment;
+
+    @ViewById
+    TextView tvTitle;
+
+    @FragmentArg
+    boolean showToolBarBack = false;
 
     @Bean
     NoticiasPresenterImpl<NoticiasFragment> presenter;
@@ -43,10 +58,18 @@ public class NoticiasFragment extends Fragment implements NoticiasContract.Notic
 
     @AfterViews
     void calledAfterViewInjection() {
+        showToolbarOrNot(showToolBarBack, toolbarFragment);
+        tvTitle.setText(getString(R.string.noticias));
+
         if(verifiyIfPresenterIsNotNull()) {
             recyclerList.setLayoutManager(new LinearLayoutManager(getContext()));
             presenter.findSectionNoticias();
         }
+    }
+
+    @Click(R.id.btn_back)
+    void onClickBack() {
+        getActivity().finish();
     }
 
     @Override

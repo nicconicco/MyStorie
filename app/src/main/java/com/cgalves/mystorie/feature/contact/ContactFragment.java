@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
@@ -20,6 +21,7 @@ import com.parse.ParseUser;
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Click;
 import org.androidannotations.annotations.EFragment;
+import org.androidannotations.annotations.FragmentArg;
 import org.androidannotations.annotations.ViewById;
 
 import java.util.ArrayList;
@@ -32,18 +34,40 @@ import java.util.ArrayList;
 public class ContactFragment extends BaseFragment {
 
     @ViewById
+    LinearLayout toolbarFragment;
+
+    @ViewById
+    TextView tvTitle;
+
+    @FragmentArg
+    boolean showToolBarBack = false;
+
+    @ViewById
     ImageView ivProfile;
 
     @ViewById
     TextView tvEmailContact, tvFacebookUrl, tvTwitterUrl, tvCellphone;
+
+    @Click(R.id.btn_back)
+    void onClickBack() {
+        getActivity().finish();
+    }
 
     @Click(R.id.fab)
     void onClickEditContact() {
         ContactEditActivity_.intent(this).start();
     }
 
+
+    @AfterViews
+    void init() {
+        showToolbarOrNot(showToolBarBack, toolbarFragment);
+        tvTitle.setText(getString(R.string.contato));
+    }
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_contatos, container, false);
+
+
 
         ParseQuery<Contact> query = ParseQuery.getQuery(Contact.class);
         query.whereEqualTo("owner", ParseUser.getCurrentUser());
