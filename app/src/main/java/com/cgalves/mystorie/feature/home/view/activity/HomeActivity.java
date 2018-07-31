@@ -49,7 +49,7 @@ public class HomeActivity extends BaseActivity implements HomeContract.HomePrese
     HomePresenterImpl<HomeActivity> presenter;
 
     @ViewById
-    ImageView ivSection;
+    ImageView ivSection, ivCenter;
 
     @ViewById
     DrawerLayout drawerLayout;
@@ -96,18 +96,22 @@ public class HomeActivity extends BaseActivity implements HomeContract.HomePrese
                 switch (position) {
                     case 0: {
                         ivSection.setImageDrawable(ContextCompat.getDrawable(HomeActivity.this, R.drawable.seneca1));
+                        ivCenter.setImageDrawable(ContextCompat.getDrawable(HomeActivity.this, R.drawable.novidade));
                         break;
                     }
                     case 1: {
                         ivSection.setImageDrawable(ContextCompat.getDrawable(HomeActivity.this, R.drawable.seneca2));
+                        ivCenter.setImageDrawable(ContextCompat.getDrawable(HomeActivity.this, R.drawable.noticia));
                         break;
                     }
                     case 2: {
                         ivSection.setImageDrawable(ContextCompat.getDrawable(HomeActivity.this, R.drawable.aristoteles));
+                        ivCenter.setImageDrawable(ContextCompat.getDrawable(HomeActivity.this, R.drawable.contact));
                         break;
                     }
                     default: {
                         ivSection.setImageDrawable(ContextCompat.getDrawable(HomeActivity.this, R.drawable.aristoteles));
+                        ivCenter.setImageDrawable(ContextCompat.getDrawable(HomeActivity.this, R.drawable.contact));
                     }
                 }
             }
