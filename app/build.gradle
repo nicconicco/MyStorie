@@ -166,6 +166,7 @@ dependencies {
     compile fileTree(include: 'Parse-*.jar', dir: 'libs')
     compile fileTree(include: 'ParseFacebookUtilsV4-*.jar', dir: 'libs')
     implementation 'com.google.android.gms:play-services-maps:11.8.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
 }
 
 task jacocoTestReport(type: JacocoReport, dependsOn: 'testDebugUnitTest') {

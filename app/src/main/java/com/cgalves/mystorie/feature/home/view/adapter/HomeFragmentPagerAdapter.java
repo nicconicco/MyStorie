@@ -7,8 +7,10 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.feature.contact.ContactFragment;
+import com.cgalves.mystorie.feature.noticias.view.fragment.NoticiasFragment;
 import com.cgalves.mystorie.feature.noticias.view.fragment.NoticiasFragment_;
-import com.cgalves.mystorie.feature.novidades.NovidadesFragment;
+import com.cgalves.mystorie.feature.novidades.view.fragment.NovidadesFragment;
+import com.cgalves.mystorie.feature.novidades.view.fragment.NovidadesFragment_;
 
 /**
  * Created by scopus on 27/07/18.
@@ -25,9 +27,9 @@ public class HomeFragmentPagerAdapter extends FragmentPagerAdapter {
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
-            return new NoticiasFragment_();
+            return new NovidadesFragment_();
         } else if (position == 1){
-            return new NovidadesFragment();
+            return new NoticiasFragment_();
         } else if (position == 2){
             return new ContactFragment();
         } else {

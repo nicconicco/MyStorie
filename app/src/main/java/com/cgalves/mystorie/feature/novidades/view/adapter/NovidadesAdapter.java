@@ -1,4 +1,4 @@
-package com.cgalves.mystorie.feature.noticias.view.adapter;
+package com.cgalves.mystorie.feature.novidades.view.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -17,7 +17,7 @@ import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
 import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.model.Noticia;
-import com.squareup.picasso.Picasso;
+import com.cgalves.mystorie.common.model.Novidade;
 
 import java.util.List;
 
@@ -25,17 +25,17 @@ import java.util.List;
  * Created by scopus on 27/07/18.
  */
 
-public class NoticiasAdapter extends RecyclerView.Adapter<NoticiasAdapter.ViewHolder> {
+public class NovidadesAdapter extends RecyclerView.Adapter<NovidadesAdapter.ViewHolder> {
     private final Context context;
-    private final List<Noticia> sectionList;
+    private final List<Novidade> sectionList;
 
     public interface OnClickListener {
-        void onClick(Noticia n);
+        void onClick(Novidade n);
     }
 
     private OnClickListener onClickListener;
 
-    public NoticiasAdapter(Context context, List<Noticia> sectionList, OnClickListener onClickListener) {
+    public NovidadesAdapter(Context context, List<Novidade> sectionList, OnClickListener onClickListener) {
         this.context = context;
         this.sectionList = sectionList;
         this.onClickListener = onClickListener;
@@ -45,17 +45,17 @@ public class NoticiasAdapter extends RecyclerView.Adapter<NoticiasAdapter.ViewHo
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view;
         view = LayoutInflater.from(parent.getContext()).inflate(R.layout.adapter_section_home, parent, false);
-        return new ViewHolderNoticias(view);
+        return new ViewHolderNovidades(view);
     }
 
     @Override
     public void onBindViewHolder(final ViewHolder viewHolder, int position) {
-        setInfosInView((ViewHolderNoticias) viewHolder, position);
+        setInfosInView((ViewHolderNovidades) viewHolder, position);
     }
 
-    private void setInfosInView(ViewHolderNoticias viewHolder, int position) {
-        final Noticia section = sectionList.get(position);
-        final ViewHolderNoticias viewHolderSection = viewHolder;
+    private void setInfosInView(ViewHolderNovidades viewHolder, int position) {
+        final Novidade section = sectionList.get(position);
+        final ViewHolderNovidades viewHolderSection = viewHolder;
 
         if (section.getName() != null) {
             viewHolderSection.tTitulo.setText(section.getName());
@@ -118,7 +118,7 @@ public class NoticiasAdapter extends RecyclerView.Adapter<NoticiasAdapter.ViewHo
         }
     }
 
-    private class ViewHolderNoticias extends ViewHolder {
+    private class ViewHolderNovidades extends ViewHolder {
 
         LinearLayout btn;
         TextView tTitulo;
@@ -126,7 +126,7 @@ public class NoticiasAdapter extends RecyclerView.Adapter<NoticiasAdapter.ViewHo
         ImageView ivPhoto;
         ProgressBar progressBar;
 
-        public ViewHolderNoticias(View view) {
+        public ViewHolderNovidades(View view) {
             super(view);
             btn = view.findViewById(R.id.btn);
             tTitulo = view.findViewById(R.id.tv_title);

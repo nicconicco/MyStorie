@@ -73,6 +73,13 @@
 -keep interface okhttp3.** { *; }
 -dontwarn okhttp3.**
 
+-dontwarn okio.**
+-dontwarn com.squareup.okhttp3.**
+-keep class com.squareup.okhttp3.** { ; }
+-keep interface com.squareup.okhttp3.* { *; }
+-dontwarn javax.annotation.Nullable
+-dontwarn javax.annotation.ParametersAreNonnullByDefault
+
 
 # Gson uses generic type information stored in a class file when working with fields. Proguard
 # removes such information by default, so configure it to keep all of it.

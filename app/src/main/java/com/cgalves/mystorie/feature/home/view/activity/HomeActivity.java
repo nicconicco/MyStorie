@@ -24,7 +24,7 @@ import com.cgalves.mystorie.feature.home.view.adapter.DrawerMenuLeftSideAdapter;
 import com.cgalves.mystorie.feature.home.view.adapter.HomeFragmentPagerAdapter;
 import com.cgalves.mystorie.feature.home.view.adapter.MenuHomeAdapter;
 import com.cgalves.mystorie.feature.noticias.view.fragment.NoticiasFragment_;
-import com.cgalves.mystorie.feature.novidades.NovidadesFragment;
+import com.cgalves.mystorie.feature.novidades.view.fragment.NovidadesFragment;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Bean;
