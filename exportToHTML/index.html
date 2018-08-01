@@ -1,0 +1,210 @@
+<html>
+<head>
+<title>build.gradle</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: #606366; font-weight: normal; font-style: normal; }
+.s0 { color: rgb(169,183,198); }
+.s1 { color: rgb(106,135,89); }
+.s2 { color: rgb(128,128,128); }
+.s3 { color: rgb(104,151,187); }
+</style>
+</head>
+<BODY BGCOLOR="#2b2b2b">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+build.gradle</FONT>
+</center></TD></TR></TABLE>
+<pre>
+<span class="s0">apply plugin: </span><span class="s1">'com.android.application'</span><span class="s0"> 
+ 
+</span><span class="s2">// SONAR CONFIG</span><span class="s0"> 
+apply plugin: </span><span class="s1">'org.sonarqube'</span><span class="s0"> 
+ 
+</span><span class="s2">// JACOCO CONFIG</span><span class="s0"> 
+apply plugin: </span><span class="s1">'jacoco'</span><span class="s0"> 
+ 
+</span><span class="s2">// FindBugs</span><span class="s0"> 
+apply plugin: </span><span class="s1">'findbugs'</span><span class="s0"> 
+ 
+</span><span class="s2">// Checkstyle config</span><span class="s0"> 
+apply plugin: </span><span class="s1">'checkstyle'</span><span class="s0"> 
+ 
+</span><span class="s2">// PMD CONFIG</span><span class="s0"> 
+apply plugin: </span><span class="s1">'pmd'</span><span class="s0"> 
+ 
+task checkstyle(type: Checkstyle) { 
+    configFile file(</span><span class="s1">&quot;</span><span class="s0">$project.rootDir</span><span class="s1">/config/checkstyle/checkstyle.xml&quot;</span><span class="s0">) 
+    source </span><span class="s1">'src'</span><span class="s0"> 
+    include </span><span class="s1">'**/*.java'</span><span class="s0"> 
+    classpath = files() 
+} 
+ 
+task findbugs(type: FindBugs) { 
+    ignoreFailures = false 
+    effort = </span><span class="s1">'max'</span><span class="s0"> 
+    reportLevel = </span><span class="s1">'high'</span><span class="s0"> 
+    excludeFilter = new File(</span><span class="s1">&quot;</span><span class="s0">${project.rootDir}</span><span class="s1">/config/findbugs-filter.xml&quot;</span><span class="s0">) 
+    classes = files(</span><span class="s1">&quot;</span><span class="s0">${project.rootDir}</span><span class="s1">/app/build/intermediates/classes&quot;</span><span class="s0">) 
+ 
+    source </span><span class="s1">'src'</span><span class="s0"> 
+    include </span><span class="s1">'**/*.java'</span><span class="s0"> 
+    exclude </span><span class="s1">'**/gen/**'</span><span class="s0"> 
+ 
+    reports { 
+        xml.enabled = false 
+        xml.withMessages = true 
+        html.enabled = !xml.isEnabled() 
+        xml.destination </span><span class="s1">&quot;</span><span class="s0">$project.buildDir</span><span class="s1">/outputs/findbugs/findbugs-output.xml&quot;</span><span class="s0"> 
+        html.destination </span><span class="s1">&quot;</span><span class="s0">$project.buildDir</span><span class="s1">/outputs/findbugs/findbugs-output.html&quot;</span><span class="s0"> 
+    } 
+ 
+    classpath = files() 
+} 
+ 
+task pmd(type: Pmd) { 
+    description </span><span class="s1">'Identifying potential problems mainly dead code, duplicated code, cyclomatic complexity and overcomplicated expressions'</span><span class="s0"> 
+    group </span><span class="s1">'verification'</span><span class="s0"> 
+    ruleSetFiles = files(</span><span class="s1">&quot;</span><span class="s0">$project.rootDir</span><span class="s1">/config/pmd-ruleset.xml&quot;</span><span class="s0">) 
+    source = fileTree(</span><span class="s1">'src/main/java'</span><span class="s0">) 
+    include </span><span class="s1">'**/*.java'</span><span class="s0"> 
+    exclude </span><span class="s1">'**/gen/**'</span><span class="s0"> 
+ 
+    reports { 
+        xml.enabled = false 
+        html.enabled = true 
+        html.destination = </span><span class="s1">&quot;</span><span class="s0">$project.buildDir</span><span class="s1">/outputs/pmd/pmd.html&quot;</span><span class="s0"> 
+    } 
+} 
+check.dependsOn </span><span class="s1">'checkstyle'</span><span class="s0">, </span><span class="s1">'findbugs'</span><span class="s0">, </span><span class="s1">'pmd'</span><span class="s0"> 
+ 
+ 
+android { 
+ 
+    </span><span class="s2">// Manter isto no top, senão ele não consegue enxergar</span><span class="s0"> 
+    signingConfigs { 
+        theReleaseKey { 
+            storeFile file(</span><span class="s1">'/Users/cgalves/Documents/GitHub/MyStorieApplication/mykeystore.jks'</span><span class="s0">) 
+            storePassword </span><span class="s1">&quot;123456&quot;</span><span class="s0"> 
+            keyAlias </span><span class="s1">&quot;MYSTORIE&quot;</span><span class="s0"> 
+            keyPassword </span><span class="s1">&quot;123456&quot;</span><span class="s0"> 
+        } 
+    } 
+ 
+    compileSdkVersion </span><span class="s3">26</span><span class="s0"> 
+    defaultConfig { 
+        buildToolsVersion </span><span class="s1">&quot;27.0.1&quot;</span><span class="s0"> 
+        applicationId </span><span class="s1">&quot;com.cgalves.mystorie&quot;</span><span class="s0"> 
+        minSdkVersion </span><span class="s3">23</span><span class="s0"> 
+        targetSdkVersion </span><span class="s3">26</span><span class="s0"> 
+        versionCode </span><span class="s3">1</span><span class="s0"> 
+        versionName </span><span class="s1">&quot;1.0&quot;</span><span class="s0"> 
+        testInstrumentationRunner </span><span class="s1">&quot;android.support.test.runner.AndroidJUnitRunner&quot;</span><span class="s0"> 
+ 
+        javaCompileOptions { 
+            annotationProcessorOptions { 
+                arguments = [</span><span class="s1">&quot;resourcePackageName&quot;</span><span class="s0">: android.defaultConfig.applicationId] 
+            } 
+        } 
+    } 
+ 
+    buildTypes { 
+        release { 
+            minifyEnabled false 
+            proguardFiles getDefaultProguardFile(</span><span class="s1">'proguard-android.txt'</span><span class="s0">), </span><span class="s1">'proguard-rules.pro'</span><span class="s0"> 
+            applicationIdSuffix </span><span class="s1">&quot;.release&quot;</span><span class="s0"> 
+            signingConfig signingConfigs.theReleaseKey 
+ 
+            </span><span class="s2">// Config sonarqube</span><span class="s0"> 
+            testCoverageEnabled true 
+        } 
+</span><span class="s2">//        jnidebug {</span><span class="s0"> 
+</span><span class="s2">//            initWith debug</span><span class="s0"> 
+</span><span class="s2">//            jniDebuggable true</span><span class="s0"> 
+</span><span class="s2">//            applicationIdSuffix &quot;.jidebug&quot;</span><span class="s0"> 
+</span><span class="s2">//        }</span><span class="s0"> 
+    } 
+ 
+    flavorDimensions </span><span class="s1">&quot;all&quot;</span><span class="s0"> 
+    productFlavors { 
+        javaMVP_FASTMOCK { 
+            applicationId </span><span class="s1">&quot;com.cgalves.mystorie.mvpf&quot;</span><span class="s0"> 
+        } 
+ 
+        javaMVP_ENVIROMENT { 
+            applicationId </span><span class="s1">&quot;com.cgalves.mystorie.mvpe&quot;</span><span class="s0"> 
+        } 
+ 
+        javaMVP_API { 
+            applicationId </span><span class="s1">&quot;com.cgalves.mystorie.mvpa&quot;</span><span class="s0"> 
+        } 
+ 
+</span><span class="s2">//        javaMVVM_FASTMOCK {</span><span class="s0"> 
+</span><span class="s2">//            applicationId &quot;com.cgalves.mystorie.mvvm&quot;</span><span class="s0"> 
+</span><span class="s2">//        }</span><span class="s0"> 
+    } 
+    compileOptions { 
+        targetCompatibility </span><span class="s3">1.8</span><span class="s0"> 
+        sourceCompatibility </span><span class="s3">1.8</span><span class="s0"> 
+    } 
+} 
+ 
+</span><span class="s2">// AA config</span><span class="s0"> 
+apply plugin: </span><span class="s1">'com.android.application'</span><span class="s0"> 
+def androidAnnotationsVersion = </span><span class="s1">&quot;4.4.0&quot;</span><span class="s0"> 
+ 
+dependencies { 
+    annotationProcessor </span><span class="s1">&quot;org.androidannotations:androidannotations:</span><span class="s0">$androidAnnotationsVersion</span><span class="s1">&quot;</span><span class="s0"> 
+    implementation </span><span class="s1">&quot;org.androidannotations:androidannotations-api:</span><span class="s0">$androidAnnotationsVersion</span><span class="s1">&quot;</span><span class="s0"> 
+} 
+ 
+dependencies { 
+    implementation supportDependencies.appCompat 
+    implementation supportDependencies.design 
+    implementation supportDependencies.recyclerView 
+    implementation supportDependencies.cardView 
+    implementation retrofitDependencies.retrofit 
+    implementation retrofitDependencies.gson 
+    implementation retrofitDependencies.rxAdapterJava 
+    implementation rxDependencies.rxAndroid 
+    implementation rxDependencies.rxJava 
+    implementation circleImageView 
+    implementation glide 
+    testImplementation testingDependencies.junit 
+    testImplementation testingDependencies.mockito 
+    api busEvent 
+    api parseServer 
+    implementation okhttp.okhttpInterceptor 
+    implementation facebook 
+ 
+    compile </span><span class="s1">'com.parse:parsefacebookutils-v4-android:1.10.4@aar'</span><span class="s0"> 
+    compile </span><span class="s1">'com.facebook.android:facebook-android-sdk:4.29.0'</span><span class="s0"> 
+ 
+    compile fileTree(dir: </span><span class="s1">'libs'</span><span class="s0">, include: [</span><span class="s1">'*.jar'</span><span class="s0">]) 
+    compile fileTree(include: </span><span class="s1">'Parse-*.jar'</span><span class="s0">, dir: </span><span class="s1">'libs'</span><span class="s0">) 
+    compile fileTree(include: </span><span class="s1">'ParseFacebookUtilsV4-*.jar'</span><span class="s0">, dir: </span><span class="s1">'libs'</span><span class="s0">) 
+    implementation </span><span class="s1">'com.google.android.gms:play-services-maps:11.8.0'</span><span class="s0"> 
+    implementation </span><span class="s1">'com.squareup.picasso:picasso:2.71828'</span><span class="s0"> 
+} 
+ 
+dependencies { 
+    implementation </span><span class="s1">'com.android.support.constraint:constraint-layout:1.1.2'</span><span class="s0"> 
+} 
+task jacocoTestReport(type: JacocoReport, dependsOn: </span><span class="s1">'testDebugUnitTest'</span><span class="s0">) { 
+ 
+    reports { 
+        xml.enabled = true 
+        html.enabled = true 
+    } 
+ 
+    def fileFilter = [</span><span class="s1">'**/R.class'</span><span class="s0">, </span><span class="s1">'**/R$*.class'</span><span class="s0">, </span><span class="s1">'**/BuildConfig.*'</span><span class="s0">, </span><span class="s1">'**/Manifest*.*'</span><span class="s0">, </span><span class="s1">'**/*Test*.*'</span><span class="s0">, </span><span class="s1">'android/**/*.*'</span><span class="s0">] 
+    def debugTree = fileTree(dir: </span><span class="s1">&quot;</span><span class="s0">${buildDir}</span><span class="s1">/intermediates/classes/debug&quot;</span><span class="s0">, excludes: fileFilter) 
+    def mainSrc = </span><span class="s1">&quot;</span><span class="s0">${project.projectDir}</span><span class="s1">/src/main/java&quot;</span><span class="s0"> 
+ 
+    sourceDirectories = files([mainSrc]) 
+    classDirectories = files([debugTree]) 
+    executionData = files(</span><span class="s1">&quot;</span><span class="s0">${buildDir}</span><span class="s1">/jacoco/testDebugUnitTest.exec&quot;</span><span class="s0">) 
+}</span></pre>
+</body>
+</html>

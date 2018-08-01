@@ -1,59 +1,59 @@
 <resources>
-    <string name="app_name">MyStorie</string>
-    <string name="btn_one">BtnOne</string>
-    <string name="btn_two">BtnTwo</string>
-    <string name="flavor">Flavor:</string>
-    <string name="state_after_view">AfterViews</string>
-    <string name="click">Click</string>
-    <string name="tag_next_flow">NEXT_FLOW</string>
-    <string name="not_keep_activities_mode_info">Ops, o modo desenvolvedor tá habilitado no celular. Desativa a opção “Não manter atividades” e depois volta aqui ;)</string>
-    <string name="ok">Ok</string>
-    <string name="exit">Sair</string>
-    <string name="user_or_email">Username or Email</string>
-    <string name="password">Password</string>
-    <string name="log_in">LOG IN</string>
-    <string name="or">OR</string>
-    <string name="login_with_facebook">LOGIN WITH FACEBOOK</string>
+    <string name="app_name" translatable="false">MyStorie</string>
+    <string name="btn_one" translatable="false">BtnOne</string>
+    <string name="btn_two" translatable="false">BtnTwo</string>
+    <string name="flavor" translatable="false">Flavor:</string>
+    <string name="state_after_view" translatable="false">AfterViews</string>
+    <string name="click" translatable="false">Click</string>
+    <string name="tag_next_flow" translatable="false">NEXT_FLOW</string>
+    <string name="not_keep_activities_mode_info" translatable="false">Ops, o modo desenvolvedor tá habilitado no celular. Desativa a opção “Não manter atividades” e depois volta aqui ;)</string>
+    <string name="ok" translatable="false">Ok</string>
+    <string name="exit" translatable="false">Sair</string>
+    <string name="user_or_email" translatable="false">Username or Email</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="log_in" translatable="false">LOG IN</string>
+    <string name="or" translatable="false">OR</string>
+    <string name="login_with_facebook" translatable="false">LOGIN WITH FACEBOOK</string>
     <!-- SERVER-->
-    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
-    <string name="back4app_app_id">3xa5tKl6fVImLb7SQrHzUkZ4vJKaMtSI6q9XU02g</string>
-    <string name="back4app_client_key">m3PY6IvMAb1YAUgbijA8Ab0xrLDXzuVJP9aTr3Sg</string>
+    <string name="back4app_server_url" translatable="false">https://parseapi.back4app.com/</string>
+    <string name="back4app_app_id" translatable="false">3xa5tKl6fVImLb7SQrHzUkZ4vJKaMtSI6q9XU02g</string>
+    <string name="back4app_client_key" translatable="false">m3PY6IvMAb1YAUgbijA8Ab0xrLDXzuVJP9aTr3Sg</string>
     <!-- FACEBOOK -->
-    <string name="facebook_app_id">1929462134019547</string>
-    <string name="fb_login_protocol_scheme">fb1929462134019547</string>
+    <string name="facebook_app_id" translatable="false">1929462134019547</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb1929462134019547</string>
 
 
-    <string name="register">Register</string>
-    <string name="send_email_confirmation">Send-me email to confirm</string>
-    <string name="user">User</string>
-    <string name="email">E-mail</string>
-    <string name="confirm_password">Confirm password</string>
-    <string name="acompanhe_o_dia_dia">Acompanhe o dia-a-dia do seu candidato por aqui</string>
-    <string name="veja_secoes">Veja aqui as seções em destaque!</string>
-    <string name="ou_menu">Ou acesse pelo menu ali na esquerda superior ;)</string>
-    <string name="criar_nova_noticia">Criar nova noticia</string>
-    <string name="criar_nova_novidade">Criar nova novidade</string>
-    <string name="atualizar_contato">Atualizar contato</string>
-    <string name="visualizar_noticias">Visualizar minhas noticias</string>
-    <string name="visualizar_novidades">Visualizar minhas novidades</string>
-    <string name="entre_em_contato">Entre em contato com a gente pelo email: meustorie@meustorie.com</string>
-    <string name="todos_os_direitos">Todos os direitos de imagem a este aplicativo são aprovados pela pessoa física</string>
-    <string name="facebook_miss_information">Voce ainda nao cadastrou a pagina web do seu facebook</string>
-    <string name="twitter_miss_information">Voce ainda nao cadastrou a pagina web do seu twitter</string>
-    <string name="cellphone_miss_information">Voce ainda nao cadastrou celular</string>
-    <string name="email_miss_information">Voce nao cadastrou ainda um email</string>
-    <string name="title_activity_main3">Main3Activity</string>
+    <string name="register" translatable="false">Register</string>
+    <string name="send_email_confirmation" translatable="false">Send-me email to confirm</string>
+    <string name="user" translatable="false">User</string>
+    <string name="email" translatable="false">E-mail</string>
+    <string name="confirm_password" translatable="false">Confirm password</string>
+    <string name="acompanhe_o_dia_dia" translatable="false">Acompanhe o dia-a-dia do seu candidato por aqui</string>
+    <string name="veja_secoes" translatable="false">Veja aqui as seções em destaque!</string>
+    <string name="ou_menu" translatable="false">Ou acesse pelo menu ali na esquerda superior ;)</string>
+    <string name="criar_nova_noticia" translatable="false">Criar nova noticia</string>
+    <string name="criar_nova_novidade" translatable="false">Criar nova novidade</string>
+    <string name="atualizar_contato" translatable="false">Atualizar contato</string>
+    <string name="visualizar_noticias" translatable="false">Visualizar minhas noticias</string>
+    <string name="visualizar_novidades" translatable="false">Visualizar minhas novidades</string>
+    <string name="entre_em_contato" translatable="false">Entre em contato com a gente pelo email: meustorie@meustorie.com</string>
+    <string name="todos_os_direitos" translatable="false">Todos os direitos de imagem a este aplicativo são aprovados pela pessoa física</string>
+    <string name="facebook_miss_information" translatable="false">Voce ainda nao cadastrou a pagina web do seu facebook</string>
+    <string name="twitter_miss_information" translatable="false">Voce ainda nao cadastrou a pagina web do seu twitter</string>
+    <string name="cellphone_miss_information" translatable="false">Voce ainda nao cadastrou celular</string>
+    <string name="email_miss_information" translatable="false">Voce nao cadastrou ainda um email</string>
+    <string name="title_activity_main3" translatable="false">Main3Activity</string>
 
-    <string name="esqueci_a_senha">Esqueci a senha</string>
-    <string name="login">Login</string>
-    <string name="esqueceu_sua_senha">Esqueceu sua senha?</string>
-    <string name="please_wait">Aguarde..</string>
+    <string name="esqueci_a_senha" translatable="false">Esqueci a senha</string>
+    <string name="login" translatable="false">Login</string>
+    <string name="esqueceu_sua_senha" translatable="false">Esqueceu sua senha?</string>
+    <string name="please_wait" translatable="false">Aguarde..</string>
 
-    <string name="contemporaneo">Contemporâneo de Jesus</string>
-    <string name="contemporaneo_de_jesus">Apesar de ter sido contemporâneo de Jesus Cristo, Séneca não fez quaisquer relatos significativos de fenómenos milagrosos que aparentemente anunciavam o advento de uma poderosa nova religião; entretanto, segundo Jerónimo (\"De Viris Illustribus\", xii), Séneca teria trocado correspondências com Paulo (apóstolo com cidadania romana, também conhecido por Saulo).[7] Constata-se que os cristãos, por intermédio de Lúcio Aneu Séneca, assimilaram os princípios estoicos, utilizando, inclusive, as mesmas metáforas estoicas na Bíblia. Um facto tanto mais curioso é que Séneca, como filósofo, interessou-se por todos os fenómenos da natureza, resultando nas cartas intituladas posteriormente \"Questões da natureza\", como observou Edward Gibbon, historiador do iluminismo do século XVIII, perito na história do Império Romano e autor do livro História do Declínio e Queda do Império Romano.</string>
-    <string name="novidades">Novidades</string>
-    <string name="noticias">Notícias</string>
-    <string name="contato">Contato</string>
+    <string name="contemporaneo" translatable="false">Contemporâneo de Jesus</string>
+    <string name="contemporaneo_de_jesus" translatable="false">Apesar de ter sido contemporâneo de Jesus Cristo, Séneca não fez quaisquer relatos significativos de fenómenos milagrosos que aparentemente anunciavam o advento de uma poderosa nova religião; entretanto, segundo Jerónimo (\"De Viris Illustribus\", xii), Séneca teria trocado correspondências com Paulo (apóstolo com cidadania romana, também conhecido por Saulo).[7] Constata-se que os cristãos, por intermédio de Lúcio Aneu Séneca, assimilaram os princípios estoicos, utilizando, inclusive, as mesmas metáforas estoicas na Bíblia. Um facto tanto mais curioso é que Séneca, como filósofo, interessou-se por todos os fenómenos da natureza, resultando nas cartas intituladas posteriormente \"Questões da natureza\", como observou Edward Gibbon, historiador do iluminismo do século XVIII, perito na história do Império Romano e autor do livro História do Declínio e Queda do Império Romano.</string>
+    <string name="novidades" translatable="false">Novidades</string>
+    <string name="noticias" translatable="false">Notícias</string>
+    <string name="contato" translatable="false">Contato</string>
 
 
 </resources>
