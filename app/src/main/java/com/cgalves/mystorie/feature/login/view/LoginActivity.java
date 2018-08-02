@@ -121,7 +121,6 @@ public class LoginActivity extends BaseActivity implements LoginContract.LoginPr
         Log.d(getString(R.string.tag_next_flow), this.getString(R.string.click) + " : onClickLogin");
     }
 
-    @Click(R.id.btn_facebook)
     void onClickFacebook() {
         Log.d(getString(R.string.tag_next_flow), this.getString(R.string.click) + " : onClickFacebook");
     }

@@ -17,7 +17,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
+                android:layout_marginBottom="10dp"
                 android:layout_marginTop="10dp"
                 android:gravity="center">
 
@@ -34,20 +34,21 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:fontFamily="@font/robotoregular"
+                android:fontFamily="@font/robotomedium"
                 android:lineSpacingExtra="5dp"
                 android:text="@string/entre_em_contato"
-                android:textColor="@color/text_color_font" />
+                android:textColor="@color/primary_text" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
+                android:gravity="center"
                 android:layout_marginTop="10dp"
-                android:fontFamily="@font/robotoregular"
+                android:fontFamily="@font/robotomedium"
                 android:text="Curta nossas redes!"
-                android:textColor="@color/text_color_font" />
+                android:textColor="@color/primary_text" />
 
             <LinearLayout
                 android:id="@+id/btn_facebook"
@@ -126,7 +127,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="@font/robotoregular"
                 android:text="telefone para contato: 9140294814"
-                android:textColor="@color/text_color_font" />
+                android:textColor="@color/primary_text" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -136,8 +137,9 @@
                 android:layout_marginRight="20dp"
                 android:fontFamily="@font/robotoregular"
                 android:gravity="left"
+                android:layout_marginTop="20dp"
                 android:text="@string/todos_os_direitos"
-                android:textColor="@color/text_color_font" />
+                android:textColor="@color/secondary_text" />
 
 
             <TextView
@@ -150,7 +152,7 @@
                 android:fontFamily="@font/robotoregular"
                 android:gravity="center"
                 android:text="contato: nicolaugalves@gmail.com"
-                android:textColor="@color/text_color_font" />
+                android:textColor="@color/secondary_text" />
 
         </LinearLayout>
     </ScrollView>

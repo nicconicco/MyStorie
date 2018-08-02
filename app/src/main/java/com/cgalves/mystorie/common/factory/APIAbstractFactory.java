@@ -2,6 +2,7 @@ package com.cgalves.mystorie.common.factory;
 
 import android.content.Context;
 
+import com.cgalves.mystorie.common.abstractcalls.ContactAbstractCall;
 import com.cgalves.mystorie.common.abstractcalls.HomeAbstractCall;
 import com.cgalves.mystorie.common.abstractcalls.ListSectionAbstractCall;
 import com.cgalves.mystorie.common.abstractcalls.LoginAbstractCall;
@@ -25,4 +26,5 @@ public abstract class APIAbstractFactory {
     public abstract ListSectionAbstractCall getListSectionCall(EventBus bus, Context context);
     public abstract NoticiasAbstractCall getNoticiasCall(EventBus bus, Context context);
     public abstract NovidadesAbstractCall getNovidadesCall(EventBus bus, Context context);
+    public abstract ContactAbstractCall getContactCall(EventBus bus, Context context);
 }

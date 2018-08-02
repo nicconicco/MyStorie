@@ -2,11 +2,13 @@ package com.cgalves.mystorie.common.factory;
 
 import android.content.Context;
 
+import com.cgalves.mystorie.common.abstractcalls.ContactAbstractCall;
 import com.cgalves.mystorie.common.abstractcalls.HomeAbstractCall;
 import com.cgalves.mystorie.common.abstractcalls.ListSectionAbstractCall;
 import com.cgalves.mystorie.common.abstractcalls.LoginAbstractCall;
 import com.cgalves.mystorie.common.abstractcalls.NoticiasAbstractCall;
 import com.cgalves.mystorie.common.abstractcalls.NovidadesAbstractCall;
+import com.cgalves.mystorie.model.factory.ContactCallImpl;
 import com.cgalves.mystorie.model.factory.HomeCallImpl;
 import com.cgalves.mystorie.model.factory.ListSectionCallImpl;
 import com.cgalves.mystorie.model.factory.LoginCallImpl;
@@ -44,5 +46,10 @@ class FactoryImpl extends APIAbstractFactory {
     @Override
     public NovidadesAbstractCall getNovidadesCall(EventBus bus, Context context) {
         return new NovidadesCallImpl(bus, context);
+    }
+
+    @Override
+    public ContactAbstractCall getContactCall(EventBus bus, Context context) {
+        return new ContactCallImpl(bus, context);
     }
 }

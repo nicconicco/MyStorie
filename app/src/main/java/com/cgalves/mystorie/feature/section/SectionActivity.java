@@ -6,7 +6,7 @@ import android.util.Log;
 
 import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.activity.BaseActivity;
-import com.cgalves.mystorie.feature.contact.ContactFragment_;
+import com.cgalves.mystorie.feature.contact.view.ContactFragment_;
 import com.cgalves.mystorie.feature.noticias.view.fragment.NoticiasFragment_;
 import com.cgalves.mystorie.feature.novidades.view.fragment.NovidadesFragment_;
 

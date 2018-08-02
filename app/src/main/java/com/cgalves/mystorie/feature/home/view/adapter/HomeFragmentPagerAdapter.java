@@ -6,10 +6,8 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 import com.cgalves.mystorie.R;
-import com.cgalves.mystorie.feature.contact.ContactFragment;
-import com.cgalves.mystorie.feature.noticias.view.fragment.NoticiasFragment;
+import com.cgalves.mystorie.feature.contact.view.ContactFragment_;
 import com.cgalves.mystorie.feature.noticias.view.fragment.NoticiasFragment_;
-import com.cgalves.mystorie.feature.novidades.view.fragment.NovidadesFragment;
 import com.cgalves.mystorie.feature.novidades.view.fragment.NovidadesFragment_;
 
 /**
@@ -31,9 +29,9 @@ public class HomeFragmentPagerAdapter extends FragmentPagerAdapter {
         } else if (position == 1){
             return new NoticiasFragment_();
         } else if (position == 2){
-            return new ContactFragment();
+            return new ContactFragment_();
         } else {
-            return new ContactFragment();
+            return new ContactFragment_();
         }
     }
 
