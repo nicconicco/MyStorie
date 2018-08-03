@@ -129,9 +129,11 @@
 
 
                     <LinearLayout
+                        android:background="?android:selectableItemBackgroundBorderless"
                         android:layout_width="match_parent"
+                        android:clickable="true"
                         android:layout_height="wrap_content"
-                        android:paddingTop="30dp">
+                        android:layout_marginTop="30dp">
 
                         <TextView
                             android:id="@+id/btn_login"
@@ -158,6 +160,8 @@
                         android:orientation="horizontal">
 
                         <RelativeLayout
+                            android:clickable="true"
+                            android:background="?android:selectableItemBackgroundBorderless"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
 
