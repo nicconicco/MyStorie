@@ -5,6 +5,7 @@ import android.util.Log;
 import com.cgalves.mystorie.common.factory.APIAbstractFactory;
 import com.cgalves.mystorie.common.abstractcalls.LoginAbstractCall;
 import com.cgalves.mystorie.common.model.User;
+import com.cgalves.mystorie.common.model.UserRegistrationVO;
 import com.cgalves.mystorie.common.presenter.BasePresenter;
 import com.cgalves.mystorie.MyStorieApplication;
 import com.parse.ParseUser;
@@ -52,47 +53,26 @@ public class LoginPresenterImpl<V extends LoginContract.LoginPresenterView> exte
 
     @Override
     public void doRegistration(String username, String password, String email) {
-        ParseUser user = new ParseUser();
-        user.setUsername(username);
-        user.setEmail(password);
-        user.setPassword(email);
-        user.signUpInBackground(e -> {
-            try {
-                if (e == null) {
-                    ParseUser result = ParseUser.getCurrentUser();
-
-                    //todo: TEST
-
-                    User user2 = new User();
-
-                    setUserInformation(user2);
-                    getMvpView().onResultRegistration(ParseUser.getCurrentUser());
-                } else {
-                    ParseUser.logOut();
-                    getMvpView().onError(e.getMessage());
-                }
-            } catch (Exception error) {
-                Log.e(TAG, error.getMessage());
-                getMvpView().onError(error.getMessage());
-            }
-        });
+        loginAbstractCall.doRegistration(username, password, email);
     }
 
-    private void setUserInformation(User result) {
-        setToken(result);
-        getMvpView().onLoginResult(isAdmin(result));
+    @Subscribe(sticky = true, threadMode = ThreadMode.MAIN)
+    public void onRegistrationResultCall(UserRegistrationVO userRegistrationVO) {
+        setToken(userRegistrationVO.user);
+        getMvpView().onResultRegistration(userRegistrationVO.user);
+        //getMvpView().onLoginResult(isAdmin(result));
     }
 
     private void setToken(User result) {
-        if(application != null) {
+        if (application != null) {
             application.setToken(result.getToken());
             application.setName(result.getName());
         }
     }
 
     private boolean isAdmin(User result) {
-        if(result != null) {
-           return result.getIsAdmin();
+        if (result != null) {
+            return result.getIsAdmin();
         }
 
         return false;

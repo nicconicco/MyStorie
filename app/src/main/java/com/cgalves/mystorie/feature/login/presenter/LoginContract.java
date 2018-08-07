@@ -1,5 +1,6 @@
 package com.cgalves.mystorie.feature.login.presenter;
 
+import com.cgalves.mystorie.common.model.User;
 import com.cgalves.mystorie.common.presenter.MvpPresenter;
 import com.cgalves.mystorie.common.presenter.MvpView;
 import com.parse.ParseUser;
@@ -18,6 +19,6 @@ public class LoginContract {
     public interface LoginPresenterView extends MvpView {
         void onLoginResult(boolean isAdmin);
         void onError(String error);
-        void onResultRegistration(ParseUser result);
+        void onResultRegistration(User result);
     }
 }

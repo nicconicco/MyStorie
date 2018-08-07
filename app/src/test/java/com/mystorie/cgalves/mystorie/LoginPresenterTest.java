@@ -3,6 +3,8 @@ package com.mystorie.cgalves.mystorie;
 import android.app.Application;
 import android.content.Context;
 
+import com.cgalves.mystorie.common.model.User;
+import com.cgalves.mystorie.common.model.UserRegistrationVO;
 import com.cgalves.mystorie.feature.login.presenter.LoginContract;
 import com.cgalves.mystorie.feature.login.presenter.LoginPresenterImpl_;
 
@@ -10,10 +12,12 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
+import org.mockito.ArgumentCaptor;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnit;
 import org.mockito.junit.MockitoRule;
 
+import static junit.framework.Assert.assertEquals;
 import static org.mockito.Mockito.verify;
 
 /**
@@ -44,6 +48,19 @@ public class LoginPresenterTest {
     public void doLoginFalse() throws Exception {
         loginPresenterImpl_.doLogin("", "");
         verify(view).onLoginResult(false);
+    }
+
+    @Test
+    public void doRegistrationCheck_User_Name_Return() throws Exception {
+        loginPresenterImpl_.doRegistration("","","");
+
+        ArgumentCaptor<User> argument = ArgumentCaptor.forClass(User.class);
+
+        UserRegistrationVO user2 = new UserRegistrationVO();
+        user2.user.setName("Fake Name");
+        verify(view).onResultRegistration(argument.capture());
+
+        assertEquals(user2.user.getName(), argument.getValue().getName());
     }
 
     @After

@@ -13,4 +13,6 @@ public abstract class LoginAbstractCall extends AbstractCall {
     }
 
     public abstract void login(String username, String password);
+
+    public abstract void doRegistration(String username, String password, String email);
 }

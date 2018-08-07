@@ -5,6 +5,7 @@ import android.widget.EditText;
 
 import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.activity.BaseActivity;
+import com.cgalves.mystorie.common.model.User;
 import com.cgalves.mystorie.feature.login.presenter.LoginContract;
 import com.cgalves.mystorie.feature.login.presenter.LoginPresenterImpl;
 import com.parse.ParseUser;
@@ -52,8 +53,8 @@ public class RegisterActivity extends BaseActivity implements LoginContract.Logi
     }
 
     @Override
-    public void onResultRegistration(ParseUser result) {
-        showAlertWarning(RegisterActivity.this, "Bem-vindo! " + etUsername.getText().toString());
+    public void onResultRegistration(User result) {
+        showAlertWarning(RegisterActivity.this, "Bem-vindo! " + result.getName());
     }
 
     @Override
