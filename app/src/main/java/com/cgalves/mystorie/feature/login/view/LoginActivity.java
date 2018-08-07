@@ -27,6 +27,8 @@ import org.androidannotations.annotations.ViewById;
 
 import java.util.Arrays;
 
+import static com.google.android.gms.internal.zzdmy.checkNotNull;
+
 @EActivity(R.layout.activity_login_v2)
 public class LoginActivity extends BaseActivity implements LoginContract.LoginPresenterView {
 
@@ -46,7 +48,7 @@ public class LoginActivity extends BaseActivity implements LoginContract.LoginPr
         presenter.attachView(this);
         presenter.register();
         Log.d(getString(R.string.tag_next_flow), this.getString(R.string.state_after_view));
-
+//        checkNotNull(presenter);
 //        facebookCalls();
 //        KeyHashUtils.generateKeyHash(this);
     }

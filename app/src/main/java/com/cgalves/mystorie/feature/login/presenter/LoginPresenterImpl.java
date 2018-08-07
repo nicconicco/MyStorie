@@ -4,6 +4,7 @@ import android.util.Log;
 
 import com.cgalves.mystorie.common.factory.APIAbstractFactory;
 import com.cgalves.mystorie.common.abstractcalls.LoginAbstractCall;
+import com.cgalves.mystorie.common.model.User;
 import com.cgalves.mystorie.common.presenter.BasePresenter;
 import com.cgalves.mystorie.MyStorieApplication;
 import com.parse.ParseUser;
@@ -39,7 +40,7 @@ public class LoginPresenterImpl<V extends LoginContract.LoginPresenterView> exte
     }
 
     @Subscribe(sticky = true, threadMode = ThreadMode.MAIN)
-    public void onLoginResultCall(ParseUser resultLogin) {
+    public void onLoginResultCall(User resultLogin) {
         setToken(resultLogin);
         getMvpView().onLoginResult(isAdmin(resultLogin));
     }
@@ -59,7 +60,12 @@ public class LoginPresenterImpl<V extends LoginContract.LoginPresenterView> exte
             try {
                 if (e == null) {
                     ParseUser result = ParseUser.getCurrentUser();
-                    setUserInformation(result);
+
+                    //todo: TEST
+
+                    User user2 = new User();
+
+                    setUserInformation(user2);
                     getMvpView().onResultRegistration(ParseUser.getCurrentUser());
                 } else {
                     ParseUser.logOut();
@@ -72,21 +78,21 @@ public class LoginPresenterImpl<V extends LoginContract.LoginPresenterView> exte
         });
     }
 
-    private void setUserInformation(ParseUser result) {
+    private void setUserInformation(User result) {
         setToken(result);
         getMvpView().onLoginResult(isAdmin(result));
     }
 
-    private void setToken(ParseUser result) {
-        application.setToken(result.getSessionToken());
-        application.setName(result.getUsername());
+    private void setToken(User result) {
+        if(application != null) {
+            application.setToken(result.getToken());
+            application.setName(result.getName());
+        }
     }
 
-    private boolean isAdmin(ParseUser result) {
+    private boolean isAdmin(User result) {
         if(result != null) {
-            if(result.get("admin") != null) {
-                return (boolean) result.get("admin");
-            }
+           return result.getIsAdmin();
         }
 
         return false;

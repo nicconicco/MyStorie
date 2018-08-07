@@ -3,6 +3,7 @@ package com.cgalves.mystorie.model.factory;
 import android.content.Context;
 
 import com.cgalves.mystorie.common.abstractcalls.LoginAbstractCall;
+import com.cgalves.mystorie.common.model.User;
 import com.parse.ParseUser;
 
 import org.greenrobot.eventbus.EventBus;
@@ -19,8 +20,9 @@ public class LoginCallImpl extends LoginAbstractCall {
 
     @Override
     public void login(String username, String password) {
-        ParseUser p = new ParseUser();
-        p.setUsername("Fake Test");
+        User p = new User();
+        p.setName("Fake Test");
+        p.setIsAdmin(false);
         bus.post(p);
     }
 }

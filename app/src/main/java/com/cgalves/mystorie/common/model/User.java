@@ -7,6 +7,8 @@ package com.cgalves.mystorie.common.model;
 public class User {
 
     private String name;
+    private String token;
+    private Boolean isAdmin;
 
     public String getFacebook() {
         return facebook;
@@ -70,5 +72,21 @@ public class User {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getToken() {
+        return token;
+    }
+
+    public void setToken(String token) {
+        this.token = token;
+    }
+
+    public Boolean getIsAdmin() {
+        return isAdmin;
+    }
+
+    public void setIsAdmin(Boolean isAdmin) {
+        this.isAdmin = isAdmin;
     }
 }
