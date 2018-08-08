@@ -12,9 +12,11 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.mockito.ArgumentCaptor;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnit;
+import org.mockito.junit.MockitoJUnitRunner;
 import org.mockito.junit.MockitoRule;
 
 import static junit.framework.Assert.assertEquals;
@@ -23,7 +25,7 @@ import static org.mockito.Mockito.verify;
 /**
  * Created by scopus on 03/08/18.
  */
-
+@RunWith(MockitoJUnitRunner.class)
 public class LoginPresenterTest {
 
     @Rule

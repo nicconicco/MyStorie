@@ -30,6 +30,7 @@ public class RegisterActivity extends BaseActivity implements LoginContract.Logi
     @AfterViews
     void init() {
         setupToolbar(true);
+        toolbar.setBackgroundColor(getColor(R.color.transparent));
         toolbar.setTitle("");
         presenter.attachView(this);
         presenter.register();
