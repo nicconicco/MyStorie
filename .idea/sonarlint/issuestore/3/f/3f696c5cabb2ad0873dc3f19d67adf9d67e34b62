@@ -1,6 +1,0 @@
-
-nsquid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(ÛìäÍÿÿÿÿÿ8ñ–ÆÍ,
-Msquid:S00108")Either remove or fill this block of code.(ıî‚Øùÿÿÿÿ8ÛÄÆÍ,
-Psquid:S1199"-Extract this nested code block into a method.(ıî‚Øùÿÿÿÿ8ÛÄÆÍ,
-\"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(ÛìäÍÿÿÿÿÿ8ñ–ÆÍ,
-Ksquid:S1199"-Extract this nested code block into a method.(å¼®§8ñ–ÆÍ,

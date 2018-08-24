@@ -16,15 +16,15 @@ import com.cgalves.mystorie.common.dialog.CustomProgressDialog;
 
 public class BaseActivity extends AppCompatActivity {
 
-    public static CustomProgressDialog progressBar = new CustomProgressDialog();
-    public Toolbar toolbar;
+    protected static CustomProgressDialog progressBar = new CustomProgressDialog();
+    protected Toolbar toolbar;
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case android.R.id.home:
-                onBackPressed();
-                return true;
+
+        if(item.getItemId() == android.R.id.home) {
+            onBackPressed();
+            return true;
         }
 
         return super.onOptionsItemSelected(item);

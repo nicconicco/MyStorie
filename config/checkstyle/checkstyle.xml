@@ -8,5 +8,11 @@
         <module name="GenericWhitespace" />
         <module name="Indentation"/>
         <module name="RedundantImport"/>
+        <module name="AbbreviationAsWordInName"/>
+
+        <module name="CatchParameterName">
+            <property name="format" value="^(e|t|ex|[a-z][a-z][a-zA-Z]+)$"/>
+        </module>
+
     </module>
 </module>

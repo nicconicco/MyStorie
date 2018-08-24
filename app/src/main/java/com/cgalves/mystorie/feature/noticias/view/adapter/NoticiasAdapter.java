@@ -68,15 +68,6 @@ public class NoticiasAdapter extends RecyclerView.Adapter<NoticiasAdapter.ViewHo
         if(section.getImg() != null) {
             viewHolderSection.progressBar.setVisibility(View.VISIBLE);
 
-            //TODO: ta dando problema com algumas imagens ai tava testando picasso.. mas nao resolveu. preciso
-            //todo: ver se é da internet de onde trabalho pois tem proxy aqui..
-//            Picasso.get()
-//                    .load(section.getImg())
-//                    .resize(50, 50)
-//                    .centerCrop()
-//                    .into(viewHolderSection.ivPhoto);
-
-
             Glide.with(context).
                     load(section.getImg())
                     .listener(new RequestListener<String, GlideDrawable>() {

@@ -48,7 +48,6 @@ public class HomeCallImpl extends HomeAbstractCall {
         ImageResponse imageResponse = new ImageResponse();
         imageResponse.setList(list);
 
-        //todo: transformar em um json response
         post(imageResponse, bus);
     }
 
@@ -78,7 +77,6 @@ public class HomeCallImpl extends HomeAbstractCall {
         list.add(section2);
         list.add(section3);
 
-        //todo: transformar em um json response
         post(list, bus);
     }
 }

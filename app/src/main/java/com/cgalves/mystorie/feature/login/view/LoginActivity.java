@@ -55,7 +55,6 @@ public class LoginActivity extends BaseActivity implements LoginContract.LoginPr
     }
 
     private void facebookCalls() {
-        //todo: Facebook
         callbackManager = CallbackManager.Factory.create();
 //        LoginButton loginButton = (LoginButton) findViewById(R.id.login_button);
 //        loginButton.setReadPermissions("email");

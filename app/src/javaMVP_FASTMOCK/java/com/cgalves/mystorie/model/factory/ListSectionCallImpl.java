@@ -18,6 +18,8 @@ import java.util.List;
 
 public class ListSectionCallImpl extends ListSectionAbstractCall {
 
+    private static final String IMAGE_LINK = "https://i.ytimg.com/vi/bPNTOZTXl44/maxresdefault.jpg";
+
     public ListSectionCallImpl(EventBus bus, Context context) {
         super(bus, context);
     }
@@ -25,36 +27,30 @@ public class ListSectionCallImpl extends ListSectionAbstractCall {
     @Override
     public void findSection(Section section) {
 
-        switch (section.getName()) {
-            case "Novidades!" :  {
+        if (context.getString(R.string.novidades).equals(section.getName())) {
+            List<DetailSection> list = new ArrayList<>();
 
-                List<DetailSection> list = new ArrayList<>();
+            DetailSection section1 = new DetailSection(context.getString(R.string.contemporaneo), context.getString(R.string.contemporaneo_de_jesus), IMAGE_LINK);
+            DetailSection section2 = new DetailSection("Novidade 2 de sêneca", "Texto vindo da novidade 2", IMAGE_LINK);
+            DetailSection section3 = new DetailSection("Novidade 3 de sêneca", "Texto vindo da novidade 3", IMAGE_LINK);
 
-                DetailSection section1 = new DetailSection(context.getString(R.string.contemporaneo), context.getString(R.string.contemporaneo_de_jesus), "https://i.ytimg.com/vi/bPNTOZTXl44/maxresdefault.jpg");
-                DetailSection section2 = new DetailSection("Novidade 2 de sêneca", "Texto vindo da novidade 2", "https://i.ytimg.com/vi/bPNTOZTXl44/maxresdefault.jpg");
-                DetailSection section3 = new DetailSection("Novidade 3 de sêneca", "Texto vindo da novidade 3", "https://i.ytimg.com/vi/bPNTOZTXl44/maxresdefault.jpg");
+            list.add(section1);
+            list.add(section2);
+            list.add(section3);
 
-                list.add(section1);
-                list.add(section2);
-                list.add(section3);
+            post(list, bus);
+        } else {
+            List<DetailSection> list = new ArrayList<>();
 
-                post(list, bus);
-                break;
-            }
-            case "Notícias" :  {
-                List<DetailSection> list = new ArrayList<>();
-                
-                DetailSection section1 = new DetailSection("Noticia 1 de sêneca", "Texto vindo da novidade 1", "https://i.ytimg.com/vi/bPNTOZTXl44/maxresdefault.jpg");
-                DetailSection section2 = new DetailSection("Noticia 2 de sêneca", "Texto vindo da novidade 2", "https://i.ytimg.com/vi/bPNTOZTXl44/maxresdefault.jpg");
-                DetailSection section3 = new DetailSection("Noticia 3 de sêneca", "Texto vindo da novidade 3", "https://i.ytimg.com/vi/bPNTOZTXl44/maxresdefault.jpg");
+            DetailSection section1 = new DetailSection("Noticia 1 de sêneca", "Texto vindo da novidade 1", IMAGE_LINK);
+            DetailSection section2 = new DetailSection("Noticia 2 de sêneca", "Texto vindo da novidade 2", IMAGE_LINK);
+            DetailSection section3 = new DetailSection("Noticia 3 de sêneca", "Texto vindo da novidade 3", IMAGE_LINK);
 
-                list.add(section1);
-                list.add(section2);
-                list.add(section3);
+            list.add(section1);
+            list.add(section2);
+            list.add(section3);
 
-                post(list, bus);
-                break;
-            }
+            post(list, bus);
         }
     }
 }

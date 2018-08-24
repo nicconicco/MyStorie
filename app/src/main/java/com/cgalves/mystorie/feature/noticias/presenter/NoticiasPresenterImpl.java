@@ -28,7 +28,7 @@ public class NoticiasPresenterImpl<V extends NoticiasContract.NoticiasPresenterV
 
     @Override
     public void findSectionNoticias() {
-            noticiasAbstractCall.findNoticias("Notícias");
+        noticiasAbstractCall.findNoticias("Notícias");
     }
 
     @Subscribe(sticky = true, threadMode = ThreadMode.MAIN)

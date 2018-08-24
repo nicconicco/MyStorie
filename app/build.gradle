@@ -135,6 +135,7 @@ android {
     }
 }
 
+
 // AA config
 apply plugin: 'com.android.application'
 def androidAnnotationsVersion = "4.4.0"

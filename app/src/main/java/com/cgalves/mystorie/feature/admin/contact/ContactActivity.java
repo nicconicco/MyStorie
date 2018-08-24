@@ -25,6 +25,7 @@ public class ContactActivity extends BaseActivity {
     @ViewById
     ImageView ivProfile;
 
+
     @ViewById
     TextView tvEmailContact, tvFacebookUrl, tvTwitterUrl, tvCellphone;
 
