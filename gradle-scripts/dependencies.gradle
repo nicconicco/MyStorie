@@ -34,6 +34,16 @@ ext {
   facebookPackage = 'com.facebook.android'
   okHttpPackage = 'com.squareup.okhttp3'
 
+  configurations.all {
+    resolutionStrategy {
+      eachDependency { DependencyResolveDetails details ->
+        if (details.requested.group == supportPackage && !details.requested.name.contains('multidex')) {
+          details.useVersion "${supportVersion}"
+        }
+      }
+    }
+  }
+
   supportDependencies = [
       contrainst       : buildDependency(supportPackage+".constraint", "constraint-layout", supportVersion),
       design           : buildDependency(supportPackage, 'design', supportVersion),
