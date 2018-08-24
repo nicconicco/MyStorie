@@ -32,4 +32,37 @@ public class LoginCallImpl extends LoginAbstractCall {
             }
         });
     }
+
+    // TODO; INTEGRACAO ENVIROMENT
+//        ParseUser user = new ParseUser();
+//        user.setUsername(username);
+//        user.setEmail(password);
+//        user.setPassword(email);
+//        user.signUpInBackground(e -> {
+//            try {
+//                if (e == null) {
+//                    ParseUser result = ParseUser.getCurrentUser();
+//                    User user2 = new User();
+//
+//                    user2.setName(result.getUsername());
+//                    user2.setToken(result.getSessionToken());
+//                    user2.setEmail(result.getEmail());
+//
+//                    try {
+//                        user2.setIsAdmin((Boolean) result.get("admin"));
+//                    } catch (Exception e2) {
+//                        bus.post(e2.getMessage());
+//                        Log.e(TAG, e2.getMessage());
+//                    }
+//
+//                    bus.post(user2);
+//                } else {
+//                    ParseUser.logOut();
+//                    bus.post(e.getMessage());
+//                }
+//            } catch (Exception error) {
+//                Log.e(TAG, error.getMessage());
+//                bus.post(error.getMessage());
+//            }
+//        });
 }

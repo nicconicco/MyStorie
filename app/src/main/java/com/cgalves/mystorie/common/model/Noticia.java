@@ -1,13 +1,8 @@
 package com.cgalves.mystorie.common.model;
 
-
-import android.os.Parcelable;
-
 import com.parse.ParseClassName;
 import com.parse.ParseObject;
 import com.parse.ParseUser;
-
-import java.io.Serializable;
 
 import static com.cgalves.mystorie.common.model.Novidade.FIELD_OWNER;
 

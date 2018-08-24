@@ -22,6 +22,11 @@ public class DeviceInformation {
         }
     }
 
+    @Override
+    public int hashCode() {
+        return 1;
+    }
+
     public String getManufacturer() {
         return manufacturer;
     }

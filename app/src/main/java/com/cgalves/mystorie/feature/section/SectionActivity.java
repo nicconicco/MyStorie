@@ -25,9 +25,7 @@ public class SectionActivity extends BaseActivity {
         Fragment fragment = null;
         switch (sectionName) {
             case "Notícias": {
-                fragment = NoticiasFragment_.builder()
-                        .showToolBarBack(true)
-                        .build();
+                fragment = getNoticiasFragment();
                 break;
             }
             case "Novidades": {
@@ -40,6 +38,7 @@ public class SectionActivity extends BaseActivity {
                 fragment = ContactFragment_.builder()
                         .showToolBarBack(true)
                         .build();
+                break;
             }
             default: {
                 break;
@@ -52,5 +51,13 @@ public class SectionActivity extends BaseActivity {
         } else {
             Log.e(SectionActivity.class.getName(), "Error in creating fragment");
         }
+    }
+
+    private Fragment getNoticiasFragment() {
+        Fragment fragment;
+        fragment = NoticiasFragment_.builder()
+                .showToolBarBack(true)
+                .build();
+        return fragment;
     }
 }

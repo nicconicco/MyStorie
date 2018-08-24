@@ -38,44 +38,4 @@ public final class CustomProgressDialog extends DialogFragment {
         super.onCreateView(inflater, container, savedInstanceState);
         return inflater.inflate(R.layout.progress_bar, null);
     }
-
-    //InsureDialog(this, lastChecked, listInsures).show(supportFragmentManager, TAG)
-//    private Dialog dialog;
-//
-//    public Dialog show(Context context) {
-//        return show(context, null);
-//    }
-//
-//    public Dialog show(Context context, CharSequence title) {
-//        return show(context, title, false);
-//    }
-//
-//    public Dialog show(Context context, CharSequence title, boolean cancelable) {
-//        return show(context, title, cancelable, null);
-//    }
-//
-//
-//    public Dialog show(Context context, CharSequence title, boolean cancelable,
-//                       SearchManager.OnCancelListener cancelListener) {
-//        LayoutInflater inflator = (LayoutInflater) context
-//                .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-//        final View view = inflator.inflate(R.layout.progress_bar, null);
-//        if(title != null) {
-//            final TextView tv = (TextView) view.findViewById(R.id.id_title);
-//            tv.setText(title);
-//        }
-//
-//        dialog = new Dialog(context, R.style.NewDialog);
-//        dialog.setContentView(view);
-//        dialog.setCancelable(cancelable);
-//        dialog.setOnCancelListener((DialogInterface.OnCancelListener) cancelListener);
-//        dialog.getWindow().setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
-//        dialog.show();
-//
-//        return dialog;
-//    }
-//
-//    public Dialog getDialog() {
-//        return dialog;
-//    }
 }
