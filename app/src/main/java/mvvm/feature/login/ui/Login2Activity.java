@@ -47,6 +47,7 @@ public class Login2Activity extends BaseActivity {
             }
         });
 
+
         binding.getViewModel().changeView.addOnPropertyChangedCallback(new Observable.OnPropertyChangedCallback() {
             @Override
             public void onPropertyChanged(Observable observable, int i) {

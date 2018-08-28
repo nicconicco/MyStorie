@@ -13,14 +13,14 @@ import com.facebook.appevents.AppEventsLogger;
 import com.parse.Parse;
 import com.parse.ParseInstallation;
 
-import mvvm.feature.login.ui.Login2Activity;
 import mvvm.feature.login.ui.Login2Activity_;
+import mvvm.feature.login.ui.Login3Activity_;
 
 /**
  * Created by scopus on 28/08/18.
  */
 
-public class Splash2ViewModel  {
+public class Splash2ViewModel {
 
     public void onStartSplash(Activity activity) {
         Log.d(activity.getString(R.string.tag_next_flow), activity.getString(R.string.state_after_view));
@@ -35,7 +35,7 @@ public class Splash2ViewModel  {
     }
 
     private void startLoginActivity2(Activity activity) {
-        Login2Activity_.intent(activity).start();
+        Login3Activity_.intent(activity).start();
         activity.overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
         activity.finish();
     }

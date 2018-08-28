@@ -1,5 +1,7 @@
 package com.cgalves.mystorie.model.factory;
 
+import android.arch.lifecycle.LiveData;
+import android.arch.lifecycle.MutableLiveData;
 import android.content.Context;
 
 import com.cgalves.mystorie.common.abstractcalls.LoginAbstractCall;
@@ -16,6 +18,18 @@ public class LoginCallImpl extends LoginAbstractCall {
 
     public LoginCallImpl(EventBus bus, Context context) {
         super(bus, context);
+    }
+
+    public LoginCallImpl(MutableLiveData<User> userLiveData, Context context) {
+        super(userLiveData, context);
+    }
+
+    @Override
+    public void loginWithMVVM(MutableLiveData<User> user) {
+        User p = new User();
+        p.setName("Fake Test");
+        p.setIsAdmin(false);
+        user.postValue(p);
     }
 
     @Override

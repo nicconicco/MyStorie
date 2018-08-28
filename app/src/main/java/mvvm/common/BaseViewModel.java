@@ -1,5 +1,6 @@
 package mvvm.common;
 
+import android.arch.lifecycle.*;
 import android.content.Context;
 
 import com.cgalves.mystorie.MyStorieApplication;
@@ -15,7 +16,7 @@ import org.androidannotations.annotations.RootContext;
  */
 
 @EBean
-public class BaseViewModel implements ViewModel {
+public class BaseViewModel extends android.arch.lifecycle.ViewModel implements ViewModel{
 
     @App
     protected MyStorieApplication application;

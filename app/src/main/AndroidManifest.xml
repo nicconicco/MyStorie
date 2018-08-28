@@ -74,7 +74,8 @@
         <!-- android:label="@string/title_activity_splash2" -->
         <!-- android:theme="@style/AppTheme.NoActionBar"></activity> -->
 
-        <activity android:name="mvvm.feature.login.ui.Login2Activity_"></activity>
+        <activity android:name="mvvm.feature.login.ui.Login2Activity_" />
+        <activity android:name="mvvm.feature.login.ui.Login3Activity_"></activity>
     </application>
 
 </manifest>

@@ -8,13 +8,17 @@ import org.greenrobot.eventbus.EventBus;
  * Created by Scopus on 11/07/18.
  */
 
-public class AbstractCall {
+public class AbstractCall{
 
     protected EventBus bus;
     protected Context context;
 
     public AbstractCall(EventBus bus, Context context) {
         this.bus = bus;
+        this.context = context;
+    }
+
+    public AbstractCall(Context context) {
         this.context = context;
     }
 
