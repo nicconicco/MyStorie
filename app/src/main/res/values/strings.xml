@@ -55,6 +55,7 @@
     <string name="noticias" translatable="false">Notícias</string>
     <string name="contato" translatable="false">Contato</string>
     <string name="hello_word">Hello World!</string>
+    <string name="title_activity_splash2">Splash2Activity</string>
 
 
 </resources>

@@ -9,7 +9,6 @@
     </style>
 
 
-
     <style name="MyStorieTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>

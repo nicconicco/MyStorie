@@ -35,14 +35,25 @@
             android:name="com.parse.CLIENT_KEY"
             android:value="@string/back4app_client_key" />
 
-        <activity android:name=".feature.splash.SplashActivity_">
+        <activity android:name="mvvm.feature.splash.ui.Splash2Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- <activity android:name=".feature.splash.SplashActivity_"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+
         <activity android:name=".feature.login.view.RegisterActivity_" />
+        <activity android:name=".feature.splash.SplashActivity_" />
         <activity android:name=".feature.login.view.LoginActivity_" />
         <activity
             android:name=".feature.home.view.activity.HomeActivity_"
@@ -56,7 +67,14 @@
             android:name=".feature.list.view.activity.DetailActivity_"
             android:theme="@style/MyStorieTheme" />
         <activity android:name=".feature.list.view.activity.ListSectionActivity_" />
-        <activity android:name=".feature.section.SectionActivity_"></activity>
+        <activity android:name=".feature.section.SectionActivity_" />
+
+        <!-- <activity -->
+        <!-- android:name="mvvm.feature.splash.Splash2Activity_" -->
+        <!-- android:label="@string/title_activity_splash2" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar"></activity> -->
+
+        <activity android:name="mvvm.feature.login.ui.Login2Activity_"></activity>
     </application>
 
 </manifest>

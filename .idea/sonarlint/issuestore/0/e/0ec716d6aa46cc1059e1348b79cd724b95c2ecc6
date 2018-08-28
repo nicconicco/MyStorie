@@ -1,0 +1,7 @@
+
+=squid:S16594"&Declare "ivCenter" on a separate line.(ŒÉ«°
+Vsquid:UselessImportCheck"3Remove this unused import 'android.content.Intent'.(³ğ‹G
+Psquid:S1199j"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ8í¸íÖ,
+Psquid:S1199f"-Extract this nested code block into a method.(ğÁ–Óûÿÿÿÿ8í¸íÖ,
+Psquid:S1199^"-Extract this nested code block into a method.(Í‡¬‰úÿÿÿÿ8í¸íÖ,
+Psquid:S1199b"-Extract this nested code block into a method.(·ÿ½äûÿÿÿÿ8í¸íÖ,

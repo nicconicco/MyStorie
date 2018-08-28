@@ -23,7 +23,11 @@ public class SplashActivity extends BaseActivity {
     @AfterViews
     void init() {
         initParseServer();
+        initFacebook();
+        startSplash();
+    }
 
+    private void startSplash() {
         Log.d(getString(R.string.tag_next_flow), this.getString(R.string.state_after_view));
         if (AndroidUtils.isNotKeepActivitiesEnable(this)) {
             AlertDialogUtils.showAlertWarning(this, this.getString(R.string.not_keep_activities_mode_info));
@@ -37,11 +41,15 @@ public class SplashActivity extends BaseActivity {
         }
     }
 
+    private void initFacebook() {
+        FacebookSdk.sdkInitialize(getApplicationContext());
+        AppEventsLogger.activateApp(this);
+    }
+
     private void initParseServer() {
         Parse.initialize(this);
         ParseInstallation.getCurrentInstallation().saveInBackground();
 
-        FacebookSdk.sdkInitialize(getApplicationContext());
-        AppEventsLogger.activateApp(this);
+
     }
 }
