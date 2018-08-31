@@ -12,6 +12,7 @@ import mvvm.feature.login.vm.LoginViewModel;
 
 import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertFalse;
+import static junit.framework.Assert.assertNotSame;
 import static junit.framework.Assert.assertTrue;
 
 /**
@@ -25,7 +26,7 @@ public class LoginViewModelTest {
     public void testWorngName() {
         LoginViewModel vm = getViewModel();
         vm.login("nicco","senha");
-        assertEquals("nicco", vm.userResponse.getValue().getUser().getName());
+        assertNotSame("nicco", vm.userResponse.getValue().getUser().getName());
     }
 
     @Test
