@@ -19,29 +19,18 @@ import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
-public class LoginViewModel extends AndroidViewModel{
+import mvvm.common.BaseViewModel;
+
+public class LoginViewModel extends BaseViewModel {
     @VisibleForTesting
     public MutableLiveData<UserResponse> userResponse;
 
     @VisibleForTesting
     public LoginAbstractCall loginAbstractCall;
 
-    @VisibleForTesting
-    public EventBus bus = EventBus.getDefault();
-
-    @App
-    MyStorieApplication application;
-
     public LoginViewModel(@NonNull Application application) {
         super(application);
         loginAbstractCall = getLoginCall();
-        EventBus.getDefault().register(this);
-    }
-
-    @Override
-    protected void onCleared() {
-        super.onCleared();
-        EventBus.getDefault().unregister(this);
     }
 
     public LiveData<UserResponse> login(String login, String senha) {
@@ -56,9 +45,10 @@ public class LoginViewModel extends AndroidViewModel{
         return APIAbstractFactory.getFactory(getApplication()).getLoginCall(bus, getApplication());
     }
 
+    // todo: tirar esse diabo
     @Subscribe(sticky = true, threadMode = ThreadMode.MAIN)
     public void onLoginResultCall(User resultLogin) {
-        application.setToken(resultLogin.getToken());
+        getApplication().setToken(resultLogin.getToken());
         userResponse.setValue(new UserResponse(resultLogin));
     }
 
