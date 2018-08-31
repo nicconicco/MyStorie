@@ -25,5 +25,5 @@ You can find me at email: nicolaugalves@gmail.com
 - Infinity Scroll in RecyclerView ( In progress )
 - Menu Lateral
 - Arquitetura MVVM
-- Arquitetura Roboeletrics / branch mvvm-jader
+- Roboeletrics / branch mvvm-jader
 - Mockito - MVP
