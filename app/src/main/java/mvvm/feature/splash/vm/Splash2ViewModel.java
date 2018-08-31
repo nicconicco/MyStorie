@@ -1,7 +1,6 @@
 package mvvm.feature.splash.vm;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Handler;
 import android.util.Log;
 
@@ -13,8 +12,7 @@ import com.facebook.appevents.AppEventsLogger;
 import com.parse.Parse;
 import com.parse.ParseInstallation;
 
-import mvvm.feature.login.ui.Login2Activity_;
-import mvvm.feature.login.ui.Login3Activity_;
+import mvvm.feature.login.ui.LoginJaderActivity_;
 
 /**
  * Created by scopus on 28/08/18.
@@ -35,7 +33,7 @@ public class Splash2ViewModel {
     }
 
     private void startLoginActivity2(Activity activity) {
-        Login3Activity_.intent(activity).start();
+        LoginJaderActivity_.intent(activity).start();
         activity.overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
         activity.finish();
     }

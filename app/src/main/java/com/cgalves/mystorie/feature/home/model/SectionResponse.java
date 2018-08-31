@@ -8,32 +8,25 @@ import java.util.List;
  * Created by Scopus on 18/07/18.
  */
 
-public class ImageResponse {
+public class SectionResponse {
 
-    private List<Image> list;
+    private List<Section> list;
     private Error error;
 
-    public ImageResponse(List<Image> list) {
+    public SectionResponse(List<Section> list) {
         this.list = list;
     }
 
-    public ImageResponse(Error error) {
+    public SectionResponse(Error error) {
         this.error = error;
     }
 
-    public ImageResponse() {
-    }
-
-    public List<Image> getList() {
+    public List<Section> getList() {
         return list;
     }
 
     public Error getError() {
         return error;
-    }
-
-    public void setList(List<Image> list) {
-        this.list = list;
     }
 
     public boolean isSuccess(){

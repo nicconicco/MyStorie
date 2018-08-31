@@ -1,86 +1,69 @@
 package mvvm.feature.login.vm;
 
-import android.databinding.ObservableBoolean;
-import android.databinding.ObservableField;
+import android.app.Application;
+import android.arch.lifecycle.AndroidViewModel;
+import android.arch.lifecycle.LiveData;
+import android.arch.lifecycle.MutableLiveData;
+import android.support.annotation.NonNull;
+import android.support.annotation.VisibleForTesting;
 
+import com.cgalves.mystorie.MyStorieApplication;
 import com.cgalves.mystorie.common.abstractcalls.LoginAbstractCall;
 import com.cgalves.mystorie.common.factory.APIAbstractFactory;
+import com.cgalves.mystorie.common.model.Error;
 import com.cgalves.mystorie.common.model.User;
+import com.cgalves.mystorie.common.model.UserResponse;
 
-import org.androidannotations.annotations.AfterInject;
-import org.androidannotations.annotations.EBean;
+import org.androidannotations.annotations.App;
+import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
-import mvvm.common.BaseViewModel;
+public class LoginViewModel extends AndroidViewModel{
+    @VisibleForTesting
+    public MutableLiveData<UserResponse> userResponse;
 
-/**
- * Created by scopus on 28/08/18.
- */
+    @VisibleForTesting
+    public LoginAbstractCall loginAbstractCall;
 
-@EBean
-public class LoginViewModel extends BaseViewModel {
+    @VisibleForTesting
+    public EventBus bus = EventBus.getDefault();
 
-    LoginAbstractCall loginAbstractCall;
+    @App
+    MyStorieApplication application;
 
-    public ObservableField<String> login = new ObservableField<>();
-    public ObservableField<String> password = new ObservableField<>();
-    public ObservableBoolean progressLoadingState = new ObservableBoolean();
-    public ObservableBoolean changeView = new ObservableBoolean();
-    public ObservableBoolean isAdmin = new ObservableBoolean();
-
-    @AfterInject
-    void init() {
-        loginAbstractCall = APIAbstractFactory.getFactory(context).getLoginCall(busProvider.bus(), context);
+    public LoginViewModel(@NonNull Application application) {
+        super(application);
+        loginAbstractCall = getLoginCall();
+        EventBus.getDefault().register(this);
     }
 
-    public void onClickDoLogin() {
-        String mLogin = login.get();
-        String mPassword = password.get();
+    @Override
+    protected void onCleared() {
+        super.onCleared();
+        EventBus.getDefault().unregister(this);
+    }
 
-        if(mLogin == null || mPassword == null) {
-            return;
+    public LiveData<UserResponse> login(String login, String senha) {
+        if (userResponse == null) {
+            userResponse = new MutableLiveData<>();
         }
+        loginAbstractCall.login(login, senha);
+        return userResponse;
+    }
 
-        if (mLogin.equals("") || mPassword.equals("")){
-            return;
-        }
-
-        progressLoadingState.set(true);
-        loginAbstractCall.login(mLogin, mPassword);
+    private LoginAbstractCall getLoginCall() {
+        return APIAbstractFactory.getFactory(getApplication()).getLoginCall(bus, getApplication());
     }
 
     @Subscribe(sticky = true, threadMode = ThreadMode.MAIN)
     public void onLoginResultCall(User resultLogin) {
-        progressLoadingState.set(false);
-        setToken(resultLogin);
-        setUser(isAdmin(resultLogin));
+        application.setToken(resultLogin.getToken());
+        userResponse.setValue(new UserResponse(resultLogin));
     }
 
-    private void setUser(boolean admin) {
-        changeView.set(true);
-        isAdmin.set(admin);
-    }
-
-    private void setToken(User result) {
-        if (application != null) {
-            application.setToken(result.getToken());
-            application.setName(result.getName());
-        }
-    }
-
-    private boolean isAdmin(User result) {
-        if (result != null) {
-            return result.getIsAdmin();
-        }
-        return false;
-    }
-
-    public void onClickLoginWithFacebook() {
-
-    }
-
-    public void onClickFirstAccess(){
-
+    @Subscribe(sticky = true, threadMode = ThreadMode.MAIN)
+    public void onError(String error) {
+        userResponse.setValue(new UserResponse(new Error(error)));
     }
 }

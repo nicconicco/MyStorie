@@ -76,6 +76,8 @@
 
         <activity android:name="mvvm.feature.login.ui.Login2Activity_" />
         <activity android:name="mvvm.feature.login.ui.Login3Activity_"></activity>
+        <activity android:name="mvvm.feature.login.ui.LoginJaderActivity_"></activity>
+        <activity android:name="mvvm.feature.home.view.activity.HomeActivity_"></activity>
     </application>
 
 </manifest>

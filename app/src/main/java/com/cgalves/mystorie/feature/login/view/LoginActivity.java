@@ -49,63 +49,6 @@ public class LoginActivity extends BaseActivity implements LoginContract.LoginPr
         presenter.attachView(this);
         presenter.register();
         Log.d(getString(R.string.tag_next_flow), this.getString(R.string.state_after_view));
-//        checkNotNull(presenter);
-//        facebookCalls();
-//        KeyHashUtils.generateKeyHash(this);
-    }
-
-    private void facebookCalls() {
-        callbackManager = CallbackManager.Factory.create();
-//        LoginButton loginButton = (LoginButton) findViewById(R.id.login_button);
-//        loginButton.setReadPermissions("email");
-//        // If using in a fragment
-//
-//        // Callback registration
-//        loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
-//            @Override
-//            public void onSuccess(LoginResult loginResult) {
-//                // App code
-//            }
-//
-//            @Override
-//            public void onCancel() {
-//                // App code
-//            }
-//
-//            @Override
-//            public void onError(FacebookException exception) {
-//                // App code
-//            }
-//        });
-        callbackManager = CallbackManager.Factory.create();
-        LoginManager.getInstance().registerCallback(callbackManager,
-                new FacebookCallback<LoginResult>() {
-                    @Override
-                    public void onSuccess(LoginResult loginResult) {
-                        // App code
-                    }
-
-                    @Override
-                    public void onCancel() {
-                        // App code
-                    }
-
-                    @Override
-                    public void onError(FacebookException exception) {
-                        // App code
-                    }
-                });
-
-        AccessToken accessToken = AccessToken.getCurrentAccessToken();
-        boolean isLoggedIn = accessToken != null && !accessToken.isExpired();
-        LoginManager.getInstance().logInWithReadPermissions(this, Arrays.asList("public_profile"));
-    }
-
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        callbackManager.onActivityResult(requestCode, resultCode, data);
-        Log.d(getString(R.string.tag_next_flow), "facebook onActivityResult requestCode = " + requestCode + ", resultCode = " + resultCode + ", data =" + data);
-        super.onActivityResult(requestCode, resultCode, data);
     }
 
     @Override
@@ -121,24 +64,6 @@ public class LoginActivity extends BaseActivity implements LoginContract.LoginPr
         presenter.doLogin(etUserName.getText().toString(), etPassword.getText().toString());
         Log.d(getString(R.string.tag_next_flow), this.getString(R.string.click) + " : doLogin");
         Log.d(getString(R.string.tag_next_flow), this.getString(R.string.click) + " : onClickLogin");
-    }
-
-    void onClickFacebook() {
-        Log.d(getString(R.string.tag_next_flow), this.getString(R.string.click) + " : onClickFacebook");
-    }
-
-//    @Click(R.id.btn_twitter)
-//    void onClickTwitter(){
-//        presenter.doLogin(etUserName.getText().toString(), etPassword.getText().toString());
-//        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
-//        Log.d(getString(R.string.tag_next_flow), this.getString(R.string.click) + " : onClickTwitter");
-//    }
-
-    @Click(R.id.btn_register)
-    void onClickRegister() {
-        RegisterActivity_.intent(this).start();
-        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
-        Log.d(getString(R.string.tag_next_flow), this.getString(R.string.click) + " : onClickRegister");
     }
 
     @Override
