@@ -37,7 +37,9 @@ public class LoginJaderActivity extends BaseActivity {
         progressBar.show(getSupportFragmentManager(), "Whatever");
         loginViewModel.login(etUserName.getText().toString(), etPassword.getText().toString())
                 .observe(this, userResponse -> {
+
             loginViewModel.userResponse.removeObservers(this);
+
             if(userResponse.isSuccess()){
                 onLoginResult(userResponse.getUser().getIsAdmin());
                 hideLoading();
