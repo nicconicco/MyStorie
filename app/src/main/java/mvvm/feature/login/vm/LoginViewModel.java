@@ -45,7 +45,6 @@ public class LoginViewModel extends BaseViewModel {
         return APIAbstractFactory.getFactory(getApplication()).getLoginCall(bus, getApplication());
     }
 
-    // todo: tirar esse diabo
     @Subscribe(sticky = true, threadMode = ThreadMode.MAIN)
     public void onLoginResultCall(User resultLogin) {
         getApplication().setToken(resultLogin.getToken());
