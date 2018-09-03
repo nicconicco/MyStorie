@@ -44,11 +44,23 @@ public class LoginViewModel extends BaseViewModel {
     @Subscribe(sticky = true, threadMode = ThreadMode.MAIN)
     public void onLoginResultCall(User resultLogin) {
         getApplication().setToken(resultLogin.getToken());
-        userResponse.setValue(new UserResponse(resultLogin));
+        userResponse.setValue(createUserResponseSuccessful(resultLogin));
+    }
+
+    @NonNull
+    @VisibleForTesting
+    public UserResponse createUserResponseSuccessful(User resultLogin) {
+        return new UserResponse(resultLogin);
+    }
+
+    @NonNull
+    @VisibleForTesting
+    public UserResponse createUserResponseError(String errorMessage) {
+        return new UserResponse(new Error(errorMessage));
     }
 
     @Subscribe(sticky = true, threadMode = ThreadMode.MAIN)
     public void onError(String error) {
-        userResponse.setValue(new UserResponse(new Error(error)));
+        userResponse.setValue(createUserResponseError(error));
     }
 }

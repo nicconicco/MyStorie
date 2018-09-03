@@ -76,23 +76,19 @@ public class HomeActivity extends BaseActivity {
 
     private void setupSection() {
         MutableLiveData<SectionResponse> sectionResponseMutableLiveData = homeViewModel.sectionResponseMutableLiveData;
-        if (sectionResponseMutableLiveData != null) {
-            if (sectionResponseMutableLiveData != null && sectionResponseMutableLiveData.getValue().isSuccess()) {
-                onResultSectionBody(sectionResponseMutableLiveData.getValue().getList(), new User(((MyStorieApplication) getApplication()).getName()));
-            } else {
-                loadSection();
-            }
+        if (sectionResponseMutableLiveData != null && sectionResponseMutableLiveData.getValue().isSuccess()) {
+            onResultSectionBody(sectionResponseMutableLiveData.getValue().getList(), new User(((MyStorieApplication) getApplication()).getName()));
+        } else {
+            loadSection();
         }
     }
 
     private void setupImages() {
         MutableLiveData<ImageResponse> imageResponseMutableLiveData = homeViewModel.imageResponseMutableLiveData;
-        if (imageResponseMutableLiveData.getValue() != null) {
-            if (imageResponseMutableLiveData.getValue().isSuccess()) {
-                onResultImages(imageResponseMutableLiveData.getValue().getList());
-            } else {
-                loadList();
-            }
+        if (imageResponseMutableLiveData != null && imageResponseMutableLiveData.getValue().isSuccess()) {
+            onResultImages(imageResponseMutableLiveData.getValue().getList());
+        } else {
+            loadList();
         }
     }
 

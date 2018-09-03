@@ -1,18 +1,12 @@
 package mvvm.common;
 
 import android.app.Application;
-import android.arch.lifecycle.*;
-import android.content.Context;
+import android.arch.lifecycle.AndroidViewModel;
 import android.support.annotation.NonNull;
 import android.support.annotation.VisibleForTesting;
 
 import com.cgalves.mystorie.MyStorieApplication;
-import com.cgalves.mystorie.common.providers.BusProvider;
 
-import org.androidannotations.annotations.App;
-import org.androidannotations.annotations.Bean;
-import org.androidannotations.annotations.EBean;
-import org.androidannotations.annotations.RootContext;
 import org.greenrobot.eventbus.EventBus;
 
 /**
