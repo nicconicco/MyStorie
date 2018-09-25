@@ -4,7 +4,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 /**
- * Created by scopus on 25/07/18.
+ * Created by Carlos Nicolau Galves on 25/07/18.
  */
 
 public class DetailSection implements Parcelable {

@@ -5,6 +5,7 @@ import android.widget.EditText;
 
 import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.activity.BaseActivity;
+import com.cgalves.mystorie.common.presenter.BaseContract;
 import com.cgalves.mystorie.feature.login.presenter.LoginContract;
 import com.cgalves.mystorie.feature.login.presenter.LoginPresenterImpl;
 import com.parse.ParseUser;
@@ -40,6 +41,11 @@ public class RegisterActivity extends BaseActivity implements LoginContract.Logi
         super.onDestroy();
         presenter.unregister();
         presenter.detachView();
+    }
+
+    @Override
+    protected BaseContract.Presenter initPresenter() {
+        return presenter;
     }
 
     @Click(R.id.btn_registration)

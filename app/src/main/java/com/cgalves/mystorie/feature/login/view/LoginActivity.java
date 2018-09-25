@@ -6,6 +6,7 @@ import android.widget.EditText;
 
 import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.activity.BaseActivity;
+import com.cgalves.mystorie.common.presenter.BaseContract;
 import com.cgalves.mystorie.feature.admin.home.MasterHomeActivity_;
 import com.cgalves.mystorie.feature.home.view.activity.HomeActivity_;
 import com.cgalves.mystorie.feature.login.presenter.LoginContract;
@@ -106,6 +107,11 @@ public class LoginActivity extends BaseActivity implements LoginContract.LoginPr
         presenter.detachView();
     }
 
+    @Override
+    protected BaseContract.Presenter initPresenter() {
+        return null;
+    }
+
     @ViewById(R.id.et_username)
     EditText etUserName;
 
@@ -154,4 +160,5 @@ public class LoginActivity extends BaseActivity implements LoginContract.LoginPr
     public void onResultRegistration(ParseUser result) {
 
     }
+
 }

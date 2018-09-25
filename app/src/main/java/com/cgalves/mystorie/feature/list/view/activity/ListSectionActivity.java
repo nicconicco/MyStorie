@@ -6,6 +6,7 @@ import android.support.v7.widget.RecyclerView;
 import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.activity.BaseActivity;
 import com.cgalves.mystorie.common.model.DetailSection;
+import com.cgalves.mystorie.common.presenter.BaseContract;
 import com.cgalves.mystorie.feature.home.model.Section;
 import com.cgalves.mystorie.feature.list.presenter.ListSectionContract;
 import com.cgalves.mystorie.feature.list.presenter.ListSectionPresenterImpl;
@@ -50,6 +51,11 @@ public class ListSectionActivity extends BaseActivity implements ListSectionCont
         super.onDestroy();
         presenter.detachView();
         presenter.unregister();
+    }
+
+    @Override
+    protected BaseContract.Presenter initPresenter() {
+        return presenter;
     }
 
     @Override

@@ -1,7 +1,7 @@
 package com.cgalves.mystorie.common.utils;
 
 /**
- * Created by Scopus on 10/07/18.
+ * Created by Carlos Nicolau Galves on 10/07/18.
  */
 
 public class DeviceInformation {

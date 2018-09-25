@@ -166,6 +166,9 @@ dependencies {
     compile fileTree(include: 'Parse-*.jar', dir: 'libs')
     compile fileTree(include: 'ParseFacebookUtilsV4-*.jar', dir: 'libs')
     implementation 'com.google.android.gms:play-services-maps:11.8.0'
+
+    implementation "android.arch.lifecycle:extensions:1.1.0"
+    implementation "android.arch.lifecycle:viewmodel:1.1.0"
 }
 
 // JACOCO CONFIG

@@ -8,7 +8,7 @@ import com.cgalves.mystorie.feature.home.model.Section;
 import java.util.List;
 
 /**
- * Created by Scopus on 17/07/18.
+ * Created by Carlos Nicolau Galves on 17/07/18.
  */
 
 public class HomeContract {

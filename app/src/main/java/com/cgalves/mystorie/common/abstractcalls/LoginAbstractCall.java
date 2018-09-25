@@ -3,7 +3,7 @@ import android.content.Context;
 import org.greenrobot.eventbus.EventBus;
 
 /**
- * Created by Scopus on 11/07/18.
+ * Created by Carlos Nicolau Galves on 11/07/18.
  */
 
 public abstract class LoginAbstractCall extends AbstractCall {

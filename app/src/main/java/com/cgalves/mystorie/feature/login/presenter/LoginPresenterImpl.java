@@ -4,6 +4,7 @@ import android.util.Log;
 
 import com.cgalves.mystorie.common.factory.APIAbstractFactory;
 import com.cgalves.mystorie.common.abstractcalls.LoginAbstractCall;
+import com.cgalves.mystorie.common.presenter.BaseContract;
 import com.cgalves.mystorie.common.presenter.BasePresenter;
 import com.cgalves.mystorie.MyStorieApplication;
 import com.parse.ParseUser;
@@ -14,11 +15,11 @@ import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
 /**
- * Created by Scopus on 11/07/18.
+ * Created by Carlos Nicolau Galves on 11/07/18.
  */
 
 @EBean
-public class LoginPresenterImpl<V extends LoginContract.LoginPresenterView> extends BasePresenter<V> implements LoginContract.LoginPresenter<V> {
+public class LoginPresenterImpl<V extends LoginContract.LoginPresenterView & BaseContract.View> extends BasePresenter<V> implements LoginContract.LoginPresenter<V> {
 
     private static final String TAG = LoginPresenterImpl.class.getSimpleName();
     LoginAbstractCall loginAbstractCall;
@@ -67,5 +68,11 @@ public class LoginPresenterImpl<V extends LoginContract.LoginPresenterView> exte
                 Log.e(TAG, error.getMessage());
             }
         });
+    }
+
+    @Override
+    public void onPresenterDestroy() {
+        super.onPresenterDestroy();
+        Log.e("onPresenterDestroy ", "onPresenterDestroy");
     }
 }

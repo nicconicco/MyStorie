@@ -11,7 +11,7 @@ import android.widget.TextView;
 import com.cgalves.mystorie.R;
 
 /**
- * Created by Scopus on 10/07/18.
+ * Created by Carlos Nicolau Galves on 10/07/18.
  */
 
 public class AlertDialogUtils {

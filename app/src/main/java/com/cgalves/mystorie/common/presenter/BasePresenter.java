@@ -1,6 +1,9 @@
 package com.cgalves.mystorie.common.presenter;
 
+import android.arch.lifecycle.Lifecycle;
+import android.arch.lifecycle.LifecycleObserver;
 import android.content.Context;
+import android.os.Bundle;
 
 import com.cgalves.mystorie.common.providers.BusProvider;
 
@@ -10,11 +13,13 @@ import org.androidannotations.annotations.RootContext;
 
 
 /**
- * Created by Scopus on 09/03/2018.
+ * Created by CARLOS on 09/03/2018.
  */
 
 @EBean
-public class BasePresenter<V extends MvpView> implements MvpPresenter<V> {
+public class BasePresenter<V extends BaseContract.View> implements LifecycleObserver, BaseContract.Presenter<V>  {
+
+    private Bundle stateBundle;
 
     @RootContext
     protected Context context;
@@ -25,6 +30,16 @@ public class BasePresenter<V extends MvpView> implements MvpPresenter<V> {
     private V mMvpView;
 
     @Override
+    public void attachLifecycle(Lifecycle lifecycle) {
+        lifecycle.addObserver(this);
+    }
+
+    @Override
+    public void detachLifecycle(Lifecycle lifecycle) {
+        lifecycle.removeObserver(this);
+    }
+
+    @Override
     public void attachView(V mvpView) {
         mMvpView = mvpView;
     }
@@ -32,6 +47,29 @@ public class BasePresenter<V extends MvpView> implements MvpPresenter<V> {
     @Override
     public void detachView() {
         mMvpView = null;
+    }
+
+    @Override
+    public V getView() {
+        return mMvpView;
+    }
+
+    @Override
+    public boolean isViewAttached() {
+        return mMvpView != null;
+    }
+
+    @Override
+    final public Bundle getStateBundle() {
+        return stateBundle == null ?
+                stateBundle = new Bundle() : stateBundle;
+    }
+
+    @Override
+    public void onPresenterDestroy() {
+        if (stateBundle != null && !stateBundle.isEmpty()) {
+            stateBundle.clear();
+        }
     }
 
     @Override

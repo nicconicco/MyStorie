@@ -6,7 +6,7 @@ import org.androidannotations.annotations.EBean;
 import org.greenrobot.eventbus.EventBus;
 
 /**
- * Created by Scopus on 11/07/18.
+ * Created by Carlos Nicolau Galves on 11/07/18.
  */
 
 @EBean(scope = EBean.Scope.Singleton)

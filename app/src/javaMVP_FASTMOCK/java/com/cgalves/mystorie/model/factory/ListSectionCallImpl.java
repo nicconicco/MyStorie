@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by scopus on 25/07/18.
+ * Created by Carlos Nicolau Galves on 25/07/18.
  */
 
 public class ListSectionCallImpl extends ListSectionAbstractCall {

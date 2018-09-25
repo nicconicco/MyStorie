@@ -7,7 +7,7 @@ import android.provider.Settings;
 import com.cgalves.mystorie.BuildConfig;
 
 /**
- * Created by Scopus on 10/07/18.
+ * Created by Carlos Nicolau Galves on 10/07/18.
  */
 
 public class AndroidUtils {

@@ -12,7 +12,7 @@ import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
 
 /**
- * Created by Scopus on 17/07/18.
+ * Created by Carlos Nicolau Galves on 17/07/18.
  */
 
 public class MyStorieApplication extends Application {

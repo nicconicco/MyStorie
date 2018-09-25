@@ -7,6 +7,7 @@ import com.bumptech.glide.Glide;
 import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.activity.BaseActivity;
 import com.cgalves.mystorie.common.model.DetailSection;
+import com.cgalves.mystorie.common.presenter.BaseContract;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EActivity;
@@ -31,5 +32,10 @@ public class DetailActivity extends BaseActivity {
         toolbar.setTitle(detailSection.getName());
         tvTxt.setText(detailSection.getTxt());
         Glide.with(this).load(detailSection.getImage()).override(800, 600).into(img);
+    }
+
+    @Override
+    protected BaseContract.Presenter initPresenter() {
+        return null;
     }
 }

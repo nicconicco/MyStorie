@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Scopus on 18/07/18.
+ * Created by Carlos Nicolau Galves on 18/07/18.
  */
 
 public class DrawerMenuLeftSideAdapter extends BaseAdapter {

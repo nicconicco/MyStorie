@@ -7,7 +7,7 @@ import com.cgalves.mystorie.feature.home.model.Section;
 import org.greenrobot.eventbus.EventBus;
 
 /**
- * Created by scopus on 25/07/18.
+ * Created by Carlos Nicolau Galves on 25/07/18.
  */
 
 public abstract class ListSectionAbstractCall extends AbstractCall {

@@ -6,7 +6,7 @@ import android.os.Parcelable;
 import java.io.Serializable;
 
 /**
- * Created by Scopus on 17/07/18.
+ * Created by Carlos Nicolau Galves on 17/07/18.
  */
 
 public class Section implements Parcelable {

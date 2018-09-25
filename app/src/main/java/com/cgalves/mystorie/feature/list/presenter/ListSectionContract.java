@@ -1,5 +1,7 @@
 package com.cgalves.mystorie.feature.list.presenter;
 
+import android.util.Log;
+
 import com.cgalves.mystorie.common.model.DetailSection;
 import com.cgalves.mystorie.common.presenter.MvpPresenter;
 import com.cgalves.mystorie.common.presenter.MvpView;
@@ -10,7 +12,7 @@ import com.cgalves.mystorie.feature.home.presenter.HomeContract;
 import java.util.List;
 
 /**
- * Created by scopus on 25/07/18.
+ * Created by Carlos Nicolau Galves on 25/07/18.
  */
 
 public class ListSectionContract {
@@ -22,4 +24,6 @@ public class ListSectionContract {
     public interface ListSectioPresenterView extends MvpView {
         void onResultSectionChoice(List<DetailSection> result);
     }
+
+
 }

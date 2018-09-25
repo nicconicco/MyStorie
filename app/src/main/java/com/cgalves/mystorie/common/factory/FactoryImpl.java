@@ -12,7 +12,7 @@ import com.cgalves.mystorie.model.factory.LoginCallImpl;
 import org.greenrobot.eventbus.EventBus;
 
 /**
- * Created by Scopus on 11/07/18.
+ * Created by Carlos Nicolau Galves on 11/07/18.
  */
 
 class FactoryImpl extends APIAbstractFactory {

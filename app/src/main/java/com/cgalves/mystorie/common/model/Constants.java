@@ -1,7 +1,7 @@
 package com.cgalves.mystorie.common.model;
 
 /**
- * Created by Scopus on 17/07/18.
+ * Created by Carlos Nicolau Galves on 17/07/18.
  */
 
 public class Constants {
