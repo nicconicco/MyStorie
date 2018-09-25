@@ -1,6 +1,4 @@
 
-Osquid:S1602|",Remove useless curly braces around statement(–ˆñÏùÿÿÿÿ8‘²ÎŽÍ,
-zsquid:S14507"^Remove the "menuHomeAdapter" field and declare it as a local variable in the relevant methods.(°ïˆ¿þÿÿÿÿ
-lsquid:MaximumInheritanceDepth$"<This class has 8 parents which is greater than 5 authorized.(ÏèŠ“8ˆßÑŽÍ,
-xsquid:S14508"\Remove the "photosAdapter" field and declare it as a local variable in the relevant methods.(ñçˆ¨üÿÿÿÿ
-fsquid:S001169"NRename this field "TAG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ýï¯
+zsquid:S14509"^Remove the "menuHomeAdapter" field and declare it as a local variable in the relevant methods.(°ïˆ¿þÿÿÿÿ
+fsquid:S00116;"NRename this field "TAG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ýï¯
+xsquid:S1450:"\Remove the "photosAdapter" field and declare it as a local variable in the relevant methods.(ñçˆ¨üÿÿÿÿ

@@ -6,8 +6,10 @@ import com.cgalves.mystorie.common.abstractcalls.HomeAbstractCall;
 import com.cgalves.mystorie.common.factory.APIAbstractFactory;
 import com.cgalves.mystorie.common.presenter.BaseContract;
 import com.cgalves.mystorie.common.presenter.BasePresenter;
+import com.cgalves.mystorie.common.presenter.MvpView;
 import com.cgalves.mystorie.feature.home.model.ImageResponse;
 import com.cgalves.mystorie.feature.home.model.Section;
+import com.cgalves.mystorie.feature.home.view.activity.HomeActivity;
 import com.cgalves.mystorie.feature.login.presenter.LoginPresenterImpl;
 import com.cgalves.mystorie.MyStorieApplication;
 
@@ -27,12 +29,18 @@ public class HomePresenterImpl<V extends HomeContract.HomePresenterView & BaseCo
 
     private static final String TAG = LoginPresenterImpl.class.getSimpleName();
     HomeAbstractCall homeAbstractCall;
+    HomeActivity myView;
+
 
     @AfterInject
     void init() {
         homeAbstractCall = APIAbstractFactory.getFactory(context).getHomeCall(bus.bus(), context);
     }
 
+
+    public void atacharView(HomeActivity view) {
+        myView = view;
+    }
 
     // call top header
     @Override
@@ -43,7 +51,15 @@ public class HomePresenterImpl<V extends HomeContract.HomePresenterView & BaseCo
 
     @Subscribe(sticky = true, threadMode = ThreadMode.MAIN)
     public void onImageTopHeaderLoaded(ImageResponse imageResponse) {
+        //exemplo com interface
         getMvpView().onResultImages(imageResponse.getList());
+
+//        getMvpView().
+
+        //EXEMPLO SEM INTERFACE
+//        myView.onResultImages(imageResponse.getList());
+//        myView.
+
     }
 
     // end call top header
@@ -64,4 +80,6 @@ public class HomePresenterImpl<V extends HomeContract.HomePresenterView & BaseCo
         super.onPresenterDestroy();
         Log.e("onPresenterDestroy ", "onPresenterDestroy");
     }
+
+
 }

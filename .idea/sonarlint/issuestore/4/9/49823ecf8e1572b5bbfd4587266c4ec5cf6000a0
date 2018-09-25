@@ -1,16 +1,15 @@
 
-gsquid:CommentedOutCodeLine;"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
-™squid:S1186š"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‹ØôÐ
-gsquid:CommentedOutCodeLine7"<This block of commented-out lines of code should be removed.(ØÑíÏûÿÿÿÿ
-gsquid:CommentedOutCodeLine2"<This block of commented-out lines of code should be removed.(ž¥¢Þþÿÿÿÿ
-Zsquid:S1854[">Remove this useless assignment to local variable "isLoggedIn".(øØ»†øÿÿÿÿ
-gsquid:CommentedOutCodeLine@"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
-gsquid:CommentedOutCodeLineE"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
-\squid:UnusedPrivateMethod/"2Remove this unused private "facebookCalls" method.(§•²ÿúÿÿÿÿ
-gsquid:CommentedOutCodeLine+"<This block of commented-out lines of code should be removed.(ŸÏúåúÿÿÿÿ
-gsquid:CommentedOutCodeLine>"<This block of commented-out lines of code should be removed.(ðêüÿÿÿÿ
-Ksquid:S1481["/Remove this unused "isLoggedIn" local variable.(øØ»†øÿÿÿÿ
-Nsquid:S11350"2Complete the task associated to this TODO comment.(‘ŸÎûÿÿÿÿÿ
-jsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(¸á“üÿÿÿÿ
-bsquid:CommentedOutCodeLineC"<This block of commented-out lines of code should be removed.(à¢ƒŽ
-asquid:CommentedOutCodeLine9"<This block of commented-out lines of code should be removed.(Â¹ðO
+ squid:S1186 "€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‹ØôÐ8šõ‚‡á,
+gsquid:CommentedOutCodeLine,"<This block of commented-out lines of code should be removed.(ŸÏúåúÿÿÿÿ
+Zsquid:S1854\">Remove this useless assignment to local variable "isLoggedIn".(øØ»†øÿÿÿÿ
+gsquid:CommentedOutCodeLine?"<This block of commented-out lines of code should be removed.(ðêüÿÿÿÿ
+asquid:CommentedOutCodeLine:"<This block of commented-out lines of code should be removed.(Â¹ðO
+gsquid:CommentedOutCodeLine<"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+Ksquid:S1481\"/Remove this unused "isLoggedIn" local variable.(øØ»†øÿÿÿÿ
+\squid:UnusedPrivateMethod0"2Remove this unused private "facebookCalls" method.(§•²ÿúÿÿÿÿ
+gsquid:CommentedOutCodeLine3"<This block of commented-out lines of code should be removed.(ž¥¢Þþÿÿÿÿ
+bsquid:CommentedOutCodeLineD"<This block of commented-out lines of code should be removed.(à¢ƒŽ
+gsquid:CommentedOutCodeLineA"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+Nsquid:S11351"2Complete the task associated to this TODO comment.(‘ŸÎûÿÿÿÿÿ
+gsquid:CommentedOutCodeLineF"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+gsquid:CommentedOutCodeLine8"<This block of commented-out lines of code should be removed.(ØÑíÏûÿÿÿÿ

@@ -1,2 +1,3 @@
 
-¤squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ζƒΆΘÿÿÿÿÿ8άμ‡Ν,
+‚squid:UselessImportCheck"WRemove this unused import 'com.cgalves.mystorie.common.abstractcalls.HomeAbstractCall'.(ϋΟΉ«8ψ†α,
+ƒsquid:UselessImportCheck"XRemove this unused import 'com.cgalves.mystorie.feature.admin.contact.ContactActivity_'.(λ‹…8ψ†α,

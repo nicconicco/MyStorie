@@ -62,6 +62,7 @@ public class HomeActivity extends BaseActivity implements HomeContract.HomePrese
     void init() {
         setupToolbar();
 
+        presenter.atacharView(this);// testar apenas
         presenter.attachView(this);
         presenter.register();
         presenter.findImagesTopHeader();

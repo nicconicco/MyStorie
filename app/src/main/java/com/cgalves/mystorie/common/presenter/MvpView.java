@@ -5,5 +5,4 @@ package com.cgalves.mystorie.common.presenter;
  */
 
 public interface MvpView {
-
 }
