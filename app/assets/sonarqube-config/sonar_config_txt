@@ -42,6 +42,13 @@ http://172.16.210.131:9001/about
   -Dsonar.login=admin \
   -Dsonar.password=admin
 
+  ./gradlew sonarqube \
+    -Dsonar.host.url=http://192.168.43.102:9001 \
+    -Dsonar.login=admin \
+    -Dsonar.password=admin
+
+  http://192.168.43.102
+
 
 
   ele gera um aplicativo já caso nao exista.

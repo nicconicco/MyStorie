@@ -1,0 +1,9 @@
+
+usquid:S22930"YReplace the type specification in this constructor call with the diamond operator ("<>").(å¾’øÿÿÿÿ
+Fsquid:EmptyStatementUsageCheck"Remove this empty statement.(ŠÄ„À
+"squid:ClassVariableVisibilityCheck"jMake sectionResponseMutableLiveData a static final constant or non-public and provide accessors if needed.(ÉÚï’úÿÿÿÿ
+psquid:S22938"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÅÀÇÃ
+hsquid:UselessImportCheck"DRemove this unused import 'com.cgalves.mystorie.common.model.Error'.(êê¦õ
+–"squid:ClassVariableVisibilityCheck"hMake imageResponseMutableLiveData a static final constant or non-public and provide accessors if needed.(ö•™ø
+tsquid:UselessImportCheck"KRemove this unused import 'com.cgalves.mystorie.common.model.UserResponse'.(¾’â’øÿÿÿÿ
+lsquid:UselessImportCheck"CRemove this unused import 'com.cgalves.mystorie.common.model.User'.(’ˆï˜ÿÿÿÿÿ

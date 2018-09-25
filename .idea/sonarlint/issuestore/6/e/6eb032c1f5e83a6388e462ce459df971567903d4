@@ -1,0 +1,5 @@
+
+Jsquid:S1172".Remove this unused method parameter "context".(í¤˜²úÿÿÿÿ
+Ysquid:S1610"BConvert the abstract class "APIAbstractFactory" into an interface.(×·–ª
+`squid:UselessImportCheck"<Remove this unused import 'android.arch.lifecycle.LiveData'.(Úò›Ž
+Xsquid:UselessImportCheck"4Remove this unused import 'io.reactivex.Observable'.(–˜¼

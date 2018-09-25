@@ -1,0 +1,6 @@
+
+zsquid:S14509"^Remove the "menuHomeAdapter" field and declare it as a local variable in the relevant methods.(²²–¥ûÿÿÿÿ
+|squid:S1488M"`Immediately return this expression instead of assigning it to the temporary variable "rootView".(Ùóú²øÿÿÿÿ
+nsquid:UselessImportCheck"ERemove this unused import 'org.androidannotations.annotations.Extra'.(µËºµúÿÿÿÿ
+esquid:UselessImportCheck"<Remove this unused import 'android.support.v4.app.Fragment'.(îñ«úÿÿÿÿ
+?squid:S1185S"(Remove this method to simply inherit it.(¡Œþø

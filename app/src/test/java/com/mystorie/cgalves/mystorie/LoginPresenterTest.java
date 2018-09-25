@@ -1,6 +1,5 @@
 package com.mystorie.cgalves.mystorie;
 
-import android.app.Application;
 import android.content.Context;
 
 import com.cgalves.mystorie.common.model.User;
