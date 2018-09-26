@@ -5,10 +5,10 @@ import android.widget.EditText;
 
 import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.activity.BaseActivity;
+import com.cgalves.mystorie.common.model.User;
 import com.cgalves.mystorie.common.presenter.BaseContract;
 import com.cgalves.mystorie.feature.login.presenter.LoginContract;
 import com.cgalves.mystorie.feature.login.presenter.LoginPresenterImpl;
-import com.parse.ParseUser;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Bean;
@@ -59,7 +59,7 @@ public class RegisterActivity extends BaseActivity implements LoginContract.Logi
     }
 
     @Override
-    public void onResultRegistration(ParseUser result) {
+    public void onResultRegistration(User result) {
         showAlertWarning(RegisterActivity.this, "Wellcome " + etUsername.getText().toString());
     }
 }

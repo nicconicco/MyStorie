@@ -1,9 +1,9 @@
 package com.cgalves.mystorie.feature.login.presenter;
 
+import com.cgalves.mystorie.common.model.User;
 import com.cgalves.mystorie.common.presenter.BaseContract;
 import com.cgalves.mystorie.common.presenter.MvpPresenter;
 import com.cgalves.mystorie.common.presenter.MvpView;
-import com.parse.ParseUser;
 
 /**
  * Created by Carlos Nicolau Galves on 17/07/18.
@@ -18,6 +18,6 @@ public class LoginContract {
 
     public interface LoginPresenterView extends MvpView {
         void onLoginResult(Boolean isAdmin);
-        void onResultRegistration(ParseUser result);
+        void onResultRegistration(User result);
     }
 }

@@ -6,6 +6,7 @@ import android.widget.EditText;
 
 import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.activity.BaseActivity;
+import com.cgalves.mystorie.common.model.User;
 import com.cgalves.mystorie.common.presenter.BaseContract;
 import com.cgalves.mystorie.feature.admin.home.MasterHomeActivity_;
 import com.cgalves.mystorie.feature.home.view.activity.HomeActivity_;
@@ -17,7 +18,6 @@ import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
 import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
-import com.parse.ParseUser;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Bean;
@@ -157,7 +157,7 @@ public class LoginActivity extends BaseActivity implements LoginContract.LoginPr
     }
 
     @Override
-    public void onResultRegistration(ParseUser result) {
+    public void onResultRegistration(User result) {
 
     }
 
