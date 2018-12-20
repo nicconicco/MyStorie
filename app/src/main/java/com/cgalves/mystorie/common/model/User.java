@@ -8,7 +8,7 @@ public class User {
 
     private String name;
     private String token;
-    private Boolean isAdmin;
+    private Boolean isAdmin = false;
 
     public String getFacebook() {
         return facebook;

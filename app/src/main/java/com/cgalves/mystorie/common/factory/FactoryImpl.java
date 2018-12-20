@@ -32,11 +32,6 @@ class FactoryImpl extends APIAbstractFactory {
     }
 
     @Override
-    public LoginAbstractCall getLoginCall(MutableLiveData<User> user, Context context) {
-        return new LoginCallImpl(user, context);
-    }
-
-    @Override
     public HomeAbstractCall getHomeCall(EventBus bus, Context context) {
         return new HomeCallImpl(bus, context);
     }

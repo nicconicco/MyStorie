@@ -49,7 +49,5 @@ public class SplashActivity extends BaseActivity {
     private void initParseServer() {
         Parse.initialize(this);
         ParseInstallation.getCurrentInstallation().saveInBackground();
-
-
     }
 }

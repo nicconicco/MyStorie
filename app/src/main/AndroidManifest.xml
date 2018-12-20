@@ -35,25 +35,23 @@
             android:name="com.parse.CLIENT_KEY"
             android:value="@string/back4app_client_key" />
 
-        <activity android:name="mvvm.feature.splash.ui.Splash2Activity">
+        <!--<activity android:name="com.cgalves.mystorie.feature.splash.SplashActivity">-->
+        <!--<intent-filter>-->
+        <!--<action android:name="android.intent.action.MAIN" />-->
+        <!--<category android:name="android.intent.category.LAUNCHER" />-->
+        <!--</intent-filter>-->
+        <!--</activity>-->
+
+        <activity android:name=".feature.splash.SplashActivity_">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <!-- <activity android:name=".feature.splash.SplashActivity_"> -->
-        <!-- <intent-filter> -->
-        <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-
-        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-        <!-- </intent-filter> -->
-        <!-- </activity> -->
-
         <activity android:name=".feature.login.view.RegisterActivity_" />
-        <activity android:name=".feature.splash.SplashActivity_" />
         <activity android:name=".feature.login.view.LoginActivity_" />
         <activity
             android:name=".feature.home.view.activity.HomeActivity_"
@@ -76,7 +74,6 @@
 
         <!--<activity android:name="mvvm.feature.login.ui.Login2Activity_" />-->
         <!--<activity android:name="mvvm.feature.login.ui.Login3Activity_"></activity>-->
-        <activity android:name="mvvm.feature.login.ui.LoginJaderActivity_"></activity>
         <activity android:name="mvvm.feature.home.view.activity.HomeActivity_"></activity>
     </application>
 

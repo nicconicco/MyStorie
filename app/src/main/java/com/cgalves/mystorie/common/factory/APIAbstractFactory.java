@@ -28,8 +28,6 @@ public abstract class APIAbstractFactory {
 
     public abstract LoginAbstractCall getLoginCall(EventBus bus, Context context);
 
-    public abstract LoginAbstractCall getLoginCall(MutableLiveData<User> user, Context context);
-
     public abstract HomeAbstractCall getHomeCall(EventBus bus, Context context);
     public abstract ListSectionAbstractCall getListSectionCall(EventBus bus, Context context);
     public abstract NoticiasAbstractCall getNoticiasCall(EventBus bus, Context context);

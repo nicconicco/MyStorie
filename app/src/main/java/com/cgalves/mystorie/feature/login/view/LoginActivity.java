@@ -42,8 +42,6 @@ public class LoginActivity extends BaseActivity implements LoginContract.LoginPr
     @ViewById(R.id.et_password)
     EditText etPassword;
 
-    private CallbackManager callbackManager;
-
     @AfterViews
     void init() {
         presenter.attachView(this);
