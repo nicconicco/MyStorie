@@ -128,7 +128,7 @@ android {
 
     sourceSets {
         javaMVP_FASTMOCK {
-            java.srcDirs('src/javaMVP_FASTMOCK/java', 'src/main/java')
+            java.srcDirs('src/javaMVP_FASTMOCKDebug/java', 'src/main/java')
         }
         mojavaMVP_ENVIROMENTck {
             java.srcDirs('src/javaMVP_ENVIROMENT/java', 'src/main/java')
