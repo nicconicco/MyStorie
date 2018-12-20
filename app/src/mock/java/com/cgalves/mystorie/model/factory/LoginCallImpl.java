@@ -20,14 +20,6 @@ public class LoginCallImpl extends LoginAbstractCall {
     }
 
     @Override
-    public void loginWithMVVM(MutableLiveData<User> user) {
-        User p = new User();
-        p.setName("Fake Test");
-        p.setIsAdmin(false);
-        user.postValue(p);
-    }
-
-    @Override
     public void login(String username, String password) {
         User p = new User();
         p.setName("Fake Test");
