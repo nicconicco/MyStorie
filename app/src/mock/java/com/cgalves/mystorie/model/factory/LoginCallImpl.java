@@ -20,10 +20,6 @@ public class LoginCallImpl extends LoginAbstractCall {
         super(bus, context);
     }
 
-    public LoginCallImpl(MutableLiveData<User> userLiveData, Context context) {
-        super(userLiveData, context);
-    }
-
     @Override
     public void loginWithMVVM(MutableLiveData<User> user) {
         User p = new User();
