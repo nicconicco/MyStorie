@@ -1,6 +1,5 @@
 package com.cgalves.mystorie.model.factory;
 
-import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.MutableLiveData;
 import android.content.Context;
 

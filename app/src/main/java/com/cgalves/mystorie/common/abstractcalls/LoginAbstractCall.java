@@ -13,20 +13,9 @@ import org.greenrobot.eventbus.EventBus;
 
 public abstract class LoginAbstractCall extends AbstractCall {
 
-
-    private final MutableLiveData<User> userLiveData;
-
     public LoginAbstractCall(EventBus bus, Context context) {
         super(bus, context);
-        userLiveData = null;
     }
-
-    public LoginAbstractCall(MutableLiveData<User> userLiveData, Context context) {
-        super(context);
-        this.userLiveData = userLiveData;
-    }
-
-    public abstract void loginWithMVVM(MutableLiveData<User> user);
 
     public abstract void login(String username, String password);
 
