@@ -87,11 +87,13 @@ public class HomeActivity extends BaseActivity {
 
     private void setupImages() {
         MutableLiveData<ImageResponse> imageResponseMutableLiveData = homeViewModel.imageResponseMutableLiveData;
-        if (imageResponseMutableLiveData.getValue() != null) {
-            if (imageResponseMutableLiveData.getValue().isSuccess()) {
-                onResultImages(imageResponseMutableLiveData.getValue().getList());
-            } else {
-                loadList();
+        if(imageResponseMutableLiveData!=null) {
+            if (imageResponseMutableLiveData.getValue() != null) {
+                if (imageResponseMutableLiveData.getValue().isSuccess()) {
+                    onResultImages(imageResponseMutableLiveData.getValue().getList());
+                } else {
+                    loadList();
+                }
             }
         }
     }

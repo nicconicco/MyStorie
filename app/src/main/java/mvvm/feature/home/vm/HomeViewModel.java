@@ -23,11 +23,14 @@ import org.greenrobot.eventbus.ThreadMode;
 
 import java.util.List;
 
-public class HomeViewModel extends AndroidViewModel{
+public class HomeViewModel extends AndroidViewModel {
+
     public MutableLiveData<ImageResponse> imageResponseMutableLiveData;
     public MutableLiveData<SectionResponse> sectionResponseMutableLiveData;
+
     @VisibleForTesting
     public HomeAbstractCall homeAbstractCall;;
+
     @VisibleForTesting
     public EventBus bus = EventBus.getDefault();
 
@@ -52,9 +55,11 @@ public class HomeViewModel extends AndroidViewModel{
     }
 
     public LiveData<SectionResponse> fetchSection(String token) {
+
         if (sectionResponseMutableLiveData == null) {
             sectionResponseMutableLiveData = new MutableLiveData<SectionResponse>();
         }
+
         homeAbstractCall.findSectionsInBody(token);
         return sectionResponseMutableLiveData;
     }
