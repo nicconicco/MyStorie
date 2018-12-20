@@ -38,7 +38,7 @@ http://172.16.210.131:9001/about
 
 
 ./gradlew sonarqube \
-  -Dsonar.host.url=http://172.16.210.131:9001 \
+  -Dsonar.host.url=http://172.16.211.28:9001 \
   -Dsonar.login=admin \
   -Dsonar.password=admin
 

@@ -109,3 +109,7 @@ Mapp/src/main/java/com/cgalves/mystorie/common/abstractcalls/AbstractCall.java,
 Qapp/src/main/java/com/cgalves/mystorie/feature/login/presenter/LoginContract.java,7/4/741f4b59eb4e857a3dcf13124c9b140c8c6cf484
 x
 Happ/src/main/java/com/cgalves/mystorie/common/providers/BusProvider.java,0/4/04853278be01cb81c19ca73e405b9b4f00de0e6a
+F
+config/pmd-ruleset.xml,f/3/f391a97dcee08e22273e699f9ee6a14970de12b8
+J
+config/findbugs-filter.xml,0/b/0bbf378008581ac6e4edbf3526178e9b962d351a
