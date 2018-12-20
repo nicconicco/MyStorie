@@ -1,9 +1,35 @@
 
-usquid:S22930"YReplace the type specification in this constructor call with the diamond operator ("<>").(å¾’øÿÿÿÿ
-Fsquid:EmptyStatementUsageCheck"Remove this empty statement.(ŠÄ„À
-"squid:ClassVariableVisibilityCheck"jMake sectionResponseMutableLiveData a static final constant or non-public and provide accessors if needed.(ÉÚï’úÿÿÿÿ
-psquid:S22938"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÅÀÇÃ
-hsquid:UselessImportCheck"DRemove this unused import 'com.cgalves.mystorie.common.model.Error'.(êê¦õ
-–"squid:ClassVariableVisibilityCheck"hMake imageResponseMutableLiveData a static final constant or non-public and provide accessors if needed.(ö•™ø
-tsquid:UselessImportCheck"KRemove this unused import 'com.cgalves.mystorie.common.model.UserResponse'.(¾’â’øÿÿÿÿ
 lsquid:UselessImportCheck"CRemove this unused import 'com.cgalves.mystorie.common.model.User'.(’ˆï˜ÿÿÿÿÿ
+Jsquid:IndentationCheck<"!Make this line start at column 7.(ÅÀÇÃ8ÏŒ´éü,
+"squid:ClassVariableVisibilityCheck"jMake sectionResponseMutableLiveData a static final constant or non-public and provide accessors if needed.(ÉÚï’úÿÿÿÿ
+]squid:S3340L"?Reorder annotation arguments to match the order of declaration.(ğ˜ï„8ÏŒ´éü,
+{"squid:LeftCurlyBraceStartLineCheck9"AMove this left curly brace to the beginning of next line of code.(·îÃöüÿÿÿÿ8ÏŒ´éü,
+Osquid:IndentationCheck3"!Make this line start at column 7.(å¾’øÿÿÿÿ8ÏŒ´éü,
+–"squid:ClassVariableVisibilityCheck"hMake imageResponseMutableLiveData a static final constant or non-public and provide accessors if needed.(ö•™ø
+{"squid:LeftCurlyBraceStartLineCheck%"AMove this left curly brace to the beginning of next line of code.(òŸıÖşÿÿÿÿ8ÏŒ´éü,
+{"squid:LeftCurlyBraceStartLineCheck2"AMove this left curly brace to the beginning of next line of code.(‡†»Ñıÿÿÿÿ8ÏŒ´éü,
+Osquid:IndentationCheck2"!Make this line start at column 5.(‡†»Ñıÿÿÿÿ8ÏŒ´éü,
+–squid:S3366("xMake sure the use of "this" doesn't expose partially-constructed instances of this class in multi-threaded environments.(¹šÔÁ8ÏŒ´éü,
+Jsquid:IndentationCheckD"!Make this line start at column 5.(‰’»ş8ÏŒ´éü,
+{"squid:LeftCurlyBraceStartLineCheck,"AMove this left curly brace to the beginning of next line of code.(Áüõöùÿÿÿÿ8ÏŒ´éü,
+Osquid:IndentationCheckN"!Make this line start at column 5.(Àåô«üÿÿÿÿ8ÏŒ´éü,
+v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¶ìÓÆ8ÏŒ´éü,
+{"squid:LeftCurlyBraceStartLineCheckC"AMove this left curly brace to the beginning of next line of code.(©³Åšûÿÿÿÿ8ÏŒ´éü,
+v"squid:LeftCurlyBraceStartLineCheckS"AMove this left curly brace to the beginning of next line of code.(Ä·Ø¿8ÏŒ´éü,
+psquid:S2293<"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÅÀÇÃ
+Osquid:IndentationCheck&"!Make this line start at column 5.(Â¹©Ôûÿÿÿÿ8ÏŒ´éü,
+v"squid:LeftCurlyBraceStartLineCheckH"AMove this left curly brace to the beginning of next line of code.(Î·­¤8ÏŒ´éü,
+{"squid:LeftCurlyBraceStartLineCheck1"AMove this left curly brace to the beginning of next line of code.(§ëüÌûÿÿÿÿ8ÏŒ´éü,
+v"squid:LeftCurlyBraceStartLineCheck;"AMove this left curly brace to the beginning of next line of code.(ÿö•é8ÏŒ´éü,
+Jsquid:IndentationCheck;"!Make this line start at column 5.(ÿö•é8ÏŒ´éü,
+{"squid:LeftCurlyBraceStartLineCheckM"AMove this left curly brace to the beginning of next line of code.(Öêòûÿÿÿÿÿ8ÏŒ´éü,
+Osquid:IndentationCheckI"!Make this line start at column 5.(ï†è¶şÿÿÿÿ8ÏŒ´éü,
+tsquid:UselessImportCheck"KRemove this unused import 'com.cgalves.mystorie.common.model.UserResponse'.(¾’â’øÿÿÿÿ
+Osquid:IndentationCheck-"!Make this line start at column 5.(ÌĞôüúÿÿÿÿ8ÏŒ´éü,
+Jsquid:IndentationCheck"!Make this line start at column 3.(ö•™ø8ÏŒ´éü,
+<squid:S1451"&Add or update the header of this file.8ÏŒ´éü,
+Fsquid:EmptyStatementUsageCheck "Remove this empty statement.(ŠÄ„À
+usquid:S22933"YReplace the type specification in this constructor call with the diamond operator ("<>").(å¾’øÿÿÿÿ
+]squid:S3340G"?Reorder annotation arguments to match the order of declaration.(ğ˜ï„8ÏŒ´éü,
+hsquid:UselessImportCheck"DRemove this unused import 'com.cgalves.mystorie.common.model.Error'.(êê¦õ
+Osquid:IndentationCheckT"!Make this line start at column 5.(ãÔÇ‘ùÿÿÿÿ8ÏŒ´éü,

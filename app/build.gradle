@@ -127,11 +127,11 @@ android {
     }
 
     sourceSets {
-        javaMVP_FASTMOCK {
-            java.srcDirs('src/javaMVP_FASTMOCKDebug/java', 'src/main/java')
+        mock {
+            java.srcDirs('src/mock/java', 'src/main/java')
         }
-        mojavaMVP_ENVIROMENTck {
-            java.srcDirs('src/javaMVP_ENVIROMENT/java', 'src/main/java')
+        production {
+            java.srcDirs('src/production/java', 'src/main/java')
         }
     }
 
@@ -142,17 +142,17 @@ android {
 
     flavorDimensions "all"
     productFlavors {
-        javaMVP_FASTMOCK {
+        mock {
             applicationId "com.cgalves.mystorie.mvpf"
         }
 
-        javaMVP_ENVIROMENT {
+        production {
             applicationId "com.cgalves.mystorie.mvpe"
         }
 
-        javaMVP_API {
-            applicationId "com.cgalves.mystorie.mvpa"
-        }
+//        javaMVP_API {
+//            applicationId "com.cgalves.mystorie.mvpa"
+//        }
 
 //        javaMVVM_FASTMOCK {
 //            applicationId "com.cgalves.mystorie.mvvm"

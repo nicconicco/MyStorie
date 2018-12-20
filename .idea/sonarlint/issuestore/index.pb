@@ -1,28 +1,18 @@
 
 â
 Yapp/src/main/java/com/cgalves/mystorie/feature/noticias/view/adapter/NoticiasAdapter.java,3/4/34f4977faab5f8ef969e323d454b8c41d10fe966
-â
-Yapp/src/javaMVP_FASTMOCK/java/com/cgalves/mystorie/model/factory/ListSectionCallImpl.java,3/f/3f696c5cabb2ad0873dc3f19d67adf9d67e34b62
 S
 #app/src/main/res/values/strings.xml,d/2/d2281fbb3027de2722081a53408dd77628bf080e
 P
  config/checkstyle/checkstyle.xml,e/1/e1f2dc84f565ee8ad14a89aa864c602bc570e082
 å
 \app/src/main/java/com/cgalves/mystorie/feature/noticias/presenter/NoticiasPresenterImpl.java,1/8/18fb4acef02933c8c71fe4e60e76ce5eb910e5d2
-Ç
-Rapp/src/javaMVP_FASTMOCK/java/com/cgalves/mystorie/model/factory/HomeCallImpl.java,d/e/de4ef92569c3dc2d7df139d2675905673bedd2b7
 Å
 Qapp/src/main/java/com/cgalves/mystorie/feature/admin/contact/ContactActivity.java,c/0/c0eb197a0d42ddd7b49adba1d36ec0af8ba69da4
 
 Oapp/build/generated/source/r/javaMVP_FASTMOCK/debug/com/cgalves/mystorie/R.java,9/1/91f3fbffd19d5b31141f92de66503261f5ac2dc6
 \
 ,app/assets/sonarqube-config/sonar_config_txt,2/1/217de3aea88637393db25a43108af5461a078460
-Ü
-Vapp/src/javaMVP_FASTMOCK/java/com/cgalves/mystorie/model/factory/NoticiasCallImpl.java,5/a/5ab1ba6aab3182caebd29e528ea89d63aedd139e
-á
-Wapp/src/javaMVP_FASTMOCK/java/com/cgalves/mystorie/model/factory/NovidadesCallImpl.java,6/a/6a7b6e4ad15d01e879f5c57f440c184fd5192730
-É
-Sapp/src/javaMVP_FASTMOCK/java/com/cgalves/mystorie/model/factory/LoginCallImpl.java,9/4/94cbd5d1d570bd11423a01ef10b7eefe1f6b2c71
 ~
 Napp/src/main/java/com/cgalves/mystorie/common/dialog/CustomProgressDialog.java,c/7/c7bddc92b10721b97fdbc372622fb0dd2f479530
 z
@@ -113,3 +103,13 @@ F
 config/pmd-ruleset.xml,f/3/f391a97dcee08e22273e699f9ee6a14970de12b8
 J
 config/findbugs-filter.xml,0/b/0bbf378008581ac6e4edbf3526178e9b962d351a
+s
+Capp/src/main/java/mvvm/feature/home/view/activity/HomeActivity.java,c/7/c7f5c4ca53981465dfe21087d70837aaa25caa59
+~
+Napp/src/main/java/com/cgalves/mystorie/feature/home/model/SectionResponse.java,0/d/0d88e78860ad3450a09f0917866643d5d354f729
+Ñ
+Tapp/src/main/java/com/cgalves/mystorie/feature/home/presenter/HomePresenterImpl.java,e/6/e6a92667c73344c47749d2a3a812578a41f74fcc
+Å
+Qapp/src/main/java/com/cgalves/mystorie/common/abstractcalls/HomeAbstractCall.java,7/2/7213d80d63cd1f8362b996a6ead20459271d3d42
+P
+ app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
