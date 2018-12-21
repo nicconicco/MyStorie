@@ -8,7 +8,6 @@ import com.cgalves.mystorie.common.activity.BaseActivity;
 import com.cgalves.mystorie.common.model.User;
 import com.cgalves.mystorie.feature.login.presenter.LoginContract;
 import com.cgalves.mystorie.feature.login.presenter.LoginPresenterImpl;
-import com.parse.ParseUser;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Bean;
@@ -51,6 +50,7 @@ public class RegisterActivity extends BaseActivity implements LoginContract.Logi
 
     @Override
     public void onLoginResult(boolean isAdmin) {
+        // something happens here.. 
     }
 
     @Override
