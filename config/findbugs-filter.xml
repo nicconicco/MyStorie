@@ -16,5 +16,6 @@
 
     <Match>
         <Class name="com.cgalves.mystorie.MyStorieApplication" />
+        <Class name="com.cgalves.mystorie.MyStorieApplication_" />
     </Match>
 </FindBugsFilter>
