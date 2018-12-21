@@ -81,7 +81,7 @@ android {
     // Manter isto no top, senão ele não consegue enxergar
     signingConfigs {
         theReleaseKey {
-            storeFile file('/Users/cgalves/Documents/GitHub/MyStorieApplication/mykeystore.jks')
+            storeFile file('/Users/scopus/Documents/MyStorie/mykeystore.jks')
             storePassword "123456"
             keyAlias "MYSTORIE"
             keyPassword "123456"
@@ -190,10 +190,10 @@ dependencies {
     api busEvent
     api parseServer
     implementation okhttp.okhttpInterceptor
-    implementation facebook
+//    implementation facebook
 
-    compile 'com.parse:parsefacebookutils-v4-android:1.10.4@aar'
-    compile 'com.facebook.android:facebook-android-sdk:4.29.0'
+//    compile 'com.parse:parsefacebookutils-v4-android:1.10.4@aar'
+//    compile 'com.facebook.android:facebook-android-sdk:4.29.0'
 
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile fileTree(include: 'Parse-*.jar', dir: 'libs')

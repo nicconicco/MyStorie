@@ -5,8 +5,6 @@ import android.os.Handler;
 import android.util.Log;
 
 import com.cgalves.mystorie.feature.login.view.LoginActivity_;
-import com.facebook.FacebookSdk;
-import com.facebook.appevents.AppEventsLogger;
 import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.activity.BaseActivity;
 import com.cgalves.mystorie.common.utils.AlertDialogUtils;
@@ -42,8 +40,8 @@ public class SplashActivity extends BaseActivity {
     }
 
     private void initFacebook() {
-        FacebookSdk.sdkInitialize(getApplicationContext());
-        AppEventsLogger.activateApp(this);
+//        FacebookSdk.sdkInitialize(getApplicationContext());
+//        AppEventsLogger.activateApp(this);
     }
 
     private void initParseServer() {

@@ -12,13 +12,7 @@ import com.cgalves.mystorie.feature.admin.home.MasterHomeActivity_;
 import com.cgalves.mystorie.feature.home.view.activity.HomeActivity_;
 import com.cgalves.mystorie.feature.login.presenter.LoginContract;
 import com.cgalves.mystorie.feature.login.presenter.LoginPresenterImpl;
-import com.facebook.AccessToken;
-import com.facebook.CallbackManager;
-import com.facebook.FacebookCallback;
-import com.facebook.FacebookException;
-import com.facebook.login.LoginManager;
-import com.facebook.login.LoginResult;
-import com.parse.ParseUser;
+
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Bean;
@@ -26,9 +20,6 @@ import org.androidannotations.annotations.Click;
 import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.ViewById;
 
-import java.util.Arrays;
-
-import static com.google.android.gms.internal.zzdmy.checkNotNull;
 
 @EActivity(R.layout.activity_login_v2)
 public class LoginActivity extends BaseActivity implements LoginContract.LoginPresenterView {
