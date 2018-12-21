@@ -33,6 +33,11 @@ public class LoginCallImpl extends LoginAbstractCall {
         });
     }
 
+    @Override
+    public void doRegistration(String username, String password, String email) {
+
+    }
+
     // TODO; INTEGRACAO ENVIROMENT
 //        ParseUser user = new ParseUser();
 //        user.setUsername(username);
