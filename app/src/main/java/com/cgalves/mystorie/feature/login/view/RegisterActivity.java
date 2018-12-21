@@ -50,7 +50,7 @@ public class RegisterActivity extends BaseActivity implements LoginContract.Logi
 
     @Override
     public void onLoginResult(boolean isAdmin) {
-        // something happens here.. 
+        // something happens here..
     }
 
     @Override

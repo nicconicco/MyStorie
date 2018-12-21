@@ -19,6 +19,10 @@ public class DetailSection implements Parcelable {
 
     public DetailSection(String name, String txt, String image) {
         super();
+        setDetail(name, txt, image);
+    }
+
+    private void setDetail(String name, String txt, String image) {
         setName(name);
         setTxt(txt);
         setImage(image);
