@@ -1,9 +1,6 @@
 package com.cgalves.mystorie.common.abstractcalls;
-import android.arch.lifecycle.LiveData;
-import android.arch.lifecycle.MutableLiveData;
 import android.content.Context;
 
-import com.cgalves.mystorie.common.model.User;
 
 import org.greenrobot.eventbus.EventBus;
 
