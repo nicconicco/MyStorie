@@ -63,6 +63,10 @@ check.dependsOn 'checkstyle', 'findbugs', 'pmd'
 
 android {
 
+    lintOptions {
+        abortOnError false
+    }
+
     testOptions {
         unitTests {
             includeAndroidResources = true
