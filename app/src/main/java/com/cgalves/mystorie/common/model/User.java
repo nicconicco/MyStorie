@@ -9,6 +9,18 @@ public class User {
     private String name;
     private String token;
     private Boolean isAdmin = false;
+    private String facebook;
+    private String twitter;
+    private String image;
+    private String email;
+    private String cellphone;
+
+    public User() {
+    }
+
+    public User(String name) {
+        this.name = name;
+    }
 
     public String getFacebook() {
         return facebook;
@@ -26,9 +38,6 @@ public class User {
         this.twitter = twitter;
     }
 
-    private String facebook;
-    private String twitter;
-
     public String getImage() {
         return image;
     }
@@ -36,8 +45,6 @@ public class User {
     public void setImage(String image) {
         this.image = image;
     }
-
-    private String image;
 
     public String getEmail() {
         return email;
@@ -47,23 +54,12 @@ public class User {
         this.email = email;
     }
 
-    private String email;
-
     public String getCellphone() {
         return cellphone;
     }
 
     public void setCellphone(String cellphone) {
         this.cellphone = cellphone;
-    }
-
-    private String cellphone;
-
-    public User(String name) {
-        this.name = name;
-    }
-
-    public User() {
     }
 
     public String getName() {
