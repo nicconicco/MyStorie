@@ -26,20 +26,19 @@ import java.util.List;
 
 public class NovidadesAdapter extends RecyclerView.Adapter<NovidadesAdapter.ViewHolder> {
 
+    private final Context context;
+    private final List<Novidade> sectionList;
+    private final OnClickListener onClickListener;
+
     public NovidadesAdapter(Context context, List<Novidade> sectionList, OnClickListener onClickListener) {
         this.context = context;
         this.sectionList = sectionList;
         this.onClickListener = onClickListener;
     }
 
-    private final Context context;
-    private final List<Novidade> sectionList;
-
     public interface OnClickListener {
         void onClick(Novidade n);
     }
-
-    private OnClickListener onClickListener;
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {

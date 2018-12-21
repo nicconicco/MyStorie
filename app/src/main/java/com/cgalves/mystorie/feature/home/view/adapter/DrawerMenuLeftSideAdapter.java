@@ -9,7 +9,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.cgalves.mystorie.R;
-import com.cgalves.mystorie.common.model.User;
 import com.cgalves.mystorie.feature.home.model.Section;
 
 import java.util.ArrayList;
