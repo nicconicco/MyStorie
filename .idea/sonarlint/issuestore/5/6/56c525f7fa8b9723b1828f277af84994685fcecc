@@ -1,3 +1,7 @@
 
-Lsquid:S1068"0Remove this unused "userLiveData" private field.(Û§ë§ýÿÿÿÿ
-`squid:UselessImportCheck"<Remove this unused import 'android.arch.lifecycle.LiveData'.(Úò›Ž
+<squid:S1451"&Add or update the header of this file.8èêâëü,
+v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(èé¾8èêâëü,
+}squid:S00118"^Rename this abstract class name to match the regular expression '^Abstract[A-Z][a-zA-Z0-9]*$'.(£ÝïŠ8èêâëü,
+Jsquid:IndentationCheck"!Make this line start at column 5.(Ñ•€–8èêâëü,
+Jsquid:IndentationCheck"!Make this line start at column 3.(èé¾8›„‡ìü,
+v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(£ÝïŠ8èêâëü,

@@ -1,20 +1,20 @@
 
-Csquid:IndentationCheck"!Make this line start at column 3.(þêåÒ
-Hsquid:IndentationCheck""!Make this line start at column 5.(ÝÐ¥úýÿÿÿÿ
-Hsquid:IndentationCheck("!Make this line start at column 5.(—›–Ìûÿÿÿÿ
-Csquid:IndentationCheck."!Make this line start at column 5.(Ž£¤¦
-Hsquid:IndentationCheck4"!Make this line start at column 5.(—›–Ìûÿÿÿÿ
-Csquid:IndentationCheck:"!Make this line start at column 5.(æ¨”Ñ
-5squid:S1451"&Add or update the header of this file.
-o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Ã¢¶²
-t"squid:LeftCurlyBraceStartLineCheck!"AMove this left curly brace to the beginning of next line of code.(º¹ãÚùÿÿÿÿ
-t"squid:LeftCurlyBraceStartLineCheck'"AMove this left curly brace to the beginning of next line of code.(ºžž„þÿÿÿÿ
-o"squid:LeftCurlyBraceStartLineCheck-"AMove this left curly brace to the beginning of next line of code.(Î·­¤
-t"squid:LeftCurlyBraceStartLineCheck3"AMove this left curly brace to the beginning of next line of code.(…Ûäßøÿÿÿÿ
-t"squid:LeftCurlyBraceStartLineCheck9"AMove this left curly brace to the beginning of next line of code.(Öêòûÿÿÿÿÿ
-Ksquid:S2039"4Explicitly declare the visibility for "application".(þêåÒ
-Psquid:S2039"9Explicitly declare the visibility for "homeAbstractCall".(‹´…„
-Csquid:S1068"'Remove this unused "TAG" private field.(ýË€éýÿÿÿÿ
-csquid:S00103"KSplit this 140 characters long line (which is greater than 120 authorized).(Ã¢¶²
 Vsquid:S3340,"?Reorder annotation arguments to match the order of declaration.(ð˜ï„
+t"squid:LeftCurlyBraceStartLineCheck!"AMove this left curly brace to the beginning of next line of code.(º¹ãÚùÿÿÿÿ
+Csquid:IndentationCheck:"!Make this line start at column 5.(æ¨”Ñ
+csquid:S00103"KSplit this 140 characters long line (which is greater than 120 authorized).(Ã¢¶²
+Hsquid:IndentationCheck4"!Make this line start at column 5.(—›–Ìûÿÿÿÿ
+Csquid:IndentationCheck"!Make this line start at column 3.(þêåÒ
+Hsquid:IndentationCheck("!Make this line start at column 5.(—›–Ìûÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck9"AMove this left curly brace to the beginning of next line of code.(Öêòûÿÿÿÿÿ
+Csquid:S1068"'Remove this unused "TAG" private field.(ýË€éýÿÿÿÿ
+Hsquid:IndentationCheck""!Make this line start at column 5.(ÝÐ¥úýÿÿÿÿ
 Vsquid:S33408"?Reorder annotation arguments to match the order of declaration.(ð˜ï„
+Ksquid:S2039"4Explicitly declare the visibility for "application".(þêåÒ
+o"squid:LeftCurlyBraceStartLineCheck-"AMove this left curly brace to the beginning of next line of code.(Î·­¤
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Ã¢¶²
+Psquid:S2039"9Explicitly declare the visibility for "homeAbstractCall".(‹´…„
+5squid:S1451"&Add or update the header of this file.
+Csquid:IndentationCheck."!Make this line start at column 5.(Ž£¤¦
+t"squid:LeftCurlyBraceStartLineCheck'"AMove this left curly brace to the beginning of next line of code.(ºžž„þÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck3"AMove this left curly brace to the beginning of next line of code.(…Ûäßøÿÿÿÿ

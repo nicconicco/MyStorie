@@ -1,5 +1,13 @@
 
 Jsquid:S1172".Remove this unused method parameter "context".(í¤˜²úÿÿÿÿ
-Ysquid:S1610"BConvert the abstract class "APIAbstractFactory" into an interface.(×·–ª
+ssquid:UselessImportCheck"CRemove this unused import 'com.cgalves.mystorie.common.model.User'.(’ˆï˜ÿÿÿÿÿ8”¤“ëü,
+{"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(í¤˜²úÿÿÿÿ8©ò’ëü,
+Osquid:IndentationCheck"!Make this line start at column 3.(í¤˜²úÿÿÿÿ8©ò’ëü,
 `squid:UselessImportCheck"<Remove this unused import 'android.arch.lifecycle.LiveData'.(Úò›Ž
+Ysquid:S1610"BConvert the abstract class "APIAbstractFactory" into an interface.(×·–ª
 Xsquid:UselessImportCheck"4Remove this unused import 'io.reactivex.Observable'.(–˜¼
+<squid:S1451"&Add or update the header of this file.8©ò’ëü,
+Osquid:IndentationCheck"!Make this line start at column 5.(£Ì¥þûÿÿÿÿ8©ò’ëü,
+v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(×·–ª8©ò’ëü,
+}squid:S00118"^Rename this abstract class name to match the regular expression '^Abstract[A-Z][a-zA-Z0-9]*$'.(×·–ª8©ò’ëü,
+nsquid:UselessImportCheck"CRemove this unused import 'android.arch.lifecycle.MutableLiveData'.(Ô…¼€8”¤“ëü,

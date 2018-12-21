@@ -1,2 +1,19 @@
 
+v"squid:LeftCurlyBraceStartLineCheck("AMove this left curly brace to the beginning of next line of code.(†΅8‘ς‘λό,
+{"squid:LeftCurlyBraceStartLineCheck7"AMove this left curly brace to the beginning of next line of code.(ΔΫ–‰ϋÿÿÿÿ8‘ς‘λό,
+v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ΞΠ8‘ς‘λό,
+Osquid:IndentationCheck"!Make this line start at column 5.(¨ΰΟϋÿÿÿÿ8‘ς‘λό,
+v"squid:LeftCurlyBraceStartLineCheck#"AMove this left curly brace to the beginning of next line of code.(€Κ8‘ς‘λό,
+Osquid:IndentationCheck3"!Make this line start at column 5.(ιέ†ψÿÿÿÿ8‘ς‘λό,
+v"squid:LeftCurlyBraceStartLineCheck2"AMove this left curly brace to the beginning of next line of code.(ωώ ό8‘ς‘λό,
+Isquid:IndentationCheck$"!Make this line start at column 5.(σ‰Α.8‘ς‘λό,
+<squid:S1451"&Add or update the header of this file.8‘ς‘λό,
+v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ήβεµ8‘ς‘λό,
+Osquid:IndentationCheck)"!Make this line start at column 5.(ήθήΫψÿÿÿÿ8‘ς‘λό,
+v"squid:LeftCurlyBraceStartLineCheck-"AMove this left curly brace to the beginning of next line of code.(Έϊα‘8‘ς‘λό,
+Osquid:IndentationCheck."!Make this line start at column 5.(™κώÿÿÿÿ8‘ς‘λό,
+Jsquid:IndentationCheck"!Make this line start at column 3.(ΞΠ8‘ς‘λό,
 `squid:UselessImportCheck"<Remove this unused import 'android.arch.lifecycle.LiveData'.(Ϊς›
+Jsquid:IndentationCheck8"!Make this line start at column 5.(«ήΙ¶8‘ς‘λό,
+ssquid:UselessImportCheck"CRemove this unused import 'com.cgalves.mystorie.common.model.User'.(’οÿÿÿÿÿ8 Κ“λό,
+nsquid:UselessImportCheck"CRemove this unused import 'android.arch.lifecycle.MutableLiveData'.(Τ…Ό€8 Κ“λό,
