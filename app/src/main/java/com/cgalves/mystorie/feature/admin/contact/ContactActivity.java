@@ -8,7 +8,7 @@ import com.bumptech.glide.Glide;
 import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.activity.BaseActivity;
 import com.cgalves.mystorie.common.model.Contact;
-import com.cgalves.mystorie.common.utils.GsonUtils;
+import com.cgalves.mystorie.common.utils.GsonUtility;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
 
@@ -42,7 +42,7 @@ public class ContactActivity extends BaseActivity {
 
                 if(objects.size() == 0) {
                     configFirstContactInformation();
-                    Log.d(getString(R.string.tag_next_flow), "Object Return:\n" + GsonUtils.objectToJson(objects));
+                    Log.d(getString(R.string.tag_next_flow), "Object Return:\n" + GsonUtility.objectToJson(objects));
                 } else {
                     Contact contact = objects.get(0);
                     tvEmailContact.setText("Entre em contato com\na gente pelo email: " + contact.getEmail());
@@ -51,7 +51,7 @@ public class ContactActivity extends BaseActivity {
                     tvCellphone.setText("Telefone: " + contact.getCellphone());
                     Glide.with(this).load(contact.getImage()).into(ivProfile);
                 }
-                Log.d(getString(R.string.tag_next_flow), "ACHOU" + GsonUtils.objectToJson(objects));
+                Log.d(getString(R.string.tag_next_flow), "ACHOU" + GsonUtility.objectToJson(objects));
             } else {
                 Log.d("score", "Error: " + e.getMessage());
             }

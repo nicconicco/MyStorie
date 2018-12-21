@@ -8,7 +8,7 @@ import com.cgalves.mystorie.feature.login.view.LoginActivity_;
 import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.activity.BaseActivity;
 import com.cgalves.mystorie.common.utils.AlertDialogUtils;
-import com.cgalves.mystorie.common.utils.AndroidUtils;
+import com.cgalves.mystorie.common.utils.AndroidUtility;
 import com.parse.Parse;
 import com.parse.ParseInstallation;
 
@@ -27,9 +27,9 @@ public class SplashActivity extends BaseActivity {
 
     private void startSplash() {
         Log.d(getString(R.string.tag_next_flow), this.getString(R.string.state_after_view));
-        if (AndroidUtils.isNotKeepActivitiesEnable(this)) {
+        if (AndroidUtility.isNotKeepActivitiesEnable(this)) {
             AlertDialogUtils.showAlertWarning(this, this.getString(R.string.not_keep_activities_mode_info));
-            AndroidUtils.getActualDeviceInformation();
+            AndroidUtility.getActualDeviceInformation();
         } else {
             new Handler().postDelayed(() -> {
                 LoginActivity_.intent(getBaseContext()).flags(Intent.FLAG_ACTIVITY_NEW_TASK).start();

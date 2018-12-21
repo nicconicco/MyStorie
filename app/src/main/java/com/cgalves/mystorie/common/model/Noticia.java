@@ -23,6 +23,10 @@ public class Noticia extends ParseObject {
     }
 
     public Noticia(String name, String txt, String image) {
+        setNoticia(name, txt, image);
+    }
+
+    private void setNoticia(String name, String txt, String image) {
         setNameInBank(name);
         setTxtInBank(txt);
         setImageInBank(image);

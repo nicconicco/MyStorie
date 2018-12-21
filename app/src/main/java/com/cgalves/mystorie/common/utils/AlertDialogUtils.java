@@ -11,8 +11,7 @@ import com.cgalves.mystorie.R;
  * Created by Scopus on 10/07/18.
  */
 
-public class AlertDialogUtils {
-
+public final class AlertDialogUtils {
     public static void showAlertWarning(Activity activity, String msg) {
         final Dialog dialog = new Dialog(activity);
         dialog.setContentView(R.layout.warning_dialog);

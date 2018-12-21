@@ -190,7 +190,7 @@ public class HomeActivity extends BaseActivity implements HomeContract.HomePrese
         finish();
     }
 
-    private class DrawerItemClickListener implements android.widget.AdapterView.OnItemClickListener {
+    private class DrawerItemClickListener implements AdapterView.OnItemClickListener {
         @Override
         public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
             selectItem(position);

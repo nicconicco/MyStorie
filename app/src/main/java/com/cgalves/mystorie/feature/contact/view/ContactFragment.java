@@ -31,6 +31,7 @@ import org.androidannotations.annotations.ViewById;
 
 @EFragment
 public class ContactFragment extends BaseFragment implements ContactContract.ContactPresenterView {
+
     @Bean
     ContactPresenterImpl<ContactFragment> presenter;
 
@@ -106,8 +107,7 @@ public class ContactFragment extends BaseFragment implements ContactContract.Con
     }
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_contatos, container, false);
-        return view;
+        return inflater.inflate(R.layout.fragment_contatos, container, false);
     }
 
     @Override

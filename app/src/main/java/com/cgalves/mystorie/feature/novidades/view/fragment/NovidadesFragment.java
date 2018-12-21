@@ -140,7 +140,7 @@ public class NovidadesFragment extends BaseFragment implements NovidadesContract
 
             DetailSection d = new DetailSection();
 
-            d.setName(noticia.getName());
+            d.setDetailname(noticia.getName());
             d.setTxt(noticia.getTxt());
             d.setImage(noticia.getImg());
 

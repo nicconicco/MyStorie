@@ -49,7 +49,7 @@ public class LoginCallImpl extends LoginAbstractCall {
 //                    ParseUser result = ParseUser.getCurrentUser();
 //                    User user2 = new User();
 //
-//                    user2.setName(result.getUsername());
+//                    user2.setDetailname(result.getUsername());
 //                    user2.setToken(result.getSessionToken());
 //                    user2.setEmail(result.getEmail());
 //

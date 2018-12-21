@@ -22,7 +22,7 @@ public class DetailSection implements Parcelable {
     }
 
     private void setDetail(String name, String txt, String image) {
-        setName(name);
+        setDetailname(name);
         setTxt(txt);
         setImage(image);
     }
@@ -37,7 +37,7 @@ public class DetailSection implements Parcelable {
         return name;
     }
 
-    public void setName(String name) {
+    public void setDetailname(String name) {
         this.name = name;
     }
 
