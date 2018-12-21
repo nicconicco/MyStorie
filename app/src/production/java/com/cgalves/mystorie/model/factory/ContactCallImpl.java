@@ -7,7 +7,7 @@ import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.abstractcalls.ContactAbstractCall;
 import com.cgalves.mystorie.common.model.Contact;
 import com.cgalves.mystorie.common.model.User;
-import com.cgalves.mystorie.common.utils.GsonUtils;
+import com.cgalves.mystorie.common.utils.GsonUtility;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
 
