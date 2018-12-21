@@ -10,7 +10,7 @@ import android.util.Log;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-public class  KeyHashUtils {
+public class KeyHashUtils {
     public static void generateKeyHash(Context context) {
         try {
             PackageInfo info = context.getPackageManager().getPackageInfo(

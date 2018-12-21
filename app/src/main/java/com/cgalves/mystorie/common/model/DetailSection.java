@@ -9,6 +9,27 @@ import android.os.Parcelable;
 
 public class DetailSection implements Parcelable {
 
+    public String name;
+    private String txt;
+    public String image;
+
+    public DetailSection() {
+        super();
+    }
+
+    public DetailSection(String name, String txt, String image) {
+        super();
+        setName(name);
+        setTxt(txt);
+        setImage(image);
+    }
+
+    protected DetailSection(Parcel in) {
+        this.name = in.readString();
+        this.txt = in.readString();
+        this.image = in.readString();
+    }
+
     public String getName() {
         return name;
     }
@@ -33,21 +54,6 @@ public class DetailSection implements Parcelable {
         this.image = image;
     }
 
-    public String name;
-    private String txt;
-    public String image;
-
-    public DetailSection() {
-        super();
-    }
-
-    public DetailSection(String name, String txt, String image) {
-        super();
-        setName(name);
-        setTxt(txt);
-        setImage(image);
-    }
-
     @Override
     public int describeContents() {
         return 0;
@@ -58,12 +64,6 @@ public class DetailSection implements Parcelable {
         dest.writeString(this.name);
         dest.writeString(this.txt);
         dest.writeString(this.image);
-    }
-
-    protected DetailSection(Parcel in) {
-        this.name = in.readString();
-        this.txt = in.readString();
-        this.image = in.readString();
     }
 
     public static final Creator<DetailSection> CREATOR = new Creator<DetailSection>() {

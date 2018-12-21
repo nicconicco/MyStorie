@@ -7,6 +7,41 @@ import com.parse.ParseUser;
 @ParseClassName("Novidade")
 public class Novidade extends ParseObject {
 
+    public String name;
+    public String txt;
+    public String img;
+    public static final String FIELD_NAME = "name";
+    public static final String FIELD_TEXT = "txt";
+    public static final String FIELD_IMAGE = "image";
+    public static final String FIELD_OWNER = "owner";
+
+    public Novidade() {
+        super();
+    }
+
+    public Novidade(String name, String txt, String image) {
+        super();
+        setNameInBank(name);
+        setTxtInBank(txt);
+        setImageInBank(image);
+    }
+
+    public static String getFieldName() {
+        return FIELD_NAME;
+    }
+
+    public static String getFieldText() {
+        return FIELD_TEXT;
+    }
+
+    public static String getFieldImage() {
+        return FIELD_IMAGE;
+    }
+
+    public static String getFieldOwner() {
+        return FIELD_OWNER;
+    }
+
     public String getName() {
         return name;
     }
@@ -29,27 +64,6 @@ public class Novidade extends ParseObject {
 
     public void setImg(String img) {
         this.img = img;
-    }
-
-    public String name;
-    public String txt;
-    public String img;
-
-    public static final String FIELD_NAME = "name";
-    public static final String FIELD_TEXT = "txt";
-    public static final String FIELD_IMAGE = "image";
-    public static final String FIELD_OWNER = "owner";
-    // Ensure that your subclass has a public default constructor
-
-    public Novidade() {
-        super();
-    }
-
-    public Novidade(String name, String txt, String image) {
-        super();
-        setNameInBank(name);
-        setTxtInBank(txt);
-        setImageInBank(image);
     }
 
     public void setNameInBank(String value) {

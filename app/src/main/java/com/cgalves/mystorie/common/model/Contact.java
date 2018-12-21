@@ -15,6 +15,26 @@ public class Contact extends ParseObject {
     private static final String FIELD_EMAIL ="email";
     private static final String FIELD_IMAGE ="imgProfile";
 
+    public static String getFieldFacebook() {
+        return FIELD_FACEBOOK;
+    }
+
+    public static String getFieldTwitter() {
+        return FIELD_TWITTER;
+    }
+
+    public static String getFieldCellphone() {
+        return FIELD_CELLPHONE;
+    }
+
+    public static String getFieldEmail() {
+        return FIELD_EMAIL;
+    }
+
+    public static String getFieldImage() {
+        return FIELD_IMAGE;
+    }
+
     public Contact() {
         super();
     }
