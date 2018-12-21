@@ -13,7 +13,6 @@ import org.greenrobot.eventbus.ThreadMode;
 @EBean
 public class ContactPresenterImpl<V extends ContactContract.ContactPresenterView> extends BasePresenter<V> implements ContactContract.ContactPresenter<V> {
 
-    private static final String TAG = ContactPresenterImpl.class.getSimpleName();
     ContactAbstractCall contactAbstractCall;
 
     @AfterInject

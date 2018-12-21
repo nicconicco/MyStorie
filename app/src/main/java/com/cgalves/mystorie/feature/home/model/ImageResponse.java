@@ -22,6 +22,7 @@ public class ImageResponse {
     }
 
     public ImageResponse() {
+        // this is proposital and needed, dont ask why
     }
 
     public List<Image> getList() {

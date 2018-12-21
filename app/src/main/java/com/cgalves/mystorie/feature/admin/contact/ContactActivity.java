@@ -17,14 +17,12 @@ import org.androidannotations.annotations.Click;
 import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.ViewById;
 
-import java.util.ArrayList;
 
 @EActivity(R.layout.activity_contact)
 public class ContactActivity extends BaseActivity {
 
     @ViewById
     ImageView ivProfile;
-
 
     @ViewById
     TextView tvEmailContact, tvFacebookUrl, tvTwitterUrl, tvCellphone;
@@ -47,7 +45,6 @@ public class ContactActivity extends BaseActivity {
                     Log.d(getString(R.string.tag_next_flow), "Object Return:\n" + GsonUtils.objectToJson(objects));
                 } else {
                     Contact contact = objects.get(0);
-                    String json = GsonUtils.objectToJson(objects);
                     tvEmailContact.setText("Entre em contato com\na gente pelo email: " + contact.getEmail());
                     tvFacebookUrl.setText(contact.getFacebook());
                     tvTwitterUrl.setText(contact.getTwitter());
