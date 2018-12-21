@@ -16,10 +16,11 @@ public class Contact extends ParseObject {
     private static final String FIELD_IMAGE ="imgProfile";
 
     public Contact() {
+        // This constructor is intentionally empty. Nothing special is needed here.
     }
 
     public Contact(String facebook, String twitter, String cellphone, String email, String image, ParseUser owner) {
-        setFacebook(facebook);
+        setContactFacebook(facebook);
         setTwitter(twitter);
         setEmail(email);
         setImage(image);
@@ -43,7 +44,7 @@ public class Contact extends ParseObject {
         return getString(FIELD_EMAIL);
     }
 
-    public void setFacebook(String value) {
+    public void setContactFacebook(String value) {
         put(FIELD_FACEBOOK, value);
     }
 
