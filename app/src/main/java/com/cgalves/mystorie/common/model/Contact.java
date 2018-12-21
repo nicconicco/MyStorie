@@ -7,7 +7,7 @@ import com.parse.ParseUser;
 import static com.cgalves.mystorie.common.model.Novidade.FIELD_OWNER;
 
 @ParseClassName("Contact")
-public class Contact extends ParseObject {
+public final class Contact extends ParseObject {
 
     private static final String FIELD_FACEBOOK ="facebookUrl";
     private static final String FIELD_TWITTER ="twitterUrl";
