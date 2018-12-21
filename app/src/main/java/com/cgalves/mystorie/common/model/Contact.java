@@ -16,11 +16,9 @@ public class Contact extends ParseObject {
     private static final String FIELD_IMAGE ="imgProfile";
 
     public Contact() {
-        super();
     }
 
     public Contact(String facebook, String twitter, String cellphone, String email, String image, ParseUser owner) {
-        super();
         setFacebook(facebook);
         setTwitter(twitter);
         setEmail(email);
