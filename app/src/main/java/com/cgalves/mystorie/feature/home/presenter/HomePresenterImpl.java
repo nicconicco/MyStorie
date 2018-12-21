@@ -25,8 +25,6 @@ public class HomePresenterImpl<V extends HomeContract.HomePresenterView> extends
 
     @App
     MyStorieApplication application;
-
-    private static final String TAG = HomePresenterImpl.class.getSimpleName();
     HomeAbstractCall homeAbstractCall;
 
     @AfterInject

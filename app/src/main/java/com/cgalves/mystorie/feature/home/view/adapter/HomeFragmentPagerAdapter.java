@@ -15,7 +15,8 @@ import com.cgalves.mystorie.feature.novidades.view.fragment.NovidadesFragment_;
  */
 
 public class HomeFragmentPagerAdapter extends FragmentPagerAdapter {
-    private Context mContext;
+
+    private final Context mContext;
 
     public HomeFragmentPagerAdapter(Context context, FragmentManager fm) {
         super(fm);

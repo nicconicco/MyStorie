@@ -12,7 +12,7 @@ import java.util.List;
  * Created by Scopus on 17/07/18.
  */
 
-public class GsonUtils {
+public final class GsonUtils {
     public static <T> List<T> jsonToObjectList(String json) {
         Type collectionType = new TypeToken<List<T>>() {
         }.getType();

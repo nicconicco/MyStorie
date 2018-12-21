@@ -16,6 +16,7 @@ public class User {
     private String cellphone;
 
     public User() {
+        // proposital
     }
 
     public User(String name) {

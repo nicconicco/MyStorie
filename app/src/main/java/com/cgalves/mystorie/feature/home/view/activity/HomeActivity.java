@@ -1,6 +1,5 @@
 package com.cgalves.mystorie.feature.home.view.activity;
 
-import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.support.design.widget.TabLayout;
 import android.support.v4.content.ContextCompat;
@@ -105,6 +104,7 @@ public class HomeActivity extends BaseActivity implements HomeContract.HomePrese
                     }
                     default: {
                         setImage(ContextCompat.getDrawable(HomeActivity.this, R.drawable.aristoteles), ContextCompat.getDrawable(HomeActivity.this, R.drawable.contact));
+                        break;
                     }
                 }
             }

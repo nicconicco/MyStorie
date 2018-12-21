@@ -18,25 +18,11 @@ public class Noticia extends ParseObject {
     public static final String FIELD_TEXT = "txt";
     public static final String FIELD_IMAGE = "image";
 
-    public static String getFieldName() {
-        return FIELD_NAME;
-    }
-
-    public static String getFieldText() {
-        return FIELD_TEXT;
-    }
-
-    public static String getFieldImage() {
-        return FIELD_IMAGE;
-    }
-    // Ensure that your subclass has a public default constructor
-
     public Noticia() {
-        super();
+        // this is proposital
     }
 
     public Noticia(String name, String txt, String image) {
-        super();
         setNameInBank(name);
         setTxtInBank(txt);
         setImageInBank(image);

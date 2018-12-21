@@ -10,6 +10,18 @@ import android.os.Parcelable;
 public class Section implements Parcelable {
 
     private String name;
+    private Long id;
+    private String subTitle;
+
+    public Section() {
+        // this is proposital
+    }
+
+    protected Section(Parcel in) {
+        this.name = in.readString();
+        this.id = (Long) in.readValue(Long.class.getClassLoader());
+        this.subTitle = in.readString();
+    }
 
     public String getName() {
         return name;
@@ -35,10 +47,6 @@ public class Section implements Parcelable {
         this.subTitle = subTitle;
     }
 
-    private Long id;
-    private String subTitle;
-
-
     @Override
     public int describeContents() {
         return 0;
@@ -49,15 +57,6 @@ public class Section implements Parcelable {
         dest.writeString(this.name);
         dest.writeValue(this.id);
         dest.writeString(this.subTitle);
-    }
-
-    public Section() {
-    }
-
-    protected Section(Parcel in) {
-        this.name = in.readString();
-        this.id = (Long) in.readValue(Long.class.getClassLoader());
-        this.subTitle = in.readString();
     }
 
     public static final Creator<Section> CREATOR = new Creator<Section>() {
