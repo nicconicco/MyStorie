@@ -10,9 +10,7 @@ import com.cgalves.mystorie.BuildConfig;
  * Created by Scopus on 10/07/18.
  */
 
-public class AndroidUtils {
-
-    public static final String TAG = AndroidUtils.class.getSimpleName();
+public abstract class AndroidUtils {
 
     public static boolean isNotKeepActivitiesEnable(Context context) {
         boolean enabled;

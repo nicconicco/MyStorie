@@ -2,7 +2,6 @@ package com.cgalves.mystorie.common.utils;
 
 import android.app.Activity;
 import android.app.Dialog;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -21,7 +20,6 @@ public class AlertDialogUtils {
 
         TextView text = dialog.findViewById(R.id.text);
         text.setText(msg);
-        ImageView image = dialog.findViewById(R.id.image);
 
         LinearLayout dialogButton = dialog.findViewById(R.id.btn_exit);
         dialogButton.setOnClickListener(v -> activity.finish());

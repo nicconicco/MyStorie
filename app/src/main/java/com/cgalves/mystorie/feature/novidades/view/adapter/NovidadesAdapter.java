@@ -16,7 +16,6 @@ import com.bumptech.glide.load.resource.drawable.GlideDrawable;
 import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
 import com.cgalves.mystorie.R;
-import com.cgalves.mystorie.common.model.Noticia;
 import com.cgalves.mystorie.common.model.Novidade;
 
 import java.util.List;
@@ -26,6 +25,13 @@ import java.util.List;
  */
 
 public class NovidadesAdapter extends RecyclerView.Adapter<NovidadesAdapter.ViewHolder> {
+
+    public NovidadesAdapter(Context context, List<Novidade> sectionList, OnClickListener onClickListener) {
+        this.context = context;
+        this.sectionList = sectionList;
+        this.onClickListener = onClickListener;
+    }
+
     private final Context context;
     private final List<Novidade> sectionList;
 
@@ -34,12 +40,6 @@ public class NovidadesAdapter extends RecyclerView.Adapter<NovidadesAdapter.View
     }
 
     private OnClickListener onClickListener;
-
-    public NovidadesAdapter(Context context, List<Novidade> sectionList, OnClickListener onClickListener) {
-        this.context = context;
-        this.sectionList = sectionList;
-        this.onClickListener = onClickListener;
-    }
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {

@@ -46,7 +46,6 @@ public class ContactActivity extends BaseActivity {
                     configFirstContactInformation();
                     Log.d(getString(R.string.tag_next_flow), "Object Return:\n" + GsonUtils.objectToJson(objects));
                 } else {
-                    ArrayList<Contact> list = (ArrayList<Contact>) objects;
                     Contact contact = objects.get(0);
                     String json = GsonUtils.objectToJson(objects);
                     tvEmailContact.setText("Entre em contato com\na gente pelo email: " + contact.getEmail());

@@ -23,9 +23,11 @@ public class AbstractCall{
     }
 
     protected void post(Object t,EventBus bus) {
-        if (!bus.hasSubscriberForEvent(t.getClass()))
+        if (!bus.hasSubscriberForEvent(t.getClass())){
             bus.postSticky(t);
-        else
+        }
+        else {
             bus.post(t);
+        }
     }
 }

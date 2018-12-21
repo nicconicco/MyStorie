@@ -5,5 +5,5 @@ package com.cgalves.mystorie.common.model;
  */
 
 public class UserRegistrationVO  {
-    public User user = new User();;
+    public User user = new User();
 }

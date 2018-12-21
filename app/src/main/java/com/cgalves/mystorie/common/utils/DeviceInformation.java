@@ -5,12 +5,14 @@ package com.cgalves.mystorie.common.utils;
  */
 
 public class DeviceInformation {
+
+    String manufacturer;
+    String model;
+
     DeviceInformation(String manufacturer, String model) {
         this.manufacturer = manufacturer;
         this.model = model;
     }
-    String manufacturer;
-    String model;
 
     @Override
     public boolean equals(Object obj) {

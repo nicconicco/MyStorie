@@ -10,13 +10,14 @@ import java.util.List;
  */
 
 public class NovidadesResponseList {
+
     public List<Novidade> getNovidadeList() {
         return novidades;
     }
+    public List<Novidade> novidades;
 
     public void setNovidadeList(List<Novidade> novidades) {
         this.novidades = novidades;
     }
 
-    public List<Novidade> novidades;
 }

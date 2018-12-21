@@ -1,6 +1,5 @@
 package com.cgalves.mystorie.feature.novidades.presenter;
 
-import com.cgalves.mystorie.common.abstractcalls.NoticiasAbstractCall;
 import com.cgalves.mystorie.common.abstractcalls.NovidadesAbstractCall;
 import com.cgalves.mystorie.common.factory.APIAbstractFactory;
 import com.cgalves.mystorie.common.presenter.BasePresenter;

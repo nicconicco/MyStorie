@@ -33,7 +33,6 @@ import org.androidannotations.annotations.ViewById;
  * Created by scopus on 27/07/18.
  */
 
-
 @EFragment
 public class NovidadesFragment extends BaseFragment implements NovidadesContract.NovidadesPresenterView {
 
@@ -51,8 +50,6 @@ public class NovidadesFragment extends BaseFragment implements NovidadesContract
 
     @ViewById
     RecyclerView recyclerList;
-
-    private NovidadesAdapter novidadesAdapter;
 
     @Click(R.id.btn_back)
     void onClickBack() {
@@ -132,7 +129,7 @@ public class NovidadesFragment extends BaseFragment implements NovidadesContract
 
     @Override
     public void onResulSectiontNovidades(NovidadesResponseList result) {
-        novidadesAdapter = new NovidadesAdapter(getContext(), result.getNovidadeList(), onClickListener());
+        NovidadesAdapter novidadesAdapter = new NovidadesAdapter(getContext(), result.getNovidadeList(), onClickListener());
         recyclerList.setAdapter(novidadesAdapter);
     }
 

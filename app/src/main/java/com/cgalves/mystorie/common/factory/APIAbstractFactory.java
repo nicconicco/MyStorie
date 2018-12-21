@@ -1,7 +1,5 @@
 package com.cgalves.mystorie.common.factory;
 
-import android.arch.lifecycle.LiveData;
-import android.arch.lifecycle.MutableLiveData;
 import android.content.Context;
 
 import com.cgalves.mystorie.common.abstractcalls.ContactAbstractCall;
@@ -10,11 +8,8 @@ import com.cgalves.mystorie.common.abstractcalls.ListSectionAbstractCall;
 import com.cgalves.mystorie.common.abstractcalls.LoginAbstractCall;
 import com.cgalves.mystorie.common.abstractcalls.NoticiasAbstractCall;
 import com.cgalves.mystorie.common.abstractcalls.NovidadesAbstractCall;
-import com.cgalves.mystorie.common.model.User;
 
 import org.greenrobot.eventbus.EventBus;
-
-import io.reactivex.Observable;
 
 /**
  * Created by Scopus on 11/07/18.
