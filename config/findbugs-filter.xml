@@ -13,4 +13,8 @@
             <Bug code="IJU" />
         </Not>
     </Match>
+
+    <Match>
+        <Class name="com.cgalves.mystorie.MyStorieApplication" />
+    </Match>
 </FindBugsFilter>
