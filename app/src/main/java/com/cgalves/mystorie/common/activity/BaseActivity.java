@@ -16,7 +16,7 @@ import com.cgalves.mystorie.common.dialog.CustomProgressDialog;
 
 public class BaseActivity extends AppCompatActivity {
 
-    protected static CustomProgressDialog progressBar = new CustomProgressDialog();
+    protected static final CustomProgressDialog progressBar = new CustomProgressDialog();
     protected Toolbar toolbar;
 
     @Override

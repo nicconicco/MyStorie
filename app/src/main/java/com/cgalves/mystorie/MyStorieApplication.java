@@ -13,12 +13,8 @@ import org.androidannotations.annotations.EApplication;
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
 
-/**
- * Created by Scopus on 17/07/18.
- */
-
 @EApplication
-public class MyStorieApplication extends Application {
+public class MyStorieApplication extends Application{
 
     private String token;
     private String name;
