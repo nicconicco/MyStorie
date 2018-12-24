@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-    <include layout="@layout/toolbar_app_fragment"/>
+    <include layout="@layout/toolbar_app_fragment" />
+
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/recycler_list"
+        android:id="@+id/recycler_noticias"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:paddingTop="5dp"
+        android:layout_weight="1"
         android:paddingBottom="15dp"
-        android:layout_weight="1"></android.support.v7.widget.RecyclerView>
+        android:paddingTop="5dp"></android.support.v7.widget.RecyclerView>
 </LinearLayout>

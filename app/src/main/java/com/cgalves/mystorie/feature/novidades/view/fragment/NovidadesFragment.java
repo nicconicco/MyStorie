@@ -6,15 +6,14 @@ import android.support.annotation.Nullable;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.fragment.BaseFragment;
 import com.cgalves.mystorie.common.model.DetailSection;
+import com.cgalves.mystorie.feature.home.view.activity.HomeActivity;
 import com.cgalves.mystorie.feature.list.view.activity.DetailActivity_;
 import com.cgalves.mystorie.feature.novidades.model.NovidadesResponseList;
 import com.cgalves.mystorie.feature.novidades.presenter.NovidadesContract;
@@ -33,7 +32,7 @@ import org.androidannotations.annotations.ViewById;
  * Created by scopus on 27/07/18.
  */
 
-@EFragment
+@EFragment(R.layout.fragment_novidades)
 public class NovidadesFragment extends BaseFragment implements NovidadesContract.NovidadesPresenterView {
 
     @ViewById
@@ -50,6 +49,7 @@ public class NovidadesFragment extends BaseFragment implements NovidadesContract
 
     @ViewById
     RecyclerView recyclerList;
+    private View view;
 
     @Click(R.id.btn_back)
     void onClickBack() {
@@ -75,19 +75,6 @@ public class NovidadesFragment extends BaseFragment implements NovidadesContract
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_novidades, container, false);
-        Log.d(NovidadesFragment.class.getName(), "onCreateView");
-        return rootView;
-    }
-
-    @Override
-    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
-        Log.d(NovidadesFragment.class.getName(), "onViewCreated");
-    }
-
-    @Override
     public void setMenuVisibility(boolean menuVisible) {
         super.setMenuVisibility(menuVisible);
 
@@ -101,6 +88,12 @@ public class NovidadesFragment extends BaseFragment implements NovidadesContract
                 presenter.unregister();
             }
         }
+    }
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        this.view = view;
     }
 
     @Override
@@ -121,7 +114,7 @@ public class NovidadesFragment extends BaseFragment implements NovidadesContract
     public void onDestroy() {
         super.onDestroy();
         Log.d(NovidadesFragment.class.getName(), "onDestroy");
-        if(verifiyIfPresenterIsNotNull()) {
+        if (verifiyIfPresenterIsNotNull()) {
             presenter.detachView();
             presenter.unregister();
         }
@@ -130,8 +123,14 @@ public class NovidadesFragment extends BaseFragment implements NovidadesContract
     @Override
     public void onResulSectiontNovidades(NovidadesResponseList result) {
         NovidadesAdapter novidadesAdapter = new NovidadesAdapter(getContext(), result.getNovidadeList(), onClickListener());
+
+        recyclerList = view.findViewById(R.id.recycler_list);
+        LinearLayoutManager manager = new LinearLayoutManager(getContext());
+        recyclerList.setLayoutManager(manager);
+        recyclerList.setHasFixedSize(true);
         recyclerList.setAdapter(novidadesAdapter);
     }
+
 
     private NovidadesAdapter.OnClickListener onClickListener() {
         return noticia -> {

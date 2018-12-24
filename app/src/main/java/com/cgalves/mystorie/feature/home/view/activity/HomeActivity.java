@@ -39,7 +39,7 @@ public class HomeActivity extends BaseActivity implements HomeContract.HomePrese
     TextView tvUserName;
 
     @ViewById
-    ViewPager viewpager;
+    public ViewPager viewpager;
 
     @ViewById
     TabLayout tabLayout;
@@ -156,9 +156,13 @@ public class HomeActivity extends BaseActivity implements HomeContract.HomePrese
 
     @Override
     public void onResultImages(List<Image> result) {
+
         ViewPager viewPager = findViewById(R.id.viewpager);
+
         HomeFragmentPagerAdapter adapter = new HomeFragmentPagerAdapter(this, getSupportFragmentManager());
+
         viewPager.setAdapter(adapter);
+
         tabLayout.setupWithViewPager(viewPager);
     }
 
@@ -191,7 +195,6 @@ public class HomeActivity extends BaseActivity implements HomeContract.HomePrese
     }
 
     private class DrawerItemClickListener implements AdapterView.OnItemClickListener {
-        private int andCloseMenu;
 
         @Override
         public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
@@ -202,26 +205,22 @@ public class HomeActivity extends BaseActivity implements HomeContract.HomePrese
             switch (position) {
                 case 0:
                     SectionActivity_.intent(HomeActivity.this).sectionName(getString(R.string.noticias)).start();
-                    setAndCloseMenu(position);
                     break;
                 case 1:
                     SectionActivity_.intent(HomeActivity.this).sectionName(getString(R.string.novidades)).start();
-                    setAndCloseMenu(position);
                     break;
                 case 2:
                     SectionActivity_.intent(HomeActivity.this).sectionName(getString(R.string.contato)).start();
-                    setAndCloseMenu(position);
                     break;
                 default:
                     break;
             }
 
-            setTitle(mNavigationDrawerItemTitles[position]);
-            drawerLayout.closeDrawer(leftDrawer);
+            setAndCloseMenu(position);
         }
 
         public void setAndCloseMenu(int andCloseMenu) {
-            setTitle(mNavigationDrawerItemTitles[andCloseMenu]);
+//            setTitle(mNavigationDrawerItemTitles[andCloseMenu]);
             drawerLayout.closeDrawer(leftDrawer);
         }
     }

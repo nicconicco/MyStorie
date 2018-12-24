@@ -25,15 +25,19 @@ public class HomeFragmentPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
-        if (position == 0) {
-            return new NovidadesFragment_();
-        } else if (position == 1){
-            return new NoticiasFragment_();
-        } else if (position == 2){
-            return new ContactFragment_();
-        } else {
-            return new ContactFragment_();
+
+        switch (position) {
+            case 0:
+                return new NovidadesFragment_();
+            case 1:
+                return new NoticiasFragment_();
+            case 2:
+                return new ContactFragment_();
+            default:
+                break;
         }
+
+        return null;
     }
 
     @Override

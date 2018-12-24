@@ -1,10 +1,6 @@
 package com.cgalves.mystorie.feature.contact.view;
 
-import android.os.Bundle;
 import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -29,7 +25,7 @@ import org.androidannotations.annotations.ViewById;
  * Created by scopus on 27/07/18.
  */
 
-@EFragment
+@EFragment(R.layout.fragment_contatos)
 public class ContactFragment extends BaseFragment implements ContactContract.ContactPresenterView {
 
     @Bean
@@ -104,10 +100,6 @@ public class ContactFragment extends BaseFragment implements ContactContract.Con
             presenter.detachView();
             presenter.unregister();
         }
-    }
-
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_contatos, container, false);
     }
 
     @Override

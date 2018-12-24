@@ -6,9 +6,7 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -34,7 +32,7 @@ import org.androidannotations.annotations.ViewById;
  */
 
 
-@EFragment
+@EFragment(R.layout.fragment_noticias)
 public class NoticiasFragment extends BaseFragment implements NoticiasContract.NoticiasPresenterView {
 
     @ViewById
@@ -50,7 +48,8 @@ public class NoticiasFragment extends BaseFragment implements NoticiasContract.N
     NoticiasPresenterImpl<NoticiasFragment> presenter;
 
     @ViewById
-    RecyclerView recyclerList;
+    RecyclerView recyclerNoticias;
+    private View view;
 
     @AfterViews
     void calledAfterViewInjection() {
@@ -58,7 +57,7 @@ public class NoticiasFragment extends BaseFragment implements NoticiasContract.N
         tvTitle.setText(getString(R.string.noticias));
 
         if(verifiyIfPresenterIsNotNull()) {
-            recyclerList.setLayoutManager(new LinearLayoutManager(getContext()));
+            recyclerNoticias.setLayoutManager(new LinearLayoutManager(getContext()));
             presenter.findSectionNoticias();
         }
     }
@@ -66,16 +65,6 @@ public class NoticiasFragment extends BaseFragment implements NoticiasContract.N
     @Click(R.id.btn_back)
     void onClickBack() {
         getActivity().finish();
-    }
-
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_noticias, container, false);
-    }
-
-    @Override
-    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
     }
 
     @AfterInject
@@ -101,6 +90,12 @@ public class NoticiasFragment extends BaseFragment implements NoticiasContract.N
     }
 
     @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        this.view = view;
+    }
+
+    @Override
     public void onPause() {
         super.onPause();
         presenter.detachView();
@@ -120,8 +115,13 @@ public class NoticiasFragment extends BaseFragment implements NoticiasContract.N
 
     @Override
     public void onResulSectiontNoticias(NoticiasResponseList result) {
-        NoticiasAdapter menuHomeAdapter = new NoticiasAdapter(getContext(), result.getNoticiaList(), onClickListener());
-        recyclerList.setAdapter(menuHomeAdapter);
+        NoticiasAdapter noticiasAdapter = new NoticiasAdapter(getContext(), result.getNoticiaList(), onClickListener());
+
+        recyclerNoticias = view.findViewById(R.id.recycler_noticias);
+        LinearLayoutManager manager = new LinearLayoutManager(getContext());
+        recyclerNoticias.setLayoutManager(manager);
+        recyclerNoticias.setHasFixedSize(true);
+        recyclerNoticias.setAdapter(noticiasAdapter);
     }
 
     private NoticiasAdapter.OnClickListener onClickListener() {

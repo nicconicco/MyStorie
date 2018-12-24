@@ -1,0 +1,9 @@
+- Download plugin do sonarqube e por na ferramenta no zip mesmo que ele se vira
+- apontar direito a sdk do android pra rolar a compilacao do gradle
+- configurar para apontar para o sonarqube
+
+Se voce não for Carlos Nicolau Galves, por favor, dê os creditos para mim, a final, estou compartilhando conhecimento com voce..
+
+voce pode me encontrar no linkedin nesse nome, fique a vontade em me adicionar.
+
+Att, Carlos Nicolau Galves, 24 de dezembro de 2018.
