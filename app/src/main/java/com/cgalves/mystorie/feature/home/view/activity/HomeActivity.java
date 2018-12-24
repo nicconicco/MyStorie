@@ -210,7 +210,6 @@ public class HomeActivity extends BaseActivity implements HomeContract.HomePrese
                 default:
                     break;
             }
-
             setTitleInNavigatorDrawerItemTitles(position);
             drawerLayout.closeDrawer(leftDrawer);
         }
