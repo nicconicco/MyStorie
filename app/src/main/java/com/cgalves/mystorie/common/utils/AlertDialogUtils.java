@@ -12,6 +12,9 @@ import com.cgalves.mystorie.R;
  */
 
 public final class AlertDialogUtils {
+
+    private AlertDialogUtils() {}
+
     public static void showAlertWarning(Activity activity, String msg) {
         final Dialog dialog = new Dialog(activity);
         dialog.setContentView(R.layout.warning_dialog);

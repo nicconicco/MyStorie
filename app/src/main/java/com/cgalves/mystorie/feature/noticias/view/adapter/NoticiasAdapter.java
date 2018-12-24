@@ -28,7 +28,7 @@ public class NoticiasAdapter extends RecyclerView.Adapter<NoticiasAdapter.ViewHo
 
     private final Context context;
     private final List<Noticia> sectionList;
-    private OnClickListener onClickListener;
+    private final OnClickListener onClickListener;
 
     public interface OnClickListener {
         void onClick(Noticia n);
