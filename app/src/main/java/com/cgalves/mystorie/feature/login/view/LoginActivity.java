@@ -75,6 +75,6 @@ public class LoginActivity extends BaseActivity implements LoginContract.LoginPr
 
     @Override
     public void onResultRegistration(User result) {
-
+        // this is proposital, for the moment
     }
 }

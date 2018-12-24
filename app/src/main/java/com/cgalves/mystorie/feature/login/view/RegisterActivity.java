@@ -55,11 +55,11 @@ public class RegisterActivity extends BaseActivity implements LoginContract.Logi
 
     @Override
     public void onResultRegistration(User result) {
-        showAlertWarning(RegisterActivity.this, "Bem-vindo! " + result.getName());
+        showAlertWarning(this, "Bem-vindo! " + result.getName());
     }
 
     @Override
     public void onError(String error) {
-        showAlertWarning(RegisterActivity.this, "Ops, ocorreu o seguinte erro: "+error);
+        showAlertWarning(this, "Ops, ocorreu o seguinte erro: "+error);
     }
 }

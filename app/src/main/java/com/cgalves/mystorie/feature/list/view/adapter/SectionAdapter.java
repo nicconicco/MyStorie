@@ -20,12 +20,12 @@ import java.util.List;
 public class SectionAdapter extends RecyclerView.Adapter<SectionAdapter.ViewHolder> {
 
     private final List<DetailSection> sectionList;
+    private final SectionAdapter.OnClickListener onClickListener;
 
     public interface OnClickListener {
         void onClick(DetailSection detailSection);
     }
 
-    private SectionAdapter.OnClickListener onClickListener;
 
     public SectionAdapter(List<DetailSection> sectionList, SectionAdapter.OnClickListener onClickListener) {
         this.sectionList = sectionList;
