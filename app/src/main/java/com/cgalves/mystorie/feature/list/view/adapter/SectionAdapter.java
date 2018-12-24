@@ -18,7 +18,7 @@ import java.util.List;
  */
 
 public class SectionAdapter extends RecyclerView.Adapter<SectionAdapter.ViewHolder> {
-    private final Context context;
+
     private final List<DetailSection> sectionList;
 
     public interface OnClickListener {
@@ -27,8 +27,7 @@ public class SectionAdapter extends RecyclerView.Adapter<SectionAdapter.ViewHold
 
     private SectionAdapter.OnClickListener onClickListener;
 
-    public SectionAdapter(Context context, List<DetailSection> sectionList, SectionAdapter.OnClickListener onClickListener) {
-        this.context = context;
+    public SectionAdapter(List<DetailSection> sectionList, SectionAdapter.OnClickListener onClickListener) {
         this.sectionList = sectionList;
         this.onClickListener = onClickListener;
     }

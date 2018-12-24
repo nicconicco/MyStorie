@@ -54,7 +54,7 @@ public class ListSectionActivity extends BaseActivity implements ListSectionCont
 
     @Override
     public void onResultSectionChoice(List<DetailSection> result) {
-        sectionAdapter = new SectionAdapter(this, result, onClickListener());
+        sectionAdapter = new SectionAdapter(result, onClickListener());
         recycler.setAdapter(sectionAdapter);
     }
 
@@ -69,7 +69,7 @@ public class ListSectionActivity extends BaseActivity implements ListSectionCont
         return detailSection -> {
             presenter.unregister();
             presenter.detachView();
-            DetailActivity_.intent(ListSectionActivity.this).detailSection(detailSection).start();
+            DetailActivity_.intent(this).detailSection(detailSection).start();
         };
     }
 

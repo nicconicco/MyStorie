@@ -17,7 +17,7 @@ public class DetailSection implements Parcelable {
         //this is proposital dont worry
     }
 
-    public DetailSection(String name, String txt, String image) {
+    public void DetailSectionConstruct(String name, String txt, String image) {
         setDetail(name, txt, image);
     }
 
