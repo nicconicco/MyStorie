@@ -61,9 +61,7 @@ public class HomeActivity extends BaseActivity implements HomeContract.HomePrese
     @ViewById
     ListView listview;
 
-
     android.support.v7.app.ActionBarDrawerToggle mDrawerToggle;
-    private String[] mNavigationDrawerItemTitles;
 
     @AfterViews
     void init() {

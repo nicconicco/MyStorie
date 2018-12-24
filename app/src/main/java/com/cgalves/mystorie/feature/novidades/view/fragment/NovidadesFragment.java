@@ -13,7 +13,6 @@ import android.widget.TextView;
 import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.fragment.BaseFragment;
 import com.cgalves.mystorie.common.model.DetailSection;
-import com.cgalves.mystorie.feature.home.view.activity.HomeActivity;
 import com.cgalves.mystorie.feature.list.view.activity.DetailActivity_;
 import com.cgalves.mystorie.feature.novidades.model.NovidadesResponseList;
 import com.cgalves.mystorie.feature.novidades.presenter.NovidadesContract;
