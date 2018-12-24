@@ -129,7 +129,6 @@ public class HomeActivity extends BaseActivity implements HomeContract.HomePrese
     }
 
     private void setupMenuLeftSide(List<Section> result, User user) {
-        mNavigationDrawerItemTitles = getResources().getStringArray(R.array.navigation_drawer_items_array);
 
         tvUserName.setText("Bem vindo! " + user.getName());
         DrawerMenuLeftSideAdapter adapter = new DrawerMenuLeftSideAdapter(this, result);
