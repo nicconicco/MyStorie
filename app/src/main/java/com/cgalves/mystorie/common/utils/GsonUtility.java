@@ -13,6 +13,9 @@ import java.util.List;
  */
 
 public final class GsonUtility {
+
+    private GsonUtility(){}
+
     public static <T> List<T> jsonToObjectList(String json) {
         Type collectionType = new TypeToken<List<T>>() {
         }.getType();

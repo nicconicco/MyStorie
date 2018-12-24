@@ -11,6 +11,9 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 public final class KeyHashUtils {
+
+    private KeyHashUtils(){}
+
     public static void generateKeyHash(Context context) {
         try {
             PackageInfo info = context.getPackageManager().getPackageInfo(

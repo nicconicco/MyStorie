@@ -12,6 +12,8 @@ import com.cgalves.mystorie.BuildConfig;
 
 public final class AndroidUtility {
 
+    private AndroidUtility(){}
+
     public static boolean isNotKeepActivitiesEnable(Context context) {
         boolean enabled;
 
