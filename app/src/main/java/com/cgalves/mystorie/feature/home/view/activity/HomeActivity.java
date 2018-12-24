@@ -191,6 +191,8 @@ public class HomeActivity extends BaseActivity implements HomeContract.HomePrese
     }
 
     private class DrawerItemClickListener implements AdapterView.OnItemClickListener {
+        private int andCloseMenu;
+
         @Override
         public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
             selectItem(position);
@@ -200,22 +202,27 @@ public class HomeActivity extends BaseActivity implements HomeContract.HomePrese
             switch (position) {
                 case 0:
                     SectionActivity_.intent(HomeActivity.this).sectionName(getString(R.string.noticias)).start();
+                    setAndCloseMenu(position);
                     break;
                 case 1:
                     SectionActivity_.intent(HomeActivity.this).sectionName(getString(R.string.novidades)).start();
+                    setAndCloseMenu(position);
                     break;
                 case 2:
                     SectionActivity_.intent(HomeActivity.this).sectionName(getString(R.string.contato)).start();
+                    setAndCloseMenu(position);
                     break;
                 default:
                     break;
             }
-            setTitleInNavigatorDrawerItemTitles(position);
+
+            setTitle(mNavigationDrawerItemTitles[position]);
             drawerLayout.closeDrawer(leftDrawer);
         }
-    }
 
-    private void setTitleInNavigatorDrawerItemTitles(int pos) {
-        setTitle(mNavigationDrawerItemTitles[pos]);
+        public void setAndCloseMenu(int andCloseMenu) {
+            setTitle(mNavigationDrawerItemTitles[andCloseMenu]);
+            drawerLayout.closeDrawer(leftDrawer);
+        }
     }
 }

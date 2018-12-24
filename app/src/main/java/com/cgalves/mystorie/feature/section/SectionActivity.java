@@ -28,7 +28,7 @@ public class SectionActivity extends BaseActivity {
                 fragment = getNoticiasFragment();
                 break;
             }
-            case "Novidades": {
+            case "Novidades!": {
                 fragment = NovidadesFragment_.builder()
                         .showToolBarBack(true)
                         .build();

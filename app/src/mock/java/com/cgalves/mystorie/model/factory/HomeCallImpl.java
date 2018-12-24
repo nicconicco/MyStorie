@@ -75,7 +75,7 @@ public class HomeCallImpl extends HomeAbstractCall {
 
         list.add(section1);
         list.add(section2);
-        list.add(section3);
+//        list.add(section3);
 
         post(list, bus);
     }
