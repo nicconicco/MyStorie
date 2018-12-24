@@ -1,6 +1,5 @@
 package com.cgalves.mystorie.feature.noticias.model;
 
-import com.cgalves.mystorie.common.model.DetailSection;
 import com.cgalves.mystorie.common.model.Noticia;
 
 import java.util.List;
@@ -10,6 +9,8 @@ import java.util.List;
  */
 
 public class NoticiasResponseList {
+    public List<Noticia> noticias;
+
     public List<Noticia> getNoticiaList() {
         return noticias;
     }
@@ -17,6 +18,4 @@ public class NoticiasResponseList {
     public void setNoticiaList(List<Noticia> noticiaList) {
         this.noticias = noticiaList;
     }
-
-    public List<Noticia> noticias;
 }

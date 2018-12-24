@@ -16,30 +16,13 @@ public class Novidade extends ParseObject {
     public static final String FIELD_OWNER = "owner";
 
     public Novidade() {
-        super();
+        // this is proposital
     }
 
-    public Novidade(String name, String txt, String image) {
-        super();
+    public void NovidadeConstruct(String name, String txt, String image) {
         setNameInBank(name);
         setTxtInBank(txt);
         setImageInBank(image);
-    }
-
-    public static String getFieldName() {
-        return FIELD_NAME;
-    }
-
-    public static String getFieldText() {
-        return FIELD_TEXT;
-    }
-
-    public static String getFieldImage() {
-        return FIELD_IMAGE;
-    }
-
-    public static String getFieldOwner() {
-        return FIELD_OWNER;
     }
 
     public String getName() {

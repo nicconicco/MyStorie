@@ -22,7 +22,7 @@ public class Noticia extends ParseObject {
         // this is proposital
     }
 
-    public Noticia(String name, String txt, String image) {
+    public void NoticiaConstruct(String name, String txt, String image) {
         setNoticia(name, txt, image);
     }
 

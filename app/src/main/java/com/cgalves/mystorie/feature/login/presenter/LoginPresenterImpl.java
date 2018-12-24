@@ -1,6 +1,5 @@
 package com.cgalves.mystorie.feature.login.presenter;
 
-import android.util.Log;
 
 import com.cgalves.mystorie.common.factory.APIAbstractFactory;
 import com.cgalves.mystorie.common.abstractcalls.LoginAbstractCall;
@@ -8,7 +7,6 @@ import com.cgalves.mystorie.common.model.User;
 import com.cgalves.mystorie.common.model.UserRegistrationVO;
 import com.cgalves.mystorie.common.presenter.BasePresenter;
 import com.cgalves.mystorie.MyStorieApplication;
-import com.parse.ParseUser;
 
 import org.androidannotations.annotations.AfterInject;
 import org.androidannotations.annotations.App;
@@ -26,7 +24,6 @@ public class LoginPresenterImpl<V extends LoginContract.LoginPresenterView> exte
     @App
     MyStorieApplication application;
 
-    private static final String TAG = LoginPresenterImpl.class.getSimpleName();
     LoginAbstractCall loginAbstractCall;
 
     @AfterInject

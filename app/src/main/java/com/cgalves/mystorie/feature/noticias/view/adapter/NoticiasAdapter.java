@@ -17,7 +17,6 @@ import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
 import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.model.Noticia;
-import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
@@ -26,14 +25,14 @@ import java.util.List;
  */
 
 public class NoticiasAdapter extends RecyclerView.Adapter<NoticiasAdapter.ViewHolder> {
+
     private final Context context;
     private final List<Noticia> sectionList;
+    private OnClickListener onClickListener;
 
     public interface OnClickListener {
         void onClick(Noticia n);
     }
-
-    private OnClickListener onClickListener;
 
     public NoticiasAdapter(Context context, List<Noticia> sectionList, OnClickListener onClickListener) {
         this.context = context;
@@ -86,8 +85,6 @@ public class NoticiasAdapter extends RecyclerView.Adapter<NoticiasAdapter.ViewHo
                     })
                     .crossFade(1000)
                     .into(viewHolderSection.ivPhoto);
-
-
 //            Glide.with(context).load(section.getImg()).into(viewHolderSection.ivPhoto);
         }
 
@@ -117,7 +114,7 @@ public class NoticiasAdapter extends RecyclerView.Adapter<NoticiasAdapter.ViewHo
         ImageView ivPhoto;
         ProgressBar progressBar;
 
-        public ViewHolderNoticias(View view) {
+        ViewHolderNoticias(View view) {
             super(view);
             btn = view.findViewById(R.id.btn);
             tTitulo = view.findViewById(R.id.tv_title);

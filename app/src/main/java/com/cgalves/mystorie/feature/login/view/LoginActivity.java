@@ -1,6 +1,5 @@
 package com.cgalves.mystorie.feature.login.view;
 
-import android.content.Intent;
 import android.util.Log;
 import android.widget.EditText;
 import android.widget.Toast;

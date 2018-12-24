@@ -21,14 +21,16 @@ public class MasterHomeActivity extends AppCompatActivity {
 
     @Click(R.id.btn_create_new)
     void onClickBtnCreateNew() {
-        Novidade novidade = new Novidade("Nova novidade", "Texto novidade", "urldaimagem");
+        Novidade novidade = new Novidade();
+        novidade.NovidadeConstruct("Nova novidade", "Texto novidade", "urldaimagem");
         novidade.setOwner(ParseUser.getCurrentUser());
         novidade.saveInBackground();
     }
 
     @Click(R.id.btn_create_news)
     void onClickBtnCreateNews() {
-        Noticia noticia = new Noticia("Nova noticia", "Texto noticia", "urldaimagem");
+        Noticia noticia = new Noticia();
+        noticia.NoticiaConstruct("Nova noticia", "Texto noticia", "urldaimagem");
         noticia.setOwner(ParseUser.getCurrentUser());
         noticia.saveInBackground();
     }
