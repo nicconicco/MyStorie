@@ -1,0 +1,38 @@
+
+o"squid:LeftCurlyBraceStartLineCheck
+"AMove this left curly brace to the beginning of next line of code.(ÿ¢±
+Csquid:IndentationCheck1"!Make this line start at column 5.(ŞÈ£œ
+Osquid:IndentationCheckC"!Make this line start at column 5.(†äÅşÿÿÿÿ8ò½‘ı,
+v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.( £›¯8ò½‘ı,
+n"squid:LeftCurlyBraceStartLineCheck0"AMove this left curly brace to the beginning of next line of code.(ã·Â
+{"squid:LeftCurlyBraceStartLineCheckB"AMove this left curly brace to the beginning of next line of code.(Ú˜Í¤üÿÿÿÿ8ò½‘ı,
+Jsquid:IndentationCheck>"!Make this line start at column 5.(”·³›8ò½‘ı,
+Isquid:IndentationCheckK"!Make this line start at column 9.(éñ=8ò½‘ı,
+Hsquid:IndentationCheck-"!Make this line start at column 5.(ÉÌ¡¨üÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck8"AMove this left curly brace to the beginning of next line of code.(®„ò
+Osquid:IndentationCheckJ"!Make this line start at column 7.(‰ÌØğşÿÿÿÿ8ò½‘ı,
+{"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(İèŸïùÿÿÿÿ8µÂÂ‘ı,
+o"squid:LeftCurlyBraceStartLineCheck4"AMove this left curly brace to the beginning of next line of code.(”ñ…õ
+{"squid:LeftCurlyBraceStartLineCheck$"AMove this left curly brace to the beginning of next line of code.(ú›Šøøÿÿÿÿ8ò½‘ı,
+[squid:S1213H"8Move this variable to comply with Java Code Conventions.(·ı¾Ğùÿÿÿÿ8ò½‘ı,
+n"squid:LeftCurlyBraceStartLineCheck("AMove this left curly brace to the beginning of next line of code.(¦€äa
+{"squid:LeftCurlyBraceStartLineCheckJ"AMove this left curly brace to the beginning of next line of code.(‰ÌØğşÿÿÿÿ8ò½‘ı,
+…"squid:ClassVariableVisibilityCheck"PMake name a static final constant or non-public and provide accessors if needed.( şÍ¾8íâşŠı,
+v"squid:LeftCurlyBraceStartLineCheck="AMove this left curly brace to the beginning of next line of code.(‘˜üŠ8ò½‘ı,
+{"squid:LeftCurlyBraceStartLineCheckO"AMove this left curly brace to the beginning of next line of code.(“ß¥ªøÿÿÿÿ8ò½‘ı,
+Osquid:IndentationCheck"!Make this line start at column 5.(÷Ğ”Öúÿÿÿÿ8ò½‘ı,
+v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(˜¸±·8µÂÂ‘ı,
+Osquid:IndentationCheck"!Make this line start at column 5.(·û®óûÿÿÿÿ8µÂÂ‘ı,
+Hsquid:IndentationCheck5"!Make this line start at column 5.(ÀÅÉ¤ÿÿÿÿÿ
+{"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(“½âğøÿÿÿÿ8½öÉ‘ı,
+Jsquid:IndentationCheck"!Make this line start at column 3.( şÍ¾8íâşŠı,
+Jsquid:IndentationCheckP"!Make this line start at column 9.(Ö¦Öã8ò½‘ı,
+Hsquid:IndentationCheck)"!Make this line start at column 5.(É´“ıÿÿÿÿ
+{"squid:LeftCurlyBraceStartLineCheckH"AMove this left curly brace to the beginning of next line of code.(·ı¾Ğùÿÿÿÿ8ò½‘ı,
+Jsquid:IndentationCheck"!Make this line start at column 5.(ÕÏ€í8µÂÂ‘ı,
+5squid:S1451"&Add or update the header of this file.
+Ysquid:S1213";Move this constructor to comply with Java Code Conventions.( £›¯8µÂÂ‘ı,
+Osquid:IndentationCheck%"!Make this line start at column 5.(»Ã÷¤øÿÿÿÿ8ò½‘ı,
+Csquid:IndentationCheck9"!Make this line start at column 5.(³ÛÃÌ
+o"squid:LeftCurlyBraceStartLineCheck,"AMove this left curly brace to the beginning of next line of code.(¢×¶±
+†"squid:ClassVariableVisibilityCheck"QMake image a static final constant or non-public and provide accessors if needed.(•—î×8íâşŠı,

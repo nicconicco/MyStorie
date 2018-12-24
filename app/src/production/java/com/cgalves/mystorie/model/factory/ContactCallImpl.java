@@ -30,11 +30,11 @@ public class ContactCallImpl extends ContactAbstractCall {
             if (e == null) {
                 if (objects.size() == 0) {
                     configFirstContactInformation();
-                    Log.d(context.getString(R.string.tag_next_flow), "Object Return:\n" + GsonUtils.objectToJson(objects));
+                    Log.d(context.getString(R.string.tag_next_flow), "Object Return:\n" + GsonUtility.objectToJson(objects));
                 } else {
                     ArrayList<Contact> list = (ArrayList<Contact>) objects;
                     Contact contact = objects.get(0);
-                    String json = GsonUtils.objectToJson(objects);
+                    String json = GsonUtility.objectToJson(objects);
 
                     user.setEmail(contact.getEmail());
                     user.setFacebook(contact.getFacebook());
@@ -42,7 +42,7 @@ public class ContactCallImpl extends ContactAbstractCall {
                     user.setCellphone(contact.getCellphone());
                     user.setImage(contact.getImage());
                 }
-                Log.d(context.getString(R.string.tag_next_flow), "ACHOU" + GsonUtils.objectToJson(objects));
+                Log.d(context.getString(R.string.tag_next_flow), "ACHOU" + GsonUtility.objectToJson(objects));
             } else {
                 Log.d(context.getString(R.string.tag_next_flow), "Error: " + e.getMessage());
             }

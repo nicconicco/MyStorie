@@ -1,0 +1,25 @@
+
+Hsquid:IndentationCheck"!Make this line start at column 3.(íÓÑ„ûÿÿÿÿ
+Jsquid:S2039"3Explicitly declare the visibility for "etUsername".(Ñ¸¤ü
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(º¹ãÚùÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck4"AMove this left curly brace to the beginning of next line of code.(Ü™ù¨şÿÿÿÿ
+Gsquid:S2039"0Explicitly declare the visibility for "etEmail".(Ñ¸¤ü
+csquid:S001030"KSplit this 129 characters long line (which is greater than 120 authorized).(Èâ­¬
+Csquid:IndentationCheck0"!Make this line start at column 5.(Èâ­¬
+o"squid:LeftCurlyBraceStartLineCheck/"AMove this left curly brace to the beginning of next line of code.(Šÿ¡½
+t"squid:LeftCurlyBraceStartLineCheck>"AMove this left curly brace to the beginning of next line of code.(®ºÊáşÿÿÿÿ
+Hsquid:IndentationCheck:"!Make this line start at column 5.(é²³¸úÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck("AMove this left curly brace to the beginning of next line of code.(ÍÙ÷¢
+Msquid:S2039"6Explicitly declare the visibility for "etPasswordTwo".(Ñ¸¤ü
+Nsquid:S2039"2Explicitly declare the visibility for "presenter".(íÓÑ„ûÿÿÿÿ
+Hsquid:IndentationCheck?"!Make this line start at column 5.(ä‰åÙıÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ş‚„Ä
+5squid:S1451"&Add or update the header of this file.
+?squid:S1659"(Declare "etPassword" on a separate line.(Ñ¸¤ü
+o"squid:LeftCurlyBraceStartLineCheck9"AMove this left curly brace to the beginning of next line of code.(”÷è
+esquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(ş‚„Ä
+Bsquid:S1659"+Declare "etPasswordTwo" on a separate line.(Ñ¸¤ü
+Csquid:IndentationCheck)"!Make this line start at column 5.(ÍÊ·´
+Jsquid:S2039"3Explicitly declare the visibility for "etPassword".(Ñ¸¤ü
+Csquid:IndentationCheck"!Make this line start at column 5.(ŞßÁé
+<squid:S1659"%Declare "etEmail" on a separate line.(Ñ¸¤ü

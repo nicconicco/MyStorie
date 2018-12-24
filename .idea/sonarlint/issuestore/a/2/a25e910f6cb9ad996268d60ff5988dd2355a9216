@@ -1,0 +1,11 @@
+
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(âì´À
+Hsquid:IndentationCheck"!Make this line start at column 5.(»è³…ıÿÿÿÿ
+5squid:S1451"&Add or update the header of this file.
+Osquid:S1213"8Move this variable to comply with Java Code Conventions.(ÿááö
+osquid:UselessImportCheck"FRemove this unused import 'com.cgalves.mystorie.common.model.Noticia'.(Û×öûÿÿÿÿ
+Csquid:IndentationCheck"!Make this line start at column 3.(âì´À
+Hsquid:IndentationCheck"!Make this line start at column 5.( ºâ¾ùÿÿÿÿ
+n"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Òñëk
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(­šÓÒúÿÿÿÿ
+ƒ"squid:ClassVariableVisibilityCheck"UMake novidades a static final constant or non-public and provide accessors if needed.(ÿááö

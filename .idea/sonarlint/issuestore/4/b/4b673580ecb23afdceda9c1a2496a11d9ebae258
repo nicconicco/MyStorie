@@ -1,0 +1,17 @@
+
+Qsquid:S1118":Add a private constructor to hide the implicit public one.(‚£Åˆ
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Ö¬µÊûÿÿÿÿ
+Csquid:IndentationCheck"!Make this line start at column 7.(Ğş€
+5squid:S1451"&Add or update the header of this file.
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¶şÍÏ
+Hsquid:IndentationCheck"!Make this line start at column 3.(Ö¬µÊûÿÿÿÿ
+Ksquid:S2221"4Catch a list of specific exception subtypes instead.(”ı¾
+Hsquid:IndentationCheck"!Make this line start at column 5.(¡»¢üùÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(‚£Åˆ
+<squid:S1166"%Either log or rethrow this exception.(”ı¾
+Csquid:IndentationCheck"!Make this line start at column 7.(şëŒ
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(´´„¸
+p2squid:RightCurlyBraceDifferentLineAsNextBlockCheck"2Move this "catch" keyword to a new dedicated line.(”ı¾
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(”ı¾
+Csquid:IndentationCheck"!Make this line start at column 5.(¶şÍÏ
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¡»¢üùÿÿÿÿ

@@ -1,0 +1,46 @@
+
+Csquid:IndentationCheckG"!Make this line start at column 5.(‚ÎÚÒ
+Csquid:IndentationCheckh"!Make this line start at column 7.(­‰”¹
+Tsquid:S2039-"8Explicitly declare the visibility for "showToolBarBack".(‰·õùÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck;"AMove this left curly brace to the beginning of next line of code.(ÏÌ¢î
+t"squid:LeftCurlyBraceStartLineCheck6"AMove this left curly brace to the beginning of next line of code.(«°ß½ÿÿÿÿÿ
+Hsquid:IndentationChecke"!Make this line start at column 5.(´¬á®ÿÿÿÿÿ
+Csquid:IndentationCheck["!Make this line start at column 5.(»ç†—
+o"squid:LeftCurlyBraceStartLineCheckm"AMove this left curly brace to the beginning of next line of code.(«ÃÀ÷
+o2squid:RightCurlyBraceDifferentLineAsNextBlockCheckM"1Move this "else" keyword to a new dedicated line.(å¥‡
+t"squid:LeftCurlyBraceStartLineCheckZ"AMove this left curly brace to the beginning of next line of code.(º¹ãÚùÿÿÿÿ
+Asquid:S16593"+Declare "tvFacebookUrl" on a separate line.(•×W
+o"squid:LeftCurlyBraceStartLineCheckM"AMove this left curly brace to the beginning of next line of code.(å¥‡
+o"squid:LeftCurlyBraceStartLineCheckI"AMove this left curly brace to the beginning of next line of code.(Œ­½
+Msquid:S20393"7Explicitly declare the visibility for "tvEmailContact".(•×W
+esquid:S3052-"IRemove this initialization to "false", the compiler will do that for you.(‰·õùÿÿÿÿ
+Hsquid:IndentationCheckn"!Make this line start at column 5.(Õ×¬Ñüÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheckF"AMove this left curly brace to the beginning of next line of code.(Ë¥Åûÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheckg"AMove this left curly brace to the beginning of next line of code.(ù˜‡†øÿÿÿÿ
+Hsquid:IndentationCheck7"!Make this line start at column 5.(Ğ†¤˜úÿÿÿÿ
+Gsquid:S2039*"0Explicitly declare the visibility for "tvTitle".(ÿ‚³à
+?squid:S16593")Declare "tvCellphone" on a separate line.(•×W
+Lsquid:S20393"6Explicitly declare the visibility for "tvFacebookUrl".(•×W
+Jsquid:S20393"4Explicitly declare the visibility for "tvCellphone".(•×W
+t"squid:LeftCurlyBraceStartLineCheckN"AMove this left curly brace to the beginning of next line of code.(ù˜‡†øÿÿÿÿ
+Hsquid:IndentationCheckA"!Make this line start at column 5.(¬üÿÿÿÿÿ
+@squid:S16593"*Declare "tvTwitterUrl" on a separate line.(•×W
+Ksquid:S20393"5Explicitly declare the visibility for "tvTwitterUrl".(•×W
+Bsquid:IndentationCheck$"!Make this line start at column 3.(ÖäŞA
+o"squid:LeftCurlyBraceStartLineCheckU"AMove this left curly brace to the beginning of next line of code.(£şÅ¥
+Hsquid:IndentationCheck<"!Make this line start at column 5.(ĞËíşüÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheckJ"AMove this left curly brace to the beginning of next line of code.(ù˜‡†øÿÿÿÿ
+Hsquid:S2039$"2Explicitly declare the visibility for "presenter".(ÖäŞA
+Csquid:IndentationCheckO"!Make this line start at column 9.(­‰”¹
+5squid:S1451"&Add or update the header of this file.
+o"squid:LeftCurlyBraceStartLineCheckd"AMove this left curly brace to the beginning of next line of code.(ßû¢½
+Csquid:IndentationChecks"!Make this line start at column 5.(ï×¡±
+Hsquid:IndentationCheckN"!Make this line start at column 7.(ù˜‡†øÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheckr"AMove this left curly brace to the beginning of next line of code.(¶é‡Õ
+Hsquid:IndentationCheckJ"!Make this line start at column 7.(ù˜‡†øÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck@"AMove this left curly brace to the beginning of next line of code.(çÒÜÌüÿÿÿÿ
+Tsquid:S2039'"8Explicitly declare the visibility for "toolbarFragment".(¢ÈáÚûÿÿÿÿ
+Hsquid:IndentationCheckK"!Make this line start at column 9.(É´ŒÁúÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck!"AMove this left curly brace to the beginning of next line of code.(şú™½şÿÿÿÿ
+Hsquid:S20390"2Explicitly declare the visibility for "ivProfile".(²ã¾
+Hsquid:IndentationCheckV"!Make this line start at column 5.(¨û»ìüÿÿÿÿ

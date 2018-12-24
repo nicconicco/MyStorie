@@ -1,0 +1,29 @@
+
+Isquid:S1199?"-Extract this nested code block into a method.(Í‡¬‰úÿÿÿÿ
+Isquid:S1199C"-Extract this nested code block into a method.(·ÿ½äûÿÿÿÿ
+m
+squid:S109G"RAssign this magic number 2 to a well-named constant, and use the constant instead.(ğÁ–Óûÿÿÿÿ
+Hsquid:IndentationCheck+"!Make this line start at column 5.(âÀÆ¥şÿÿÿÿ
+Dsquid:S2039"-Explicitly declare the visibility for "list".(¨˜Ì„
+Hsquid:IndentationCheck"!Make this line start at column 5.(ê™Ôİıÿÿÿÿ
+Hsquid:IndentationCheck&"!Make this line start at column 5.(ì¨˜şÿÿÿÿ
+Isquid:S1199K"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck%"AMove this left curly brace to the beginning of next line of code.(áõ²ÿ
+Isquid:S1199G"-Extract this nested code block into a method.(ğÁ–Óûÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck/"AMove this left curly brace to the beginning of next line of code.(¨ÿÊÊûÿÿÿÿ
+Csquid:IndentationCheck0"!Make this line start at column 5.(Éº –
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ğ×Ë›ÿÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck "AMove this left curly brace to the beginning of next line of code.(ÒÊÏ·
+t"squid:LeftCurlyBraceStartLineCheck*"AMove this left curly brace to the beginning of next line of code.(÷ßâİúÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¯Ê
+Csquid:IndentationCheckL"!Make this line start at column 9.(›ûä·
+Hsquid:IndentationCheck"!Make this line start at column 3.(í Ş¬üÿÿÿÿ
+Hsquid:IndentationCheck>"!Make this line start at column 5.(¼œóÛüÿÿÿÿ
+Hsquid:IndentationCheck@"!Make this line start at column 9.(‚€»îûÿÿÿÿ
+Csquid:IndentationCheckH"!Make this line start at column 9.(øÎ¨
+t"squid:LeftCurlyBraceStartLineCheck>"AMove this left curly brace to the beginning of next line of code.(¼œóÛüÿÿÿÿ
+5squid:S1451"&Add or update the header of this file.
+Msquid:S2039"1Explicitly declare the visibility for "mContext".(í Ş¬üÿÿÿÿ
+Hsquid:IndentationCheck!"!Make this line start at column 5.(¬ö ¼ûÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck="AMove this left curly brace to the beginning of next line of code.(¤ åşÿÿÿÿ
+Hsquid:IndentationCheckD"!Make this line start at column 9.(Â®ß„şÿÿÿÿ

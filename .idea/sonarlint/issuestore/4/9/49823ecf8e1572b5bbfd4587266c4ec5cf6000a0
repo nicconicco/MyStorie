@@ -1,34 +1,25 @@
 
-t"squid:LeftCurlyBraceStartLineCheckD"AMove this left curly brace to the beginning of next line of code.(Ü™ù¨şÿÿÿÿ
-Vsquid:UselessImportCheck"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ
-Tsquid:UselessImportCheck"0Remove this unused import 'com.parse.ParseUser'.(õ‹µ´
-t"squid:LeftCurlyBraceStartLineCheckQ"AMove this left curly brace to the beginning of next line of code.(®ºÊáşÿÿÿÿ
-Osquid:S2039("3Explicitly declare the visibility for "etUserName".(·’ğ²ûÿÿÿÿ
-o"squid:LeftCurlyBraceStartLineCheckG"AMove this left curly brace to the beginning of next line of code.(ºËáÃ
-dsquid:UselessImportCheck";Remove this unused import 'com.facebook.FacebookException'.(Â¦Õçşÿÿÿÿ
-Hsquid:IndentationCheck/"!Make this line start at column 5.(¬üÿÿÿÿÿ
-Csquid:IndentationCheck6"!Make this line start at column 5.(ÍÊ·´
-Hsquid:IndentationCheckH"!Make this line start at column 7.(Ñá´¬ûÿÿÿÿ
-Hsquid:IndentationCheckR"!Make this line start at column 5.(óİ¬«ıÿÿÿÿ
-t"squid:LeftCurlyBraceStartLineCheck""AMove this left curly brace to the beginning of next line of code.(¸á“üÿÿÿÿ
-Hsquid:IndentationCheckE"!Make this line start at column 5.(óİ¬«ıÿÿÿÿ
-jsquid:MaximumInheritanceDepth""<This class has 8 parents which is greater than 5 authorized.(¸á“üÿÿÿÿ
-Nsquid:S2039%"2Explicitly declare the visibility for "presenter".(®ãà©üÿÿÿÿ
-Osquid:S2039+"3Explicitly declare the visibility for "etPassword".(ùÍ®†ıÿÿÿÿ
-˜squid:S1186W"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(”÷è
-^squid:UselessImportCheck":Remove this unused import 'com.facebook.FacebookCallback'.(È¯ˆİ
-o"squid:LeftCurlyBraceStartLineCheckJ"AMove this left curly brace to the beginning of next line of code.(å¥‡
-_squid:UselessImportCheck";Remove this unused import 'com.facebook.login.LoginResult'.(¢Ï¯¸
-Hsquid:IndentationCheck="!Make this line start at column 5.(Éãøÿÿÿÿ
-o"squid:LeftCurlyBraceStartLineCheck5"AMove this left curly brace to the beginning of next line of code.(ÍÙ÷¢
-t"squid:LeftCurlyBraceStartLineCheck."AMove this left curly brace to the beginning of next line of code.(º¹ãÚùÿÿÿÿ
-Hsquid:IndentationCheck%"!Make this line start at column 3.(®ãà©üÿÿÿÿ
-o"squid:LeftCurlyBraceStartLineCheck<"AMove this left curly brace to the beginning of next line of code.(ÏŠúã
-o"squid:LeftCurlyBraceStartLineCheckW"AMove this left curly brace to the beginning of next line of code.(”÷è
-o2squid:RightCurlyBraceDifferentLineAsNextBlockCheckJ"1Move this "else" keyword to a new dedicated line.(å¥‡
-Csquid:IndentationCheckK"!Make this line start at column 7.(˜Ïˆ§
-^squid:UselessImportCheck"5Remove this unused import 'com.facebook.AccessToken'.(½Áª×ÿÿÿÿÿ
-`squid:UselessImportCheck"<Remove this unused import 'com.facebook.login.LoginManager'.(¥½Ö®
+Hsquid:IndentationCheck"!Make this line start at column 3.(®ãà©üÿÿÿÿ
 5squid:S1451"&Add or update the header of this file.
+Osquid:S2039"3Explicitly declare the visibility for "etUserName".(·’ğ²ûÿÿÿÿ
+Nsquid:S2039"2Explicitly declare the visibility for "presenter".(®ãà©üÿÿÿÿ
+Csquid:IndentationCheckB"!Make this line start at column 7.(˜Ïˆ§
+o"squid:LeftCurlyBraceStartLineCheckA"AMove this left curly brace to the beginning of next line of code.(å¥‡
+o"squid:LeftCurlyBraceStartLineCheck3"AMove this left curly brace to the beginning of next line of code.(ÏŠúã
+t"squid:LeftCurlyBraceStartLineCheck%"AMove this left curly brace to the beginning of next line of code.(º¹ãÚùÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck;"AMove this left curly brace to the beginning of next line of code.(Ü™ù¨şÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheckN"AMove this left curly brace to the beginning of next line of code.(”÷è
+Hsquid:IndentationCheckI"!Make this line start at column 5.(óİ¬«ıÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck,"AMove this left curly brace to the beginning of next line of code.(ÍÙ÷¢
+Hsquid:IndentationCheck4"!Make this line start at column 5.(Éãøÿÿÿÿ
+Hsquid:IndentationCheck&"!Make this line start at column 5.(¬üÿÿÿÿÿ
 Vsquid:UselessImportCheck"3Remove this unused import 'android.content.Intent'.(³ğ‹G
-dsquid:UselessImportCheck"9Remove this unused import 'com.facebook.CallbackManager'.(ÑôÏ±8†É–ëü,
+Osquid:S2039""3Explicitly declare the visibility for "etPassword".(ùÍ®†ıÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheckH"AMove this left curly brace to the beginning of next line of code.(®ºÊáşÿÿÿÿ
+˜squid:S1186N"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(”÷è
+Hsquid:IndentationCheck?"!Make this line start at column 7.(Ñá´¬ûÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck>"AMove this left curly brace to the beginning of next line of code.(ºËáÃ
+Csquid:IndentationCheck-"!Make this line start at column 5.(ÍÊ·´
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¸á“üÿÿÿÿ
+o2squid:RightCurlyBraceDifferentLineAsNextBlockCheckA"1Move this "else" keyword to a new dedicated line.(å¥‡
+Hsquid:IndentationCheck<"!Make this line start at column 5.(óİ¬«ıÿÿÿÿ
