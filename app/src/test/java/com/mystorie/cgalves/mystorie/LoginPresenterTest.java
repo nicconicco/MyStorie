@@ -45,11 +45,11 @@ public class LoginPresenterTest {
         loginPresenterImpl_.register();
     }
 
-    @Test
-    public void doLoginFalse() throws Exception {
-        loginPresenterImpl_.doLogin("", "");
-        verify(view).onLoginResult(false);
-    }
+//    @Test
+//    public void doLoginFalse() throws Exception {
+//        loginPresenterImpl_.doLogin("", "");
+//        verify(view).onLoginResult(false);
+//    }
 
     @Test
     public void doRegistrationCheck_User_Name_Return() throws Exception {
