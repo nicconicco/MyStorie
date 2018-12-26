@@ -94,19 +94,19 @@ public class UnitTestSample {
     @Mock
     LoginContract.LoginPresenterView view;
 
-    @Test
-    public void TestAPI() throws Exception {
-        LoginPresenterImpl_ loginPresenterImpl_ = LoginPresenterImpl_.getInstance_(mMockContext);
-
-        loginPresenterImpl_.attachView(view);
-        loginPresenterImpl_.register();
-        loginPresenterImpl_.doLogin("", "");
-
-        verify(view).onLoginResult(false);
-
-        loginPresenterImpl_.unregister();
-        loginPresenterImpl_.detachView();
-    }
+//    @Test
+//    public void TestAPI() throws Exception {
+//        LoginPresenterImpl_ loginPresenterImpl_ = LoginPresenterImpl_.getInstance_(mMockContext);
+//
+//        loginPresenterImpl_.attachView(view);
+//        loginPresenterImpl_.register();
+//        loginPresenterImpl_.doLogin("nico", "nico");
+//
+//        verify(view).onLoginResult(false);
+//
+//        loginPresenterImpl_.unregister();
+//        loginPresenterImpl_.detachView();
+//    }
 
     protected Object getVo(final Class voClass) {
         try {

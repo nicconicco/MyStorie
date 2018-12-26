@@ -4,6 +4,7 @@ import android.content.Context;
 import android.util.Log;
 
 import com.cgalves.mystorie.common.abstractcalls.LoginAbstractCall;
+import com.cgalves.mystorie.common.model.UserRegistrationVO;
 import com.parse.ParseUser;
 
 import org.greenrobot.eventbus.EventBus;
@@ -35,7 +36,10 @@ public class LoginCallImpl extends LoginAbstractCall {
 
     @Override
     public void doRegistration(String username, String password, String email) {
+        UserRegistrationVO user2 = new UserRegistrationVO();
+        user2.user.setName("Fake Name");
 
+        bus.post(user2);
     }
 
     // TODO; INTEGRACAO ENVIROMENT
