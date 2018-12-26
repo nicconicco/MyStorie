@@ -1,0 +1,11 @@
+
+Csquid:IndentationCheck"!Make this line start at column 3.(°õš
+Csquid:IndentationCheck"!Make this line start at column 5.(Ñ•€–
+Hsquid:IndentationCheck"!Make this line start at column 5.(‰ğÔÍøÿÿÿÿ
+5squid:S1451"&Add or update the header of this file.
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ˆª‚¹
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(°õš
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(öÄã•
+hsquid:S00103"KSplit this 131 characters long line (which is greater than 120 authorized).(ì©ËÍÿÿÿÿÿ
+hsquid:S00103!"KSplit this 124 characters long line (which is greater than 120 authorized).(Œµ”ïşÿÿÿÿ
+hsquid:S00103,"KSplit this 139 characters long line (which is greater than 120 authorized).(²ÓÚûÿÿÿÿ

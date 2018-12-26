@@ -1,34 +1,32 @@
 
-gsquid:CommentedOutCodeLine?"<This block of commented-out lines of code should be removed.(Î¾œ¦ıÿÿÿÿ
-Tsquid:UselessImportCheck"0Remove this unused import 'com.parse.ParseUser'.(õ‹µ´
->squid:S1068"'Remove this unused "TAG" private field.(öË­§
-Jsquid:IndentationCheck"!Make this line start at column 3.(şêåÒ8íÙëü,
-Jsquid:IndentationCheck""!Make this line start at column 5.(­¡–÷8íÙëü,
-Osquid:IndentationCheck("!Make this line start at column 5.(ÖÛˆÇüÿÿÿÿ8íÙëü,
-Jsquid:IndentationCheck-"!Make this line start at column 5.(ÿ¥¥8íÙëü,
-Osquid:IndentationCheck3"!Make this line start at column 5.(Èç²ªúÿÿÿÿ8íÙëü,
-Osquid:IndentationCheck8"!Make this line start at column 5.(Ş°Ø•ûÿÿÿÿ8íÙëü,
-Isquid:IndentationCheck="!Make this line start at column 5.(ôÇÅ98íÙëü,
-Jsquid:IndentationCheckC"!Make this line start at column 5.(£ßş«8íÙëü,
-Osquid:IndentationCheckD"!Make this line start at column 7.(œ€º•şÿÿÿÿ8íÙëü,
-Jsquid:IndentationCheckJ"!Make this line start at column 5.(ËÄÒ‚8íÙëü,
-Jsquid:IndentationCheckK"!Make this line start at column 7.(ŸÁº8íÙëü,
 <squid:S1451"&Add or update the header of this file.8íÙëü,
-v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¸˜êİ8íÙëü,
-{"squid:LeftCurlyBraceStartLineCheck!"AMove this left curly brace to the beginning of next line of code.(º¹ãÚùÿÿÿÿ8íÙëü,
-v"squid:LeftCurlyBraceStartLineCheck'"AMove this left curly brace to the beginning of next line of code.(¸­¤ı8íÙëü,
-u"squid:LeftCurlyBraceStartLineCheck,"AMove this left curly brace to the beginning of next line of code.(ÍÅõe8íÙëü,
-{"squid:LeftCurlyBraceStartLineCheck2"AMove this left curly brace to the beginning of next line of code.(®ºÊáşÿÿÿÿ8íÙëü,
-{"squid:LeftCurlyBraceStartLineCheck7"AMove this left curly brace to the beginning of next line of code.(º°ı÷şÿÿÿÿ8íÙëü,
-{"squid:LeftCurlyBraceStartLineCheck<"AMove this left curly brace to the beginning of next line of code.(ğŸ¼êûÿÿÿÿ8íÙëü,
-v"squid:LeftCurlyBraceStartLineCheckB"AMove this left curly brace to the beginning of next line of code.(”İ•µ8íÙëü,
-v"squid:LeftCurlyBraceStartLineCheckC"AMove this left curly brace to the beginning of next line of code.(£ßş«8íÙëü,
-v"squid:LeftCurlyBraceStartLineCheckI"AMove this left curly brace to the beginning of next line of code.(·•º8íÙëü,
-v"squid:LeftCurlyBraceStartLineCheckJ"AMove this left curly brace to the beginning of next line of code.(ËÄÒ‚8íÙëü,
-Rsquid:S2039"4Explicitly declare the visibility for "application".(şêåÒ8íÙëü,
-Wsquid:S2039":Explicitly declare the visibility for "loginAbstractCall".(ÌÊÉ 8íÙëü,
-?squid:S2325I"!Make "isAdmin" a "static" method.(·•º8íÙëü,
-jsquid:S00103"KSplit this 145 characters long line (which is greater than 120 authorized).(¸˜êİ8íÙëü,
-]squid:S3340+"?Reorder annotation arguments to match the order of declaration.(ğ˜ï„8íÙëü,
-]squid:S33401"?Reorder annotation arguments to match the order of declaration.(ğ˜ï„8íÙëü,
-]squid:S3340;"?Reorder annotation arguments to match the order of declaration.(ğ˜ï„8íÙëü,
+u"squid:LeftCurlyBraceStartLineCheck)"AMove this left curly brace to the beginning of next line of code.(ÍÅõe8íÙëü,
+Jsquid:IndentationCheck@"!Make this line start at column 5.(£ßş«8íÙëü,
+Wsquid:S2039":Explicitly declare the visibility for "loginAbstractCall".(ÌÊÉ 8íÙëü,
+v"squid:LeftCurlyBraceStartLineCheck$"AMove this left curly brace to the beginning of next line of code.(¸­¤ı8íÙëü,
+Rsquid:S2039"4Explicitly declare the visibility for "application".(şêåÒ8íÙëü,
+jsquid:S00103"KSplit this 145 characters long line (which is greater than 120 authorized).(¸˜êİ8íÙëü,
+Jsquid:IndentationCheck"!Make this line start at column 5.(­¡–÷8íÙëü,
+v"squid:LeftCurlyBraceStartLineCheckF"AMove this left curly brace to the beginning of next line of code.(·•º8íÙëü,
+{"squid:LeftCurlyBraceStartLineCheck9"AMove this left curly brace to the beginning of next line of code.(ğŸ¼êûÿÿÿÿ8íÙëü,
+Isquid:IndentationCheck:"!Make this line start at column 5.(ôÇÅ98íÙëü,
+{"squid:LeftCurlyBraceStartLineCheck4"AMove this left curly brace to the beginning of next line of code.(º°ı÷şÿÿÿÿ8íÙëü,
+]squid:S33408"?Reorder annotation arguments to match the order of declaration.(ğ˜ï„8íÙëü,
+Jsquid:IndentationCheck"!Make this line start at column 3.(şêåÒ8íÙëü,
+Osquid:IndentationCheck0"!Make this line start at column 5.(Èç²ªúÿÿÿÿ8íÙëü,
+Osquid:IndentationCheckA"!Make this line start at column 7.(œ€º•şÿÿÿÿ8íÙëü,
+Osquid:IndentationCheck%"!Make this line start at column 5.(ÖÛˆÇüÿÿÿÿ8íÙëü,
+v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¸˜êİ8íÙëü,
+{"squid:LeftCurlyBraceStartLineCheck/"AMove this left curly brace to the beginning of next line of code.(®ºÊáşÿÿÿÿ8íÙëü,
+v"squid:LeftCurlyBraceStartLineCheckG"AMove this left curly brace to the beginning of next line of code.(ËÄÒ‚8íÙëü,
+{"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(º¹ãÚùÿÿÿÿ8íÙëü,
+Jsquid:IndentationCheck*"!Make this line start at column 5.(ÿ¥¥8íÙëü,
+Osquid:IndentationCheck5"!Make this line start at column 5.(Ş°Ø•ûÿÿÿÿ8íÙëü,
+Jsquid:IndentationCheckG"!Make this line start at column 5.(ËÄÒ‚8íÙëü,
+v"squid:LeftCurlyBraceStartLineCheck?"AMove this left curly brace to the beginning of next line of code.(”İ•µ8íÙëü,
+v"squid:LeftCurlyBraceStartLineCheck@"AMove this left curly brace to the beginning of next line of code.(£ßş«8íÙëü,
+]squid:S3340("?Reorder annotation arguments to match the order of declaration.(ğ˜ï„8íÙëü,
+Jsquid:IndentationCheckH"!Make this line start at column 7.(ŸÁº8íÙëü,
+?squid:S2325F"!Make "isAdmin" a "static" method.(·•º8íÙëü,
+]squid:S3340."?Reorder annotation arguments to match the order of declaration.(ğ˜ï„8íÙëü,
+gsquid:CommentedOutCodeLine<"<This block of commented-out lines of code should be removed.(Î¾œ¦ıÿÿÿÿ

@@ -47,8 +47,6 @@ w
 Gapp/src/test/java/com/mystorie/cgalves/mystorie/LoginPresenterTest.java,b/f/bf30e709433c26669833745493dfea48a5450bf7
 9
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-w
-Gapp/src/test/java/com/mystorie/cgalves/mystorie/LoginViewModelTest.java,9/5/955aad07b2399a8c028d3a00d4e388da17ceb4e8
 d
 4app/src/main/res/layout/activity_login_activity3.xml,2/3/23fb9b339b0cdc49647645a2ab85126a77ae71fc
 W
@@ -149,3 +147,17 @@ t
 Dapp/src/main/java/com/cgalves/mystorie/common/utils/GsonUtility.java,4/b/4b673580ecb23afdceda9c1a2496a11d9ebae258
 y
 Iapp/src/mock/java/com/cgalves/mystorie/model/factory/ContactCallImpl.java,4/7/479772a6dc24d519e3c453112634810557167706
+`
+0app/src/main/res/layout/toolbar_app_fragment.xml,e/2/e28cc0176de4ad4174ef1a2cfec780a5adc541de
+{
+Kapp/src/mock/java/com/cgalves/mystorie/model/factory/NovidadesCallImpl.java,3/1/31e847b9da239822c9bfc33808e180643f02ab50
+]
+-app/src/main/res/layout/fragment_noticias.xml,b/e/bee6c6000c1d6c177331bf75db57755e8da88e12
+z
+Japp/src/mock/java/com/cgalves/mystorie/model/factory/NoticiasCallImpl.java,8/d/8da9b3aad178378c80f1c00f5a3600962b109d48
+r
+Bapp/src/test/java/com/mystorie/cgalves/mystorie/ExampleUnitTest.kt,e/1/e128580cf999c728dba0f2819f5481e462511a41
+P
+ app/assets/teamcity/tutorial.txt,c/7/c71c9f3333f651f69d85e72162c12f3cbfa95d67
+s
+Capp/src/test/java/com/mystorie/cgalves/mystorie/UnitTestSample.java,5/d/5d2aeceedca3025dffcf2fd04bd8eb040dfdce02

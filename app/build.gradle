@@ -235,6 +235,13 @@ task jacocoTestReport(type: JacocoReport, dependsOn: 'testDebugUnitTest') {
     executionData = files("${buildDir}/jacoco/testDebugUnitTest.exec")
 }
 
+def getVersionCodeTimestamp() {
+    def date = new Date()
+    def formattedDate = date.format('yyyy-MM-dd-HH:mm:ss').replace("-","/")
+    def code = formattedDate.toString()
+    return "vScopus-"+code
+}
+
 sonarqube {
     properties {
         property  'sonar.projectKey' , 'outropb'
@@ -245,6 +252,7 @@ sonarqube {
 //        property 'sonar.jdbc.username', 'sonar'
 //        property 'sonar.jdbc.password', 'sonar'
 //        property 'sonar.sourceEncoding', 'UTF-8'
+//        property 'sonar.projectVersion', getVersionCodeTimestamp().toString()
         property 'sonar.login', 'admin'
         property 'sonar.password', 'admin'
 

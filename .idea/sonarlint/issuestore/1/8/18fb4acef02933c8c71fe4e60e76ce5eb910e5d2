@@ -1,4 +1,13 @@
 
-msquid:UselessImportCheck
-"DRemove this unused import 'org.androidannotations.annotations.Bean'.(Òª›ıüÿÿÿÿ
-{squid:UselessImportCheck"RRemove this unused import 'com.cgalves.mystorie.feature.home.model.ImageResponse'.(é¸ìşÿÿÿÿ
+Jsquid:IndentationCheck"!Make this line start at column 3.(ùéØÔ8©¿êŒş,
+Jsquid:IndentationCheck"!Make this line start at column 5.(‚¦îû8©¿êŒş,
+Jsquid:IndentationCheck"!Make this line start at column 5.(ïÉŒ8©¿êŒş,
+Osquid:IndentationCheck""!Make this line start at column 5.(¯éÒùÿÿÿÿ8©¿êŒş,
+<squid:S1451"&Add or update the header of this file.8©¿êŒş,
+{"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Ø»ÓĞÿÿÿÿÿ8©¿êŒş,
+{"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ò·Å©ûÿÿÿÿ8©¿êŒş,
+v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(­á”â8©¿êŒş,
+{"squid:LeftCurlyBraceStartLineCheck!"AMove this left curly brace to the beginning of next line of code.(ÒÇëÄûÿÿÿÿ8©¿êŒş,
+[squid:S2039"=Explicitly declare the visibility for "noticiasAbstractCall".(ùéØÔ8©¿êŒş,
+osquid:S00103"KSplit this 160 characters long line (which is greater than 120 authorized).(Ø»ÓĞÿÿÿÿÿ8©¿êŒş,
+]squid:S3340 "?Reorder annotation arguments to match the order of declaration.(ğ˜ï„8©¿êŒş,
