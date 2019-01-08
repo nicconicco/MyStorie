@@ -1,0 +1,13 @@
+
+Isquid:S2974"4Make this class "final" or add a public constructor.(Ä‡×
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(®èêøÿÿÿÿ
+m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ó‚‰Ã
+m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Ä‡×
+msquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(™­€Öşÿÿÿÿ
+]squid:S3052"HRemove this initialization to "null", the compiler will do that for you.(¦”¹ì
+Fsquid:IndentationCheck"!Make this line start at column 3.(®èêøÿÿÿÿ
+Asquid:IndentationCheck"!Make this line start at column 5.(á¬Å
+5squid:S1451"&Add or update the header of this file.
+Msquid:S1213"8Move this variable to comply with Java Code Conventions.(¦”¹ì
+Asquid:IndentationCheck"!Make this line start at column 7.(ò÷
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(™­€Öşÿÿÿÿ

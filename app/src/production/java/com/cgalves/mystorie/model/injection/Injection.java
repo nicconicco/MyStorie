@@ -1,10 +1,11 @@
-package br.com.next.api.call.investments;
+package com.cgalves.mystorie.model.injection;
 
-import br.com.next.ui.activity.investments.tutorial.androidtutorial.InvestTutorialRepositories;
-import br.com.next.ui.activity.investments.tutorial.androidtutorial.InvestTutorialRepository;
+
+import com.cgalves.mystorie.feature.androidmvpgoogle.InvestTutorialRepositories;
+import com.cgalves.mystorie.feature.androidmvpgoogle.InvestTutorialRepository;
 
 public class Injection {
     public static InvestTutorialRepository provideInvestTutorialRepository() {
-        return InvestTutorialRepositories.getInMemoryRepoInstance(new FakeInvestTutorialServiceApiImpl());
+        return InvestTutorialRepositories.getInMemoryRepoInstance(new ProductionInvestTutorialServiceApiImpl());
     }
 }

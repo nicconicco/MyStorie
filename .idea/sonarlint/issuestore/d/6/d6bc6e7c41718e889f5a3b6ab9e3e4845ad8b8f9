@@ -1,0 +1,54 @@
+
+Asquid:IndentationCheck"!Make this line start at column 5.(¼µğü
+Fsquid:IndentationCheck"!Make this line start at column 5.(³›¯°ùÿÿÿÿ
+Fsquid:IndentationCheck"!Make this line start at column 9.(åİ£¤øÿÿÿÿ
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(í§ƒìúÿÿÿÿ
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(³›¯°ùÿÿÿÿ
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(œƒƒ©ùÿÿÿÿ
+m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(é¯ì
+f
+squid:S109"RAssign this magic number 5 to a well-named constant, and use the constant instead.(¤é¹•
+~squid:S1151"iReduce this switch case number of lines from 8 to at most 5, for example by extracting code into methods.(¡Êû•
+m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(­ïã
+Asquid:IndentationCheck"!Make this line start at column 5.(çÑó
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¶«ğéøÿÿÿÿ
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(õåğ–şÿÿÿÿ
+Fsquid:IndentationCheck"!Make this line start at column 9.(ÇÑÁöıÿÿÿÿ
+k
+squid:S109"RAssign this magic number 2 to a well-named constant, and use the constant instead.(õåğ–şÿÿÿÿ
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(®ºÊáşÿÿÿÿ
+m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ş½†ì
+Fsquid:IndentationCheck"!Make this line start at column 5.(Ğèµìüÿÿÿÿ
+Gsquid:IndentationCheck""Make this line start at column 11.(ßÈ‰ùÿÿÿÿ
+Fsquid:IndentationCheck"!Make this line start at column 5.(ùÃ¦Õøÿÿÿÿ
+Isquid:S1066"/Merge this if statement with the enclosing one.(ßÈ‰ùÿÿÿÿ
+Asquid:IndentationCheck"!Make this line start at column 5.(ñÕ©È
+Fsquid:IndentationCheck"!Make this line start at column 9.(ÇÑÁöıÿÿÿÿ
+isquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(©Œ™h8ƒö²ñ‚-
+Fsquid:IndentationCheck"!Make this line start at column 5.(ëŒÕäüÿÿÿÿ
+Asquid:IndentationCheck"!Make this line start at column 9.(›ûä·
+l"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ÍÏ×]
+‰ squid:MethodCyclomaticComplexity"_The Cyclomatic Complexity of this method "setLayout" is 12 which is greater than 10 authorized.(ş½†ì
+5squid:S1451"&Add or update the header of this file.
+Asquid:S2325"%Make "loadToolbar" a "static" method.(§ÒÚÌ8ÀÕ¾ñ‚-
+Lsquid:S1135"2Complete the task associated to this TODO comment.(ä©±öşÿÿÿÿ
+Msquid:IndentationCheck"!Make this line start at column 3.(Òš×Ûùÿÿÿÿ8óÓÁñ‚-
+Fsquid:S00108")Either remove or fill this block of code.(­ïã8Ş¢Áñ‚-
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ŠÕÛöıÿÿÿÿ
+f
+squid:S109"RAssign this magic number 3 to a well-named constant, and use the constant instead.(Ò¿şÆ
+k
+squid:S109"RAssign this magic number 4 to a well-named constant, and use the constant instead.(õåğ–şÿÿÿÿ
+Gsquid:IndentationCheck""Make this line start at column 11.(õåğ–şÿÿÿÿ
+m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ĞöšŠ
+Isquid:S1066"/Merge this if statement with the enclosing one.(õåğ–şÿÿÿÿ
+Nsquid:S1258":Add a constructor to the class, or provide default values.(©Œ™h
+Asquid:IndentationCheck"!Make this line start at column 9.(›ûä·
+Dsquid:S00108")Either remove or fill this block of code.(õåğ–şÿÿÿÿ
+l"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(©Œ™h
+m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(§ÒÚÌ
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ÇÑÁöıÿÿÿÿ
+Fsquid:IndentationCheck"!Make this line start at column 5.(¥ÛşÉøÿÿÿÿ
+l"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(óšÀ5
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ò»Á§üÿÿÿÿ
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ÇÑÁöıÿÿÿÿ

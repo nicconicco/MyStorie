@@ -1,21 +1,21 @@
 
-o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(£‡·
-Osquid:IndentationCheck"!Make this line start at column 3.(’‚Œîşÿÿÿÿ8•ä½ˆı,
-Hsquid:IndentationCheck"!Make this line start at column 7.(²§Çøÿÿÿÿ
+m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(£‡·
+Asquid:IndentationCheck"!Make this line start at column 5.(ˆÀË
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¶»†¬ÿÿÿÿÿ
+Asquid:IndentationCheck"!Make this line start at column 7.(¾¶«ª
+@squid:IndentationCheck"!Make this line start at column 5.(Ú†Ág
+m2squid:RightCurlyBraceDifferentLineAsNextBlockCheck"1Move this "else" keyword to a new dedicated line.(å¥‡
+@squid:IndentationCheck"!Make this line start at column 7.(¸®Ã'
+Msquid:IndentationCheck"!Make this line start at column 3.(Ô£¡Áıÿÿÿÿ8•ä½ˆı,
+l
+squid:S109"SAssign this magic number 23 to a well-named constant, and use the constant instead.(‘ˆïûÿÿÿÿ
+asquid:S00103"KSplit this 125 characters long line (which is greater than 120 authorized).(¾¶«ª
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Ô£¡Áıÿÿÿÿ
+Wsquid:S1941"BMove the declaration of "enabled" closer to the code that uses it.(ˆÀË
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(‘ˆïûÿÿÿÿ
 5squid:S1451"&Add or update the header of this file.
-Csquid:IndentationCheck"!Make this line start at column 5.(ˆÀË
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(‘ˆïûÿÿÿÿ
-Csquid:IndentationCheck"!Make this line start at column 7.(¾¶«ª
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(’‚Œîşÿÿÿÿ
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¶»†¬ÿÿÿÿÿ
-Bsquid:IndentationCheck "!Make this line start at column 5.(Ú†Ág
-o2squid:RightCurlyBraceDifferentLineAsNextBlockCheck"1Move this "else" keyword to a new dedicated line.(å¥‡
-hsquid:S00103"KSplit this 125 characters long line (which is greater than 120 authorized).(²§Çøÿÿÿÿ
-Ysquid:S1941"BMove the declaration of "enabled" closer to the code that uses it.(ˆÀË
-Bsquid:IndentationCheck"!Make this line start at column 7.(¸®Ã'
-o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(å¥‡
-o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Ã˜¶ò
-n
-squid:S109"SAssign this magic number 23 to a well-named constant, and use the constant instead.(‘ˆïûÿÿÿÿ
-csquid:S00103"KSplit this 125 characters long line (which is greater than 120 authorized).(¾¶«ª
-Qsquid:S1118":Add a private constructor to hide the implicit public one.(£‡·
+m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Ã˜¶ò
+Msquid:IndentationCheck"!Make this line start at column 7.(²§Çøÿÿÿÿ8÷‡ìñ‚-
+y"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(’‚Œîşÿÿÿÿ8÷‡ìñ‚-
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(å¥‡8÷‡ìñ‚-
+msquid:S00103"KSplit this 125 characters long line (which is greater than 120 authorized).(²§Çøÿÿÿÿ8÷‡ìñ‚-

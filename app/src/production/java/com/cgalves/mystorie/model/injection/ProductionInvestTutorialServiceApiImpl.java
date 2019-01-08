@@ -1,9 +1,10 @@
-package br.com.next.api.call.investments;
+package com.cgalves.mystorie.model.injection;
 
-import br.com.next.api.vo.investments.Status;
-import br.com.next.ui.activity.investments.tutorial.androidtutorial.InvestTutorialServiceApi;
 
-public class FakeInvestTutorialServiceApiImpl implements InvestTutorialServiceApi {
+import com.cgalves.mystorie.feature.androidmvpgoogle.InvestTutorialServiceApi;
+import com.cgalves.mystorie.feature.androidmvpgoogle.Status;
+
+public class ProductionInvestTutorialServiceApiImpl implements InvestTutorialServiceApi {
 
     @Override
     public void getProfile(InvestTutorialServiceCallback<Status> callback) {

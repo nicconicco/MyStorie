@@ -1,0 +1,32 @@
+
+Fsquid:IndentationCheck"!Make this line start at column 5.(Åˆ¨İüÿÿÿÿ
+Fsquid:IndentationCheck"!Make this line start at column 5.(·ĞÛÿüÿÿÿÿ
+m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Îüş
+m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ûñÆ
+Fsquid:IndentationCheck"!Make this line start at column 5.(Æö¢¼ùÿÿÿÿ
+Asquid:IndentationCheck"!Make this line start at column 5.(şÚ·ı
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(±ŸÙ²ÿÿÿÿÿ
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(£œœıÿÿÿÿ
+m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(“Í«×
+k
+squid:S109"RAssign this magic number 4 to a well-named constant, and use the constant instead.(«Œ‡¹ıÿÿÿÿ
+Fsquid:IndentationCheck"!Make this line start at column 5.(µÇ¾úÿÿÿÿ
+5squid:S1451"&Add or update the header of this file.
+Osquid:S1258":Add a constructor to the class, or provide default values.(“Í«×
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(­…Şÿÿÿÿÿ
+Tsquid:S2057"?Add a "static final long serialVersionUID" field to this class.(“Í«×
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ƒÿ“ıÿÿÿÿ
+m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ÇÂ¦İ
+Fsquid:IndentationCheck"!Make this line start at column 5.(€ÚˆŠşÿÿÿÿ
+k
+squid:S109"RAssign this magic number 5 to a well-named constant, and use the constant instead.(Åˆ¨İüÿÿÿÿ
+Fsquid:IndentationCheck"!Make this line start at column 3.(ÇÓæâıÿÿÿÿ
+k
+squid:S109"RAssign this magic number 3 to a well-named constant, and use the constant instead.(µÇ¾úÿÿÿÿ
+Fsquid:IndentationCheck"!Make this line start at column 5.(¤‚şåøÿÿÿÿ
+k
+squid:S109"RAssign this magic number 5 to a well-named constant, and use the constant instead.(€ÚˆŠşÿÿÿÿ
+Fsquid:IndentationCheck"!Make this line start at column 5.(«Œ‡¹ıÿÿÿÿ
+k
+squid:S109"RAssign this magic number 2 to a well-named constant, and use the constant instead.(«Œ‡¹ıÿÿÿÿ
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ßÙÿÿÿÿÿ

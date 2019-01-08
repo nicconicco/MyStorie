@@ -1,7 +1,7 @@
 
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ќийѕ8иквль,
+{squid:S00118"^Rename this abstract class name to match the regular expression '^Abstract[A-Z][a-zA-Z0-9]*$'.(ЈЭпЉ8иквль,
 Hsquid:IndentationCheck"!Make this line start at column 3.(ќийѕ8›„‡мь,
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ќийѕ8иквль,
 t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ЈЭпЉ8иквль,
 <squid:S1451"&Add or update the header of this file.8иквль,
 Hsquid:IndentationCheck"!Make this line start at column 5.(С•Ђ–8иквль,
-{squid:S00118"^Rename this abstract class name to match the regular expression '^Abstract[A-Z][a-zA-Z0-9]*$'.(ЈЭпЉ8иквль,

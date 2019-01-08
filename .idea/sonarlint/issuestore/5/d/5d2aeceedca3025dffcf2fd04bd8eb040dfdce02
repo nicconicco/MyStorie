@@ -1,8 +1,8 @@
 
-<squid:S2698D" Add a message to this assertion.(·Í­ûÿÿÿÿ
-œsquid:S3577."…Rename class "UnitTestSample" to match the regular expression: '^((Test|IT)[a-zA-Z0-9]+|[A-Z][a-zA-Z0-9]*(Test|IT|TestCase|ITCase))$'(ùÏƒD
-<squid:S2698B" Add a message to this assertion.(š¸»Úûÿÿÿÿ
-7squid:S2698C" Add a message to this assertion.(äƒ‡Ã
-nsquid:S3578:"RRename this method name to match the regular expression: '^test[A-Z][a-zA-Z0-9]*$'(ÿµ´÷þÿÿÿÿ
-@squid:S2925q"$Remove this use of "Thread.sleep()".(ˆñ…‘üÿÿÿÿ
-7squid:S2698Z" Add a message to this assertion.(Ü˜½¶
+:squid:S2698" Add a message to this assertion.(š¸»Úûÿÿÿÿ
+šsquid:S3577"…Rename class "UnitTestSample" to match the regular expression: '^((Test|IT)[a-zA-Z0-9]+|[A-Z][a-zA-Z0-9]*(Test|IT|TestCase|ITCase))$'(ùÏƒD
+:squid:S2698" Add a message to this assertion.(·Í­ûÿÿÿÿ
+lsquid:S3578"RRename this method name to match the regular expression: '^test[A-Z][a-zA-Z0-9]*$'(ÿµ´÷þÿÿÿÿ
+5squid:S2698" Add a message to this assertion.(Ü˜½¶
+>squid:S2925"$Remove this use of "Thread.sleep()".(ˆñ…‘üÿÿÿÿ
+5squid:S2698" Add a message to this assertion.(äƒ‡Ã
