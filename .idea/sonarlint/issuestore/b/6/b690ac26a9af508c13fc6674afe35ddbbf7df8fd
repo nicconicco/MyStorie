@@ -1,10 +1,10 @@
 
-Hsquid:IndentationCheck"!Make this line start at column 5.(ñ‘ˆÛøÿÿÿÿ
-Csquid:IndentationCheck"!Make this line start at column 3.(³Ó¸±
-Csquid:IndentationCheck"!Make this line start at column 5.(Ñ•€–
-Csquid:IndentationCheck"!Make this line start at column 5.(ÿüŒ™
-o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(³Ó¸±
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(º°ı÷şÿÿÿÿ
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(«ï˜¾øÿÿÿÿ
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ÚŸûÿÿÿÿ
+Asquid:IndentationCheck"!Make this line start at column 5.(Ñ•€–
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(º°ı÷şÿÿÿÿ
+Asquid:IndentationCheck"!Make this line start at column 3.(³Ó¸±
+m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(³Ó¸±
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(«ï˜¾øÿÿÿÿ
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ÚŸûÿÿÿÿ
+Fsquid:IndentationCheck"!Make this line start at column 5.(ñ‘ˆÛøÿÿÿÿ
 5squid:S1451"&Add or update the header of this file.
+Asquid:IndentationCheck"!Make this line start at column 5.(ÿüŒ™

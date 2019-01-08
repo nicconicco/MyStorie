@@ -194,6 +194,7 @@ dependencies {
     api busEvent
     api parseServer
     implementation okhttp.okhttpInterceptor
+    api "com.google.guava:guava:18.0"
 //    implementation facebook
 
 //    compile 'com.parse:parsefacebookutils-v4-android:1.10.4@aar'

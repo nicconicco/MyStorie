@@ -25,4 +25,5 @@
     <color name="icons">#FFFFFF</color>
     <color name="divider">#BDBDBD</color>
     <color name="gray_background">#eaeaea</color>
+    <color name="green_4">#01F85C</color>
 </resources>

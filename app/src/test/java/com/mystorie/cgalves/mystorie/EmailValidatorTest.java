@@ -3,10 +3,6 @@ package com.mystorie.cgalves.mystorie;
 import junit.framework.Assert;
 
 import org.junit.Test;
-import java.util.regex.Pattern;
-
-import static net.bytebuddy.matcher.ElementMatchers.is;
-import static net.bytebuddy.matcher.ElementMatchers.isEquals;
 import static org.hamcrest.CoreMatchers.isA;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertThat;

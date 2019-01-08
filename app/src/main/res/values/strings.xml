@@ -56,6 +56,12 @@
     <string name="contato" translatable="false">Contato</string>
     <string name="hello_word">Hello World!</string>
     <string name="title_activity_splash2">Splash2Activity</string>
+    <string name="tutorial_create_goals">Ok</string>
+    <string name="tutorial_discovery_goals">Descobrir</string>
+    <string name="tutorial_subtitle_text_information_ok">Opcao 3</string>
+    <string name="tutorial_subtitle_text_information_goals_3">Opcao 2</string>
+    <string name="tutorial_subtitle_text_information_goals_2">Opcao 1</string>
+    <string name="tutorial_subtitle_text_information_goals_1">Opcao 0</string>
 
 
 </resources>
