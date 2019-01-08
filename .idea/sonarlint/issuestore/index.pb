@@ -161,3 +161,7 @@ P
  app/assets/teamcity/tutorial.txt,c/7/c71c9f3333f651f69d85e72162c12f3cbfa95d67
 s
 Capp/src/test/java/com/mystorie/cgalves/mystorie/UnitTestSample.java,5/d/5d2aeceedca3025dffcf2fd04bd8eb040dfdce02
+v
+Fapp/src/mock/java/com/cgalves/mystorie/model/factory/HomeCallImpl.java,1/8/1897a1277fe7ab249012062741a6fa79ceec3c6e
+Ÿ
+oapp/build/generated/source/apt/mock/debug/com/cgalves/mystorie/feature/login/presenter/LoginPresenterImpl_.java,9/f/9f92c1b2dfddd3abaf3e184c128b23f2ccbb3438

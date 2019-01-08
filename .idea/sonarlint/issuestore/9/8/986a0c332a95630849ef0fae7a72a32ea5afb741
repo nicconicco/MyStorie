@@ -1,22 +1,22 @@
 
-gsquid:CommentedOutCodeLine<"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ
-gsquid:CommentedOutCodeLineC"<This block of commented-out lines of code should be removed.(ÕÎÉ¬ùÿÿÿÿ
-Csquid:IndentationCheck"!Make this line start at column 5.(ÔªÝå
+v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ÒÞî£8®íÆÑþ,
+Isquid:S1135-"2Complete the task associated to this TODO comment.(ê§Ù…
+t"squid:LeftCurlyBraceStartLineCheck&"AMove this left curly brace to the beginning of next line of code.(º°ý÷þÿÿÿÿ
 Hsquid:IndentationCheck"!Make this line start at column 3.(äÚ”ùÿÿÿÿ
 t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ÚŽŸûÿÿÿÿ
-Csquid:IndentationCheck"!Make this line start at column 5.(Ñ•€–
 5squid:S1451"&Add or update the header of this file.
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(«ï˜¾øÿÿÿÿ
-Isquid:S1135-"2Complete the task associated to this TODO comment.(ê§Ù…
-gsquid:CommentedOutCodeLine8"<This block of commented-out lines of code should be removed.(¨”óûÿÿÿÿ
-o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(³Ó¸±
-Osquid:IndentationCheck'"!Make this line start at column 5.(ñ‘ˆÛøÿÿÿÿ8ô¶¿Ñþ,
-t"squid:LeftCurlyBraceStartLineCheck&"AMove this left curly brace to the beginning of next line of code.(º°ý÷þÿÿÿÿ
-gsquid:CommentedOutCodeLine."<This block of commented-out lines of code should be removed.(ø‚µÈüÿÿÿÿ
-Ksquid:IndentationCheck""Make this line start at column 11.(ÒÞî£8®íÆÑþ,
+Csquid:IndentationCheck"!Make this line start at column 5.(Ñ•€–
 Psquid:IndentationCheck""Make this line start at column 13.(÷œµ°ýÿÿÿÿ8®íÆÑþ,
+gsquid:CommentedOutCodeLine<"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ
 Ksquid:IndentationCheck""Make this line start at column 13.(ÊÙŸ8®íÆÑþ,
-v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ÒÞî£8®íÆÑþ,
-v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(å¥ž‡8®íÆÑþ,
+gsquid:CommentedOutCodeLineC"<This block of commented-out lines of code should be removed.(ÕÎÉ¬ùÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(³Ó¸±
+Csquid:IndentationCheck"!Make this line start at column 5.(ÔªÝå
+gsquid:CommentedOutCodeLine."<This block of commented-out lines of code should be removed.(ø‚µÈüÿÿÿÿ
 v2squid:RightCurlyBraceDifferentLineAsNextBlockCheck"1Move this "else" keyword to a new dedicated line.(å¥ž‡8®íÆÑþ,
 Bsquid:S2211"$Specify a type for: 'parseUser', 'e'(ìÂ¾²8®íÆÑþ,
+gsquid:CommentedOutCodeLine8"<This block of commented-out lines of code should be removed.(¨”óûÿÿÿÿ
+Ksquid:IndentationCheck""Make this line start at column 11.(ÒÞî£8®íÆÑþ,
+Osquid:IndentationCheck'"!Make this line start at column 5.(ñ‘ˆÛøÿÿÿÿ8ô¶¿Ñþ,
+v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(å¥ž‡8®íÆÑþ,
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(«ï˜¾øÿÿÿÿ

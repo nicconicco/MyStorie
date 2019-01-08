@@ -1,19 +1,19 @@
 
-t"squid:LeftCurlyBraceStartLineCheck%"AMove this left curly brace to the beginning of next line of code.(ºžž„þÿÿÿÿ
+Vsquid:S33406"?Reorder annotation arguments to match the order of declaration.(ð˜ï„
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(º¹ãÚùÿÿÿÿ
 Hsquid:IndentationCheck&"!Make this line start at column 5.(—›–Ìûÿÿÿÿ
+Csquid:IndentationCheck,"!Make this line start at column 5.(Ž£¤¦
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Ã¢¶²
+o"squid:LeftCurlyBraceStartLineCheck+"AMove this left curly brace to the beginning of next line of code.(Î·­¤
+csquid:S00103"KSplit this 140 characters long line (which is greater than 120 authorized).(Ã¢¶²
 t"squid:LeftCurlyBraceStartLineCheck7"AMove this left curly brace to the beginning of next line of code.(Öêòûÿÿÿÿÿ
 Ksquid:S2039"4Explicitly declare the visibility for "application".(þêåÒ
-Hsquid:IndentationCheck "!Make this line start at column 5.(ÝÐ¥úýÿÿÿÿ
-Csquid:IndentationCheck,"!Make this line start at column 5.(Ž£¤¦
-5squid:S1451"&Add or update the header of this file.
 Csquid:IndentationCheck"!Make this line start at column 3.(þêåÒ
+Hsquid:IndentationCheck "!Make this line start at column 5.(ÝÐ¥úýÿÿÿÿ
 Hsquid:IndentationCheck2"!Make this line start at column 5.(—›–Ìûÿÿÿÿ
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(º¹ãÚùÿÿÿÿ
-o"squid:LeftCurlyBraceStartLineCheck+"AMove this left curly brace to the beginning of next line of code.(Î·­¤
-Psquid:S2039"9Explicitly declare the visibility for "homeAbstractCall".(‹´…„
-Vsquid:S3340*"?Reorder annotation arguments to match the order of declaration.(ð˜ï„
-Vsquid:S33406"?Reorder annotation arguments to match the order of declaration.(ð˜ï„
-o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Ã¢¶²
 Csquid:IndentationCheck8"!Make this line start at column 5.(æ¨”Ñ
+Psquid:S2039"9Explicitly declare the visibility for "homeAbstractCall".(‹´…„
+t"squid:LeftCurlyBraceStartLineCheck%"AMove this left curly brace to the beginning of next line of code.(ºžž„þÿÿÿÿ
 t"squid:LeftCurlyBraceStartLineCheck1"AMove this left curly brace to the beginning of next line of code.(…Ûäßøÿÿÿÿ
-csquid:S00103"KSplit this 140 characters long line (which is greater than 120 authorized).(Ã¢¶²
+5squid:S1451"&Add or update the header of this file.
+Vsquid:S3340*"?Reorder annotation arguments to match the order of declaration.(ð˜ï„

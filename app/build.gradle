@@ -235,7 +235,7 @@ task jacocoTestReport(type: JacocoReport, dependsOn: 'testDebugUnitTest') {
     executionData = files("${buildDir}/jacoco/testDebugUnitTest.exec")
 }
 
-def getVersionCodeTimestamp() {
+def getVersionCodeTimetamp() {
     def date = new Date()
     def formattedDate = date.format('yyyy-MM-dd-HH:mm:ss').replace("-","/")
     def code = formattedDate.toString()
@@ -255,6 +255,7 @@ sonarqube {
 //        property 'sonar.projectVersion', getVersionCodeTimestamp().toString()
         property 'sonar.login', 'admin'
         property 'sonar.password', 'admin'
+        property 'sonar.binaries', '**/target/classes '
 
         property 'sonar.profile', 'Android Lint'
         property "sonar.sources", "./src/main/java"
