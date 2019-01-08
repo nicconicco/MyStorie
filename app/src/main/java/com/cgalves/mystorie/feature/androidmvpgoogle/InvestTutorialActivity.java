@@ -113,7 +113,7 @@ public class InvestTutorialActivity extends BaseActivity implements InvestTutori
                 break;
             case NOT_SOLD_IN_SAVING_PROFILE_INVESTOR:
                 checkNotNull(statusProfile, "statusProfile cannot be null!");
-                if (statusProfile != null && statusProfile.getStatusCode() == 1 || statusProfile.getStatusCode() == 3 || statusProfile.getStatusCode() == 5) {
+                if ("1".equals(String.valueOf(statusProfile.getStatusCode())) || "3".equals(String.valueOf(statusProfile.getStatusCode())) || "5".equals(String.valueOf(statusProfile.getStatusCode()))) {
                     // do nothing at this moment
                 }
                 break;
