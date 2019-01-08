@@ -20,11 +20,10 @@ You can find me at email: nicolaugalves@gmail.com
 - Factory
 - Abstract class
 - Parse.com
-- MVP ( Contract + Implementation )
 - Mock / API Calls
-- Infinity Scroll in RecyclerView ( In progress )
-- Menu Lateral
-- Arquitetura MVVM
-- Roboeletrics / branch mvvm-jader
+- Menu Side
+- Arquitetura MVVM ( Basic, not completed )
 - Mockito - MVP
-- MVP-ViewModel [ Ver branch Mvp-ViewModel ]
+- TeamCity configuration
+- Example of class like Code Android : https://codelabs.developers.google.com/codelabs/android-testing/index.html#0 ( find in feature/androidmvpgoogle
+
