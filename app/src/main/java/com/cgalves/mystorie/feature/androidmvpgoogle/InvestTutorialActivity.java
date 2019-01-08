@@ -104,15 +104,13 @@ public class InvestTutorialActivity extends BaseActivity implements InvestTutori
                 mActionsListener.getProfileInvestor();
                 break;
             case NOT_SOLD_IN_SAVING_NOT_PROFILE_INVESTOR:
-                if (statusProfile != null) {
-                    if (statusProfile.getStatusCode() == 2 || statusProfile.getStatusCode() == 4) {
-                    }
+                if (statusProfile != null && statusProfile.getStatusCode() == 2 || statusProfile.getStatusCode() == 4) {
+                    // do nothing at this moment
                 }
                 break;
             case NOT_SOLD_IN_SAVING_PROFILE_INVESTOR:
-                if (statusProfile != null) {
-                    if (statusProfile.getStatusCode() == 1 || statusProfile.getStatusCode() == 3 || statusProfile.getStatusCode() == 5) {
-                    }
+                if (statusProfile != null && statusProfile.getStatusCode() == 1 || statusProfile.getStatusCode() == 3 || statusProfile.getStatusCode() == 5) {
+                    // do nothing at this moment
                 }
                 break;
             default:

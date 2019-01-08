@@ -5,13 +5,13 @@ import android.support.annotation.NonNull;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
-public class InvestTutorialRepositories {
+public final class InvestTutorialRepositories {
+
+    private static InvestTutorialRepository repository = null;
 
     private InvestTutorialRepositories() {
         // no instance
     }
-
-    private static InvestTutorialRepository repository = null;
 
     public synchronized static InvestTutorialRepository getInMemoryRepoInstance(@NonNull InvestTutorialServiceApi api) {
         checkNotNull(api);
