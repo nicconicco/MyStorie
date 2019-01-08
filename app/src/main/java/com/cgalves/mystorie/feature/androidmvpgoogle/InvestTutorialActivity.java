@@ -14,7 +14,6 @@ import org.androidannotations.annotations.LongClick;
 import org.androidannotations.annotations.OptionsItem;
 
 
-
 @EActivity(R.layout.activity_invest_tutorial)
 public class InvestTutorialActivity extends BaseActivity implements InvestTutorialContract.View {
 
@@ -42,7 +41,7 @@ public class InvestTutorialActivity extends BaseActivity implements InvestTutori
     }
 
     @LongClick(R.id.ok)
-    public void onLongClickOkGetIt(){
+    public void onLongClickOkGetIt() {
         mActionsListener.cleanData(true);
     }
 
@@ -107,16 +106,12 @@ public class InvestTutorialActivity extends BaseActivity implements InvestTutori
             case NOT_SOLD_IN_SAVING_NOT_PROFILE_INVESTOR:
                 if (statusProfile != null) {
                     if (statusProfile.getStatusCode() == 2 || statusProfile.getStatusCode() == 4) {
-
                     }
                 }
                 break;
             case NOT_SOLD_IN_SAVING_PROFILE_INVESTOR:
                 if (statusProfile != null) {
-                    if (statusProfile.getStatusCode() == 1 ||
-                            statusProfile.getStatusCode() == 3 ||
-                            statusProfile.getStatusCode() == 5
-                            ) {
+                    if (statusProfile.getStatusCode() == 1 || statusProfile.getStatusCode() == 3 || statusProfile.getStatusCode() == 5) {
                     }
                 }
                 break;
