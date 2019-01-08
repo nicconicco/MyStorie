@@ -13,11 +13,14 @@ public final class InvestTutorialRepositories {
         // no instance
     }
 
-    public synchronized static InvestTutorialRepository getInMemoryRepoInstance(@NonNull InvestTutorialServiceApi api) {
+    public static InvestTutorialRepository getInMemoryRepoInstance(@NonNull InvestTutorialServiceApi api) {
         checkNotNull(api);
-        if (null == repository) {
-            repository = new InMemoryInvestTutorialRepository(api);
+
+        synchronized (InvestTutorialRepository.class) {
+            if (null == repository) {
+                repository = new InMemoryInvestTutorialRepository(api);
+            }
+            return repository;
         }
-        return repository;
     }
 }
