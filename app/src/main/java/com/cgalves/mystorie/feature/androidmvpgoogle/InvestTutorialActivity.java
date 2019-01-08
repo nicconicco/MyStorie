@@ -13,7 +13,6 @@ import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.LongClick;
 import org.androidannotations.annotations.OptionsItem;
 
-import static android.content.Intent.FLAG_ACTIVITY_CLEAR_TOP;
 
 
 @EActivity(R.layout.activity_invest_tutorial)

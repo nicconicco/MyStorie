@@ -10,9 +10,9 @@ import com.cgalves.mystorie.BuildConfig;
  * Created by Scopus on 10/07/18.
  */
 
-public final class AndroidUtility {
+public final class AndroidUtils {
 
-    private AndroidUtility(){}
+    private AndroidUtils(){}
 
     public static boolean isNotKeepActivitiesEnable(Context context) {
         boolean enabled;

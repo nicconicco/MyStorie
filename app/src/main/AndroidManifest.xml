@@ -59,6 +59,7 @@
             android:theme="@style/MyStorieTheme" />
         <activity android:name=".feature.list.view.activity.ListSectionActivity_" />
         <activity android:name=".feature.section.SectionActivity_" />
+        <activity android:name=".feature.androidmvpgoogle.InvestTutorialActivity_" />
 
     </application>
 
