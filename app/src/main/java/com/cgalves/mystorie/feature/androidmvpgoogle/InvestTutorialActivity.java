@@ -13,6 +13,8 @@ import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.LongClick;
 import org.androidannotations.annotations.OptionsItem;
 
+import static com.google.common.base.Preconditions.checkNotNull;
+
 
 @EActivity(R.layout.activity_invest_tutorial)
 public class InvestTutorialActivity extends BaseActivity implements InvestTutorialContract.View {
@@ -104,11 +106,13 @@ public class InvestTutorialActivity extends BaseActivity implements InvestTutori
                 mActionsListener.getProfileInvestor();
                 break;
             case NOT_SOLD_IN_SAVING_NOT_PROFILE_INVESTOR:
-                if (statusProfile != null && statusProfile.getStatusCode() == 2 || statusProfile.getStatusCode() == 4) {
+                checkNotNull(statusProfile, "statusProfile cannot be null!");
+                if (statusProfile.getStatusCode() == 2 || statusProfile.getStatusCode() == 4) {
                     // do nothing at this moment
                 }
                 break;
             case NOT_SOLD_IN_SAVING_PROFILE_INVESTOR:
+                checkNotNull(statusProfile, "statusProfile cannot be null!");
                 if (statusProfile != null && statusProfile.getStatusCode() == 1 || statusProfile.getStatusCode() == 3 || statusProfile.getStatusCode() == 5) {
                     // do nothing at this moment
                 }
