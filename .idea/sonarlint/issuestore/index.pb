@@ -161,8 +161,6 @@ s
 Capp/src/test/java/com/mystorie/cgalves/mystorie/UnitTestSample.java,5/d/5d2aeceedca3025dffcf2fd04bd8eb040dfdce02
 v
 Fapp/src/mock/java/com/cgalves/mystorie/model/factory/HomeCallImpl.java,1/8/1897a1277fe7ab249012062741a6fa79ceec3c6e
-ü
-oapp/build/generated/source/apt/mock/debug/com/cgalves/mystorie/feature/login/presenter/LoginPresenterImpl_.java,9/f/9f92c1b2dfddd3abaf3e184c128b23f2ccbb3438
 Å
 Qapp/src/main/java/com/cgalves/mystorie/feature/admin/home/MasterHomeActivity.java,4/b/4b2495b6fa917e16f2670ba8df59f0c464becb25
 u
@@ -193,3 +191,9 @@ Uapp/src/test/java/com/mystorie/cgalves/mystorie/testgoogle/ExampleServiceApiTes
 \app/src/test/java/com/mystorie/cgalves/mystorie/testgoogle/ExampleTutorialPresenterTest.java,e/7/e7fec30caf7021797c02e190c4efd6584723bc98
 ç
 ]app/src/test/java/com/mystorie/cgalves/mystorie/testgoogle/ExampleTutorialRepositoryTest.java,f/5/f5849a628d90c37f876c411eb7b772a3c19c95a7
+
+Oapp/src/production/java/com/cgalves/mystorie/model/factory/ContactCallImpl.java,4/f/4f73e4b190921d1fecacbe2d638b2091526933a4
+{
+Kapp/src/production/java/com/cgalves/mystorie/model/injection/Injection.java,c/b/cb67a08fa5d5b197bb88947fc1fffe98b72a0583
+ò
+happ/src/production/java/com/cgalves/mystorie/model/injection/ProductionInvestTutorialServiceApiImpl.java,9/e/9e30a6b098c8ff25bfcad4bc4d0a6c03a77cb8e9

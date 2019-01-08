@@ -1,0 +1,28 @@
+
+Fsquid:IndentationCheck"!Make this line start at column 3.(¾¹ğâÿÿÿÿÿ
+Asquid:IndentationCheck"!Make this line start at column 5.(Ñ•€–
+Asquid:IndentationCheck"!Make this line start at column 5.(Ç­‚û
+Gsquid:IndentationCheck""Make this line start at column 11.(‚Ù«ğøÿÿÿÿ
+Bsquid:IndentationCheck""Make this line start at column 13.(İ”èÕ
+Bsquid:IndentationCheck""Make this line start at column 15.(ƒÔ¥÷
+Bsquid:IndentationCheck""Make this line start at column 15.(ÅÒƒÀ
+Gsquid:IndentationCheck""Make this line start at column 13.(ñˆ¨Ãıÿÿÿÿ
+Fsquid:IndentationCheck"!Make this line start at column 5.(Õèˆøÿÿÿÿ
+5squid:S1451"&Add or update the header of this file.
+m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ñ×â„
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¾¹ğâÿÿÿÿÿ
+m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(®ñ¨
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(‚Ù«ğøÿÿÿÿ
+m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(å¥‡
+m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(İ”èÕ
+m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(å¥‡
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(üñÿ÷ûÿÿÿÿ
+m2squid:RightCurlyBraceDifferentLineAsNextBlockCheck"1Move this "else" keyword to a new dedicated line.(å¥‡
+m2squid:RightCurlyBraceDifferentLineAsNextBlockCheck"1Move this "else" keyword to a new dedicated line.(å¥‡
+<squid:S2211""Specify a type for: 'objects', 'e'(òñµ™ûÿÿÿÿ
+>squid:S1481")Remove this unused "list" local variable.(ÅÒƒÀ
+>squid:S1481")Remove this unused "json" local variable.(†œ›
+fsquid:S00103"KSplit this 125 characters long line (which is greater than 120 authorized).(ã‹“Şşÿÿÿÿ
+fsquid:S00103"KSplit this 146 characters long line (which is greater than 120 authorized).(Õèˆøÿÿÿÿ
+fsquid:S00103"KSplit this 253 characters long line (which is greater than 120 authorized).(ËıĞüÿÿÿÿ
+Ssquid:S1155">Use isEmpty() to check whether the collection is empty or not.(İ”èÕ
