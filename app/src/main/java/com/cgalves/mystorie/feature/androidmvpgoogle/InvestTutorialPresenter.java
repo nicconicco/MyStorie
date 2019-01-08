@@ -33,8 +33,7 @@ public class InvestTutorialPresenter implements InvestTutorialContract.UserActio
         mInvestTutorialRepository.getCheckInvestmentsSummary(new InvestTutorialRepository.CheckInvestCallback() {
             @Override
             public void onCheckInvestmentsSummary(int number) {
-                view.hideLoading();
-                view.onCheckInvestmentsSummary(number);
+                setValue(number);
             }
 
             @Override
@@ -43,6 +42,11 @@ public class InvestTutorialPresenter implements InvestTutorialContract.UserActio
                 view.onError(error);
             }
         });
+    }
+
+    private void setValue(int number) {
+        view.hideLoading();
+        view.onCheckInvestmentsSummary(number);
     }
 
     @Override
