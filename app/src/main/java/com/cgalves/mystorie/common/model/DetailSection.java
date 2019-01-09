@@ -9,9 +9,9 @@ import android.os.Parcelable;
 
 public class DetailSection implements Parcelable {
 
-    public String name;
+    private String name;
     private String txt;
-    public String image;
+    private String image;
 
     public DetailSection() {
         //this is proposital dont worry

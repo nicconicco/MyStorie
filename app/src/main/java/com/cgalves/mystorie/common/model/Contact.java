@@ -4,16 +4,15 @@ import com.parse.ParseClassName;
 import com.parse.ParseObject;
 import com.parse.ParseUser;
 
-import static com.cgalves.mystorie.common.model.Novidade.FIELD_OWNER;
+import static com.cgalves.mystorie.common.model.Constants.FIELD_CELLPHONE;
+import static com.cgalves.mystorie.common.model.Constants.FIELD_EMAIL;
+import static com.cgalves.mystorie.common.model.Constants.FIELD_FACEBOOK;
+import static com.cgalves.mystorie.common.model.Constants.FIELD_IMAGE_FACEBOOK;
+import static com.cgalves.mystorie.common.model.Constants.FIELD_OWNER;
+import static com.cgalves.mystorie.common.model.Constants.FIELD_TWITTER;
 
 @ParseClassName("Contact")
 public final class Contact extends ParseObject {
-
-    private static final String FIELD_FACEBOOK ="facebookUrl";
-    private static final String FIELD_TWITTER ="twitterUrl";
-    private static final String FIELD_CELLPHONE ="cellphone";
-    private static final String FIELD_EMAIL ="email";
-    private static final String FIELD_IMAGE ="imgProfile";
 
     public Contact() {
         // This constructor is intentionally empty. Nothing special is needed here.
@@ -29,11 +28,11 @@ public final class Contact extends ParseObject {
     }
 
     public void setImage(String value) {
-        put(FIELD_IMAGE, value);
+        put(FIELD_IMAGE_FACEBOOK, value);
     }
 
     public String getImage() {
-        return getString(FIELD_IMAGE);
+        return getString(FIELD_IMAGE_FACEBOOK);
     }
 
     public void setEmail(String value) {

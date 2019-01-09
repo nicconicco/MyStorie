@@ -4,16 +4,18 @@ package com.cgalves.mystorie.common.model;
 import com.parse.ParseClassName;
 import com.parse.ParseObject;
 import com.parse.ParseUser;
+
+import static com.cgalves.mystorie.common.model.Constants.FIELD_IMAGE;
+import static com.cgalves.mystorie.common.model.Constants.FIELD_NAME;
+import static com.cgalves.mystorie.common.model.Constants.FIELD_OWNER;
+import static com.cgalves.mystorie.common.model.Constants.FIELD_TEXT;
+
 @ParseClassName("Novidade")
 public class Novidade extends ParseObject {
 
-    public String name;
-    public String txt;
-    public String img;
-    public static final String FIELD_NAME = "name";
-    public static final String FIELD_TEXT = "txt";
-    public static final String FIELD_IMAGE = "image";
-    public static final String FIELD_OWNER = "owner";
+    private String name;
+    private String txt;
+    private String img;
 
     public Novidade() {
         // this is proposital
