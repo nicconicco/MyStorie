@@ -9,7 +9,8 @@ import java.util.List;
  */
 
 public class NoticiasResponseList {
-    public List<Noticia> noticias;
+
+    private List<Noticia> noticias;
 
     public List<Noticia> getNoticiaList() {
         return noticias;
