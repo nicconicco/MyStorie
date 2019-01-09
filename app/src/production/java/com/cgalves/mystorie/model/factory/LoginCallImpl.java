@@ -37,7 +37,7 @@ public class LoginCallImpl extends LoginAbstractCall {
     @Override
     public void doRegistration(String username, String password, String email) {
         UserRegistrationVO user2 = new UserRegistrationVO();
-        user2.user.setName("Fake Name");
+        user2.getUser().setName("Fake Name");
 
         bus.post(user2);
     }
