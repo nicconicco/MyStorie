@@ -29,10 +29,10 @@ public class LoginCallImpl extends LoginAbstractCall {
     @Override
     public void doRegistration(String username, String password, String email) {
         UserRegistrationVO user2 = new UserRegistrationVO();
-        user2.user.setName("Fake Name");
-        user2.user.setToken("Fake Token");
-        user2.user.setEmail("Fake Email");
-        user2.user.setIsAdmin(false);
+        user2.getUser().setName("Fake Name");
+        user2.getUser().setToken("Fake Token");
+        user2.getUser().setEmail("Fake Email");
+        user2.getUser().setIsAdmin(false);
         bus.post(user2);
     }
 }

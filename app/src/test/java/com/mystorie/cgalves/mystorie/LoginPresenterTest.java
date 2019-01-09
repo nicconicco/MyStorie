@@ -58,10 +58,10 @@ public class LoginPresenterTest {
         ArgumentCaptor<User> argument = ArgumentCaptor.forClass(User.class);
 
         UserRegistrationVO user2 = new UserRegistrationVO();
-        user2.user.setName("Fake Name");
+        user2.getUser().setName("Fake Name");
         verify(view).onResultRegistration(argument.capture());
 
-        assertEquals(user2.user.getName(), argument.getValue().getName());
+        assertEquals(user2.getUser().getName(), argument.getValue().getName());
     }
 
     @After

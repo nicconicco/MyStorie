@@ -55,8 +55,8 @@ public class LoginPresenterImpl<V extends LoginContract.LoginPresenterView> exte
 
     @Subscribe(sticky = true, threadMode = ThreadMode.MAIN)
     public void onRegistrationResultCall(UserRegistrationVO userRegistrationVO) {
-        setToken(userRegistrationVO.user);
-        getMvpView().onResultRegistration(userRegistrationVO.user);
+        setToken(userRegistrationVO.getUser());
+        getMvpView().onResultRegistration(userRegistrationVO.getUser());
         //getMvpView().onLoginResult(isAdmin(result));
     }
 
