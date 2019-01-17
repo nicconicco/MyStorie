@@ -229,12 +229,12 @@ dependencies {
 }
 
 // Task para o processor - inicio
-task processorTask(type: Exec) {
-    commandLine 'cp', '../processor/build/libs/processor.jar', 'libs/'
-}
-
-processorTask.dependsOn(':processor:build')
-preBuild.dependsOn(processorTask)
+//task processorTask(type: Exec) {
+//    commandLine 'cp', '../processor/build/libs/processor.jar', 'libs/'
+//}
+//
+//processorTask.dependsOn(':processor:build')
+//preBuild.dependsOn(processorTask)
 // Task para o processor - Fim
 
 task jacocoTestReport(type: JacocoReport, dependsOn: 'testDebugUnitTest') {
