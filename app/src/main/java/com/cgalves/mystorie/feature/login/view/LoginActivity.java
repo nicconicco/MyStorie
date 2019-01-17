@@ -1,5 +1,6 @@
 package com.cgalves.mystorie.feature.login.view;
 
+import android.content.Intent;
 import android.util.Log;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -11,6 +12,8 @@ import com.cgalves.mystorie.feature.admin.home.MasterHomeActivity_;
 import com.cgalves.mystorie.feature.home.view.activity.HomeActivity_;
 import com.cgalves.mystorie.feature.login.presenter.LoginContract;
 import com.cgalves.mystorie.feature.login.presenter.LoginPresenterImpl;
+import com.cgalves.mystorie.feature.processorannotation.LoginActivityProcessor;
+import com.stablekernel.annotationprocessor.processor.CustomAnnotation;
 
 
 import org.androidannotations.annotations.AfterViews;
@@ -20,6 +23,7 @@ import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.ViewById;
 
 
+@CustomAnnotation
 @EActivity(R.layout.activity_login_v2)
 public class LoginActivity extends BaseActivity implements LoginContract.LoginPresenterView {
 
@@ -32,6 +36,7 @@ public class LoginActivity extends BaseActivity implements LoginContract.LoginPr
     @ViewById(R.id.et_password)
     EditText etPassword;
 
+    @CustomAnnotation
     @AfterViews
     void init() {
         presenter.attachView(this);
@@ -44,6 +49,12 @@ public class LoginActivity extends BaseActivity implements LoginContract.LoginPr
         super.onDestroy();
         presenter.unregister();
         presenter.detachView();
+    }
+
+    @Click(R.id.btn_facebook)
+    void onClickBtnFacebook() {
+        Intent intent = new Intent(this, LoginActivityProcessor.class);
+        startActivity(intent);
     }
 
     @Click(R.id.btn_login)

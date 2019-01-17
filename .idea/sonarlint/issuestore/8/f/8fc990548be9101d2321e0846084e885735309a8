@@ -1,0 +1,20 @@
+
+fsquid:TrailingCommentCheck"6Move this trailing comment on the previous empty line.(Ä”™¥ûÿÿÿÿ8æŸË™…-
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¯Âµø8æŸË™…-
+asquid:TrailingCommentCheck"6Move this trailing comment on the previous empty line.(şáî¸8æŸË™…-
+Hsquid:IndentationCheck"!Make this line start at column 5.(ñµ»8æŸË™…-
+fsquid:TrailingCommentCheck"6Move this trailing comment on the previous empty line.(çŞÊ¿ÿÿÿÿÿ8æŸË™…-
+<squid:S1451"&Add or update the header of this file.8æŸË™…-
+asquid:TrailingCommentCheck"6Move this trailing comment on the previous empty line.(¯Şœñ8æŸË™…-
+Hsquid:IndentationCheck"!Make this line start at column 3.(¯Âµø8æŸË™…-
+u2squid:RightCurlyBraceDifferentLineAsNextBlockCheck"2Move this "catch" keyword to a new dedicated line.(ï­£Ä8æŸË™…-
+Msquid:IndentationCheck"!Make this line start at column 7.(ÊŠ ˜ûÿÿÿÿ8æŸË™…-
+Asquid:S1166"%Either log or rethrow this exception.(ï­£Ä8æŸË™…-
+fsquid:TrailingCommentCheck"6Move this trailing comment on the previous empty line.(İö¢ıÿÿÿÿ8æŸË™…-
+fsquid:TrailingCommentCheck"6Move this trailing comment on the previous empty line.(×•‘ ıÿÿÿÿ8æŸË™…-
+Msquid:IndentationCheck"!Make this line start at column 7.(¢ëÎ­úÿÿÿÿ8æŸË™…-
+s"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(•³»|8æŸË™…-
+y"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(×•‘ ıÿÿÿÿ8æŸË™…-
+y"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¤Æãóÿÿÿÿÿ8æŸË™…-
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ï­£Ä8æŸË™…-
+esquid:S2095"DUse try-with-resources or close this "Writer" in a "finally" clause.(º¥’úúÿÿÿÿ8æŸË™…-

@@ -53,8 +53,6 @@ public class HomeActivity extends BaseActivity implements HomeContract.HomePrese
     @ViewById
     DrawerLayout drawerLayout;
 
-    // Unnecessary put an recycler when the menu have too mutch 20 elements
-
     @ViewById
     LinearLayout leftDrawer;
 
@@ -191,6 +189,7 @@ public class HomeActivity extends BaseActivity implements HomeContract.HomePrese
         finish();
     }
 
+    // Menu lateral ao clicar faz essa acao
     private class DrawerItemClickListener implements AdapterView.OnItemClickListener {
 
         @Override

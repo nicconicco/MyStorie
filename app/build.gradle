@@ -1,5 +1,4 @@
 apply plugin: 'com.android.application'
-
 // SONAR CONFIG
 apply plugin: 'org.sonarqube'
 
@@ -14,6 +13,8 @@ apply plugin: 'checkstyle'
 
 // PMD CONFIG
 apply plugin: 'pmd'
+
+
 
 task checkstyle(type: Checkstyle) {
     configFile file("$project.rootDir/config/checkstyle/checkstyle.xml")
@@ -107,6 +108,7 @@ android {
         javaCompileOptions {
             annotationProcessorOptions {
                 arguments = ["resourcePackageName": android.defaultConfig.applicationId]
+                includeCompileClasspath false
             }
         }
     }
@@ -217,7 +219,23 @@ dependencies {
 
     //roboeletric
     testImplementation "org.robolectric:robolectric:3.8"
+
+    // android annotations processor
+//    implementation files('libs/processor.jar')
+
+    //annotation processing
+    implementation project(':binder')
+    annotationProcessor project(':binder-compiler')
 }
+
+// Task para o processor - inicio
+task processorTask(type: Exec) {
+    commandLine 'cp', '../processor/build/libs/processor.jar', 'libs/'
+}
+
+processorTask.dependsOn(':processor:build')
+preBuild.dependsOn(processorTask)
+// Task para o processor - Fim
 
 task jacocoTestReport(type: JacocoReport, dependsOn: 'testDebugUnitTest') {
     group = "Reporting"
@@ -238,14 +256,14 @@ task jacocoTestReport(type: JacocoReport, dependsOn: 'testDebugUnitTest') {
 
 def getVersionCodeTimetamp() {
     def date = new Date()
-    def formattedDate = date.format('yyyy-MM-dd-HH:mm:ss').replace("-","/")
+    def formattedDate = date.format('yyyy-MM-dd-HH:mm:ss').replace("-", "/")
     def code = formattedDate.toString()
-    return "vScopus-"+code
+    return "vScopus-" + code
 }
 
 sonarqube {
     properties {
-        property  'sonar.projectKey' , 'outropb'
+        property 'sonar.projectKey', 'outropb'
         property 'sonar.projectName', 'TesteMyStorie-outropb'
         property 'sonar.host.url', '172.16.211.28:9001'
 //        property 'sonar.jdbc.url', 'jdbc:mysql://sonarqube-db:3306/sonar?useUnicode=true&amp;characterEncoding=utf8'
@@ -253,7 +271,7 @@ sonarqube {
 //        property 'sonar.jdbc.username', 'sonar'
 //        property 'sonar.jdbc.password', 'sonar'
 //        property 'sonar.sourceEncoding', 'UTF-8'
-//        property 'sonar.projectVersion', getVersionCodeTimestamp().toString()
+        property 'sonar.projectVersion', "pb520-"+getVersionCodeTimestamp().toString()
         property 'sonar.login', 'admin'
         property 'sonar.password', 'admin'
         property 'sonar.binaries', '**/target/classes '
@@ -265,3 +283,5 @@ sonarqube {
         property 'sonar.android.lint.report', 'build/outputs/lint-results.xml'
     }
 }
+
+

@@ -156,12 +156,12 @@
                         android:id="@+id/btn_facebook"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
+                        android:clickable="true"
                         android:layout_marginTop="10dp"
                         android:orientation="horizontal">
 
                         <RelativeLayout
-                            android:clickable="true"
-                            android:background="?android:selectableItemBackgroundBorderless"
+
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
 

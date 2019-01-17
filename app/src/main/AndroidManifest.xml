@@ -19,10 +19,11 @@
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
 
-        <!--<activity-->
-            <!--android:name="com.facebook.FacebookActivity"-->
-            <!--android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"-->
-            <!--android:label="@string/app_name" />-->
+        <!-- <activity -->
+        <!-- android:name="com.facebook.FacebookActivity" -->
+        <!-- android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation" -->
+        <!-- android:label="@string/app_name" /> -->
+
 
         <!-- SERVER -->
         <meta-data
@@ -39,11 +40,9 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".feature.login.view.RegisterActivity_" />
         <activity android:name=".feature.login.view.LoginActivity_" />
         <activity
@@ -60,7 +59,7 @@
         <activity android:name=".feature.list.view.activity.ListSectionActivity_" />
         <activity android:name=".feature.section.SectionActivity_" />
         <activity android:name=".feature.androidmvpgoogle.InvestTutorialActivity_" />
-
+        <activity android:name=".feature.processorannotation.LoginActivityProcessor"></activity>
     </application>
 
 </manifest>

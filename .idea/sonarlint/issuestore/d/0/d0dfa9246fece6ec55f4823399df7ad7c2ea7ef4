@@ -1,0 +1,21 @@
+
+_squid:TrailingCommentCheck"6Move this trailing comment on the previous empty line.(çŞÊ¿ÿÿÿÿÿ
+Asquid:IndentationCheck"!Make this line start at column 3.(¯Âµø
+Zsquid:TrailingCommentCheck"6Move this trailing comment on the previous empty line.(şáî¸
+5squid:S1451"&Add or update the header of this file.
+n2squid:RightCurlyBraceDifferentLineAsNextBlockCheck"2Move this "catch" keyword to a new dedicated line.(ï­£Ä
+_squid:TrailingCommentCheck"6Move this trailing comment on the previous empty line.(×•‘ ıÿÿÿÿ
+gsquid:S00103"KSplit this 127 characters long line (which is greater than 120 authorized).(Ì¼“O8ÒâĞ™…-
+:squid:S1166"%Either log or rethrow this exception.(ï­£Ä
+Fsquid:IndentationCheck"!Make this line start at column 7.(ÊŠ ˜ûÿÿÿÿ
+m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¾ªƒÂ
+@squid:IndentationCheck"!Make this line start at column 7.(Ì¼“O
+Zsquid:TrailingCommentCheck"6Move this trailing comment on the previous empty line.(¯Şœñ
+Asquid:IndentationCheck"!Make this line start at column 5.(ñµ»
+_squid:TrailingCommentCheck"6Move this trailing comment on the previous empty line.(Ä”™¥ûÿÿÿÿ
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(×•‘ ıÿÿÿÿ
+^squid:S2095"DUse try-with-resources or close this "Writer" in a "finally" clause.(º¥’úúÿÿÿÿ
+m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¯Âµø
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¹—ÃÌûÿÿÿÿ
+_squid:TrailingCommentCheck"6Move this trailing comment on the previous empty line.(İö¢ıÿÿÿÿ
+m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ï­£Ä

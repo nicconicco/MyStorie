@@ -1,0 +1,23 @@
+
+Qsquid:S1118":Add a private constructor to hide the implicit public one.(¤“Œß
+t"squid:LeftCurlyBraceStartLineCheck#"AMove this left curly brace to the beginning of next line of code.(Óœéúÿÿÿÿ
+Csquid:IndentationCheck"!Make this line start at column 3.(¤“Œß
+Vsquid:S1118#":Add a private constructor to hide the implicit public one.(Óœéúÿÿÿÿ
+Csquid:IndentationCheck"!Make this line start at column 3.(úÛÿà
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(è½çÒûÿÿÿÿ
+Hsquid:IndentationCheck"!Make this line start at column 5.(éËÅ¹ıÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¤“Œß
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(úÛÿà
+5squid:S1451"&Add or update the header of this file.
+Csquid:IndentationCheck"!Make this line start at column 5.(Ñ§…ª
+Qsquid:S1118":Add a private constructor to hide the implicit public one.(úÛÿà
+Csquid:IndentationCheck"!Make this line start at column 5.(ÉÍ‹Ó
+Hsquid:IndentationCheck$"!Make this line start at column 5.(ùğÎşÿÿÿÿ
+Hsquid:IndentationCheck"!Make this line start at column 3.(µ³Œëùÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(·…†°øÿÿÿÿ
+Csquid:IndentationCheck"!Make this line start at column 5.(¦íââ
+Hsquid:IndentationCheck"!Make this line start at column 3.(·…†°øÿÿÿÿ
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(µ³Œëùÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¯Ğûÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(µ³Œëùÿÿÿÿ
+Hsquid:IndentationCheck#"!Make this line start at column 3.(Óœéúÿÿÿÿ

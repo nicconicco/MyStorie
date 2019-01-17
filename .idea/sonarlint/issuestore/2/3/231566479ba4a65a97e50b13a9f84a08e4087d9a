@@ -1,0 +1,21 @@
+
+o"squid:LeftCurlyBraceStartLineCheck>"AMove this left curly brace to the beginning of next line of code.(Ù«µ§
+Gsquid:S2039"1Explicitly declare the visibility for "recycler".(ë•Ö
+Ssquid:S2039""7Explicitly declare the visibility for "sectionAdapter".(ÌÙùÿÿÿÿ
+?squid:S2211E"#Specify a type for: 'detailSection'(ªœéÖúÿÿÿÿ
+5squid:S1451"&Add or update the header of this file.
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ö…Ÿ
+Isquid:S2039 "2Explicitly declare the visibility for "presenter".(ıò÷§
+Dsquid:IndentationCheckF""Make this line start at column 11.(êî²í
+o"squid:LeftCurlyBraceStartLineCheck1"AMove this left curly brace to the beginning of next line of code.(ÍÙ÷¢
+esquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(ö…Ÿ
+Hsquid:IndentationCheck?"!Make this line start at column 5.(çóà±úÿÿÿÿ
+Csquid:IndentationCheck&"!Make this line start at column 5.(ŞßÁé
+Csquid:IndentationCheck9"!Make this line start at column 5.(ŸÇ…”
+t"squid:LeftCurlyBraceStartLineCheck%"AMove this left curly brace to the beginning of next line of code.(º¹ãÚùÿÿÿÿ
+Lsquid:S2039"0Explicitly declare the visibility for "section".(ıŞ³óûÿÿÿÿ
+Bsquid:IndentationCheck"!Make this line start at column 3.(ë•Ö
+Hsquid:IndentationCheckE"!Make this line start at column 5.(ªœéÖúÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheckD"AMove this left curly brace to the beginning of next line of code.(ƒñ‹
+Csquid:IndentationCheck2"!Make this line start at column 5.(ÍÊ·´
+t"squid:LeftCurlyBraceStartLineCheck8"AMove this left curly brace to the beginning of next line of code.(©¡Ã¹ÿÿÿÿÿ
