@@ -4,9 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyStorie.iml" filepath="$PROJECT_DIR$/MyStorie.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/binder/binder.iml" filepath="$PROJECT_DIR$/binder/binder.iml" />
-      <module fileurl="file://$PROJECT_DIR$/binder-annotations/binder-annotations.iml" filepath="$PROJECT_DIR$/binder-annotations/binder-annotations.iml" />
-      <module fileurl="file://$PROJECT_DIR$/binder-compiler/binder-compiler.iml" filepath="$PROJECT_DIR$/binder-compiler/binder-compiler.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib.iml" filepath="$PROJECT_DIR$/lib/lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/processor/processor.iml" filepath="$PROJECT_DIR$/processor/processor.iml" />
     </modules>

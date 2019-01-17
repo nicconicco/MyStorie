@@ -224,8 +224,8 @@ dependencies {
 //    implementation files('libs/processor.jar')
 
     //annotation processing
-    implementation project(':binder')
-    annotationProcessor project(':binder-compiler')
+//    implementation project(':binder')
+//    annotationProcessor project(':binder-compiler')
 }
 
 // Task para o processor - inicio
