@@ -221,8 +221,6 @@ d
 4app/src/main/res/layout/activity_login_processor.xml,5/8/5810959fac3649a8d92b4ce3bf39646da3583049
 €
 Pprocessor/src/main/java/com/cgalves/mystorie/processor/CustomAnnotationNico.java,0/f/0fbe3349d8471ddcee83480d07d4eb71c36c434f
-j
-:app/build/generated/source/apt/mock/androidannotations.log,7/c/7c63a3534e35fe27c481089e8ada35e240dbcad7
 ‰
 Yprocessor/src/main/java/com/cgalves/mystorie/processor/CustomAnnotationProcessorNico.java,d/0/d0dfa9246fece6ec55f4823399df7ad7c2ea7ef4
 Ž

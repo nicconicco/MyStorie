@@ -1,2 +1,2 @@
-include ':app', ':processor', ':lib'
+include ':app'
 //, ':binder-compiler', ':binder-annotations', ':binder'
