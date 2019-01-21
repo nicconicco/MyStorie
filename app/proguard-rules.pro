@@ -111,3 +111,5 @@
 -dontwarn javax.annotation.concurrent.ThreadSafe
 -dontwarn javax.annotation.concurrent.NotThreadSafe
 
+-dontwarn com.google.auto.value.AutoValue
+-dontwarn com.google.auto.value.AutoValue$Builder

@@ -1,9 +1,9 @@
 
-psquid:S3578"RRename this method name to match the regular expression: '^test[A-Z][a-zA-Z0-9]*$'(¦ú¯ï8œ—…ş,
-Csquid:S2698" Add a message to this assertion.(¤ÿ˜îüÿÿÿÿ8œ—…ş,
->squid:S2698" Add a message to this assertion.(úé—ˆ8œ—…ş,
-Dsquid:S2701"!Remove or correct this assertion.(ìº§¿úÿÿÿÿ8œ—…ş,
-Csquid:S2698" Add a message to this assertion.(¯’Ë¢øÿÿÿÿ8œ—…ş,
->squid:S2698" Add a message to this assertion.(ÿ‘ñá8œ—…ş,
-Csquid:S2698" Add a message to this assertion.(ìº§¿úÿÿÿÿ8œ—…ş,
->squid:S2698" Add a message to this assertion.(…ªÌ8œ—…ş,
+Asquid:S2698" Add a message to this assertion.(¯’Ë¢øÿÿÿÿ8Ç¸ñˆ‡-
+<squid:S2698" Add a message to this assertion.(…ªÌ8Ç¸ñˆ‡-
+<squid:S2698" Add a message to this assertion.(ÿ‘ñá8Ç¸ñˆ‡-
+Asquid:S2698" Add a message to this assertion.(ìº§¿úÿÿÿÿ8Ç¸ñˆ‡-
+Asquid:S2698" Add a message to this assertion.(¤ÿ˜îüÿÿÿÿ8Ç¸ñˆ‡-
+<squid:S2698" Add a message to this assertion.(úé—ˆ8Ç¸ñˆ‡-
+Bsquid:S2701"!Remove or correct this assertion.(ìº§¿úÿÿÿÿ8Ç¸ñˆ‡-
+nsquid:S3578"RRename this method name to match the regular expression: '^test[A-Z][a-zA-Z0-9]*$'(¦ú¯ï8Ç¸ñˆ‡-

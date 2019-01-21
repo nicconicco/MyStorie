@@ -1,20 +1,0 @@
-
-Lsquid:S2148"5Add underscores to this numeric value for readability(À´­§
-o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(£é‰ì
-esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(£é‰ì
-5squid:S1451"&Add or update the header of this file.
-o"squid:LeftCurlyBraceStartLineCheck	"AMove this left curly brace to the beginning of next line of code.(ÉÙ³
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Ğ¸™áúÿÿÿÿ
-q
-squid:S109"[Assign this magic number 2131689658 to a well-named constant, and use the constant instead.(À´­§
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¿Š¿øÿÿÿÿ
-o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ÓÖ¬•
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Ğ¸™áúÿÿÿÿ
-q
-squid:S109"[Assign this magic number 2131689660 to a well-named constant, and use the constant instead.(§¦úË
-Lsquid:S2148"5Add underscores to this numeric value for readability(§¦úË
-Lsquid:S2148"5Add underscores to this numeric value for readability(ÓÖ¬•
-o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(§¦úË
-q
-squid:S109"[Assign this magic number 2131689659 to a well-named constant, and use the constant instead.(ÓÖ¬•
-o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Äşß—

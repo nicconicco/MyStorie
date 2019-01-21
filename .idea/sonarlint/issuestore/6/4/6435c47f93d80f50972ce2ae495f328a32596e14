@@ -1,12 +1,9 @@
 
-{"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(£Êş¥ÿÿÿÿÿ8š‡¤³…-
-{"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(íîÛøÿÿÿÿ8—…¨³…-
-Osquid:IndentationCheck "!Make this line start at column 5.(…éî½ıÿÿÿÿ8—…¨³…-
-Osquid:IndentationCheck"!Make this line start at column 5.(á¦…ııÿÿÿÿ8—…¨³…-
-<squid:S1451"&Add or update the header of this file.8š‡¤³…-
-qsquid:MaximumInheritanceDepth"<This class has 7 parents which is greater than 5 authorized.(£Êş¥ÿÿÿÿÿ8š‡¤³…-
-{"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¨Œşÿÿÿÿ8š‡¤³…-
-Osquid:IndentationCheck"!Make this line start at column 5.(î±¨Ôøÿÿÿÿ8š‡¤³…-
-{"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(›”Âúÿÿÿÿ8—…¨³…-
-Jsquid:IndentationCheck"!Make this line start at column 3.(¢ˆ8Ó§³…-
-Psquid:S2039"2Explicitly declare the visibility for "tvContent".(¢ˆ8Ó§³…-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(™…ÌŞ8Ç¸ñˆ‡-
+fsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(şş 8Ç¸ñˆ‡-
+fsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(”£¾{8Ç¸ñˆ‡-
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(€Ù’øÿÿÿÿ8Ç¸ñˆ‡-
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(äÑéøÿÿÿÿ8Ç¸ñˆ‡-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(öñ¸™8Ç¸ñˆ‡-
+osquid:MaximumInheritanceDepth"<This class has 7 parents which is greater than 5 authorized.(£Êş¥ÿÿÿÿÿ8Ç¸ñˆ‡-
+y"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(£Êş¥ÿÿÿÿÿ8Ç¸ñˆ‡-
