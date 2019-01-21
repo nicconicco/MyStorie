@@ -153,15 +153,21 @@ android {
         production {
             applicationId "com.cgalves.mystorie.mvpe"
         }
-
-//        javaMVP_API {
-//            applicationId "com.cgalves.mystorie.mvpa"
-//        }
-
-//        javaMVVM_FASTMOCK {
-//            applicationId "com.cgalves.mystorie.mvvm"
-//        }
     }
+
+    variantFilter { variant ->
+        def api = variant.getFlavors().get(0).name
+        def isDebug = variant.buildType.name == 'debug'
+
+        if (!isDebug) {
+            if (api == 'mock') {
+                variant.setIgnore(true)
+            }
+        } else if(api == 'production') {
+            variant.setIgnore(true)
+        }
+    }
+
     compileOptions {
         targetCompatibility 1.8
         sourceCompatibility 1.8
@@ -224,6 +230,8 @@ dependencies {
 //    implementation project(':binder')
 //    annotationProcessor project(':binder-compiler')
 }
+
+
 
 // Task para o processor - inicio
 //task processorTask(type: Exec) {
