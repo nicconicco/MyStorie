@@ -241,3 +241,7 @@ G
 app/proguard-backup.pro,e/5/e59217f65379d95825be6459ed613180c2eaa3ce
 u
 Eapp/src/main/java/com/cgalves/mystorie/common/utils/AndroidUtils.java,1/d/1d8ff9c181a9e7121133f3d62674eb02c5c7d0ef
+e
+5binder/build/intermediates/bundles/debug/proguard.txt,e/0/e03770b20121e0078fc612d784aba86c10e34853
+I
+binder/proguard-rules.pro,3/0/30a15c0332c20885d6e19036ffdcb6ee88844ad1

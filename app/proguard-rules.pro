@@ -23,9 +23,9 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 -dontusemixedcaseclassnames
- -dontskipnonpubliclibraryclasses 
 -dontskipnonpubliclibraryclassmembers 
 -dontpreverify
+ -dontskipnonpubliclibraryclasses 
  -verbose
 
   -keepattributes *Annotation*,Signature,InnerClasses,EnclosingMethod 
@@ -57,28 +57,38 @@
     }
 
 
-# Retrofit 2.X
-## https://square.github.io/retrofit/ ##
-
--dontwarn retrofit2.**
--keep class retrofit2.** { *; }
+########--------Retrofit + RxJava--------#########
+-dontwarn retrofit.**
+-keep class retrofit.** { *; }
+-dontwarn sun.misc.Unsafe
+-dontwarn com.octo.android.robospice.retrofit.RetrofitJackson**
+-dontwarn retrofit.appengine.UrlFetchClient
 -keepattributes Signature
 -keepattributes Exceptions
-
 -keepclasseswithmembers class * {
-    @retrofit2.http.* <methods>;
+    @retrofit.http.* <methods>;
+}
+-keep class com.google.gson.** { *; }
+-keep class com.google.inject.** { *; }
+-keep class org.apache.http.** { *; }
+-keep class org.apache.james.mime4j.** { *; }
+-keep class javax.inject.** { *; }
+-keep class retrofit.** { *; }
+-dontwarn org.apache.http.**
+-dontwarn android.net.http.AndroidHttpClient
+-dontwarn retrofit.**
+
+-dontwarn sun.misc.**
+
+-keepclassmembers class rx.internal.util.unsafe.*ArrayQueue*Field* {
+   long producerIndex;
+   long consumerIndex;
 }
 
-# OkHttp
--keepattributes Signature
-
--keepattributes Annotation
-
--keep class okhttp3.** { *; }
-
--keep interface okhttp3.** { *; }
-
--dontwarn okhttp3.**
+-keepclassmembers class rx.internal.util.unsafe.BaseLinkedQueueProducerNodeRef {
+   long producerNode;
+   long consumerNode;
+}
 
 
 # Gson uses generic type information stored in a class file when working with fields. Proguard
@@ -110,6 +120,3 @@
 -dontwarn javax.annotation.concurrent.Immutable
 -dontwarn javax.annotation.concurrent.ThreadSafe
 -dontwarn javax.annotation.concurrent.NotThreadSafe
-
--dontwarn com.google.auto.value.AutoValue
--dontwarn com.google.auto.value.AutoValue$Builder

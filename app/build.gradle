@@ -14,8 +14,6 @@ apply plugin: 'checkstyle'
 // PMD CONFIG
 apply plugin: 'pmd'
 
-
-
 task checkstyle(type: Checkstyle) {
     configFile file("$project.rootDir/config/checkstyle/checkstyle.xml")
     source 'src'
@@ -60,7 +58,6 @@ task pmd(type: Pmd) {
     }
 }
 check.dependsOn 'checkstyle', 'findbugs', 'pmd'
-
 
 android {
 
@@ -117,7 +114,8 @@ android {
         release {
             shrinkResources true
             minifyEnabled true
-
+            useProguard false
+            multiDexEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             applicationIdSuffix ".release"
             signingConfig signingConfigs.theReleaseKey
@@ -205,7 +203,6 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile fileTree(include: 'Parse-*.jar', dir: 'libs')
     compile fileTree(include: 'ParseFacebookUtilsV4-*.jar', dir: 'libs')
-    implementation 'com.google.android.gms:play-services-maps:11.8.0'
     implementation 'com.squareup.picasso:picasso:2.71828'
 
     // Required -- JUnit 4 framework

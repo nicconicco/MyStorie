@@ -1,20 +1,20 @@
 
+fsquid:S00103"KSplit this 125 characters long line (which is greater than 120 authorized).(²§Çøÿÿÿÿ
+m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Ã˜¶ò
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(‘ˆïûÿÿÿÿ
+m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(å¥‡
+m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(šÇ¬¤
+m2squid:RightCurlyBraceDifferentLineAsNextBlockCheck"1Move this "else" keyword to a new dedicated line.(å¥‡
 l
 squid:S109"SAssign this magic number 23 to a well-named constant, and use the constant instead.(‘ˆïûÿÿÿÿ
-r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(â´ı÷şÿÿÿÿ
-r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(‘ˆïûÿÿÿÿ
-r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(’‚Œîşÿÿÿÿ
-m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(šÇ¬¤
-Fsquid:IndentationCheck"!Make this line start at column 3.(â´ı÷şÿÿÿÿ
-m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Ã˜¶ò
+@squid:IndentationCheck"!Make this line start at column 7.(¸®Ã'
 @squid:IndentationCheck"!Make this line start at column 5.(Ú†Ág
 Asquid:IndentationCheck"!Make this line start at column 5.(ˆÀË
-r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¶»†¬ÿÿÿÿÿ
-@squid:IndentationCheck"!Make this line start at column 7.(¸®Ã'
-m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(å¥‡
-asquid:S00103"KSplit this 125 characters long line (which is greater than 120 authorized).(¾¶«ª
-fsquid:S00103"KSplit this 125 characters long line (which is greater than 120 authorized).(²§Çøÿÿÿÿ
-m2squid:RightCurlyBraceDifferentLineAsNextBlockCheck"1Move this "else" keyword to a new dedicated line.(å¥‡
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(â´ı÷şÿÿÿÿ
 Asquid:IndentationCheck"!Make this line start at column 7.(¾¶«ª
-Fsquid:IndentationCheck"!Make this line start at column 7.(²§Çøÿÿÿÿ
+Fsquid:IndentationCheck"!Make this line start at column 3.(â´ı÷şÿÿÿÿ
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(’‚Œîşÿÿÿÿ
 Wsquid:S1941"BMove the declaration of "enabled" closer to the code that uses it.(ˆÀË
+asquid:S00103"KSplit this 125 characters long line (which is greater than 120 authorized).(¾¶«ª
+Fsquid:IndentationCheck"!Make this line start at column 7.(²§Çøÿÿÿÿ
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¶»†¬ÿÿÿÿÿ
