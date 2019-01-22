@@ -1,25 +1,0 @@
-
-u"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(û²ß>8Æ¬½ˆý,
-Isquid:IndentationCheck"!Make this line start at column 7.(¸®Ã'8Æ¬½ˆý,
-v"squid:LeftCurlyBraceStartLineCheck)"AMove this left curly brace to the beginning of next line of code.(Á»›ê8Æ¬½ˆý,
-Bsquid:S2162"%Compare to "this.getClass()" instead.(û²ß>8Æ¬½ˆý,
-v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ÜÑã8Æ¬½ˆý,
-Isquid:IndentationCheck"!Make this line start at column 5.(û²ß>8Æ¬½ˆý,
-Ssquid:S2039	"5Explicitly declare the visibility for "manufacturer".(„›‘Ð8ýš½ˆý,
-{"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¿¹°žûÿÿÿÿ8³ô»ˆý,
-v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ðÜþŠ8Æ¬½ˆý,
-Jsquid:IndentationCheck	"!Make this line start at column 3.(„›‘Ð8ýš½ˆý,
-v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(å¥ž‡8Æ¬½ˆý,
-<squid:S1451"&Add or update the header of this file.8³ô»ˆý,
-Jsquid:IndentationCheck"!Make this line start at column 7.(½µ®•8Æ¬½ˆý,
-Osquid:IndentationCheck%"!Make this line start at column 5.(––Ïýÿÿÿÿ8Æ¬½ˆý,
-Jsquid:IndentationCheck*"!Make this line start at column 5.(˜ ÞÏ8Æ¬½ˆý,
-Jsquid:IndentationCheck"!Make this line start at column 5.(È¸å8Æ¬½ˆý,
-Jsquid:IndentationCheck"!Make this line start at column 5.(”ÏÜÛ8³ô»ˆý,
-{"squid:LeftCurlyBraceStartLineCheck$"AMove this left curly brace to the beginning of next line of code.(½Åãüÿÿÿÿ8Æ¬½ˆý,
-Osquid:IndentationCheck!"!Make this line start at column 5.(”Ý£Žüÿÿÿÿ8Æ¬½ˆý,
-u"squid:LeftCurlyBraceStartLineCheck "AMove this left curly brace to the beginning of next line of code.(ŒäÂw8Æ¬½ˆý,
-{"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(„ý„Áýÿÿÿÿ8³ô»ˆý,
-Ksquid:S2039
-".Explicitly declare the visibility for "model".(–«Å28ýš½ˆý,
-v2squid:RightCurlyBraceDifferentLineAsNextBlockCheck"1Move this "else" keyword to a new dedicated line.(å¥ž‡8Æ¬½ˆý,

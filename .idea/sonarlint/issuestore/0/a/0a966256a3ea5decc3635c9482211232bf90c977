@@ -1,10 +1,0 @@
-
-Asquid:IndentationCheck"!Make this line start at column 3.(ª‹ÚÊ
-Fsquid:IndentationCheck"!Make this line start at column 5.(¿Ý—øýÿÿÿÿ
-Asquid:IndentationCheck"!Make this line start at column 5.(µìåû
-m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ª‹ÚÊ
-f
-squid:S109"RAssign this magic number 3 to a well-named constant, and use the constant instead.(Ç–Žë
-m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(š¶ªÇ
-r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ë’½èúÿÿÿÿ
-5squid:S1451"&Add or update the header of this file.

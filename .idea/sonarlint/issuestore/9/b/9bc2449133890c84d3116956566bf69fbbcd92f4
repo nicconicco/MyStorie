@@ -1,13 +1,0 @@
-
-Hsquid:IndentationCheck"!Make this line start at column 3.(ÿß™€ûÿÿÿÿ
-n"squid:LeftCurlyBraceStartLineCheck!"AMove this left curly brace to the beginning of next line of code.(–‚¿H
-hsquid:S00103"KSplit this 165 characters long line (which is greater than 120 authorized).(¡žù’üÿÿÿÿ
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ò·Å©ûÿÿÿÿ
-Csquid:IndentationCheck"!Make this line start at column 5.(èåà¥
-Csquid:IndentationCheck""!Make this line start at column 5.(ÔÎ³˜
-Vsquid:S3340 "?Reorder annotation arguments to match the order of declaration.(ð˜ï„
-5squid:S1451"&Add or update the header of this file.
-Hsquid:IndentationCheck"!Make this line start at column 5.(«¬„¦øÿÿÿÿ
-Zsquid:S2039">Explicitly declare the visibility for "novidadesAbstractCall".(ÿß™€ûÿÿÿÿ
-o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¿ªø”
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¡žù’üÿÿÿÿ

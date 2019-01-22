@@ -1,6 +1,11 @@
 package com.cgalves.mystorie.feature.home.view.activity;
 
 import android.graphics.drawable.Drawable;
+import android.support.design.widget.TabLayout;
+import android.support.v4.content.ContextCompat;
+import android.support.v4.view.ViewPager;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
@@ -19,7 +24,6 @@ import com.cgalves.mystorie.feature.home.presenter.HomePresenterImpl;
 import com.cgalves.mystorie.feature.home.view.adapter.DrawerMenuLeftSideAdapter;
 import com.cgalves.mystorie.feature.home.view.adapter.HomeFragmentPagerAdapter;
 import com.cgalves.mystorie.feature.section.SectionActivity_;
-import com.google.android.material.tabs.TabLayout;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Bean;
@@ -29,10 +33,6 @@ import org.androidannotations.annotations.ViewById;
 
 import java.util.List;
 
-import androidx.appcompat.app.ActionBarDrawerToggle;
-import androidx.core.content.ContextCompat;
-import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.viewpager.widget.ViewPager;
 
 @EActivity(R.layout.activity_home)
 public class HomeActivity extends BaseActivity implements HomeContract.HomePresenterView {

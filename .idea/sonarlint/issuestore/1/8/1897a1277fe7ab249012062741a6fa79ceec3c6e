@@ -1,19 +1,19 @@
 
-Ssquid:S2148K"5Add underscores to this numeric value for readability(¨Áãî8ØÑ²‘‡-
+Jsquid:IndentationCheck"!Make this line start at column 3.(ôÛ‘8ïŠ¾²‡-
+Jsquid:IndentationCheck"!Make this line start at column 5.(Ñ•€–8ïŠ¾²‡-
+Osquid:IndentationCheck "!Make this line start at column 5.(§£Ÿşÿÿÿÿ8ïŠ¾²‡-
+Jsquid:IndentationCheck:"!Make this line start at column 5.(¨˜Ì„8ïŠ¾²‡-
+isquid:CommentedOutCodeLineP"<This block of commented-out lines of code should be removed.(êº«²8ïŠ¾²‡-
+v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¸Ìâ8ïŠ¾²‡-
+v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ôÛ‘8ïŠ¾²‡-
+{"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ç£†ªşÿÿÿÿ8ïŠ¾²‡-
+{"squid:LeftCurlyBraceStartLineCheck9"AMove this left curly brace to the beginning of next line of code.(¾üŞùÿÿÿÿ8ïŠ¾²‡-
+z
+squid:S109C"]Assign this magic number 10123123142L to a well-named constant, and use the constant instead.(âƒ¶8ïŠ¾²‡-
 
-squid:S109F"]Assign this magic number 10123123143L to a well-named constant, and use the constant instead.(²Š…×ÿÿÿÿÿ8ØÑ²‘‡-
-v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ôÛ‘8ØÑ²‘‡-
-Jsquid:IndentationCheck"!Make this line start at column 5.(Ñ•€–8ØÑ²‘‡-
-Jsquid:IndentationCheck9"!Make this line start at column 5.(¨˜Ì„8ØÑ²‘‡-
-{"squid:LeftCurlyBraceStartLineCheck8"AMove this left curly brace to the beginning of next line of code.(¾üŞùÿÿÿÿ8ØÑ²‘‡-
-Osquid:IndentationCheck"!Make this line start at column 5.(§£Ÿşÿÿÿÿ8ØÑ²‘‡-
+squid:S109G"]Assign this magic number 10123123143L to a well-named constant, and use the constant instead.(²Š…×ÿÿÿÿÿ8ïŠ¾²‡-
 z
-squid:S109K"]Assign this magic number 10123123144L to a well-named constant, and use the constant instead.(¨Áãî8ØÑ²‘‡-
-isquid:CommentedOutCodeLineO"<This block of commented-out lines of code should be removed.(êº«²8ØÑ²‘‡-
-Ssquid:S2148B"5Add underscores to this numeric value for readability(âƒ¶8ØÑ²‘‡-
-z
-squid:S109B"]Assign this magic number 10123123142L to a well-named constant, and use the constant instead.(âƒ¶8ØÑ²‘‡-
-{"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ç£†ªşÿÿÿÿ8ØÑ²‘‡-
-Jsquid:IndentationCheck"!Make this line start at column 3.(ôÛ‘8ØÑ²‘‡-
-Xsquid:S2148F"5Add underscores to this numeric value for readability(²Š…×ÿÿÿÿÿ8ØÑ²‘‡-
-v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¸Ìâ8ØÑ²‘‡-
+squid:S109L"]Assign this magic number 10123123144L to a well-named constant, and use the constant instead.(¨Áãî8ïŠ¾²‡-
+Ssquid:S2148C"5Add underscores to this numeric value for readability(âƒ¶8ïŠ¾²‡-
+Xsquid:S2148G"5Add underscores to this numeric value for readability(²Š…×ÿÿÿÿÿ8ïŠ¾²‡-
+Ssquid:S2148L"5Add underscores to this numeric value for readability(¨Áãî8ïŠ¾²‡-

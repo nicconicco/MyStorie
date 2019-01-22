@@ -1,16 +1,0 @@
-
-Hsquid:IndentationCheck"!Make this line start at column 7.(Ú¿˜µ8¡ä©ˆı,
-Msquid:IndentationCheck"!Make this line start at column 5.(ÕÜ–ıÿÿÿÿ8àÂ§ˆı,
-y"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Š¡œ×ûÿÿÿÿ8àÂ§ˆı,
-y"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¦Áûÿÿÿÿ8àÂ§ˆı,
-Hsquid:IndentationCheck"!Make this line start at column 5.(İÒÉî8àÂ§ˆı,
-†-squid:RightCurlyBraceSameLineAsNextBlockCheck"HMove this "else" on the same line that the previous closing curly brace.(á¢–¬8¡ä©ˆı,
-Hsquid:IndentationCheck"!Make this line start at column 3.(Úó‚8àÂ§ˆı,
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Ç¦Ï×8àÂ§ˆı,
-y"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(½¤ƒÒıÿÿÿÿ8àÂ§ˆı,
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(á¢–¬8¡ä©ˆı,
-y"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ğŞæÈıÿÿÿÿ8¡ä©ˆı,
-Šsquid:S00118"mMake this class abstract or rename it, since it matches the regular expression '^Abstract[A-Z][a-zA-Z0-9]*$'.(Ç¦Ï×8àÂ§ˆı,
-Msquid:IndentationCheck"!Make this line start at column 7.(İËéúÿÿÿÿ8¡ä©ˆı,
-Msquid:IndentationCheck"!Make this line start at column 5.(ğŞæÈıÿÿÿÿ8àÂ§ˆı,
-<squid:S1451"&Add or update the header of this file.8àÂ§ˆı,

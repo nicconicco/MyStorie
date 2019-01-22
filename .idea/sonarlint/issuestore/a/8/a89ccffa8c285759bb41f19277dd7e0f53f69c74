@@ -1,15 +1,0 @@
-
-Hsquid:IndentationCheck"!Make this line start at column 3.(ÓÓÕäûÿÿÿÿ
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ÓÓÕäûÿÿÿÿ
-Bsquid:IndentationCheck"!Make this line start at column 7.(Ö¯ûx
-Hsquid:IndentationCheck"!Make this line start at column 9.(ç”ØÓÿÿÿÿÿ
-o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(§µŒØ
-5squid:S1451"&Add or update the header of this file.
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¡»¢üùÿÿÿÿ
-Hsquid:IndentationCheck"!Make this line start at column 7.(ß†ªäÿÿÿÿÿ
-Hsquid:IndentationCheck"!Make this line start at column 5.(¡»¢üùÿÿÿÿ
-o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(æßÁ‡
-Qsquid:S1118":Add a private constructor to hide the implicit public one.(§µŒØ
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(½ëò‹ùÿÿÿÿ
-‚-squid:RightCurlyBraceSameLineAsNextBlockCheck"IMove this "catch" on the same line that the previous closing curly brace.(æßÁ‡
-<squid:S1166"%Either log or rethrow this exception.(æßÁ‡

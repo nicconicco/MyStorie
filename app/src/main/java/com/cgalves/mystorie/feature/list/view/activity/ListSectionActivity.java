@@ -17,8 +17,8 @@ import org.androidannotations.annotations.ViewById;
 
 import java.util.List;
 
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 
 @EActivity(R.layout.activity_list_section)
 public class ListSectionActivity extends BaseActivity implements ListSectionContract.ListSectioPresenterView {

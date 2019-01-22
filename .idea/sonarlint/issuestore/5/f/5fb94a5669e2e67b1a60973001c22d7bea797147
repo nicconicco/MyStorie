@@ -1,33 +1,0 @@
-
-Csquid:IndentationCheck"!Make this line start at column 3.(Õ‹‘â
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(©Ü¡şşÿÿÿÿ
-Dsquid:IndentationCheck""Make this line start at column 13.(õ ƒù
-o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Ä½¶Ü
-Dsquid:IndentationCheck""Make this line start at column 15.(ß€Ò¢
-Csquid:IndentationCheck""Make this line start at column 17.(‚ç-
-Csquid:IndentationCheck"!Make this line start at column 7.(Ä½¶Ü
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(÷şĞùÿÿÿÿ
-lsquid:S00122"TAt most one statement is allowed per line, but 2 statements were found on this line.(çÙ™†
-Ksquid:S2974
-"4Make this class "final" or add a public constructor.(İõ’‰
-isquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(¯©¨‰
-d
-squid:S134!"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(çÙ™†
-[squid:S3242"DUse 'java.lang.Iterable' here; it is a more general type than 'Set'.(¯©¨‰
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(êÏ˜¸üÿÿÿÿ
-,squid:S00121"Missing curly brace.(çÙ™†
-o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(è Ä÷
-lsquid:S00122!"TAt most one statement is allowed per line, but 2 statements were found on this line.(çÙ™†
-5squid:S1451"&Add or update the header of this file.
-o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ß€Ò¢
-o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Õ‹‘â
-o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(õ ƒù
-i
-squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(©Ü¡şşÿÿÿÿ
-o"squid:LeftCurlyBraceStartLineCheck
-"AMove this left curly brace to the beginning of next line of code.(İõ’‰
-,squid:S00121!"Missing curly brace.(çÙ™†
-`squid:S3242"DUse 'java.lang.Iterable' here; it is a more general type than 'Set'.(êÏ˜¸üÿÿÿÿ
-Hsquid:IndentationCheck"!Make this line start at column 5.(—¡±Àøÿÿÿÿ
-Isquid:IndentationCheck""Make this line start at column 11.(©Ü¡şşÿÿÿÿ
-Hsquid:IndentationCheck"!Make this line start at column 9.(Íªäúÿÿÿÿ

@@ -2,19 +2,17 @@ ext {
 
   //Version
   kotlinVersion = '1.1.51'
-  androidAnnotationsVersion = '4.5.2'
-  supportVersion = '28.0.0'
+  androidAnnotationsVersion = '4.4.0'
+  supportVersion = '27.1.1'
   retrofitVersion = '2.3.0'
   rxAndroidVersion = '2.0.2'
   rxJavaVersion  = '2.1.7'
   glideVersion = '3.6.1'
-
   circleImageVersion = '1.3.0'
   junitVersion = '4.12'
   mockitoVersion = '2.8.47'
   busVersion = '3.0.0'
   parseServerVersion = '1.16.3'
-
   parserServerBoltsVersion = '1.4.0'
   okhttpVersion = '3.8.1'
   facebookVersion = '[4,5)'
@@ -26,8 +24,6 @@ ext {
   retrofitPackage = 'com.squareup.retrofit2'
   reactivePackage = 'io.reactivex.rxjava2'
   glidePackage = 'com.github.bumptech.glide'
-
-
   hdodenhofPackage = 'de.hdodenhof'
   junitPackage = 'junit'
   mockitoPackage = 'org.mockito'
@@ -38,35 +34,35 @@ ext {
   facebookPackage = 'com.facebook.android'
   okHttpPackage = 'com.squareup.okhttp3'
 
-//  configurations.all {
-//    resolutionStrategy {
-//      eachDependency { DependencyResolveDetails details ->
-//        if (details.requested.group == supportPackage && !details.requested.name.contains('multidex')) {
-//          details.useVersion "${supportVersion}"
-//        }
-//      }
-//    }
-//  }
+  configurations.all {
+    resolutionStrategy {
+      eachDependency { DependencyResolveDetails details ->
+        if (details.requested.group == supportPackage && !details.requested.name.contains('multidex')) {
+          details.useVersion "${supportVersion}"
+        }
+      }
+    }
+  }
 
   supportDependencies = [
-      contrainst       : buildDependency(supportPackage+".constraint", "constraint-layout", supportVersion),
-      design           : buildDependency(supportPackage, 'design', supportVersion),
-      recyclerView     : buildDependency(supportPackage, 'recyclerview-v7', supportVersion),
-      cardView         : buildDependency(supportPackage, 'cardview-v7', supportVersion),
-      appCompat        : buildDependency(supportPackage, 'appcompat-v7', supportVersion)
+          contrainst       : buildDependency(supportPackage+".constraint", "constraint-layout", supportVersion),
+          design           : buildDependency(supportPackage, 'design', supportVersion),
+          recyclerView     : buildDependency(supportPackage, 'recyclerview-v7', supportVersion),
+          cardView         : buildDependency(supportPackage, 'cardview-v7', supportVersion),
+          appCompat        : buildDependency(supportPackage, 'appcompat-v7', supportVersion)
   ]
 
   retrofitDependencies = [
 
-      retrofit     : buildDependency(retrofitPackage, 'retrofit', retrofitVersion),
-      gson         : buildDependency(retrofitPackage, 'converter-gson', retrofitVersion),
-      rxAdapterJava: buildDependency(retrofitPackage, 'adapter-rxjava2', retrofitVersion)
+          retrofit     : buildDependency(retrofitPackage, 'retrofit', retrofitVersion),
+          gson         : buildDependency(retrofitPackage, 'converter-gson', retrofitVersion),
+          rxAdapterJava: buildDependency(retrofitPackage, 'adapter-rxjava2', retrofitVersion)
   ]
 
   rxDependencies = [
 
-      rxAndroid: buildDependency(reactivePackage, 'rxandroid', rxAndroidVersion),
-      rxJava   : buildDependency(reactivePackage,'rxjava',rxJavaVersion)
+          rxAndroid: buildDependency(reactivePackage, 'rxandroid', rxAndroidVersion),
+          rxJava   : buildDependency(reactivePackage,'rxjava',rxJavaVersion)
   ]
 
 
@@ -76,8 +72,8 @@ ext {
 
   testingDependencies = [
 
-      junit      : buildDependency(junitPackage, 'junit', junitVersion),
-      mockito    : buildDependency(mockitoPackage, 'mockito-core', mockitoVersion)
+          junit      : buildDependency(junitPackage, 'junit', junitVersion),
+          mockito    : buildDependency(mockitoPackage, 'mockito-core', mockitoVersion)
   ]
 
   anotationDependencies = [
@@ -91,7 +87,6 @@ ext {
   busEvent = buildDependency(busPackage, 'eventbus', busVersion)
 
   parseServer = [ buildDependency(parseServerPackage, 'parse-android', parseServerVersion),
-
                   buildDependency(parseServerBoltsPackage, 'bolts-android', parserServerBoltsVersion)]
 
   facebook = buildDependency(facebookPackage, 'facebook-login', facebookVersion)

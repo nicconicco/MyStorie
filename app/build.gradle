@@ -61,23 +61,6 @@ check.dependsOn 'checkstyle', 'findbugs', 'pmd'
 
 android {
 
-    splits{
-        abi {
-            enable true
-            reset()
-            include 'armeabi', 'armeabi-v7a', 'arm64-v8a', 'mips', 'x86', 'x86_64'
-            universalApk false
-        }
-    }
-    project.ext.versionCodes = ['armeabi-v7a': 2, 'arm64-v8a': 3, 'x86': 8, 'x86_64': 9]
-    android.applicationVariants.all { variant ->
-        // assign different version code for each output
-        variant.outputs.each { output ->
-            output.versionCodeOverride =
-                    project.ext.versionCodes.get(output.getFilter(com.android.build.OutputFile.ABI), 0) * 1000000 + android.defaultConfig.versionCode
-        }
-    }
-
     lintOptions {
         abortOnError false
     }
@@ -110,7 +93,7 @@ android {
     compileSdkVersion 28
     defaultConfig {
         multiDexEnabled true
-        buildToolsVersion "28.0.0"
+        buildToolsVersion "28.0.3"
         applicationId "com.cgalves.mystorie"
         minSdkVersion 23
         targetSdkVersion 28
@@ -129,14 +112,25 @@ android {
 
     buildTypes {
         release {
-            shrinkResources true
-            minifyEnabled true
+
+
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             applicationIdSuffix ".release"
             signingConfig signingConfigs.theReleaseKey
 
+            shrinkResources true
+            minifyEnabled true
+
+            useProguard true
+            multiDexEnabled true
+
             // Config sonarqube
             testCoverageEnabled true
+        }
+
+        debug {
+            useProguard false
+            minifyEnabled true
         }
 //        jnidebug {
 //            initWith debug
@@ -178,65 +172,42 @@ android {
             if (api == 'mock') {
                 variant.setIgnore(true)
             }
-        } else if(api == 'production') {
-            variant.setIgnore(true)
         }
     }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
     }
-    buildToolsVersion = '28.0.3'
 }
 
 // AA config
 apply plugin: 'com.android.application'
-def androidAnnotationsVersion = "4.5.2"
+def androidAnnotationsVersion = "4.4.0"
 
 dependencies {
     annotationProcessor "org.androidannotations:androidannotations:$androidAnnotationsVersion"
     implementation "org.androidannotations:androidannotations-api:$androidAnnotationsVersion"
 }
 
-def retrofitVersion = '2.3.0'
-
 dependencies {
-
-    //Support
-    api 'androidx.multidex:multidex:2.0.1'
-    api 'androidx.constraintlayout:constraintlayout:2.0.0-alpha3'
-    api "androidx.appcompat:appcompat:1.0.2"
-    api "androidx.cardview:cardview:1.0.0"
-    api "androidx.recyclerview:recyclerview:1.0.0"
-    api "androidx.core:core:1.0.1"
-    api "androidx.legacy:legacy-support-v4:1.0.0"
-    api "androidx.legacy:legacy-support-v13:1.0.0"
-    api "androidx.legacy:legacy-support-core-utils:1.0.0"
-    api "androidx.leanback:leanback:1.0.0"
-    api "com.google.android.material:material:1.0.0"
-
-    //API
-    api "io.reactivex:rxandroid:1.1.0"
-    api "io.reactivex:rxjava:1.3.0"
-    api "com.squareup.retrofit2:retrofit:$retrofitVersion"
-    api "com.squareup.retrofit2:converter-gson:$retrofitVersion"
-    api "com.squareup.retrofit2:adapter-rxjava:$retrofitVersion"
-    api "com.google.code.gson:gson:2.8.5"
-
-    api "de.hdodenhof:circleimageview:1.3.0"
-
-    implementation 'com.github.bumptech.glide:glide:4.8.0'
-    annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
-
-    implementation 'org.greenrobot:eventbus:3.1.1'
-
-//    api parseServer
-
-    implementation 'com.parse:parse-android:1.16.3'
-    implementation 'com.squareup.okhttp3:logging-interceptor:3.8.1'
-
-    api "com.google.guava:guava:24.1-jre"
+    implementation supportDependencies.appCompat
+    implementation supportDependencies.design
+    implementation supportDependencies.recyclerView
+    implementation supportDependencies.cardView
+    implementation retrofitDependencies.retrofit
+    implementation retrofitDependencies.gson
+    implementation retrofitDependencies.rxAdapterJava
+    implementation rxDependencies.rxAndroid
+    implementation rxDependencies.rxJava
+    implementation circleImageView
+    implementation glide
+    testImplementation testingDependencies.junit
+    testImplementation testingDependencies.mockito
+    api busEvent
+    api parseServer
+    implementation okhttp.okhttpInterceptor
+    api "com.google.guava:guava:18.0"
 //    implementation facebook
 
 //    compile 'com.parse:parsefacebookutils-v4-android:1.10.4@aar'
@@ -244,13 +215,13 @@ dependencies {
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation fileTree(include: 'Parse-*.jar', dir: 'libs')
-//    implementation fileTree(include: 'ParseFacebookUtilsV4-*.jar', dir: 'libs')
+    implementation fileTree(include: 'ParseFacebookUtilsV4-*.jar', dir: 'libs')
     implementation 'com.squareup.picasso:picasso:2.71828'
 
     // Required -- JUnit 4 framework
     testImplementation 'junit:junit:4.12'
     // Optional -- Mockito framework
-    testImplementation 'org.mockito:mockito-core:2.19.0'
+    testImplementation 'org.mockito:mockito-core:1.10.19'
 
     // Android MVVM architecture
     implementation "android.arch.lifecycle:extensions:1.1.1"
@@ -266,8 +237,6 @@ dependencies {
 //    implementation project(':binder')
 //    annotationProcessor project(':binder-compiler')
 }
-
-
 
 // Task para o processor - inicio
 //task processorTask(type: Exec) {
@@ -312,7 +281,7 @@ sonarqube {
 //        property 'sonar.jdbc.username', 'sonar'
 //        property 'sonar.jdbc.password', 'sonar'
 //        property 'sonar.sourceEncoding', 'UTF-8'
-        property 'sonar.projectVersion', "pb520-"+getVersionCodeTimestamp().toString()
+        property 'sonar.projectVersion', "pb520-" + getVersionCodeTimestamp().toString()
         property 'sonar.login', 'admin'
         property 'sonar.password', 'admin'
         property 'sonar.binaries', '**/target/classes '

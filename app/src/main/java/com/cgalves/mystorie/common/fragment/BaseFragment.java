@@ -1,5 +1,7 @@
 package com.cgalves.mystorie.common.fragment;
 
+
+import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -7,7 +9,6 @@ import android.widget.LinearLayout;
 import com.cgalves.mystorie.BuildConfig;
 import com.cgalves.mystorie.R;
 
-import androidx.fragment.app.Fragment;
 
 
 /**

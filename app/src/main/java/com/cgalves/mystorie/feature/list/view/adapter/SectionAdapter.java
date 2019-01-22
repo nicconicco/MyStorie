@@ -1,5 +1,6 @@
 package com.cgalves.mystorie.feature.list.view.adapter;
 
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,7 +12,6 @@ import com.cgalves.mystorie.common.model.DetailSection;
 
 import java.util.List;
 
-import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * Created by scopus on 25/07/18.

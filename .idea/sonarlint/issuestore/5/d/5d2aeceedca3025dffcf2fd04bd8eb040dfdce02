@@ -1,8 +1,0 @@
-
-Esquid:S2925"$Remove this use of "Thread.sleep()".(ˆñ…‘üÿÿÿÿ8Ç¸ñˆ‡-
-<squid:S2698" Add a message to this assertion.(Ü˜½¶8Ç¸ñˆ‡-
-Asquid:S2698" Add a message to this assertion.(·Í­ûÿÿÿÿ8Ç¸ñˆ‡-
-ssquid:S3578"RRename this method name to match the regular expression: '^test[A-Z][a-zA-Z0-9]*$'(ÿµ´÷þÿÿÿÿ8Ç¸ñˆ‡-
-¡squid:S3577"…Rename class "UnitTestSample" to match the regular expression: '^((Test|IT)[a-zA-Z0-9]+|[A-Z][a-zA-Z0-9]*(Test|IT|TestCase|ITCase))$'(ùÏƒD8Ç¸ñˆ‡-
-Asquid:S2698" Add a message to this assertion.(š¸»Úûÿÿÿÿ8Ç¸ñˆ‡-
-<squid:S2698" Add a message to this assertion.(äƒ‡Ã8Ç¸ñˆ‡-

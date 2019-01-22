@@ -1,36 +1,0 @@
-
-Ksquid:IndentationCheck8""Make this line start at column 13.(žØì‹8èð¯ˆý,
-Rsquid:S2039"5Explicitly declare the visibility for "tvTwitterUrl".(•×W8èð¯ˆý,
-Osquid:S2039"2Explicitly declare the visibility for "ivProfile".(²ã¾8èð¯ˆý,
-Usquid:S1155+">Use isEmpty() to check whether the collection is empty or not.(Ý”èÕ
-Ksquid:IndentationCheck/""Make this line start at column 15.(œþ’Ê8‘´°ˆý,
-v"squid:LeftCurlyBraceStartLineCheck."AMove this left curly brace to the beginning of next line of code.(å¥ž‡8èð¯ˆý,
-v2squid:RightCurlyBraceDifferentLineAsNextBlockCheck7"1Move this "else" keyword to a new dedicated line.(å¥ž‡8èð¯ˆý,
-<squid:S1451"&Add or update the header of this file.8èð¯ˆý,
-?squid:S1659")Declare "tvCellphone" on a separate line.(•×W
-Osquid:IndentationCheck "!Make this line start at column 5.(ÐËíþüÿÿÿÿ8èð¯ˆý,
-{"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ï§§¦üÿÿÿÿ8èð¯ˆý,
-v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ÏÌ¢î8èð¯ˆý,
-{"squid:LeftCurlyBraceStartLineCheckB"AMove this left curly brace to the beginning of next line of code.(üñÿ÷ûÿÿÿÿ8èð¯ˆý,
-Ksquid:IndentationCheck+""Make this line start at column 13.(Ý”èÕ8èð¯ˆý,
-Esquid:S2211(""Specify a type for: 'objects', 'e'(òñµ™ûÿÿÿÿ8èð¯ˆý,
-Jsquid:IndentationCheck%"!Make this line start at column 5.(ôÿí8èð¯ˆý,
-v"squid:LeftCurlyBraceStartLineCheck="AMove this left curly brace to the beginning of next line of code.(ùƒ¼°8èð¯ˆý,
-v2squid:RightCurlyBraceDifferentLineAsNextBlockCheck."1Move this "else" keyword to a new dedicated line.(å¥ž‡8èð¯ˆý,
-v"squid:LeftCurlyBraceStartLineCheck+"AMove this left curly brace to the beginning of next line of code.(Ý”èÕ8èð¯ˆý,
-Qsquid:S2039"4Explicitly declare the visibility for "tvCellphone".(•×W8èð¯ˆý,
-jsquid:S00103C"KSplit this 130 characters long line (which is greater than 120 authorized).(ŠÕ·Ö8èð¯ˆý,
-Asquid:S1659"+Declare "tvFacebookUrl" on a separate line.(•×W
-v"squid:LeftCurlyBraceStartLineCheck7"AMove this left curly brace to the beginning of next line of code.(å¥ž‡8èð¯ˆý,
-{"squid:LeftCurlyBraceStartLineCheck$"AMove this left curly brace to the beginning of next line of code.(º¹ãÚùÿÿÿÿ8èð¯ˆý,
-Ssquid:S2039"6Explicitly declare the visibility for "tvFacebookUrl".(•×W8èð¯ˆý,
-@squid:S1659"*Declare "tvTwitterUrl" on a separate line.(•×W
-Isquid:IndentationCheck"!Make this line start at column 3.(²ã¾8èð¯ˆý,
-Ksquid:IndentationCheck,""Make this line start at column 15.(ƒÔ¥÷8èð¯ˆý,
-Tsquid:S2039"7Explicitly declare the visibility for "tvEmailContact".(•×W8èð¯ˆý,
-qsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(ï§§¦üÿÿÿÿ8èð¯ˆý,
-Jsquid:IndentationCheck>"!Make this line start at column 5.(ÞßÁé8èð¯ˆý,
-Psquid:IndentationCheck)""Make this line start at column 11.(‚Ù«ðøÿÿÿÿ8èð¯ˆý,
-Jsquid:IndentationCheckC"!Make this line start at column 5.(ŠÕ·Ö8èð¯ˆý,
-{"squid:LeftCurlyBraceStartLineCheck)"AMove this left curly brace to the beginning of next line of code.(‚Ù«ðøÿÿÿÿ8èð¯ˆý,
-osquid:S00103D"KSplit this 237 characters long line (which is greater than 120 authorized).(˜ç÷óÿÿÿÿÿ8èð¯ˆý,
