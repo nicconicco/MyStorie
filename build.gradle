@@ -1,4 +1,4 @@
-apply from: 'gradle-scripts/dependencies.gradle'
+//apply from: 'gradle-scripts/dependencies.gradle'
 
 
 buildscript {

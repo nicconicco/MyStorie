@@ -2,6 +2,7 @@ package com.cgalves.mystorie.model.factory;
 
 import android.content.Context;
 
+import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.abstractcalls.HomeAbstractCall;
 import com.cgalves.mystorie.feature.home.model.Image;
 import com.cgalves.mystorie.feature.home.model.ImageResponse;

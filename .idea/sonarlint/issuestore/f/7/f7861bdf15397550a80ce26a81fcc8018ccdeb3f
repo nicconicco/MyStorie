@@ -1,16 +1,16 @@
 
-Osquid:IndentationCheck&"!Make this line start at column 7.(ÖÁŸñøÿÿÿÿ8ßˆş‡-
-u"squid:LeftCurlyBraceStartLineCheck0"AMove this left curly brace to the beginning of next line of code.(ºŠñ=8ßˆş‡-
 {"squid:LeftCurlyBraceStartLineCheck("AMove this left curly brace to the beginning of next line of code.(Ïõèÿÿÿÿÿ8ßˆş‡-
-v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ñ”Ò8ßˆş‡-
-Osquid:IndentationCheck"!Make this line start at column 7.(ùÃ¦Õøÿÿÿÿ8ßˆş‡-
-{"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ÀÙ›²øÿÿÿÿ8ßˆş‡-
-u"squid:LeftCurlyBraceStartLineCheck%"AMove this left curly brace to the beginning of next line of code.(íÖ#8ßˆş‡-
-Osquid:IndentationCheck"!Make this line start at column 5.(ÀÙ›²øÿÿÿÿ8ßˆş‡-
-Jsquid:IndentationCheck"!Make this line start at column 3.(ù¤À8ßˆş‡-
-Jsquid:IndentationCheck1"!Make this line start at column 5.(ï†æ8ßˆş‡-
 {"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(å´Ê«ÿÿÿÿÿ8ßˆş‡-
-u"squid:LeftCurlyBraceStartLineCheck""AMove this left curly brace to the beginning of next line of code.(å‹´"8ßˆş‡-
 Osquid:IndentationCheck)"!Make this line start at column 9.(ıóæâøÿÿÿÿ8ßˆş‡-
-osquid:S001032"KSplit this 139 characters long line (which is greater than 120 authorized).(Í˜Íèıÿÿÿÿ8ßˆş‡-
+Osquid:IndentationCheck"!Make this line start at column 5.(ÀÙ›²øÿÿÿÿ8ßˆş‡-
+v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ñ”Ò8ßˆş‡-
+Jsquid:IndentationCheck"!Make this line start at column 3.(ù¤À8ßˆş‡-
+{"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ÀÙ›²øÿÿÿÿ8ßˆş‡-
 Jsquid:IndentationCheck#"!Make this line start at column 5.(ôÓê•8ßˆş‡-
+u"squid:LeftCurlyBraceStartLineCheck""AMove this left curly brace to the beginning of next line of code.(å‹´"8ßˆş‡-
+Jsquid:IndentationCheck1"!Make this line start at column 5.(ï†æ8ßˆş‡-
+u"squid:LeftCurlyBraceStartLineCheck%"AMove this left curly brace to the beginning of next line of code.(íÖ#8ßˆş‡-
+osquid:S001032"KSplit this 139 characters long line (which is greater than 120 authorized).(Í˜Íèıÿÿÿÿ8ßˆş‡-
+u"squid:LeftCurlyBraceStartLineCheck0"AMove this left curly brace to the beginning of next line of code.(ºŠñ=8ßˆş‡-
+Osquid:IndentationCheck&"!Make this line start at column 7.(ÖÁŸñøÿÿÿÿ8ßˆş‡-
+Osquid:IndentationCheck"!Make this line start at column 7.(ùÃ¦Õøÿÿÿÿ8ßˆş‡-

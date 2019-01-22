@@ -11,9 +11,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.bumptech.glide.load.resource.drawable.GlideDrawable;
-import com.bumptech.glide.request.RequestListener;
-import com.bumptech.glide.request.target.Target;
+
 import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.model.Noticia;
 
@@ -68,24 +66,25 @@ public class NoticiasAdapter extends RecyclerView.Adapter<NoticiasAdapter.ViewHo
         if(section.getImg() != null) {
             viewHolderSection.progressBar.setVisibility(View.VISIBLE);
 
-            Glide.with(context).
-                    load(section.getImg())
-                    .listener(new RequestListener<String, GlideDrawable>() {
-                        @Override
-                        public boolean onException(Exception e, String model, Target<GlideDrawable> target, boolean isFirstResource) {
-                            viewHolderSection.progressBar.setVisibility(View.GONE);
-                            Log.e("Erro_Glide : ", e.getMessage());
-                            return false;
-                        }
-
-                        @Override
-                        public boolean onResourceReady(GlideDrawable resource, String model, Target<GlideDrawable> target, boolean isFromMemoryCache, boolean isFirstResource) {
-                            viewHolderSection.progressBar.setVisibility(View.GONE);
-                            return false;
-                        }
-                    })
-                    .crossFade(1000)
-                    .into(viewHolderSection.ivPhoto);
+            //todo:
+//            Glide.with(context).
+//                    load(section.getImg())
+//                    .listener(new RequestListener<String, GlideDrawable>() {
+//                        @Override
+//                        public boolean onException(Exception e, String model, Target<GlideDrawable> target, boolean isFirstResource) {
+//                            viewHolderSection.progressBar.setVisibility(View.GONE);
+//                            Log.e("Erro_Glide : ", e.getMessage());
+//                            return false;
+//                        }
+//
+//                        @Override
+//                        public boolean onResourceReady(GlideDrawable resource, String model, Target<GlideDrawable> target, boolean isFromMemoryCache, boolean isFirstResource) {
+//                            viewHolderSection.progressBar.setVisibility(View.GONE);
+//                            return false;
+//                        }
+//                    })
+//                    .crossFade(1000)
+//                    .into(viewHolderSection.ivPhoto);
 //            Glide.with(context).load(section.getImg()).into(viewHolderSection.ivPhoto);
         }
 

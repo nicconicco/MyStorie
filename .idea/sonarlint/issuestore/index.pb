@@ -249,3 +249,7 @@ X
 Xapp/src/main/java/com/cgalves/mystorie/feature/admin/novidades/NovidadeMenuActivity.java,a/f/afdf456d524e11cdf90e9809b64495c444a9039c
 ‡
 Wapp/src/main/java/com/cgalves/mystorie/feature/admin/noticias/NoticiasMenuActivity.java,1/9/19b1bf35f155caa0b0e0152aa917edee713571b5
+G
+exportToHTML/index.html,9/a/9ac323a16c03dbf8f4f4bc8ac10aa5b8ca24467a
+…
+Uapp/src/main/java/com/cgalves/mystorie/feature/list/view/activity/DetailActivity.java,c/1/c1ad255d71e5639d43f1fd95d0edf649d843146d

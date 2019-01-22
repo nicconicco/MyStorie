@@ -1,18 +1,19 @@
 
-Csquid:IndentationCheck/"!Make this line start at column 5.(ÄúïÔ
-{"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ÎŞåüÿÿÿÿ8ŞÏ‡ı,
-Vsquid:S1258":Add a constructor to the class, or provide default values.(ÎŞåüÿÿÿÿ
-t"squid:LeftCurlyBraceStartLineCheck4"AMove this left curly brace to the beginning of next line of code.(Ä®ûùÿÿÿÿ
-o"squid:LeftCurlyBraceStartLineCheck<"AMove this left curly brace to the beginning of next line of code.(Ò’Š¯
-o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Î¢È
-o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(»à² 
-Csquid:IndentationCheck"!Make this line start at column 5.(ã¹“
-Hsquid:IndentationCheck5"!Make this line start at column 5.(º¨´ıÿÿÿÿ
-Csquid:IndentationCheck9"!Make this line start at column 5.(¸¼«
-o"squid:LeftCurlyBraceStartLineCheck."AMove this left curly brace to the beginning of next line of code.(¤ÛøÔ
-n"squid:LeftCurlyBraceStartLineCheck8"AMove this left curly brace to the beginning of next line of code.(„¿çB
-Hsquid:IndentationCheck"!Make this line start at column 3.(°É©ñÿÿÿÿÿ
-Hsquid:IndentationCheckA"!Make this line start at column 5.(»Ã÷¤øÿÿÿÿ
-Hsquid:IndentationCheck="!Make this line start at column 5.(É´“ıÿÿÿÿ
 t"squid:LeftCurlyBraceStartLineCheck@"AMove this left curly brace to the beginning of next line of code.(ú›Šøøÿÿÿÿ
+{"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ÎŞåüÿÿÿÿ8ŞÏ‡ı,
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(»à² 
+Csquid:IndentationCheck/"!Make this line start at column 5.(ÄúïÔ
+Vsquid:S1258":Add a constructor to the class, or provide default values.(ÎŞåüÿÿÿÿ
+Hsquid:IndentationCheck"!Make this line start at column 3.(°É©ñÿÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Î¢È
+Hsquid:IndentationCheck="!Make this line start at column 5.(É´“ıÿÿÿÿ
 Csquid:IndentationCheck"!Make this line start at column 5.(Õ›Ÿ×
+Csquid:IndentationCheck9"!Make this line start at column 5.(¸¼«
+t"squid:LeftCurlyBraceStartLineCheck4"AMove this left curly brace to the beginning of next line of code.(Ä®ûùÿÿÿÿ
+n"squid:LeftCurlyBraceStartLineCheck8"AMove this left curly brace to the beginning of next line of code.(„¿çB
+Hsquid:IndentationCheck5"!Make this line start at column 5.(º¨´ıÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck."AMove this left curly brace to the beginning of next line of code.(¤ÛøÔ
+Hsquid:IndentationCheckA"!Make this line start at column 5.(»Ã÷¤øÿÿÿÿ
+Csquid:IndentationCheck"!Make this line start at column 5.(ã¹“
+o"squid:LeftCurlyBraceStartLineCheck<"AMove this left curly brace to the beginning of next line of code.(Ò’Š¯
+Qsquid:S2325."3Make "configDatabaseParserClass" a "static" method.(¤ÛøÔ8¡¿º¬‡-
