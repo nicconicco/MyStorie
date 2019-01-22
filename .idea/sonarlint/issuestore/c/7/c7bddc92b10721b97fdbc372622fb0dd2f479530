@@ -1,0 +1,13 @@
+
+Jsquid:IndentationCheck"!Make this line start at column 5.(ï†æ8Úÿ‡-
+nsquid:S4142 "KVerify that this is the intended value; it is the same as the 1st argument.(›Ÿñûÿÿÿÿ8Úÿ‡-
+Osquid:IndentationCheck"!Make this line start at column 3.(à“æ…øÿÿÿÿ8Úÿ‡-
+v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Ş¶š†8Úÿ‡-
+Osquid:IndentationCheck "!Make this line start at column 7.(›Ÿñûÿÿÿÿ8Úÿ‡-
+{"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(à“æ…øÿÿÿÿ8Úÿ‡-
+{"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(µ‚µõıÿÿÿÿ8Úÿ‡-
+jsquid:S00103'"KSplit this 132 characters long line (which is greater than 120 authorized).(ï ±ª8Úÿ‡-
+{"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ûëù«øÿÿÿÿ8Úÿ‡-
+Jsquid:IndentationCheck("!Make this line start at column 5.(ô¸¶8Úÿ‡-
+Osquid:IndentationCheck"!Make this line start at column 5.(áŸúéşÿÿÿÿ8Úÿ‡-
+v"squid:LeftCurlyBraceStartLineCheck'"AMove this left curly brace to the beginning of next line of code.(ï ±ª8Úÿ‡-

@@ -1,13 +1,14 @@
 package com.cgalves.mystorie.common.activity;
 
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.MenuItem;
 
 import com.cgalves.mystorie.BuildConfig;
 import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.dialog.CustomProgressDialog;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 
 /**

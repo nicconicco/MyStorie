@@ -52,7 +52,7 @@ public class LoginPresenterTest {
 //    }
 
     @Test
-    public void doRegistrationCheck_User_Name_Return() throws Exception {
+    public void doRegistrationCheck_User_Name_Return() {
         loginPresenterImpl_.doRegistration("","","");
 
         ArgumentCaptor<User> argument = ArgumentCaptor.forClass(User.class);

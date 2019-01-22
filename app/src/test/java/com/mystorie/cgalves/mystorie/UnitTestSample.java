@@ -3,20 +3,10 @@ package com.mystorie.cgalves.mystorie;
 import android.content.Context;
 
 import com.cgalves.mystorie.R;
-import com.cgalves.mystorie.common.abstractcalls.ContactAbstractCall;
-import com.cgalves.mystorie.common.model.User;
-import com.cgalves.mystorie.common.providers.BusProvider;
 import com.cgalves.mystorie.common.providers.BusProvider_;
-import com.cgalves.mystorie.feature.contact.presenter.ContactPresenterImpl;
 import com.cgalves.mystorie.feature.login.presenter.LoginContract;
-import com.cgalves.mystorie.feature.login.presenter.LoginPresenterImpl;
-import com.cgalves.mystorie.feature.login.presenter.LoginPresenterImpl_;
-import com.cgalves.mystorie.model.factory.ContactCallImpl;
-import com.parse.ParseUser;
 
 import org.greenrobot.eventbus.EventBus;
-import org.greenrobot.eventbus.Subscribe;
-import org.greenrobot.eventbus.ThreadMode;
 import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
@@ -29,14 +19,11 @@ import org.mockito.junit.MockitoRule;
 
 import java.util.Iterator;
 
-import static java.security.AccessController.getContext;
 import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertNotNull;
 import static junit.framework.Assert.assertNotSame;
-import static junit.framework.Assert.fail;
 import static org.hamcrest.CoreMatchers.isA;
 import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 /**

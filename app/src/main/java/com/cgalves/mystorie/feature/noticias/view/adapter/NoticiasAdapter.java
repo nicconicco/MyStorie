@@ -1,7 +1,6 @@
 package com.cgalves.mystorie.feature.noticias.view.adapter;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -19,6 +18,8 @@ import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.model.Noticia;
 
 import java.util.List;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * Created by scopus on 27/07/18.

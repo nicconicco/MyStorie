@@ -108,6 +108,6 @@ public class ContactFragment extends BaseFragment implements ContactContract.Con
         tvFacebookUrl.setText(user.getFacebook());
         tvTwitterUrl.setText(user.getTwitter());
         tvCellphone.setText("Telefone: " + user.getCellphone());
-        Glide.with(this).load(user.getImage()).into(ivProfile);
+        Glide.with(getContext()).load(user.getImage()).into(ivProfile);
     }
 }

@@ -2,9 +2,7 @@ package com.cgalves.mystorie.model.factory;
 
 import android.content.Context;
 
-import com.cgalves.mystorie.common.abstractcalls.NoticiasAbstractCall;
 import com.cgalves.mystorie.common.abstractcalls.NovidadesAbstractCall;
-import com.cgalves.mystorie.feature.noticias.model.NoticiasResponseList;
 import com.cgalves.mystorie.feature.novidades.model.NovidadesResponseList;
 import com.google.gson.Gson;
 

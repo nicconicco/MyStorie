@@ -9,7 +9,6 @@ import org.junit.After;
 import org.junit.Before;
 import org.mockito.Mock;
 
-import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.schedulers.TestScheduler;
 
 import static org.mockito.MockitoAnnotations.initMocks;
@@ -35,7 +34,7 @@ public abstract class BasePresenterTest<P extends BasePresenter, V extends MvpVi
         presenter.attachView(view);
     }
     @CallSuper @After
-    public void tearDown() throws Exception {
+    public void tearDown() {
         presenter.detachView();
     }
     abstract P createPresenter();

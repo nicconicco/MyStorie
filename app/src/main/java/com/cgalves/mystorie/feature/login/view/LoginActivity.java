@@ -15,7 +15,6 @@ import com.cgalves.mystorie.feature.login.presenter.LoginPresenterImpl;
 import com.cgalves.mystorie.feature.processorannotation.LoginActivityProcessor;
 import com.stablekernel.annotationprocessor.processor.CustomAnnotation;
 
-
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Bean;
 import org.androidannotations.annotations.Click;

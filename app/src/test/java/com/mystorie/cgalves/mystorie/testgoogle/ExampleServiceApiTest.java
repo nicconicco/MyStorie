@@ -6,7 +6,6 @@ import com.cgalves.mystorie.feature.androidmvpgoogle.Status;
 import org.junit.Test;
 import org.mockito.Mock;
 
-
 import static org.mockito.Mockito.mock;
 
 public class ExampleServiceApiTest {

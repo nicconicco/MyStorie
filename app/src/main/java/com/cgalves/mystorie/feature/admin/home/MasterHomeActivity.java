@@ -1,6 +1,5 @@
 package com.cgalves.mystorie.feature.admin.home;
 
-import android.support.v7.app.AppCompatActivity;
 
 import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.model.Noticia;
@@ -10,6 +9,8 @@ import com.parse.ParseUser;
 
 import org.androidannotations.annotations.Click;
 import org.androidannotations.annotations.EActivity;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 @EActivity(R.layout.activity_master_home)
 public class MasterHomeActivity extends AppCompatActivity {

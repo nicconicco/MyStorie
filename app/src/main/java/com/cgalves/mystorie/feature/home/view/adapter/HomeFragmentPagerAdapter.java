@@ -1,14 +1,15 @@
 package com.cgalves.mystorie.feature.home.view.adapter;
 
 import android.content.Context;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
 
 import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.feature.contact.view.ContactFragment_;
 import com.cgalves.mystorie.feature.noticias.view.fragment.NoticiasFragment_;
 import com.cgalves.mystorie.feature.novidades.view.fragment.NovidadesFragment_;
+
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
 
 /**
  * Created by scopus on 27/07/18.

@@ -1,9 +1,7 @@
 package com.cgalves.mystorie.model.factory;
 
 import android.content.Context;
-import android.support.v4.content.ContextCompat;
 
-import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.abstractcalls.HomeAbstractCall;
 import com.cgalves.mystorie.feature.home.model.Image;
 import com.cgalves.mystorie.feature.home.model.ImageResponse;
@@ -13,6 +11,8 @@ import org.greenrobot.eventbus.EventBus;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import androidx.core.content.ContextCompat;
 
 /**
  * Created by Scopus on 17/07/18.

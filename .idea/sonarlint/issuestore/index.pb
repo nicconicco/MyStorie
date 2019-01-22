@@ -243,3 +243,9 @@ e
 5binder/build/intermediates/bundles/debug/proguard.txt,e/0/e03770b20121e0078fc612d784aba86c10e34853
 I
 binder/proguard-rules.pro,3/0/30a15c0332c20885d6e19036ffdcb6ee88844ad1
+X
+(gradle/wrapper/gradle-wrapper.properties,f/b/fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
+ˆ
+Xapp/src/main/java/com/cgalves/mystorie/feature/admin/novidades/NovidadeMenuActivity.java,a/f/afdf456d524e11cdf90e9809b64495c444a9039c
+‡
+Wapp/src/main/java/com/cgalves/mystorie/feature/admin/noticias/NoticiasMenuActivity.java,1/9/19b1bf35f155caa0b0e0152aa917edee713571b5

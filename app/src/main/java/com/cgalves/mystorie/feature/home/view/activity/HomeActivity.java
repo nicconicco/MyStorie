@@ -1,10 +1,6 @@
 package com.cgalves.mystorie.feature.home.view.activity;
 
 import android.graphics.drawable.Drawable;
-import android.support.design.widget.TabLayout;
-import android.support.v4.content.ContextCompat;
-import android.support.v4.view.ViewPager;
-import android.support.v4.widget.DrawerLayout;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
@@ -23,6 +19,7 @@ import com.cgalves.mystorie.feature.home.presenter.HomePresenterImpl;
 import com.cgalves.mystorie.feature.home.view.adapter.DrawerMenuLeftSideAdapter;
 import com.cgalves.mystorie.feature.home.view.adapter.HomeFragmentPagerAdapter;
 import com.cgalves.mystorie.feature.section.SectionActivity_;
+import com.google.android.material.tabs.TabLayout;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Bean;
@@ -31,6 +28,11 @@ import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.ViewById;
 
 import java.util.List;
+
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.core.content.ContextCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.viewpager.widget.ViewPager;
 
 @EActivity(R.layout.activity_home)
 public class HomeActivity extends BaseActivity implements HomeContract.HomePresenterView {
@@ -59,7 +61,7 @@ public class HomeActivity extends BaseActivity implements HomeContract.HomePrese
     @ViewById
     ListView listview;
 
-    android.support.v7.app.ActionBarDrawerToggle mDrawerToggle;
+    ActionBarDrawerToggle mDrawerToggle;
 
     @AfterViews
     void init() {
@@ -138,7 +140,7 @@ public class HomeActivity extends BaseActivity implements HomeContract.HomePrese
     }
 
     protected void setupDrawerToggle() {
-        mDrawerToggle = new android.support.v7.app.ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.app_name, R.string.app_name);
+        mDrawerToggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.app_name, R.string.app_name);
         mDrawerToggle.syncState();
     }
 

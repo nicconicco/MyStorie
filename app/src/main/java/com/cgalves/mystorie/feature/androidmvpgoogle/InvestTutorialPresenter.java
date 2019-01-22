@@ -1,7 +1,7 @@
 package com.cgalves.mystorie.feature.androidmvpgoogle;
 
-import android.support.annotation.NonNull;
 
+import androidx.annotation.NonNull;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 

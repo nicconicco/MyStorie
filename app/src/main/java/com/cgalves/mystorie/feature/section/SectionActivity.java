@@ -1,7 +1,5 @@
 package com.cgalves.mystorie.feature.section;
 
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
 import android.util.Log;
 
 import com.cgalves.mystorie.R;
@@ -13,6 +11,9 @@ import com.cgalves.mystorie.feature.novidades.view.fragment.NovidadesFragment_;
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.Extra;
+
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 
 @EActivity(R.layout.activity_section)
 public class SectionActivity extends BaseActivity {

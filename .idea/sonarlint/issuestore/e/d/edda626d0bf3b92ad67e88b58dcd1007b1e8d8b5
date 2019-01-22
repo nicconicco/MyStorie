@@ -1,47 +1,46 @@
 
-t"squid:LeftCurlyBraceStartLineCheckq"AMove this left curly brace to the beginning of next line of code.(İßéàúÿÿÿÿ
-o"squid:LeftCurlyBraceStartLineCheckl"AMove this left curly brace to the beginning of next line of code.(£şÅ¥
-Hsquid:IndentationCheck&"!Make this line start at column 3.(¢ÈáÚûÿÿÿÿ
-Csquid:IndentationCheckB"!Make this line start at column 5.(ÌÏº
-5squid:S1451"&Add or update the header of this file.
-Csquid:IndentationCheckg"!Make this line start at column 7.(­‰”¹
-t"squid:LeftCurlyBraceStartLineCheck;"AMove this left curly brace to the beginning of next line of code.(‚Ü»áüÿÿÿÿ
-Csquid:IndentationCheckr"!Make this line start at column 5.(ÍÊ·´
-Csquid:IndentationCheckV"!Make this line start at column 9.(­‰”¹
-o"squid:LeftCurlyBraceStartLineCheckc"AMove this left curly brace to the beginning of next line of code.(ßû¢½
-{"squid:LeftCurlyBraceStartLineCheckt"AMove this left curly brace to the beginning of next line of code.(ù˜‡†øÿÿÿÿ8­¿êŒş,
-Gsquid:S2039,"0Explicitly declare the visibility for "tvTitle".(ÿ‚³à
-Csquid:IndentationChecku"!Make this line start at column 7.(­‰”¹
-t"squid:LeftCurlyBraceStartLineCheckU"AMove this left curly brace to the beginning of next line of code.(ù˜‡†øÿÿÿÿ
-Hsquid:IndentationCheck<"!Make this line start at column 5.(¬üÿÿÿÿÿ
-Csquid:IndentationCheckN"!Make this line start at column 5.(‚ÎÚÒ
-Hsquid:IndentationCheckd"!Make this line start at column 5.(´¬á®ÿÿÿÿÿ
-Hsquid:IndentationCheck7"!Make this line start at column 5.(Ğ†¤˜úÿÿÿÿ
-Hsquid:IndentationCheck|"!Make this line start at column 5.(Ìá€¤úÿÿÿÿ
-t"squid:LeftCurlyBraceStartLineCheckf"AMove this left curly brace to the beginning of next line of code.(ù˜‡†øÿÿÿÿ
-Tsquid:S2039&"8Explicitly declare the visibility for "toolbarFragment".(¢ÈáÚûÿÿÿÿ
-t"squid:LeftCurlyBraceStartLineCheckQ"AMove this left curly brace to the beginning of next line of code.(ù˜‡†øÿÿÿÿ
-o"squid:LeftCurlyBraceStartLineCheckT"AMove this left curly brace to the beginning of next line of code.(å¥‡
-osquid:S00103|"KSplit this 124 characters long line (which is greater than 120 authorized).(Ìá€¤úÿÿÿÿ8™®É‘ı,
-Hsquid:IndentationCheckQ"!Make this line start at column 7.(ù˜‡†øÿÿÿÿ
-Hsquid:IndentationCheckU"!Make this line start at column 7.(ù˜‡†øÿÿÿÿ
-v"squid:LeftCurlyBraceStartLineCheckP"AMove this left curly brace to the beginning of next line of code.(Œ­½8­¿êŒş,
-Tsquid:S2039)"8Explicitly declare the visibility for "showToolBarBack".(‰·õùÿÿÿÿ
-t"squid:LeftCurlyBraceStartLineCheck#"AMove this left curly brace to the beginning of next line of code.(­Ä”øşÿÿÿÿ
-o"squid:LeftCurlyBraceStartLineCheckA"AMove this left curly brace to the beginning of next line of code.(æ®ÆÇ
-Isquid:S2039/"2Explicitly declare the visibility for "presenter".(ƒõ¥ë
-]squid:S1258#":Add a constructor to the class, or provide default values.(­Ä”øşÿÿÿÿ8­¿êŒş,
-o"squid:LeftCurlyBraceStartLineCheck]"AMove this left curly brace to the beginning of next line of code.(¡Œşø
-Hsquid:IndentationCheckm"!Make this line start at column 5.(¨û»ìüÿÿÿÿ
-Isquid:IndentationCheck‡"!Make this line start at column 5.(³Ñ«–ıÿÿÿÿ
-Lsquid:S20392"5Explicitly declare the visibility for "recyclerList".(ÂÉá¾
-t"squid:LeftCurlyBraceStartLineCheckM"AMove this left curly brace to the beginning of next line of code.(Ë¥Åûÿÿÿÿ
-:squid:S2211‡"Specify a type for: 'noticia'(³Ñ«–ıÿÿÿÿ
-Bsquid:IndentationCheckR"!Make this line start at column 9.(Ì¢™[
-Hsquid:IndentationCheck^"!Make this line start at column 5.(ÕÉÈ¹üÿÿÿÿ
-p"squid:LeftCurlyBraceStartLineCheck†"AMove this left curly brace to the beginning of next line of code.(ï½ôì
-Esquid:IndentationCheckˆ""Make this line start at column 11.(êî²í
-o2squid:RightCurlyBraceDifferentLineAsNextBlockCheckT"1Move this "else" keyword to a new dedicated line.(å¥‡
-o"squid:LeftCurlyBraceStartLineCheck{"AMove this left curly brace to the beginning of next line of code.(ÆËè
-t"squid:LeftCurlyBraceStartLineCheck6"AMove this left curly brace to the beginning of next line of code.(«°ß½ÿÿÿÿÿ
-esquid:S3052)"IRemove this initialization to "false", the compiler will do that for you.(‰·õùÿÿÿÿ
+Bsquid:IndentationCheck""Make this line start at column 11.(êî²í
+m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(æ®ÆÇ
+Rsquid:S2039"8Explicitly declare the visibility for "showToolBarBack".(‰·õùÿÿÿÿ
+Asquid:IndentationCheck"!Make this line start at column 9.(­‰”¹
+7squid:S2211"Specify a type for: 'noticia'(³Ñ«–ıÿÿÿÿ
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Ë¥Åûÿÿÿÿ
+Fsquid:IndentationCheck"!Make this line start at column 5.(¨û»ìüÿÿÿÿ
+Asquid:IndentationCheck"!Make this line start at column 5.(‚ÎÚÒ
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ù˜‡†øÿÿÿÿ
+Fsquid:IndentationCheck"!Make this line start at column 7.(ù˜‡†øÿÿÿÿ
+Fsquid:IndentationCheck"!Make this line start at column 3.(¢ÈáÚûÿÿÿÿ
+m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(å¥‡
+Gsquid:S2039"2Explicitly declare the visibility for "presenter".(ƒõ¥ë
+m2squid:RightCurlyBraceDifferentLineAsNextBlockCheck"1Move this "else" keyword to a new dedicated line.(å¥‡
+Asquid:IndentationCheck"!Make this line start at column 5.(ÌÏº
+Fsquid:IndentationCheck"!Make this line start at column 5.(³Ñ«–ıÿÿÿÿ
+m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ÆËè
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Œ­½8­¿êŒş,
+y"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ù˜‡†øÿÿÿÿ8­¿êŒş,
+Fsquid:IndentationCheck"!Make this line start at column 5.(¬üÿÿÿÿÿ
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ù˜‡†øÿÿÿÿ
+Fsquid:IndentationCheck"!Make this line start at column 5.(Ìá€¤úÿÿÿÿ
+Fsquid:IndentationCheck"!Make this line start at column 5.(´¬á®ÿÿÿÿÿ
+Fsquid:IndentationCheck"!Make this line start at column 5.(Ğ†¤˜úÿÿÿÿ
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(‚Ü»áüÿÿÿÿ
+Jsquid:S2039"5Explicitly declare the visibility for "recyclerList".(ÂÉá¾
+Rsquid:S2039"8Explicitly declare the visibility for "toolbarFragment".(¢ÈáÚûÿÿÿÿ
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(«°ß½ÿÿÿÿÿ
+Esquid:S2039"0Explicitly declare the visibility for "tvTitle".(ÿ‚³à
+m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(£şÅ¥
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(İßéàúÿÿÿÿ
+Fsquid:IndentationCheck"!Make this line start at column 5.(ÕÉÈ¹üÿÿÿÿ
+Asquid:IndentationCheck"!Make this line start at column 7.(­‰”¹
+[squid:S1258":Add a constructor to the class, or provide default values.(­Ä”øşÿÿÿÿ8­¿êŒş,
+Asquid:IndentationCheck"!Make this line start at column 5.(ÍÊ·´
+m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ßû¢½
+Fsquid:IndentationCheck"!Make this line start at column 7.(ù˜‡†øÿÿÿÿ
+msquid:S00103"KSplit this 124 characters long line (which is greater than 120 authorized).(Ìá€¤úÿÿÿÿ8™®É‘ı,
+m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ï½ôì
+csquid:S3052"IRemove this initialization to "false", the compiler will do that for you.(‰·õùÿÿÿÿ
+Asquid:IndentationCheck"!Make this line start at column 7.(­‰”¹
+m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¡Œşø
+@squid:IndentationCheck"!Make this line start at column 9.(Ì¢™[
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(­Ä”øşÿÿÿÿ
+r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ù˜‡†øÿÿÿÿ

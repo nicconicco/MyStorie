@@ -2,7 +2,6 @@ package com.cgalves.mystorie.feature.androidmvpgoogle;
 
 import android.widget.Toast;
 
-
 import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.activity.BaseActivity;
 import com.cgalves.mystorie.model.injection.Injection;

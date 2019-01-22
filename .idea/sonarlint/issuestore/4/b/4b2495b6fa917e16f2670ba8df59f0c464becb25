@@ -1,11 +1,9 @@
 
-Fsquid:IndentationCheck"!Make this line start at column 3.(‰ô¶æùÿÿÿÿ
-Asquid:IndentationCheck"!Make this line start at column 5.(™ùî
-Asquid:IndentationCheck"!Make this line start at column 5.(“»í“
-Asquid:IndentationCheck"!Make this line start at column 5.(ÿá¸Ó
-5squid:S1451"&Add or update the header of this file.
-csquid:MaximumInheritanceDepth"<This class has 7 parents which is greater than 5 authorized.(“†¤è
-m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(“†¤è
-r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(‰ô¶æùÿÿÿÿ
-m"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(•Åšû
-r"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(šù™õøÿÿÿÿ
+Csquid:IndentationCheck!"!Make this line start at column 5.(ÿá¸Ó
+Csquid:IndentationCheck"!Make this line start at column 5.(“»í“
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(“†¤è
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(•Åšû
+Hsquid:IndentationCheck"!Make this line start at column 3.(‰ô¶æùÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck "AMove this left curly brace to the beginning of next line of code.(šù™õøÿÿÿÿ
+Csquid:IndentationCheck"!Make this line start at column 5.(™ùî
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(‰ô¶æùÿÿÿÿ

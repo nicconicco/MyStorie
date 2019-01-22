@@ -1,4 +1,56 @@
 
-dsquid:UselessImportCheck"9Remove this unused import 'com.squareup.picasso.Picasso'.(£œ¿×8“ø³ëÖ,
-)squid:S2176j"Rename this class.(Äß³Ø
-gsquid:CommentedOutCodeLine["<This block of commented-out lines of code should be removed.(·êŠ…ÿÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(•ƒüê8à­§‘‡-
+y"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ÜàµÇûÿÿÿÿ8à­§‘‡-
+Msquid:IndentationCheck"!Make this line start at column 7.(ððïþÿÿÿÿ8à­§‘‡-
+Isquid:IndentationCheck""Make this line start at column 25.(ÿŒúº8à­§‘‡-
+5squid:S2211"Specify a type for: 'view'(ˆŸŸM8à­§‘‡-
+Msquid:IndentationCheck"!Make this line start at column 7.(ÑöùŠûÿÿÿÿ8à­§‘‡-
+Usquid:S2039"4Explicitly declare the visibility for "progressBar".(ƒ¿öÞøÿÿÿÿ8à­§‘‡-
+Msquid:IndentationCheck"!Make this line start at column 5.(ÕÜŽ–ýÿÿÿÿ8à­§‘‡-
+hsquid:S00103"KSplit this 134 characters long line (which is greater than 120 authorized).(Ì—õ…8à­§‘‡-
+Hsquid:IndentationCheck"!Make this line start at column 5.(ûæ¬Š8à­§‘‡-
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ºÓ£Å8à­§‘‡-
+Hsquid:IndentationCheck"!Make this line start at column 5.(í£‘ˆ8à­§‘‡-
+y"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ÆŠ†¿øÿÿÿÿ8à­§‘‡-
+u
+squid:S109"UAssign this magic number 1000 to a well-named constant, and use the constant instead.(Ìœ¯¹þÿÿÿÿ8à­§‘‡-
+y"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(îãê÷úÿÿÿÿ8à­§‘‡-
+Nsquid:IndentationCheck""Make this line start at column 13.(±±â¨úÿÿÿÿ8à­§‘‡-
+Msquid:IndentationCheck"!Make this line start at column 7.(ÊÅŽçþÿÿÿÿ8à­§‘‡-
+y"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(”›þâüÿÿÿÿ8à­§‘‡-
+Lsquid:S2039"0Explicitly declare the visibility for "tTitulo".(Ø‚Í‡8à­§‘‡-
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(·êŠ…ÿÿÿÿÿ
+Hsquid:IndentationCheck"!Make this line start at column 3.(›ÆÑÙ8à­§‘‡-
+Nsquid:IndentationCheck""Make this line start at column 11.(ìÖâ‰þÿÿÿÿ8à­§‘‡-
+Hsquid:IndentationCheck"!Make this line start at column 5.(Éº –8à­§‘‡-
+y"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(™µ¦‚øÿÿÿÿ8à­§‘‡-
+Isquid:IndentationCheck""Make this line start at column 23.(Ì—õ…8à­§‘‡-
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(›ÆÑÙ8à­§‘‡-
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Ì—õ…8à­§‘‡-
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(–Å¾Ã8à­§‘‡-
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(þŸþ8à­§‘‡-
+y"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ÅÓâÀþÿÿÿÿ8à­§‘‡-
+Tsquid:S2039"3Explicitly declare the visibility for "tSubtitulo".(¯à¬ûþÿÿÿÿ8à­§‘‡-
+hsquid:S1774"GConvert this usage of the ternary operator to an "if"/"else" structure.(œ€€ùÿÿÿÿ8à­§‘‡-
+msquid:S00103"KSplit this 176 characters long line (which is greater than 120 authorized).(ÆŠ†¿øÿÿÿÿ8à­§‘‡-
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Ïš¾¾8à­§‘‡-
+Isquid:IndentationCheck""Make this line start at column 25.(ÿŒúº8à­§‘‡-
+Msquid:IndentationCheck"!Make this line start at column 7.(±¨Ó°þÿÿÿÿ8à­§‘‡-
+Msquid:IndentationCheck"!Make this line start at column 7.(Ÿ‚–™ýÿÿÿÿ8à­§‘‡-
+Qsquid:S2039"0Explicitly declare the visibility for "ivPhoto".(Áô§þÿÿÿÿ8à­§‘‡-
+msquid:S1609"QAnnotate the "OnClickListener" interface with the @FunctionalInterface annotation(•ƒüê8à­§‘‡-
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ö„¢Ø8à­§‘‡-
+y"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ìÖâ‰þÿÿÿÿ8à­§‘‡-
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Äß³Ø8à­§‘‡-
+Msquid:IndentationCheck"!Make this line start at column 5.(œ€€ùÿÿÿÿ8à­§‘‡-
+Msquid:IndentationCheck"!Make this line start at column 5.(îãê÷úÿÿÿÿ8à­§‘‡-
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ç®òƒ8à­§‘‡-
+Hsquid:IndentationCheck"!Make this line start at column 3.(¨îÑÙ8à­§‘‡-
+Hsquid:IndentationCheck"!Make this line start at column 5.(úâ®°8à­§‘‡-
+y"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Õ»­ëüÿÿÿÿ8à­§‘‡-
+Hsquid:S2039",Explicitly declare the visibility for "btn".(©š…þ8à­§‘‡-
+Hsquid:IndentationCheck"!Make this line start at column 3.(Äß³Ø8à­§‘‡-
+Hsquid:IndentationCheck"!Make this line start at column 5.(©š…þ8à­§‘‡-
+:squid:S2384"Store a copy of "sectionList".(Öû²8à­§‘‡-
+>squid:S00113"'Add a new line at the end of this file.8à­§‘‡-
+.squid:S2176"Rename this class.(Äß³Ø8Íß§‘‡-

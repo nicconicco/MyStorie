@@ -1,26 +1,24 @@
 
-Msquid:IndentationCheck"!Make this line start at column 3.(®ãà©üÿÿÿÿ8õˆ¤³…-
-Msquid:IndentationCheck"!Make this line start at column 5.(¬üÿÿÿÿÿ8õˆ¤³…-
-Hsquid:IndentationCheck"!Make this line start at column 5.(ÍÊ·´8õˆ¤³…-
-Hsquid:IndentationCheck"!Make this line start at column 5.(˜“Ï‚8õˆ¤³…-
-Msquid:IndentationCheck"!Make this line start at column 5.(Éãøÿÿÿÿ8õˆ¤³…-
-Msquid:IndentationCheck"!Make this line start at column 5.(óİ¬«ıÿÿÿÿ8õˆ¤³…-
-Msquid:IndentationCheck"!Make this line start at column 7.(Ñá´¬ûÿÿÿÿ8õˆ¤³…-
-Hsquid:IndentationCheck"!Make this line start at column 7.(˜Ïˆ§8õˆ¤³…-
-Msquid:IndentationCheck"!Make this line start at column 5.(óİ¬«ıÿÿÿÿ8õˆ¤³…-
-<squid:S1451"&Add or update the header of this file.8õˆ¤³…-
-osquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(¸á“üÿÿÿÿ8õˆ¤³…-
-y"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¸á“üÿÿÿÿ8õˆ¤³…-
-y"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(º¹ãÚùÿÿÿÿ8õˆ¤³…-
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ÍÙ÷¢8õˆ¤³…-
-y"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Öêÿÿÿÿÿ8õˆ¤³…-
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ÏŠúã8õˆ¤³…-
-y"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Ü™ù¨şÿÿÿÿ8õˆ¤³…-
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ºËáÃ8õˆ¤³…-
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(å¥‡8õˆ¤³…-
-y"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(®ºÊáşÿÿÿÿ8õˆ¤³…-
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(”÷è8õˆ¤³…-
-Ssquid:S2039"2Explicitly declare the visibility for "presenter".(®ãà©üÿÿÿÿ8õˆ¤³…-
-Tsquid:S2039"3Explicitly declare the visibility for "etUserName".(·’ğ²ûÿÿÿÿ8õˆ¤³…-
-Tsquid:S2039"3Explicitly declare the visibility for "etPassword".(ùÍ®†ıÿÿÿÿ8õˆ¤³…-
-t2squid:RightCurlyBraceDifferentLineAsNextBlockCheck"1Move this "else" keyword to a new dedicated line.(å¥‡8õˆ¤³…-
+v"squid:LeftCurlyBraceStartLineCheck<"AMove this left curly brace to the beginning of next line of code.(ÏŠúã8õˆ¤³…-
+v2squid:RightCurlyBraceDifferentLineAsNextBlockCheckJ"1Move this "else" keyword to a new dedicated line.(å¥‡8õˆ¤³…-
+Osquid:IndentationCheck)"!Make this line start at column 5.(¬üÿÿÿÿÿ8õˆ¤³…-
+Jsquid:IndentationCheck7"!Make this line start at column 5.(˜“Ï‚8õˆ¤³…-
+{"squid:LeftCurlyBraceStartLineCheckD"AMove this left curly brace to the beginning of next line of code.(Ü™ù¨şÿÿÿÿ8õˆ¤³…-
+v"squid:LeftCurlyBraceStartLineCheckJ"AMove this left curly brace to the beginning of next line of code.(å¥‡8õˆ¤³…-
+Osquid:IndentationCheckR"!Make this line start at column 5.(óİ¬«ıÿÿÿÿ8õˆ¤³…-
+Vsquid:S2039!"3Explicitly declare the visibility for "etUserName".(·’ğ²ûÿÿÿÿ8õˆ¤³…-
+v"squid:LeftCurlyBraceStartLineCheck/"AMove this left curly brace to the beginning of next line of code.(ÍÙ÷¢8õˆ¤³…-
+{"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¸á“üÿÿÿÿ8õˆ¤³…-
+v"squid:LeftCurlyBraceStartLineCheckW"AMove this left curly brace to the beginning of next line of code.(”÷è8õˆ¤³…-
+{"squid:LeftCurlyBraceStartLineCheckQ"AMove this left curly brace to the beginning of next line of code.(®ºÊáşÿÿÿÿ8õˆ¤³…-
+Jsquid:IndentationCheck0"!Make this line start at column 5.(ÍÊ·´8õˆ¤³…-
+Jsquid:IndentationCheckK"!Make this line start at column 7.(˜Ïˆ§8õˆ¤³…-
+Vsquid:S2039$"3Explicitly declare the visibility for "etPassword".(ùÍ®†ıÿÿÿÿ8õˆ¤³…-
+Usquid:S2039"2Explicitly declare the visibility for "presenter".(®ãà©üÿÿÿÿ8õˆ¤³…-
+Osquid:IndentationCheck="!Make this line start at column 5.(Éãøÿÿÿÿ8õˆ¤³…-
+Osquid:IndentationCheckH"!Make this line start at column 7.(Ñá´¬ûÿÿÿÿ8õˆ¤³…-
+v"squid:LeftCurlyBraceStartLineCheckG"AMove this left curly brace to the beginning of next line of code.(ºËáÃ8õˆ¤³…-
+{"squid:LeftCurlyBraceStartLineCheck("AMove this left curly brace to the beginning of next line of code.(º¹ãÚùÿÿÿÿ8õˆ¤³…-
+Osquid:IndentationCheck"!Make this line start at column 3.(®ãà©üÿÿÿÿ8õˆ¤³…-
+{"squid:LeftCurlyBraceStartLineCheck6"AMove this left curly brace to the beginning of next line of code.(Öêÿÿÿÿÿ8õˆ¤³…-
+Osquid:IndentationCheckE"!Make this line start at column 5.(óİ¬«ıÿÿÿÿ8õˆ¤³…-

@@ -1,7 +1,5 @@
 package com.cgalves.mystorie.feature.list.view.activity;
 
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 
 import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.activity.BaseActivity;
@@ -18,6 +16,9 @@ import org.androidannotations.annotations.Extra;
 import org.androidannotations.annotations.ViewById;
 
 import java.util.List;
+
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 @EActivity(R.layout.activity_list_section)
 public class ListSectionActivity extends BaseActivity implements ListSectionContract.ListSectioPresenterView {
