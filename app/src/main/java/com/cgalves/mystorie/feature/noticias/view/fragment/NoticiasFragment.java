@@ -49,7 +49,6 @@ public class NoticiasFragment extends BaseFragment implements NoticiasContract.N
 
     @ViewById
     RecyclerView recyclerNoticias;
-    private View view;
 
     @AfterViews
     void calledAfterViewInjection() {
@@ -89,18 +88,6 @@ public class NoticiasFragment extends BaseFragment implements NoticiasContract.N
         }
     }
 
-    @Override
-    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
-        this.view = view;
-    }
-
-    @Override
-    public void onPause() {
-        super.onPause();
-        presenter.detachView();
-        presenter.unregister();
-    }
 
     private boolean verifiyIfPresenterIsNotNull() {
         return presenter != null;
@@ -117,7 +104,6 @@ public class NoticiasFragment extends BaseFragment implements NoticiasContract.N
     public void onResulSectiontNoticias(NoticiasResponseList result) {
         NoticiasAdapter noticiasAdapter = new NoticiasAdapter(getContext(), result.getNoticiaList(), onClickListener());
 
-        recyclerNoticias = view.findViewById(R.id.recycler_noticias);
         LinearLayoutManager manager = new LinearLayoutManager(getContext());
         recyclerNoticias.setLayoutManager(manager);
         recyclerNoticias.setHasFixedSize(true);

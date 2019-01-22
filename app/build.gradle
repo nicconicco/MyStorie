@@ -130,11 +130,6 @@ android {
             useProguard false
             minifyEnabled false
         }
-//        jnidebug {
-//            initWith debug
-//            jniDebuggable true
-//            applicationIdSuffix ".jidebug"
-//        }
     }
 
     sourceSets {

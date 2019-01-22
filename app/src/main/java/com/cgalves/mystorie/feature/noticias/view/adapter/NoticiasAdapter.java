@@ -69,7 +69,6 @@ public class NoticiasAdapter extends RecyclerView.Adapter<NoticiasAdapter.ViewHo
         if(section.getImg() != null) {
             viewHolderSection.progressBar.setVisibility(View.VISIBLE);
 
-            //todo:
             Glide.with(context).
                     load(section.getImg())
                     .listener(new RequestListener<String, GlideDrawable>() {

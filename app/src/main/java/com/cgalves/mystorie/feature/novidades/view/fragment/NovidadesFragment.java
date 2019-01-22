@@ -50,7 +50,6 @@ public class NovidadesFragment extends BaseFragment implements NovidadesContract
 
     @ViewById
     RecyclerView recyclerList;
-    private View view;
 
     @Click(R.id.btn_back)
     void onClickBack() {
@@ -91,22 +90,6 @@ public class NovidadesFragment extends BaseFragment implements NovidadesContract
         }
     }
 
-    @Override
-    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
-        this.view = view;
-    }
-
-    @Override
-    public void onPause() {
-        super.onPause();
-        Log.d(NovidadesFragment.class.getName(), "onPause");
-        if (verifiyIfPresenterIsNotNull()) {
-            presenter.detachView();
-            presenter.unregister();
-        }
-    }
-
     private boolean verifiyIfPresenterIsNotNull() {
         return presenter != null;
     }
@@ -125,7 +108,6 @@ public class NovidadesFragment extends BaseFragment implements NovidadesContract
     public void onResulSectiontNovidades(NovidadesResponseList result) {
         NovidadesAdapter novidadesAdapter = new NovidadesAdapter(getContext(), result.getNovidadeList(), onClickListener());
 
-        recyclerList = view.findViewById(R.id.recycler_list);
         LinearLayoutManager manager = new LinearLayoutManager(getContext());
         recyclerList.setLayoutManager(manager);
         recyclerList.setHasFixedSize(true);

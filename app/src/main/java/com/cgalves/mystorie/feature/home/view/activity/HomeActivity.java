@@ -41,7 +41,7 @@ public class HomeActivity extends BaseActivity implements HomeContract.HomePrese
     TextView tvUserName;
 
     @ViewById
-    public ViewPager viewpager;
+    public ViewPager viewPager;
 
     @ViewById
     TabLayout tabLayout;
@@ -78,11 +78,11 @@ public class HomeActivity extends BaseActivity implements HomeContract.HomePrese
     }
 
     private void setupTabLayout() {
-        tabLayout.setupWithViewPager(viewpager);
+        tabLayout.setupWithViewPager(viewPager);
         tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
-                viewpager.setCurrentItem(tab.getPosition());
+                viewPager.setCurrentItem(tab.getPosition());
                 setImageHome(tab.getPosition());
             }
 
@@ -153,8 +153,6 @@ public class HomeActivity extends BaseActivity implements HomeContract.HomePrese
 
     @Override
     public void onResultImages(List<Image> result) {
-
-        ViewPager viewPager = findViewById(R.id.viewpager);
 
         HomeFragmentPagerAdapter adapter = new HomeFragmentPagerAdapter(this, getSupportFragmentManager());
 
