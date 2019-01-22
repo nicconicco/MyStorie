@@ -113,13 +113,11 @@ android {
     buildTypes {
         release {
 
-
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             applicationIdSuffix ".release"
             signingConfig signingConfigs.theReleaseKey
 
-            shrinkResources true
-            minifyEnabled true
+            minifyEnabled false
 
             useProguard true
             multiDexEnabled true
@@ -129,11 +127,8 @@ android {
         }
 
         debug {
-            shrinkResources false
-            minifyEnabled false
-
             useProguard false
-            multiDexEnabled true
+            minifyEnabled false
         }
 //        jnidebug {
 //            initWith debug
