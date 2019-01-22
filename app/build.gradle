@@ -129,8 +129,11 @@ android {
         }
 
         debug {
+            shrinkResources false
+            minifyEnabled false
+
             useProguard false
-            minifyEnabled true
+            multiDexEnabled true
         }
 //        jnidebug {
 //            initWith debug
