@@ -1,0 +1,24 @@
+
+o"squid:LeftCurlyBraceStartLineCheck/"AMove this left curly brace to the beginning of next line of code.(Šÿ¡½
+<squid:S1659"%Declare "etEmail" on a separate line.(Ñ¸¤ü
+Csquid:IndentationCheck:"!Make this line start at column 5.(™è
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(º¹ãÚùÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck4"AMove this left curly brace to the beginning of next line of code.(Ü™ù¨þÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck9"AMove this left curly brace to the beginning of next line of code.(”÷è
+?squid:S1659"(Declare "etPassword" on a separate line.(Ñ¸¤ü
+esquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(þ‚„Ä
+Gsquid:S2039"0Explicitly declare the visibility for "etEmail".(Ñ¸¤ü
+Csquid:IndentationCheck)"!Make this line start at column 5.(ÍÊ·´
+t"squid:LeftCurlyBraceStartLineCheck>"AMove this left curly brace to the beginning of next line of code.(®ºÊáþÿÿÿÿ
+Csquid:IndentationCheck"!Make this line start at column 5.(ÞßÁé
+Msquid:S2039"6Explicitly declare the visibility for "etPasswordTwo".(Ñ¸¤ü
+Hsquid:IndentationCheck"!Make this line start at column 3.(íÓÑ„ûÿÿÿÿ
+Nsquid:S2039"2Explicitly declare the visibility for "presenter".(íÓÑ„ûÿÿÿÿ
+Jsquid:S2039"3Explicitly declare the visibility for "etPassword".(Ñ¸¤ü
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(þ‚„Ä
+Jsquid:S2039"3Explicitly declare the visibility for "etUsername".(Ñ¸¤ü
+Hsquid:IndentationCheck?"!Make this line start at column 5.(óÿÎÞüÿÿÿÿ
+Csquid:IndentationCheck0"!Make this line start at column 5.(Èâ­¬
+Bsquid:S1659"+Declare "etPasswordTwo" on a separate line.(Ñ¸¤ü
+o"squid:LeftCurlyBraceStartLineCheck("AMove this left curly brace to the beginning of next line of code.(ÍÙ÷¢
+csquid:S001030"KSplit this 129 characters long line (which is greater than 120 authorized).(Èâ­¬

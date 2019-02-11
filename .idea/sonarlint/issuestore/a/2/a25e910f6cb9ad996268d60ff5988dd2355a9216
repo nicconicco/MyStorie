@@ -1,0 +1,8 @@
+
+Csquid:IndentationCheck"!Make this line start at column 3.(ÿááö
+Hsquid:IndentationCheck"!Make this line start at column 5.(»è³…ıÿÿÿÿ
+Hsquid:IndentationCheck"!Make this line start at column 5.( ºâ¾ùÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(­šÓÒúÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(âì´À
+n"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Òñëk
+ƒ"squid:ClassVariableVisibilityCheck"UMake novidades a static final constant or non-public and provide accessors if needed.(ÿááö

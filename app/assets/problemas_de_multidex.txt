@@ -1,0 +1,36 @@
+Para ver qual é o problema de versoes que ta acontecendo..
+
+voce tem que digitar no terminal para saber a raiz do problema
+
+./gradlew -q :app:dependecies
+
+Depois disso, você precisa ter a referencia. Hoje o com.android.support nao é mais compatível com o androidx
+
+por exemplo,
+
+entao você tem que excluir ele.
+
+você pode fazer ele por estrategia:
+
+configurations.all {
+    resolutionStrategy {
+        eachDependency { DependencyResolveDetails details ->
+            if (details.requested.group == 'com.android.support:support-v4') {
+                exclude group: 'com.android.support'
+            }
+        }
+    }
+}
+
+Ou pelo pacote direto:
+
+    implementation ("com.github.parse-community.Parse-SDK-Android:parse:1.18.5"){
+        exclude group: 'com.android.support', module: 'support-compat'
+        exclude group: 'com.android.support', module: 'support-annotations'
+    }
+
+Lembre que grupo é o do meio.
+
+modulo é o que vem depois
+
+e no detail.userVersion você pode definir ate a versao que quer usar.

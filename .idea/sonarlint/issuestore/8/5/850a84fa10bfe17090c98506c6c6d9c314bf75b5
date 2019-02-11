@@ -1,0 +1,13 @@
+
+Hsquid:IndentationCheck"!Make this line start at column 3.(·–ŒÔÿÿÿÿÿ
+Hsquid:IndentationCheck"!Make this line start at column 5.(ÀÅÉ¤ÿÿÿÿÿ
+Csquid:IndentationCheck"!Make this line start at column 5.(³ÛÃÌ
+Hsquid:IndentationCheck"!Make this line start at column 5.(„ÌˆÊúÿÿÿÿ
+Csquid:IndentationCheck"!Make this line start at column 5.(¦žÓ×
+0squid:S1700"Rename field "image"(·–ŒÔÿÿÿÿÿ
+n"squid:LeftCurlyBraceStartLineCheck	"AMove this left curly brace to the beginning of next line of code.(¦Õ´(
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(àŒÐÐùÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Þ¬³Õýÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(òô¢Ë
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(„êÞÚýÿÿÿÿ
+Psquid:S1258	":Add a constructor to the class, or provide default values.(¦Õ´(

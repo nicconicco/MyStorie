@@ -1,0 +1,30 @@
+
+Csquid:IndentationCheck"!Make this line start at column 3.(Ë¥¼
+Hsquid:IndentationCheck"!Make this line start at column 5.(÷Ð”Öúÿÿÿÿ
+Hsquid:IndentationCheck"!Make this line start at column 5.(»Ã÷¤øÿÿÿÿ
+Hsquid:IndentationCheck"!Make this line start at column 5.(É´“ýÿÿÿÿ
+Csquid:IndentationCheck#"!Make this line start at column 5.(ì”Å©
+Hsquid:IndentationCheck'"!Make this line start at column 5.(£©èÚþÿÿÿÿ
+Csquid:IndentationCheck+"!Make this line start at column 5.(íÈ£
+Hsquid:IndentationCheck/"!Make this line start at column 5.(®Ç²Éýÿÿÿÿ
+Csquid:IndentationCheck4"!Make this line start at column 5.(”·³›
+Hsquid:IndentationCheck9"!Make this line start at column 5.(†äÅþÿÿÿÿ
+Csquid:IndentationCheck@"!Make this line start at column 7.(”Þ€ž
+Csquid:IndentationCheckA"!Make this line start at column 9.(¼¯ä 
+Csquid:IndentationCheckF"!Make this line start at column 9.(‰Áç¸
+Tsquid:S1213>"8Move this variable to comply with Java Code Conventions.(¿‡ü®ÿÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck
+"AMove this left curly brace to the beginning of next line of code.(°Ë½ãøÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(çÒ²²
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(…•ÊÒýÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ú›Šøøÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Ò’Š¯
+t"squid:LeftCurlyBraceStartLineCheck""AMove this left curly brace to the beginning of next line of code.(§ß»éýÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck&"AMove this left curly brace to the beginning of next line of code.(ˆÃ»·
+t"squid:LeftCurlyBraceStartLineCheck*"AMove this left curly brace to the beginning of next line of code.(®¢ûÐùÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck."AMove this left curly brace to the beginning of next line of code.(®Ð½ò
+o"squid:LeftCurlyBraceStartLineCheck3"AMove this left curly brace to the beginning of next line of code.(‘˜üŠ
+t"squid:LeftCurlyBraceStartLineCheck8"AMove this left curly brace to the beginning of next line of code.(Ú˜Í¤üÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck>"AMove this left curly brace to the beginning of next line of code.(¿‡ü®ÿÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck@"AMove this left curly brace to the beginning of next line of code.(”Þ€ž
+t"squid:LeftCurlyBraceStartLineCheckE"AMove this left curly brace to the beginning of next line of code.(ý¿ÄŸýÿÿÿÿ

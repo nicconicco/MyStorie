@@ -1,0 +1,14 @@
+
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ØØÂí
+gsquid:CommentedOutCodeLine+"<This block of commented-out lines of code should be removed.(ÑÔ„µüÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Ø»Á
+o"squid:LeftCurlyBraceStartLineCheck!"AMove this left curly brace to the beginning of next line of code.(å¥‡
+=squid:S2325*"&Make "initFacebook" a "static" method.(ÄŸ¾±
+o2squid:RightCurlyBraceDifferentLineAsNextBlockCheck!"1Move this "else" keyword to a new dedicated line.(å¥‡
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(º¹ãÚùÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ë›Ñíşÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck/"AMove this left curly brace to the beginning of next line of code.(İ„ªùÿÿÿÿ
+j
+squid:S109&"UAssign this magic number 3000 to a well-named constant, and use the constant instead.(•ñ“
+o"squid:LeftCurlyBraceStartLineCheck*"AMove this left curly brace to the beginning of next line of code.(ÄŸ¾±
+esquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(Ø»Á

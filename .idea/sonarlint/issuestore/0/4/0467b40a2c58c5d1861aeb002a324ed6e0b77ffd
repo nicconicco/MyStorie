@@ -1,29 +1,29 @@
 
-Csquid:IndentationCheck"!Make this line start at column 3.(ªœÙŠ
-Bsquid:IndentationCheck"!Make this line start at column 5.(‘í›\
-Hsquid:IndentationCheck"!Make this line start at column 5.(¼œóÛüÿÿÿÿ
-Csquid:IndentationCheck "!Make this line start at column 9.(Ùéùˆ
-Hsquid:IndentationCheck""!Make this line start at column 9.(¹¦æıÿÿÿÿ
-Hsquid:IndentationCheck$"!Make this line start at column 9.(·®Ô×ûÿÿÿÿ
-Csquid:IndentationCheck&"!Make this line start at column 9.(›ûä·
-Csquid:IndentationCheck."!Make this line start at column 5.(›…Ú
-Hsquid:IndentationCheck3"!Make this line start at column 5.(¼œóÛüÿÿÿÿ
-Hsquid:IndentationCheck5"!Make this line start at column 9.(ë•­Åûÿÿÿÿ
-Hsquid:IndentationCheck7"!Make this line start at column 9.(àÁúÿıÿÿÿÿ
-Hsquid:IndentationCheck9"!Make this line start at column 9.(ø…«ğùÿÿÿÿ
-Csquid:IndentationCheck;"!Make this line start at column 9.(¥¹ï
-o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Ïƒƒ«
-o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ñúÿ­
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(üò¥ÿÿÿÿÿ
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¼œóÛüÿÿÿÿ
 o"squid:LeftCurlyBraceStartLineCheck-"AMove this left curly brace to the beginning of next line of code.(ÒÊÏ·
-t"squid:LeftCurlyBraceStartLineCheck2"AMove this left curly brace to the beginning of next line of code.(Ñûõöùÿÿÿÿ
-t"squid:LeftCurlyBraceStartLineCheck3"AMove this left curly brace to the beginning of next line of code.(¼œóÛüÿÿÿÿ
 m
 squid:S109#"RAssign this magic number 2 to a well-named constant, and use the constant instead.(úâúÿÿÿÿ
-h
-squid:S109."RAssign this magic number 3 to a well-named constant, and use the constant instead.(›…Ú
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ñúÿ­
+Hsquid:IndentationCheck""!Make this line start at column 9.(¹¦æıÿÿÿÿ
+Csquid:IndentationCheck&"!Make this line start at column 9.(›ûä·
+Hsquid:IndentationCheck$"!Make this line start at column 9.(·®Ô×ûÿÿÿÿ
+Csquid:IndentationCheck."!Make this line start at column 5.(›…Ú
+isquid:S1142"MReduce the number of returns of this method 4, down to the maximum allowed 3.(üò¥ÿÿÿÿÿ
+Hsquid:IndentationCheck"!Make this line start at column 5.(¼œóÛüÿÿÿÿ
+Csquid:IndentationCheck"!Make this line start at column 3.(ªœÙŠ
+Bsquid:IndentationCheck"!Make this line start at column 5.(‘í›\
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Ïƒƒ«
+t"squid:LeftCurlyBraceStartLineCheck2"AMove this left curly brace to the beginning of next line of code.(Ñûõöùÿÿÿÿ
+Csquid:IndentationCheck "!Make this line start at column 9.(Ùéùˆ
+Hsquid:IndentationCheck9"!Make this line start at column 9.(ø…«ğùÿÿÿÿ
+Csquid:IndentationCheck;"!Make this line start at column 9.(¥¹ï
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(üò¥ÿÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck3"AMove this left curly brace to the beginning of next line of code.(¼œóÛüÿÿÿÿ
+Hsquid:IndentationCheck3"!Make this line start at column 5.(¼œóÛüÿÿÿÿ
+Hsquid:IndentationCheck7"!Make this line start at column 9.(àÁúÿıÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¼œóÛüÿÿÿÿ
 m
 squid:S1098"RAssign this magic number 2 to a well-named constant, and use the constant instead.(úâúÿÿÿÿ
-isquid:S1142"MReduce the number of returns of this method 4, down to the maximum allowed 3.(üò¥ÿÿÿÿÿ
+Hsquid:IndentationCheck5"!Make this line start at column 9.(ë•­Åûÿÿÿÿ
 isquid:S11422"MReduce the number of returns of this method 4, down to the maximum allowed 3.(Ñûõöùÿÿÿÿ
+h
+squid:S109."RAssign this magic number 3 to a well-named constant, and use the constant instead.(›…Ú

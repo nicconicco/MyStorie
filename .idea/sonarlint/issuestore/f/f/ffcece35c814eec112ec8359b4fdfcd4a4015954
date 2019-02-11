@@ -1,0 +1,10 @@
+
+Csquid:IndentationCheck"!Make this line start at column 3.(»˜Í­
+Csquid:IndentationCheck"!Make this line start at column 5.(›áœÇ
+Hsquid:IndentationCheck"!Make this line start at column 5.(èçÒ”þÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ÞÙ‘šüÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(·ì¶±þÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¤ç“Í
+Vsquid:S1258":Add a constructor to the class, or provide default values.(ÞÙ‘šüÿÿÿÿ
+3squid:S2384"Return a copy of "noticias".(›áœÇ
+:squid:S2384"Store a copy of "noticiaList".(èçÒ”þÿÿÿÿ

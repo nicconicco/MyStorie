@@ -1,10 +1,10 @@
 
-Hsquid:IndentationCheck"!Make this line start at column 3.(‰ô¶æùÿÿÿÿ
-Csquid:IndentationCheck"!Make this line start at column 5.(™ùî
-Csquid:IndentationCheck"!Make this line start at column 5.(“»í“
-Csquid:IndentationCheck!"!Make this line start at column 5.(ÿá¸Ó
 esquid:MaximumInheritanceDepth"<This class has 7 parents which is greater than 5 authorized.(“†¤è
 o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(“†¤è
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(‰ô¶æùÿÿÿÿ
-o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(•Åšû
+Csquid:IndentationCheck!"!Make this line start at column 5.(ÿá¸Ó
+Csquid:IndentationCheck"!Make this line start at column 5.(™ùî
+Csquid:IndentationCheck"!Make this line start at column 5.(“»í“
 t"squid:LeftCurlyBraceStartLineCheck "AMove this left curly brace to the beginning of next line of code.(šù™õøÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(•Åšû
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(‰ô¶æùÿÿÿÿ
+Hsquid:IndentationCheck"!Make this line start at column 3.(‰ô¶æùÿÿÿÿ

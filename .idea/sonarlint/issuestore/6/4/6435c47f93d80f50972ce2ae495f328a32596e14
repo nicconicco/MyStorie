@@ -1,9 +1,9 @@
 
-bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(™…ÌÞ
-asquid:CommentedOutCodeLine	"<This block of commented-out lines of code should be removed.(þþ 
-asquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(”£¾{
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(€Ù’øÿÿÿÿ
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(äÑéøÿÿÿÿ
-bsquid:CommentedOutCodeLine "<This block of commented-out lines of code should be removed.(öñ¸™
 jsquid:MaximumInheritanceDepth"<This class has 7 parents which is greater than 5 authorized.(£Êþ¥ÿÿÿÿÿ
 t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(£Êþ¥ÿÿÿÿÿ
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(äÑéøÿÿÿÿ
+asquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(”£¾{
+asquid:CommentedOutCodeLine	"<This block of commented-out lines of code should be removed.(þþ 
+bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(™…ÌÞ
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(€Ù’øÿÿÿÿ
+bsquid:CommentedOutCodeLine "<This block of commented-out lines of code should be removed.(öñ¸™

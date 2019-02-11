@@ -1,12 +1,12 @@
 
-o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(‘ÓíŠ
 Csquid:IndentationCheck"!Make this line start at column 3.(¦”¹ì
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(®èêøÿÿÿÿ
+n"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Í¼ÎS
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(‘ÓíŠ
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ó‚‰Ã
 o"squid:LeftCurlyBraceStartLineCheck
 "AMove this left curly brace to the beginning of next line of code.(Î¹ğö
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(®èêøÿÿÿÿ
-o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ó‚‰Ã
+Csquid:IndentationCheck"!Make this line start at column 9.(ò÷
 Csquid:IndentationCheck"!Make this line start at column 7.(ó‚‰Ã
 _squid:S3052"HRemove this initialization to "null", the compiler will do that for you.(¦”¹ì
 Csquid:IndentationCheck"!Make this line start at column 5.(á¬Å
-n"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Í¼ÎS
-Csquid:IndentationCheck"!Make this line start at column 9.(ò÷

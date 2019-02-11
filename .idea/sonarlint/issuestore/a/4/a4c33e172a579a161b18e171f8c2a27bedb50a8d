@@ -1,0 +1,31 @@
+
+Hsquid:IndentationCheck"!Make this line start at column 3.(ÇÓæâıÿÿÿÿ
+Csquid:IndentationCheck"!Make this line start at column 5.(şÚ·ı
+Hsquid:IndentationCheck"!Make this line start at column 5.(·ĞÛÿüÿÿÿÿ
+Hsquid:IndentationCheck"!Make this line start at column 5.(Æö¢¼ùÿÿÿÿ
+Hsquid:IndentationCheck!"!Make this line start at column 5.(¤‚şåøÿÿÿÿ
+Hsquid:IndentationCheck%"!Make this line start at column 5.(µÇ¾úÿÿÿÿ
+Hsquid:IndentationCheck)"!Make this line start at column 5.(«Œ‡¹ıÿÿÿÿ
+Hsquid:IndentationCheck-"!Make this line start at column 5.(€ÚˆŠşÿÿÿÿ
+Hsquid:IndentationCheck1"!Make this line start at column 5.(Åˆ¨İüÿÿÿÿ
+Vsquid:S2057"?Add a "static final long serialVersionUID" field to this class.(“Í«×
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(“Í«×
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Îüş
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ƒÿ“ıÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(£œœıÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck "AMove this left curly brace to the beginning of next line of code.(ûñÆ
+o"squid:LeftCurlyBraceStartLineCheck$"AMove this left curly brace to the beginning of next line of code.(ÇÂ¦İ
+t"squid:LeftCurlyBraceStartLineCheck("AMove this left curly brace to the beginning of next line of code.(±ŸÙ²ÿÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck,"AMove this left curly brace to the beginning of next line of code.(­…Şÿÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck0"AMove this left curly brace to the beginning of next line of code.(ßÙÿÿÿÿÿ
+m
+squid:S109%"RAssign this magic number 3 to a well-named constant, and use the constant instead.(µÇ¾úÿÿÿÿ
+m
+squid:S109)"RAssign this magic number 2 to a well-named constant, and use the constant instead.(«Œ‡¹ıÿÿÿÿ
+m
+squid:S109)"RAssign this magic number 4 to a well-named constant, and use the constant instead.(«Œ‡¹ıÿÿÿÿ
+m
+squid:S109-"RAssign this magic number 5 to a well-named constant, and use the constant instead.(€ÚˆŠşÿÿÿÿ
+m
+squid:S1091"RAssign this magic number 5 to a well-named constant, and use the constant instead.(Åˆ¨İüÿÿÿÿ
+Qsquid:S1258":Add a constructor to the class, or provide default values.(“Í«×

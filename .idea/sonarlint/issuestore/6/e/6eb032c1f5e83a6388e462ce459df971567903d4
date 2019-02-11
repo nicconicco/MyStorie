@@ -1,0 +1,8 @@
+
+Ysquid:S1610"BConvert the abstract class "APIAbstractFactory" into an interface.(×·–ª
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(í¤˜²úÿÿÿÿ
+Hsquid:IndentationCheck"!Make this line start at column 5.(£Ì¥þûÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(×·–ª
+vsquid:S00118"^Rename this abstract class name to match the regular expression '^Abstract[A-Z][a-zA-Z0-9]*$'.(×·–ª
+Hsquid:IndentationCheck"!Make this line start at column 3.(í¤˜²úÿÿÿÿ
+Jsquid:S1172".Remove this unused method parameter "context".(í¤˜²úÿÿÿÿ

@@ -1,0 +1,15 @@
+
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Ç¦Ï×
+Csquid:IndentationCheck"!Make this line start at column 5.(İÒÉî
+Hsquid:IndentationCheck"!Make this line start at column 5.(ğŞæÈıÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(á¢–¬
+-squid:RightCurlyBraceSameLineAsNextBlockCheck"HMove this "else" on the same line that the previous closing curly brace.(á¢–¬
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¦Áûÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Š¡œ×ûÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ğŞæÈıÿÿÿÿ
+…squid:S00118"mMake this class abstract or rename it, since it matches the regular expression '^Abstract[A-Z][a-zA-Z0-9]*$'.(Ç¦Ï×
+Csquid:IndentationCheck"!Make this line start at column 3.(Úó‚
+Hsquid:IndentationCheck"!Make this line start at column 7.(İËéúÿÿÿÿ
+Csquid:IndentationCheck"!Make this line start at column 7.(Ú¿˜µ
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(½¤ƒÒıÿÿÿÿ
+Hsquid:IndentationCheck"!Make this line start at column 5.(ÕÜ–ıÿÿÿÿ
