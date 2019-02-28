@@ -1,0 +1,5 @@
+
+3squid:S1700"Rename field "agreementInfo"(ÌÙ¤©
+[squid:S2057"?Add a "static final long serialVersionUID" field to this class.(­ª¨…ûÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(­ª¨…ûÿÿÿÿ
+‡"squid:ClassVariableVisibilityCheck"YMake agreementInfo a static final constant or non-public and provide accessors if needed.(ÌÙ¤©

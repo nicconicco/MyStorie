@@ -1,0 +1,18 @@
+
+t"squid:LeftCurlyBraceStartLineCheck	"AMove this left curly brace to the beginning of next line of code.(ÙÈüÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck "AMove this left curly brace to the beginning of next line of code.(¢‚”Ê
+‘"squid:ClassVariableVisibilityCheck"cMake creditsValueDescription a static final constant or non-public and provide accessors if needed.(Ç“
+‘"squid:ClassVariableVisibilityCheck"^Make creditsDescription a static final constant or non-public and provide accessors if needed.(ÅÒ¸úÿÿÿÿ
+ˆ"squid:ClassVariableVisibilityCheck"ZMake requestedValue a static final constant or non-public and provide accessors if needed.(ÒúŞ
+†"squid:ClassVariableVisibilityCheck"XMake creditsValue a static final constant or non-public and provide accessors if needed.(š­
+Œ"squid:ClassVariableVisibilityCheck"YMake formOfPayment a static final constant or non-public and provide accessors if needed.(–ØÎƒúÿÿÿÿ
+‹"squid:ClassVariableVisibilityCheck"XMake parcelAmount a static final constant or non-public and provide accessors if needed.(á×¹Ôúÿÿÿÿ
+Š"squid:ClassVariableVisibilityCheck"WMake parcelValue a static final constant or non-public and provide accessors if needed.(Ñí¨Ôıÿÿÿÿ
+"squid:ClassVariableVisibilityCheck"SMake dueDate a static final constant or non-public and provide accessors if needed.(ƒÛ“£
+"squid:ClassVariableVisibilityCheck"ZMake authentication a static final constant or non-public and provide accessors if needed.(ÿ¤ûˆıÿÿÿÿ
+Œ"squid:ClassVariableVisibilityCheck"YMake controlNumber a static final constant or non-public and provide accessors if needed.(Äªõ“şÿÿÿÿ
+Œ"squid:ClassVariableVisibilityCheck"^Make bankAuthentication a static final constant or non-public and provide accessors if needed.(¶ö€
+‰"squid:ClassVariableVisibilityCheck"VMake receiptPdf a static final constant or non-public and provide accessors if needed.(Ã„ÏÙøÿÿÿÿ
+~"squid:ClassVariableVisibilityCheck"PMake date a static final constant or non-public and provide accessors if needed.(ùèæá
+Nsquid:S1135"2Complete the task associated to this TODO comment.(¤ğĞùúÿÿÿÿ
+_squid:S00107"BConstructor has 13 parameters, which is greater than 7 authorized.(š¤Î¾ıÿÿÿÿ

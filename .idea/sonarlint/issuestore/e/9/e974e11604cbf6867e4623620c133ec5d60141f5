@@ -1,0 +1,10 @@
+
+hsquid:S1609"KAnnotate the "Presenter" interface with the @FunctionalInterface annotation(ˆïÒ8Êµ€¨“-
+csquid:S00103&"KSplit this 131 characters long line (which is greater than 120 authorized).(¯šÉ¨
+n"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¡Ùª	
+Fsquid:EmptyStatementUsageCheck'"Remove this empty statement.(ì½Ö¢
+hsquid:S00103"KSplit this 153 characters long line (which is greater than 120 authorized).(÷ŽÔùüÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Üòã¹
+o"squid:LeftCurlyBraceStartLineCheck'"AMove this left curly brace to the beginning of next line of code.(ì½Ö¢
+9squid:S1214""Move constants to a class or enum.(Üòã¹
+n"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ˆïÒ

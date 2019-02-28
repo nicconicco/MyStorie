@@ -26,4 +26,5 @@
     <color name="divider">#BDBDBD</color>
     <color name="gray_background">#eaeaea</color>
     <color name="green_4">#01F85C</color>
+    <color name="black_3">#333333</color>
 </resources>

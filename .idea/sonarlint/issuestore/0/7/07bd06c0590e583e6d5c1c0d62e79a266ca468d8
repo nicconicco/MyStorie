@@ -1,20 +1,20 @@
 
-n"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ÏÀ¥)
-n"squid:LeftCurlyBraceStartLineCheck0"AMove this left curly brace to the beginning of next line of code.(ã·Â
-o"squid:LeftCurlyBraceStartLineCheck<"AMove this left curly brace to the beginning of next line of code.(Èú÷­
-n"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(˜±˜#
-n"squid:LeftCurlyBraceStartLineCheck8"AMove this left curly brace to the beginning of next line of code.(ˆŽO
-t"squid:LeftCurlyBraceStartLineCheckL"AMove this left curly brace to the beginning of next line of code.(¯¥ž‰ýÿÿÿÿ
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(—ÞŒšøÿÿÿÿ
-n"squid:LeftCurlyBraceStartLineCheckP"AMove this left curly brace to the beginning of next line of code.(ÌÖÆC
-t"squid:LeftCurlyBraceStartLineCheck$"AMove this left curly brace to the beginning of next line of code.(ú›Šøøÿÿÿÿ
-t"squid:LeftCurlyBraceStartLineCheckD"AMove this left curly brace to the beginning of next line of code.(Ïò½Ôøÿÿÿÿ
-o"squid:LeftCurlyBraceStartLineCheckU"AMove this left curly brace to the beginning of next line of code.(öÚÆ
 t"squid:LeftCurlyBraceStartLineCheck4"AMove this left curly brace to the beginning of next line of code.(µ«º‰üÿÿÿÿ
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(À°Š„ÿÿÿÿÿ
-o"squid:LeftCurlyBraceStartLineCheckH"AMove this left curly brace to the beginning of next line of code.(ŸòÌ©
-o"squid:LeftCurlyBraceStartLineCheck,"AMove this left curly brace to the beginning of next line of code.(¢×¶±
-o"squid:LeftCurlyBraceStartLineCheckZ"AMove this left curly brace to the beginning of next line of code.(Òº«’
+o"squid:LeftCurlyBraceStartLineCheck<"AMove this left curly brace to the beginning of next line of code.(Èú÷­
 o"squid:LeftCurlyBraceStartLineCheck@"AMove this left curly brace to the beginning of next line of code.(©ƒ“ã
-o"squid:LeftCurlyBraceStartLineCheck("AMove this left curly brace to the beginning of next line of code.(Ò’Š¯
+o"squid:LeftCurlyBraceStartLineCheckU"AMove this left curly brace to the beginning of next line of code.(öÚÆ
 ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ÞŒšøÿÿÿÿ
+n"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ÏÀ¥)
+n"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(˜±˜#
+t"squid:LeftCurlyBraceStartLineCheck$"AMove this left curly brace to the beginning of next line of code.(ú›Šøøÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck("AMove this left curly brace to the beginning of next line of code.(Ò’Š¯
+o"squid:LeftCurlyBraceStartLineCheck,"AMove this left curly brace to the beginning of next line of code.(¢×¶±
+t"squid:LeftCurlyBraceStartLineCheckL"AMove this left curly brace to the beginning of next line of code.(¯¥ž‰ýÿÿÿÿ
+n"squid:LeftCurlyBraceStartLineCheckP"AMove this left curly brace to the beginning of next line of code.(ÌÖÆC
+o"squid:LeftCurlyBraceStartLineCheckH"AMove this left curly brace to the beginning of next line of code.(ŸòÌ©
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(—ÞŒšøÿÿÿÿ
+n"squid:LeftCurlyBraceStartLineCheck8"AMove this left curly brace to the beginning of next line of code.(ˆŽO
+t"squid:LeftCurlyBraceStartLineCheckD"AMove this left curly brace to the beginning of next line of code.(Ïò½Ôøÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(À°Š„ÿÿÿÿÿ
+n"squid:LeftCurlyBraceStartLineCheck0"AMove this left curly brace to the beginning of next line of code.(ã·Â
+o"squid:LeftCurlyBraceStartLineCheckZ"AMove this left curly brace to the beginning of next line of code.(Òº«’

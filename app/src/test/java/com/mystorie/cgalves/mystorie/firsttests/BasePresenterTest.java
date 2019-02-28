@@ -1,4 +1,4 @@
-package com.mystorie.cgalves.mystorie;
+package com.mystorie.cgalves.mystorie.firsttests;
 
 import android.support.annotation.CallSuper;
 

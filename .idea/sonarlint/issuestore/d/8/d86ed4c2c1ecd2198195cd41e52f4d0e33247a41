@@ -1,0 +1,23 @@
+
+"squid:ClassVariableVisibilityCheck"bMake creditValueDescription a static final constant or non-public and provide accessors if needed.(ôÙ£î
+’"squid:ClassVariableVisibilityCheck"_Make lastInstallmentDate a static final constant or non-public and provide accessors if needed.(®ä¼Æüÿÿÿÿ
+Ysquid:S00107!"BConstructor has 19 parameters, which is greater than 7 authorized.(çº‡J
+“"squid:ClassVariableVisibilityCheck"`Make totalEffectiveCostAA a static final constant or non-public and provide accessors if needed.(÷¯şüÿÿÿÿ
+…"squid:ClassVariableVisibilityCheck"WMake parcelValue a static final constant or non-public and provide accessors if needed.(Œ˜Çá
+"squid:ClassVariableVisibilityCheck"`Make firstInstallmentDate a static final constant or non-public and provide accessors if needed.(©³Ï³
+–"squid:ClassVariableVisibilityCheck"cMake protectedInsuranceValue a static final constant or non-public and provide accessors if needed.(îäëşÿÿÿÿ
+›"squid:ClassVariableVisibilityCheck"hMake totalPaymentToAuthorizeValue a static final constant or non-public and provide accessors if needed.(Ş®ûˆıÿÿÿÿ
+Š"squid:ClassVariableVisibilityCheck"WMake parcelCount a static final constant or non-public and provide accessors if needed.(Â»àÊÿÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¡û¯›üÿÿÿÿ
+"squid:ClassVariableVisibilityCheck"`Make totalEffectiveCostAM a static final constant or non-public and provide accessors if needed.(÷…¸·
+—"squid:ClassVariableVisibilityCheck"dMake effectiveInsterestRateAM a static final constant or non-public and provide accessors if needed.(ûÑÂ¡úÿÿÿÿ
+"squid:ClassVariableVisibilityCheck"[Make iofTributesRate a static final constant or non-public and provide accessors if needed.(èÊÆÓüÿÿÿÿ
+–"squid:ClassVariableVisibilityCheck"hMake totalPaymentsToAuthorizeRate a static final constant or non-public and provide accessors if needed.(ì²ä¡
+Š"squid:ClassVariableVisibilityCheck"\Make iofTributesValue a static final constant or non-public and provide accessors if needed.(ºšÜÓ
+—"squid:ClassVariableVisibilityCheck"dMake effectiveInsterestRateAA a static final constant or non-public and provide accessors if needed.(×ùı¾ıÿÿÿÿ
+Š"squid:ClassVariableVisibilityCheck"WMake creditValue a static final constant or non-public and provide accessors if needed.(Ïáš³úÿÿÿÿ
+‚"squid:ClassVariableVisibilityCheck"TMake iofValue a static final constant or non-public and provide accessors if needed.(°ÚªÛ
+o"squid:LeftCurlyBraceStartLineCheck3"AMove this left curly brace to the beginning of next line of code.(¹×—
+Š"squid:ClassVariableVisibilityCheck"WMake productType a static final constant or non-public and provide accessors if needed.(Û‹óßúÿÿÿÿ
+ˆ"squid:ClassVariableVisibilityCheck"ZMake requestedValue a static final constant or non-public and provide accessors if needed.(üõÏ°
+"squid:ClassVariableVisibilityCheck"]Make creditDescription a static final constant or non-public and provide accessors if needed.(ôÎ¶üşÿÿÿÿ

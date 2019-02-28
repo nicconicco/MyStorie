@@ -1,5 +1,7 @@
 package com.cgalves.mystorie.feature.contact.presenter;
 
+import android.content.Context;
+
 import com.cgalves.mystorie.common.abstractcalls.ContactAbstractCall;
 import com.cgalves.mystorie.common.factory.APIAbstractFactory;
 import com.cgalves.mystorie.common.model.User;
@@ -15,6 +17,10 @@ public class ContactPresenterImpl<V extends ContactContract.ContactPresenterView
 
     ContactAbstractCall contactAbstractCall;
 
+    public ContactPresenterImpl(Context context) {
+        super(context);
+    }
+
     @AfterInject
     void init() {
         contactAbstractCall = APIAbstractFactory.getFactory(context).getContactCall(busProvider.bus(), context);
@@ -28,5 +34,15 @@ public class ContactPresenterImpl<V extends ContactContract.ContactPresenterView
     @Subscribe(sticky = true, threadMode = ThreadMode.MAIN)
     public void onResultContact(User user) {
         getMvpView().onResultContact(user);
+    }
+
+    @Override
+    protected void attachRepositories() {
+
+    }
+
+    @Override
+    protected void detachRepositories() {
+
     }
 }

@@ -8,7 +8,9 @@ import com.cgalves.mystorie.common.abstractcalls.ListSectionAbstractCall;
 import com.cgalves.mystorie.common.abstractcalls.LoginAbstractCall;
 import com.cgalves.mystorie.common.abstractcalls.NoticiasAbstractCall;
 import com.cgalves.mystorie.common.abstractcalls.NovidadesAbstractCall;
+import com.cgalves.mystorie.feature.simulate.model.api.CreditsAbstractCall;
 import com.cgalves.mystorie.model.factory.ContactCallImpl;
+import com.cgalves.mystorie.model.factory.CreditCardCallImpl;
 import com.cgalves.mystorie.model.factory.HomeCallImpl;
 import com.cgalves.mystorie.model.factory.ListSectionCallImpl;
 import com.cgalves.mystorie.model.factory.LoginCallImpl;
@@ -51,5 +53,10 @@ class FactoryImpl extends APIAbstractFactory {
     @Override
     public ContactAbstractCall getContactCall(EventBus bus, Context context) {
         return new ContactCallImpl(bus, context);
+    }
+
+    @Override
+    public CreditsAbstractCall getCreditsCall(EventBus bus, Context context) {
+        return new CreditCardCallImpl(bus, context);
     }
 }

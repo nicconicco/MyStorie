@@ -1,0 +1,12 @@
+
+Csquid:S1948",Make "contracted" transient or serializable.(÷¹‰ž
+Usquid:S2057	"?Add a "static final long serialVersionUID" field to this class.(žáàw
+n"squid:LeftCurlyBraceStartLineCheck	"AMove this left curly brace to the beginning of next line of code.(žáàw
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(åˆ·ùþÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(‚çÇçüÿÿÿÿ
+=squid:S2694"!Make this a "static" inner class.(‚çÇçüÿÿÿÿ
+ƒ"squid:ClassVariableVisibilityCheck"PMake bank a static final constant or non-public and provide accessors if needed.(–¤ù½þÿÿÿÿ
+„"squid:ClassVariableVisibilityCheck"VMake contracted a static final constant or non-public and provide accessors if needed.(÷¹‰ž
+Š"squid:ClassVariableVisibilityCheck"WMake description a static final constant or non-public and provide accessors if needed.(¹ÿ†ðÿÿÿÿÿ
+€"squid:ClassVariableVisibilityCheck"RMake payOut a static final constant or non-public and provide accessors if needed.(åÉÌÑ
+Ž"squid:ClassVariableVisibilityCheck"[Make contractedValue a static final constant or non-public and provide accessors if needed.(ƒ™ú‰üÿÿÿÿ

@@ -1,0 +1,5 @@
+
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ÊÆ…²
+”"squid:ClassVariableVisibilityCheck"fMake isUserEligibleForInsurance a static final constant or non-public and provide accessors if needed.(×¹Ëæ
+…"squid:ClassVariableVisibilityCheck"WMake simulations a static final constant or non-public and provide accessors if needed.(¨–ùà
+n"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(×Î

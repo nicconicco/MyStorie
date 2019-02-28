@@ -8,7 +8,7 @@ import android.view.MenuItem;
 import com.cgalves.mystorie.BuildConfig;
 import com.cgalves.mystorie.R;
 import com.cgalves.mystorie.common.dialog.CustomProgressDialog;
-
+import com.cgalves.mystorie.common.dialog.ProgressoDialog;
 
 
 /**
@@ -16,7 +16,7 @@ import com.cgalves.mystorie.common.dialog.CustomProgressDialog;
  */
 
 public class BaseActivity extends AppCompatActivity {
-
+    private ProgressoDialog loading;
     protected static final CustomProgressDialog progressBar = new CustomProgressDialog();
     protected Toolbar toolbar;
 
@@ -48,5 +48,27 @@ public class BaseActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         Log.d(getString(R.string.tag_next_flow),"Flavor: " + BuildConfig.FLAVOR + " : Im in Activity: " + this.getClass().getSimpleName());
+    }
+
+    public void showLoading(boolean isCancelable) {
+        if (loading == null) {
+            loading = new ProgressoDialog();
+            loading.setCancelable(isCancelable);
+        }
+        if (!loading.isShown()) {
+            loading.show(this);
+        }
+    }
+
+    public void hidenLoading() {
+        try {
+            if (loading != null) {
+                if (loading.isShown())
+                    loading.dismiss();
+                loading = new ProgressoDialog();
+            }
+        } catch (Exception e) {
+            Log.e("BaseActivity.Error: ", e.getMessage());
+        }
     }
 }

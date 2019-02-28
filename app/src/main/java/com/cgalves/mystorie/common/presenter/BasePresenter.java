@@ -14,7 +14,7 @@ import org.androidannotations.annotations.RootContext;
  */
 
 @EBean
-public class BasePresenter<V extends MvpView> implements MvpPresenter<V> {
+public abstract class BasePresenter<V extends MvpView> implements MvpPresenter<V> {
 
     @RootContext
     protected Context context;
@@ -23,6 +23,10 @@ public class BasePresenter<V extends MvpView> implements MvpPresenter<V> {
     protected BusProvider busProvider;
 
     private V mMvpView;
+
+    public BasePresenter(Context context) {
+        this.context = context;
+    }
 
     @Override
     public void attachView(V mvpView) {
@@ -48,7 +52,15 @@ public class BasePresenter<V extends MvpView> implements MvpPresenter<V> {
         }
     }
 
-    protected V getMvpView() {
+    public V getMvpView() {
         return mMvpView;
     }
+
+    public void setView(V view) {
+        this.mMvpView = view;
+    }
+
+    protected abstract void attachRepositories();
+
+    protected abstract void detachRepositories();
 }

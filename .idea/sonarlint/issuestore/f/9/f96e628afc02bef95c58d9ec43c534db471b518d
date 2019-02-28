@@ -1,0 +1,18 @@
+
+t"squid:LeftCurlyBraceStartLineCheck3"AMove this left curly brace to the beginning of next line of code.(®ºÊáþÿÿÿÿ
+U"squid:SwitchLastCaseIsDefaultCheck%""Add a default case to this switch.(áøìšûÿÿÿÿ
+n"squid:LeftCurlyBraceStartLineCheckA"AMove this left curly brace to the beginning of next line of code.(þší
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ÑÈëˆ
+gsquid:S1301%"KReplace this "switch" statement by "if" statements to increase readability.(áøìšûÿÿÿÿ
+n"squid:LeftCurlyBraceStartLineCheckK"AMove this left curly brace to the beginning of next line of code.(„šœy
+o"squid:LeftCurlyBraceStartLineCheckO"AMove this left curly brace to the beginning of next line of code.(Üâãü
+t"squid:LeftCurlyBraceStartLineCheck%"AMove this left curly brace to the beginning of next line of code.(áøìšûÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck9"AMove this left curly brace to the beginning of next line of code.(´ô»Î
+csquid:S00103!"KSplit this 175 characters long line (which is greater than 120 authorized).(Î©“¨
+o"squid:LeftCurlyBraceStartLineCheck!"AMove this left curly brace to the beginning of next line of code.(Î©“¨
+n"squid:LeftCurlyBraceStartLineCheck$"AMove this left curly brace to the beginning of next line of code.(ÜÑÚf
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ºÂÓï
+t"squid:LeftCurlyBraceStartLineCheckF"AMove this left curly brace to the beginning of next line of code.(Ü«Ë–ûÿÿÿÿ
+ssquid:S1188!"\Reduce this anonymous class number of lines from 24 to at most 20, or make it a named class.(Î©“¨
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¾¾š…
+csquid:S00103"KSplit this 135 characters long line (which is greater than 120 authorized).(ºÂÓï

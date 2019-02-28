@@ -1,16 +1,16 @@
 
 t"squid:LeftCurlyBraceStartLineCheck("AMove this left curly brace to the beginning of next line of code.(º¹ãÚùÿÿÿÿ
-o"squid:LeftCurlyBraceStartLineCheckW"AMove this left curly brace to the beginning of next line of code.(”÷è
-t"squid:LeftCurlyBraceStartLineCheck6"AMove this left curly brace to the beginning of next line of code.(Öêÿÿÿÿÿ
-Nsquid:S2039"2Explicitly declare the visibility for "presenter".(®ãà©üÿÿÿÿ
-Osquid:S2039$"3Explicitly declare the visibility for "etPassword".(ùÍ®†ıÿÿÿÿ
-o2squid:RightCurlyBraceDifferentLineAsNextBlockCheckJ"1Move this "else" keyword to a new dedicated line.(å¥‡
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¸á“üÿÿÿÿ
-o"squid:LeftCurlyBraceStartLineCheckG"AMove this left curly brace to the beginning of next line of code.(ºËáÃ
-Osquid:S2039!"3Explicitly declare the visibility for "etUserName".(·’ğ²ûÿÿÿÿ
-o"squid:LeftCurlyBraceStartLineCheck<"AMove this left curly brace to the beginning of next line of code.(ÏŠúã
-jsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(¸á“üÿÿÿÿ
-o"squid:LeftCurlyBraceStartLineCheckJ"AMove this left curly brace to the beginning of next line of code.(å¥‡
-o"squid:LeftCurlyBraceStartLineCheck/"AMove this left curly brace to the beginning of next line of code.(ÍÙ÷¢
 t"squid:LeftCurlyBraceStartLineCheckD"AMove this left curly brace to the beginning of next line of code.(Ü™ù¨şÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck/"AMove this left curly brace to the beginning of next line of code.(ÍÙ÷¢
+t"squid:LeftCurlyBraceStartLineCheck6"AMove this left curly brace to the beginning of next line of code.(Öêÿÿÿÿÿ
+Osquid:S2039$"3Explicitly declare the visibility for "etPassword".(ùÍ®†ıÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¸á“üÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheckJ"AMove this left curly brace to the beginning of next line of code.(å¥‡
 t"squid:LeftCurlyBraceStartLineCheckQ"AMove this left curly brace to the beginning of next line of code.(®ºÊáşÿÿÿÿ
+jsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(¸á“üÿÿÿÿ
+Osquid:S2039!"3Explicitly declare the visibility for "etUserName".(·’ğ²ûÿÿÿÿ
+o2squid:RightCurlyBraceDifferentLineAsNextBlockCheckJ"1Move this "else" keyword to a new dedicated line.(å¥‡
+Nsquid:S2039"2Explicitly declare the visibility for "presenter".(®ãà©üÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck<"AMove this left curly brace to the beginning of next line of code.(ÏŠúã
+o"squid:LeftCurlyBraceStartLineCheckG"AMove this left curly brace to the beginning of next line of code.(ºËáÃ
+o"squid:LeftCurlyBraceStartLineCheckW"AMove this left curly brace to the beginning of next line of code.(”÷è

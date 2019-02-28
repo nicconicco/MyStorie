@@ -1,0 +1,10 @@
+
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¦äÚıÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(íà§…
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(öí§­şÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ï¨†™
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Õüç
+t"squid:LeftCurlyBraceStartLineCheck""AMove this left curly brace to the beginning of next line of code.(ßàöèıÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck'"AMove this left curly brace to the beginning of next line of code.(ˆÜ—í
+squid:S3366"xMake sure the use of "this" doesn't expose partially-constructed instances of this class in multi-threaded environments.(ï¨†™
+squid:S3366"xMake sure the use of "this" doesn't expose partially-constructed instances of this class in multi-threaded environments.(¹šÔÁ

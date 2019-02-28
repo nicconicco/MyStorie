@@ -47,7 +47,7 @@ task pmd(type: Pmd) {
     description 'Identifying potential problems mainly dead code, duplicated code, cyclomatic complexity and overcomplicated expressions'
     group 'verification'
     ruleSetFiles = files("$project.rootDir/config/pmd-ruleset.xml")
-    source = fileTree('src/main/java')
+    source = fileTree('src/menu/java')
     include '**/*.java'
     exclude '**/gen/**'
 
@@ -134,16 +134,16 @@ android {
 
     sourceSets {
         mock {
-            java.srcDirs('src/mock/java', 'src/main/java')
+            java.srcDirs('src/mock/java', 'src/menu/java')
         }
         production {
-            java.srcDirs('src/production/java', 'src/main/java')
+            java.srcDirs('src/production/java', 'src/menu/java')
         }
     }
 
     sourceSets.main {
-        jni.srcDirs = ['src/main/jni']
-        jniLibs.srcDir 'src/main/libs'
+        jni.srcDirs = ['src/menu/jni']
+        jniLibs.srcDir 'src/menu/libs'
     }
 
     flavorDimensions "all"
@@ -250,7 +250,7 @@ task jacocoTestReport(type: JacocoReport, dependsOn: 'testDebugUnitTest') {
 
     def fileFilter = ['**/R.class', '**/R$*.class', '**/BuildConfig.*', '**/Manifest*.*', '**/*Test*.*', 'android/**/*.*']
     def debugTree = fileTree(dir: "${buildDir}/intermediates/classes/debug", excludes: fileFilter)
-    def mainSrc = "${project.projectDir}/src/main/java"
+    def mainSrc = "${project.projectDir}/src/menu/java"
 
     sourceDirectories = files([mainSrc])
     classDirectories = files([debugTree])
@@ -280,7 +280,7 @@ sonarqube {
         property 'sonar.binaries', '**/target/classes '
 
         property 'sonar.profile', 'Android Lint'
-        property "sonar.sources", "./src/main/java"
+        property "sonar.sources", "./src/menu/java"
 
         property 'sonar.import_unknown_files', true
         property 'sonar.android.lint.report', 'build/outputs/lint-results.xml'

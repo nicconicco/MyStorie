@@ -1,5 +1,7 @@
 package com.cgalves.mystorie.feature.home.presenter;
 
+import android.content.Context;
+
 import com.cgalves.mystorie.MyStorieApplication;
 import com.cgalves.mystorie.common.abstractcalls.HomeAbstractCall;
 import com.cgalves.mystorie.common.factory.APIAbstractFactory;
@@ -26,6 +28,10 @@ public class HomePresenterImpl<V extends HomeContract.HomePresenterView> extends
     @App
     MyStorieApplication application;
     HomeAbstractCall homeAbstractCall;
+
+    public HomePresenterImpl(Context context) {
+        super(context);
+    }
 
     @AfterInject
     void init() {
@@ -54,5 +60,15 @@ public class HomePresenterImpl<V extends HomeContract.HomePresenterView> extends
     @Subscribe(sticky = true, threadMode = ThreadMode.MAIN)
     public void onSectionBodyLoaded(List<Section> list) {
         getMvpView().onResultSectionBody(list, new User(application.getName()));
+    }
+
+    @Override
+    protected void attachRepositories() {
+
+    }
+
+    @Override
+    protected void detachRepositories() {
+
     }
 }

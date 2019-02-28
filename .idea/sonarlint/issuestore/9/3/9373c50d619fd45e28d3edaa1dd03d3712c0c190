@@ -1,0 +1,14 @@
+
+t"squid:LeftCurlyBraceStartLineCheck9"AMove this left curly brace to the beginning of next line of code.(ñÀÏÂùÿÿÿÿ
+v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(‘˜±8Ìÿ¨“-
+t"squid:LeftCurlyBraceStartLineCheck-"AMove this left curly brace to the beginning of next line of code.(ü—§Úøÿÿÿÿ
+‚squid:S00118"^Rename this abstract class name to match the regular expression '^Abstract[A-Z][a-zA-Z0-9]*$'.(¢ğ“Œüÿÿÿÿ8§Ó¨“-
+o"squid:LeftCurlyBraceStartLineCheck3"AMove this left curly brace to the beginning of next line of code.(Õüç
+o"squid:LeftCurlyBraceStartLineCheck,"AMove this left curly brace to the beginning of next line of code.(†ú˜
+7squid:S00113"'Add a new line at the end of this file.
+t"squid:LeftCurlyBraceStartLineCheck'"AMove this left curly brace to the beginning of next line of code.(†£çñÿÿÿÿÿ
+rsquid:UselessImportCheck"BRemove this unused import 'androidx.annotation.VisibleForTesting'.(¶Ñ„¾üÿÿÿÿ8 ÂÓ¨“-
+t"squid:LeftCurlyBraceStartLineCheck""AMove this left curly brace to the beginning of next line of code.(»¤ÜØüÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¢ğ“Œüÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck4"AMove this left curly brace to the beginning of next line of code.(¶öÆé
+v"squid:LeftCurlyBraceStartLineCheck="AMove this left curly brace to the beginning of next line of code.(‹äæª8íÑ¨“-

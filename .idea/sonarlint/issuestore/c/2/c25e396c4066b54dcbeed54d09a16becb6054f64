@@ -1,0 +1,18 @@
+
+Osquid:UselessParenthesesCheck"!Remove these useless parentheses.(‘é¿€üÿÿÿÿ
+Osquid:UselessParenthesesCheck"!Remove these useless parentheses.(şÀ‘’ÿÿÿÿÿ
+Esquid:S1940")Use the opposite operator ("!=") instead.(û‹œøÿÿÿÿ
+Esquid:S1948	".Make "creditsContracted" private or transient.(Á€ƒÖ
+Usquid:S2057"?Add a "static final long serialVersionUID" field to this class.(º´ş3
+n"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(º´ş3
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(…½™şÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ÆÔõÈşÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Äˆ¢œşÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¥‡ì›
+€"squid:ClassVariableVisibilityCheck"RMake parcel a static final constant or non-public and provide accessors if needed.(ËĞù
+‹"squid:ClassVariableVisibilityCheck	"]Make creditsContracted a static final constant or non-public and provide accessors if needed.(Á€ƒÖ
+ˆ"squid:ClassVariableVisibilityCheck
+"UMake limitUsed a static final constant or non-public and provide accessors if needed.(†ÄèÇıÿÿÿÿ
+Œ"squid:ClassVariableVisibilityCheck"YMake limitReleased a static final constant or non-public and provide accessors if needed.(ÿÀÊÌùÿÿÿÿ
+‰"squid:ClassVariableVisibilityCheck"VMake limitTotal a static final constant or non-public and provide accessors if needed.(š¹ößûÿÿÿÿ
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(…½™şÿÿÿÿ

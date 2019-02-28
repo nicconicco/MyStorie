@@ -1,14 +1,14 @@
 
-o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(šÇ¬¤
-o2squid:RightCurlyBraceDifferentLineAsNextBlockCheck"1Move this "else" keyword to a new dedicated line.(å¥‡
-csquid:S00103"KSplit this 125 characters long line (which is greater than 120 authorized).(¾¶«ª
 o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(å¥‡
 hsquid:S00103"KSplit this 125 characters long line (which is greater than 120 authorized).(²§Çøÿÿÿÿ
-Ysquid:S1941"BMove the declaration of "enabled" closer to the code that uses it.(ˆÀË
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(’‚Œîşÿÿÿÿ
 t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¶»†¬ÿÿÿÿÿ
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(â´ı÷şÿÿÿÿ
 t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(‘ˆïûÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck!"AMove this left curly brace to the beginning of next line of code.(Ã˜¶ò
 n
 squid:S109"SAssign this magic number 23 to a well-named constant, and use the constant instead.(‘ˆïûÿÿÿÿ
-o"squid:LeftCurlyBraceStartLineCheck!"AMove this left curly brace to the beginning of next line of code.(Ã˜¶ò
+csquid:S00103"KSplit this 125 characters long line (which is greater than 120 authorized).(¾¶«ª
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(šÇ¬¤
+Ysquid:S1941"BMove the declaration of "enabled" closer to the code that uses it.(ˆÀË
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(’‚Œîşÿÿÿÿ
+o2squid:RightCurlyBraceDifferentLineAsNextBlockCheck"1Move this "else" keyword to a new dedicated line.(å¥‡
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(â´ı÷şÿÿÿÿ

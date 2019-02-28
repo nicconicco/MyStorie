@@ -1,10 +1,21 @@
 
-hsquid:S001032"KSplit this 139 characters long line (which is greater than 120 authorized).(Í˜Íèıÿÿÿÿ
-n"squid:LeftCurlyBraceStartLineCheck""AMove this left curly brace to the beginning of next line of code.(å‹´"
-n"squid:LeftCurlyBraceStartLineCheck%"AMove this left curly brace to the beginning of next line of code.(íÖ#
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ÀÙ›²øÿÿÿÿ
-o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ñ”Ò
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(å´Ê«ÿÿÿÿÿ
-qsquid:MaximumInheritanceDepth"<This class has 7 parents which is greater than 5 authorized.(å´Ê«ÿÿÿÿÿ8ÏÄÙ²‡-
-n"squid:LeftCurlyBraceStartLineCheck0"AMove this left curly brace to the beginning of next line of code.(ºŠñ=
 t"squid:LeftCurlyBraceStartLineCheck("AMove this left curly brace to the beginning of next line of code.(Ïõèÿÿÿÿÿ
+{"squid:LeftCurlyBraceStartLineCheckA"AMove this left curly brace to the beginning of next line of code.(×µ›šúÿÿÿÿ8î‡¨“-
+v"squid:LeftCurlyBraceStartLineCheckF"AMove this left curly brace to the beginning of next line of code.(”ı¾8î‡¨“-
+hsquid:S001032"KSplit this 139 characters long line (which is greater than 120 authorized).(Í˜Íèıÿÿÿÿ
+{"squid:LeftCurlyBraceStartLineCheck6"AMove this left curly brace to the beginning of next line of code.(‹×†İÿÿÿÿÿ8î‡¨“-
+qsquid:MaximumInheritanceDepth"<This class has 7 parents which is greater than 5 authorized.(å´Ê«ÿÿÿÿÿ8ÏÄÙ²‡-
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(å´Ê«ÿÿÿÿÿ
+n"squid:LeftCurlyBraceStartLineCheck""AMove this left curly brace to the beginning of next line of code.(å‹´"
+n"squid:LeftCurlyBraceStartLineCheck0"AMove this left curly brace to the beginning of next line of code.(ºŠñ=
+{"squid:LeftCurlyBraceStartLineCheck:"AMove this left curly brace to the beginning of next line of code.(µ÷àÿÿÿÿÿ8î‡¨“-
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ÀÙ›²øÿÿÿÿ
+{"squid:LeftCurlyBraceStartLineCheck?"AMove this left curly brace to the beginning of next line of code.(ªƒ­Ñùÿÿÿÿ8î‡¨“-
+{"squid:LeftCurlyBraceStartLineCheck@"AMove this left curly brace to the beginning of next line of code.(¡»¢üùÿÿÿÿ8î‡¨“-
+n"squid:LeftCurlyBraceStartLineCheck%"AMove this left curly brace to the beginning of next line of code.(íÖ#
+3squid:S00121B"Missing curly brace.(¤íÑ8î‡¨“-
+u"squid:LeftCurlyBraceStartLineCheck5"AMove this left curly brace to the beginning of next line of code.(İ¨­8î‡¨“-
+Csquid:S1166F"%Either log or rethrow this exception.(”ı¾8î‡¨“-
+w2squid:RightCurlyBraceDifferentLineAsNextBlockCheckF"2Move this "catch" keyword to a new dedicated line.(”ı¾8î‡¨“-
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ñ”Ò
+]squid:S1258":Add a constructor to the class, or provide default values.(å´Ê«ÿÿÿÿÿ8Ê¿¨“-

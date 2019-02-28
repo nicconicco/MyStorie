@@ -7,6 +7,7 @@ import org.junit.Test;
 import org.mockito.Mock;
 
 import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
 
 public class ExampleServiceApiTest {
 
@@ -37,5 +38,10 @@ public class ExampleServiceApiTest {
     public void onError() {
         InvestTutorialServiceApi.InvestTutorialServiceCallback api = mock(InvestTutorialServiceApi.InvestTutorialServiceCallback.class);
         api.onError("Erro");
+    }
+
+    @Test
+    public void onGetProfile(){
+        InvestTutorialServiceApi.InvestTutorialServiceCallback api = mock(InvestTutorialServiceApi.InvestTutorialServiceCallback.class);
     }
 }

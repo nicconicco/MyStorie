@@ -1,0 +1,5 @@
+
+7squid:S1700"Rename field "contractInfo"(øíüôúÿÿÿÿ
+Vsquid:S2057"?Add a "static final long serialVersionUID" field to this class.(Î¸Ùº
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Î¸Ùº
+‹"squid:ClassVariableVisibilityCheck"XMake contractInfo a static final constant or non-public and provide accessors if needed.(øíüôúÿÿÿÿ

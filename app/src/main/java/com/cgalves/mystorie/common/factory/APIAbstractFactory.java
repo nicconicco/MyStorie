@@ -8,6 +8,7 @@ import com.cgalves.mystorie.common.abstractcalls.ListSectionAbstractCall;
 import com.cgalves.mystorie.common.abstractcalls.LoginAbstractCall;
 import com.cgalves.mystorie.common.abstractcalls.NoticiasAbstractCall;
 import com.cgalves.mystorie.common.abstractcalls.NovidadesAbstractCall;
+import com.cgalves.mystorie.feature.simulate.model.api.CreditsAbstractCall;
 
 import org.greenrobot.eventbus.EventBus;
 
@@ -28,4 +29,6 @@ public abstract class APIAbstractFactory {
     public abstract NoticiasAbstractCall getNoticiasCall(EventBus bus, Context context);
     public abstract NovidadesAbstractCall getNovidadesCall(EventBus bus, Context context);
     public abstract ContactAbstractCall getContactCall(EventBus bus, Context context);
+
+    public abstract CreditsAbstractCall getCreditsCall(EventBus aDefault, Context context);
 }

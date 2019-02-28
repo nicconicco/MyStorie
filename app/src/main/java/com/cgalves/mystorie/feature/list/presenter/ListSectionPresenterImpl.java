@@ -1,5 +1,7 @@
 package com.cgalves.mystorie.feature.list.presenter;
 
+import android.content.Context;
+
 import com.cgalves.mystorie.common.abstractcalls.ListSectionAbstractCall;
 import com.cgalves.mystorie.common.factory.APIAbstractFactory;
 import com.cgalves.mystorie.common.model.DetailSection;
@@ -22,6 +24,10 @@ import java.util.List;
 public class ListSectionPresenterImpl<V extends ListSectionContract.ListSectioPresenterView> extends BasePresenter<V> implements ListSectionContract.ListSectioPresenter<V> {
     ListSectionAbstractCall listSectionAbstractCall;
 
+    public ListSectionPresenterImpl(Context context) {
+        super(context);
+    }
+
     @AfterInject
     void init() {
         listSectionAbstractCall = APIAbstractFactory.getFactory(context).getListSectionCall(busProvider.bus(), context);
@@ -35,5 +41,15 @@ public class ListSectionPresenterImpl<V extends ListSectionContract.ListSectioPr
     @Subscribe(sticky = true, threadMode = ThreadMode.MAIN)
     public void onImageTopHeaderLoaded(List<DetailSection> list) {
         getMvpView().onResultSectionChoice(list);
+    }
+
+    @Override
+    protected void attachRepositories() {
+
+    }
+
+    @Override
+    protected void detachRepositories() {
+
     }
 }

@@ -1,0 +1,31 @@
+
+Esquid:S2143a")Use the Java 8 Date and Time API instead.(¤é‘äúÿÿÿÿ
+u"squid:LeftCurlyBraceStartLineCheckŽ"AMove this left curly brace to the beginning of next line of code.(¶”¸Üüÿÿÿÿ
+qsquid:MaximumInheritanceDepth$"<This class has 8 parents which is greater than 5 authorized.(ú—öÄùÿÿÿÿ8…×Š¨“-
+dsquid:S1774Š"GConvert this usage of the ternary operator to an "if"/"else" structure.(—¦¢“úÿÿÿÿ
+Jsquid:S1068/"'Remove this unused "TAG" private field.( “Áìúÿÿÿÿ8¤ˆ¾¨“-
+t"squid:LeftCurlyBraceStartLineCheckp"AMove this left curly brace to the beginning of next line of code.(¦ëªéûÿÿÿÿ
+Qsquid:S2039-":Explicitly declare the visibility for "llCalculateButton".(Ö³þº
+Zsquid:UselessImportCheck"/Remove this unused import 'java.util.Calendar'.(ÿÛö´8´ Ü¨“-
+o"squid:LeftCurlyBraceStartLineCheckg"AMove this left curly brace to the beginning of next line of code.(»¦ó÷
+t"squid:LeftCurlyBraceStartLineCheck$"AMove this left curly brace to the beginning of next line of code.(ú—öÄùÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck7"AMove this left curly brace to the beginning of next line of code.(œ˜ö™
+t"squid:LeftCurlyBraceStartLineCheckF"AMove this left curly brace to the beginning of next line of code.(º¹ãÚùÿÿÿÿ
+n"squid:LeftCurlyBraceStartLineCheckx"AMove this left curly brace to the beginning of next line of code.(Ÿï²
+t"squid:LeftCurlyBraceStartLineCheckY"AMove this left curly brace to the beginning of next line of code.(ŸáÛ«þÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheckK"AMove this left curly brace to the beginning of next line of code.(Ù«µ§
+t"squid:LeftCurlyBraceStartLineCheckt"AMove this left curly brace to the beginning of next line of code.(ˆ€¯¤ùÿÿÿÿ
+Jsquid:S2039*"3Explicitly declare the visibility for "vtSimulate".(¨®¡…
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(îåÐìûÿÿÿÿ
+p"squid:LeftCurlyBraceStartLineCheck‰"AMove this left curly brace to the beginning of next line of code.(ÀÓ°¶
+Vsquid:S1258$":Add a constructor to the class, or provide default values.(ú—öÄùÿÿÿÿ
+n"squid:LeftCurlyBraceStartLineCheckR"AMove this left curly brace to the beginning of next line of code.(¹§ 
+t"squid:LeftCurlyBraceStartLineCheckk"AMove this left curly brace to the beginning of next line of code.(øê¬øÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck^"AMove this left curly brace to the beginning of next line of code.(öÍðóûÿÿÿÿ
+u"squid:LeftCurlyBraceStartLineCheck„"AMove this left curly brace to the beginning of next line of code.(£â¨ãûÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheckA"AMove this left curly brace to the beginning of next line of code.(‹ŠÜÞ
+hsquid:S00103$"KSplit this 124 characters long line (which is greater than 120 authorized).(ú—öÄùÿÿÿÿ
+Osquid:S2039'"3Explicitly declare the visibility for "vpSimulate".(®ç«°ýÿÿÿÿ
+9
+squid:S818_"#Upper-case this literal "f" suffix.(×‡œÍ
+o"squid:LeftCurlyBraceStartLineCheck<"AMove this left curly brace to the beginning of next line of code.(ÇÃ¨ö

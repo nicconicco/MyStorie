@@ -62,6 +62,34 @@
     <string name="tutorial_subtitle_text_information_goals_3">Opcao 2</string>
     <string name="tutorial_subtitle_text_information_goals_2">Opcao 1</string>
     <string name="tutorial_subtitle_text_information_goals_1">Opcao 0</string>
+    <string name="text_info_transfer">info</string>
+    <!-- Credit Installment - Confirmation contracts and additional product info -->
+    <string name="credit_installment_confirmation_contract_info"  translatable="false"><![CDATA[
+        <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+        <html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/xhtml">
+        <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width" /></head><body><div style="padding: 30px">
+        <strong>CET</strong><p>
+        Desde 03/03/2008, o CET deve ser informado previamente a contratação das operações de crédito e arrecadamento mercantil financeiro realizados com Pessoas Físicas.<br>
+        O CET é calculado considerando os fluxos referentes as liberações e aos pagamentos previstos, incluindo taxas de juros, tributos, tarifas, seguros e outros serviços autorizados, inclusive quando essas despesas forem financiadas, e o cálculo dos percentuais de cada componente do fluxo da operação foi efetuado considerando o valor total devido no ato da contratação desta operação.<p>
+        <strong>Encargos de Atraso</strong><p>
+        Juros remuneratórios: a mesma taxa prevista nesta contratação sobre o valor da dívida.<br>
+        Juros moratórios: 1% ao mês sobre o valor da dívida, acrescido de juros remuneratórios.<br>
+        Multa: 2% sobre o total devido<br>
+        Despesas de cobrança e honorários advocatícios extrajudiciais de 10% sobre o valor do saldo devedor.<br>
+        A contratação de Crédito exige um bom planejamento.<p>
+        <strong>Direitos do Consumidor</strong><p>
+        É assegurado ao consumidor: liquidação antecipada com redução proporcional dos juros e demais acréscimos; portabilidade desta operação para outro Banco e a desistência da operação em até 7 dias do recebimento do valor, devendo o consumidor restituir ao banco o valor total financiado, acrescido de eventuais tributos e juros incidentes até a data da efetiva devolução.<p></div></body></html>
+    ]]></string>
+    <string name="credit_installment_confirmation_agreement_info"  translatable="false"><![CDATA[
+        <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+        <html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/xhtml">
+        <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width" /></head><body><div style="padding: 30px">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat volutpat odio in auctor. Nullam vitae ultrices turpis. Maecenas vulputate ut risus in ultrices. Vivamus ullamcorper dui vitae leo congue dapibus. Maecenas auctor facilisis neque, non sodales purus commodo sed. Sed ut vestibulum mi. Maecenas efficitur tortor vitae ultrices mattis. Phasellus in malesuada tellus, eu molestie diam. Aenean eu iaculis nisi. Vestibulum vitae rutrum ex, id pretium urna. Vestibulum vel dignissim erat, et sodales risus. Aliquam ac nisi eu magna mattis gravida. Duis consequat venenatis imperdiet.<p>
+        Integer nec ipsum vitae tellus consequat maximus. Cras eu nibh nec metus pellentesque consectetur quis eget mauris. Aenean sed tincidunt lorem. Suspendisse sed est pretium, suscipit felis non, condimentum diam. Curabitur mattis malesuada eleifend. Pellentesque ullamcorper massa at venenatis bibendum. In varius scelerisque quam, ut ultrices urna efficitur nec. Cras id lacus ligula. Quisque pulvinar dolor ac sodales scelerisque.<p>
+        In erat ligula, feugiat et lectus non, facilisis finibus tellus. Nulla fringilla, elit quis vulputate luctus, nisi est condimentum tellus, sit amet luctus turpis mauris ac lectus. Nulla rhoncus sit amet erat non fringilla. Integer ac lobortis diam, id feugiat dui. Morbi quis sem in neque lacinia euismod at vel sapien. Aliquam efficitur sit amet ante vitae varius. Sed sagittis pretium iaculis. Aenean quis elit sit amet neque blandit vehicula. Quisque ac semper enim. Nulla congue pretium pellentesque. Phasellus semper vehicula urna vitae volutpat.<p>
+        Nam vel lacinia turpis. Aliquam maximus justo at nulla tincidunt, feugiat varius ex pulvinar. Ut bibendum ex at libero tristique aliquet. Morbi quis nisi iaculis, consequat diam non, convallis arcu. Etiam lacinia sed purus ac ornare. Curabitur consectetur arcu a euismod imperdiet. Curabitur at lorem nisi. Nullam fringilla aliquet accumsan. Nulla sit amet sapien orci. Maecenas tristique lobortis nibh a interdum.<p>
+        Ut finibus hendrerit nunc. Integer id mi eu nulla tristique congue. Aliquam vestibulum lacus nec rutrum consectetur. Suspendisse potenti. Morbi ornare eu leo ac finibus. Donec viverra varius lacus eu ultricies. Morbi molestie dolor ipsum, at sagittis odio commodo quis. Pellentesque et aliquam risus. Quisque vestibulum leo et risus pulvinar interdum. Mauris pulvinar neque nec elit dignissim aliquam.<p></div></body></html>
+    ]]></string>
 
 
 </resources>

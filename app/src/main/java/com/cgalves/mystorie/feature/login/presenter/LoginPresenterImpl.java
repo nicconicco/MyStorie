@@ -1,6 +1,8 @@
 package com.cgalves.mystorie.feature.login.presenter;
 
 
+import android.content.Context;
+
 import com.cgalves.mystorie.MyStorieApplication;
 import com.cgalves.mystorie.common.abstractcalls.LoginAbstractCall;
 import com.cgalves.mystorie.common.factory.APIAbstractFactory;
@@ -25,6 +27,10 @@ public class LoginPresenterImpl<V extends LoginContract.LoginPresenterView> exte
     MyStorieApplication application;
 
     LoginAbstractCall loginAbstractCall;
+
+    public LoginPresenterImpl(Context context) {
+        super(context);
+    }
 
     @AfterInject
     void init() {
@@ -73,5 +79,15 @@ public class LoginPresenterImpl<V extends LoginContract.LoginPresenterView> exte
         }
 
         return false;
+    }
+
+    @Override
+    protected void attachRepositories() {
+
+    }
+
+    @Override
+    protected void detachRepositories() {
+
     }
 }

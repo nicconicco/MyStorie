@@ -1,0 +1,10 @@
+
+[squid:S2057	"?Add a "static final long serialVersionUID" field to this class.(Ğµíúÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck	"AMove this left curly brace to the beginning of next line of code.(Ğµíúÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¶ñÔ
+"squid:ClassVariableVisibilityCheck"aMake isInsuranceSimulation a static final constant or non-public and provide accessors if needed.(Ş¹÷µ
+…"squid:ClassVariableVisibilityCheck"RMake amount a static final constant or non-public and provide accessors if needed.(¶â¤·ıÿÿÿÿ
+„"squid:ClassVariableVisibilityCheck"QMake taxes a static final constant or non-public and provide accessors if needed.(»²Ë üÿÿÿÿ
+‹"squid:ClassVariableVisibilityCheck"]Make installmentAmount a static final constant or non-public and provide accessors if needed.(Õåô
+\squid:TrailingCommentCheck"6Move this trailing comment on the previous empty line.(Õåô
+˜squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¶ñÔ

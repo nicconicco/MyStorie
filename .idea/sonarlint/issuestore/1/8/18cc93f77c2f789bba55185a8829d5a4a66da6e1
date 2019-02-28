@@ -1,0 +1,8 @@
+
+hsquid:S001030"KSplit this 183 characters long line (which is greater than 120 authorized).(ÀÿÍ”ıÿÿÿÿ
+^squid:UndocumentedApi,">Document this public method by adding an explicit description.(ºç¸_
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(õ·³Ş
+{squid:S00118"^Rename this abstract class name to match the regular expression '^Abstract[A-Z][a-zA-Z0-9]*$'.(ä‰ºüÿÿÿÿ
+dsquid:UndocumentedApi0">Document this public method by adding an explicit description.(ÀÿÍ”ıÿÿÿÿ
+dsquid:UndocumentedApi"CDocument this public constructor by adding an explicit description.(õ·³Ş
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ä‰ºüÿÿÿÿ

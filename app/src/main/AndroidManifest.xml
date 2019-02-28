@@ -60,6 +60,7 @@
         <activity android:name=".feature.section.SectionActivity_" />
         <activity android:name=".feature.androidmvpgoogle.InvestTutorialActivity_" />
         <activity android:name=".feature.processorannotation.LoginActivityProcessor"></activity>
+        <activity android:name="feature.simulate.view.CreditsSimulateActivity_"></activity>
     </application>
 
 </manifest>

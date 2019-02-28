@@ -1,0 +1,7 @@
+
+”"squid:ClassVariableVisibilityCheck"fMake isUserEligibleForInsurance a static final constant or non-public and provide accessors if needed.(×¹Ëæ
+Š"squid:ClassVariableVisibilityCheck"WMake simulations a static final constant or non-public and provide accessors if needed.(êæØðüÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(êÚ³öúÿÿÿÿ
+Dsquid:S1948"(Make "simulations" private or transient.(êæØðüÿÿÿÿ
+[squid:S2057"?Add a "static final long serialVersionUID" field to this class.(êÚ³öúÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¨”Èêþÿÿÿÿ

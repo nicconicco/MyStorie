@@ -2,7 +2,7 @@ Para ver qual é o problema de versoes que ta acontecendo..
 
 voce tem que digitar no terminal para saber a raiz do problema
 
-./gradlew -q :app:dependecies
+./gradlew -q :app:dependencies
 
 Depois disso, você precisa ter a referencia. Hoje o com.android.support nao é mais compatível com o androidx
 
@@ -11,6 +11,10 @@ por exemplo,
 entao você tem que excluir ele.
 
 você pode fazer ele por estrategia:
+
+configurations {
+    all*.exclude module: 'support-v4'
+}
 
 configurations.all {
     resolutionStrategy {

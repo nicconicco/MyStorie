@@ -1,5 +1,7 @@
 package com.cgalves.mystorie.feature.noticias.presenter;
 
+import android.content.Context;
+
 import com.cgalves.mystorie.common.abstractcalls.NoticiasAbstractCall;
 import com.cgalves.mystorie.common.factory.APIAbstractFactory;
 import com.cgalves.mystorie.common.presenter.BasePresenter;
@@ -19,6 +21,10 @@ public class NoticiasPresenterImpl<V extends NoticiasContract.NoticiasPresenterV
 
     NoticiasAbstractCall noticiasAbstractCall;
 
+    public NoticiasPresenterImpl(Context context) {
+        super(context);
+    }
+
     @AfterInject
     void inject() {
         noticiasAbstractCall = APIAbstractFactory.getFactory(context).getNoticiasCall(busProvider.bus(), context);
@@ -32,5 +38,15 @@ public class NoticiasPresenterImpl<V extends NoticiasContract.NoticiasPresenterV
     @Subscribe(sticky = true, threadMode = ThreadMode.MAIN)
     public void onImageTopHeaderLoaded(NoticiasResponseList noticiasResponseList) {
         getMvpView().onResulSectiontNoticias(noticiasResponseList);
+    }
+
+    @Override
+    protected void attachRepositories() {
+
+    }
+
+    @Override
+    protected void detachRepositories() {
+
     }
 }

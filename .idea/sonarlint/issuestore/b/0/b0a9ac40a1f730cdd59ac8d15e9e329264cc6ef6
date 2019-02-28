@@ -1,0 +1,16 @@
+
+Osquid:UselessParenthesesCheck"!Remove these useless parentheses.(µ¯ê·üÿÿÿÿ
+^squid:S1774"GConvert this usage of the ternary operator to an "if"/"else" structure.(”Šİ
+asquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(÷×®b
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(µ¯ê·üÿÿÿÿ
+Vsquid:S2057"?Add a "static final long serialVersionUID" field to this class.(Ó‰Š…
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Ó‰Š…
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¬Âô‡úÿÿÿÿ
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Œéˆ²ûÿÿÿÿ
+qsquid:S1067"ZReduce the number of conditional operators (4) used in the expression (maximum allowed 3).(“ 
+…"squid:ClassVariableVisibilityCheck"RMake system a static final constant or non-public and provide accessors if needed.(ËÈ„Ïøÿÿÿÿ
+‡"squid:ClassVariableVisibilityCheck"YMake customMessage a static final constant or non-public and provide accessors if needed.(èòçµ
+csquid:S00103"KSplit this 155 characters long line (which is greater than 120 authorized).(”Šİ
+bsquid:S00103"KSplit this 175 characters long line (which is greater than 120 authorized).(÷×®b
+hsquid:S00103"KSplit this 128 characters long line (which is greater than 120 authorized).(µ¯ê·üÿÿÿÿ
+asquid:TrailingCommentCheck"6Move this trailing comment on the previous empty line.(µ¯ê·üÿÿÿÿ

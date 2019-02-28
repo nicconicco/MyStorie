@@ -1,10 +1,5 @@
 
-Hsquid:IndentationCheck
-"!Make this line start at column 5.(âıÉ¢ıÿÿÿÿ
-Csquid:IndentationCheck	"!Make this line start at column 3.(×Œ¶¾
-Csquid:IndentationCheck"!Make this line start at column 3.(´ÉÜñ
-o"squid:LeftCurlyBraceStartLineCheck	"AMove this left curly brace to the beginning of next line of code.(×Œ¶¾
-Csquid:IndentationCheck"!Make this line start at column 5.(õË´
-msquid:S1609"VAnnotate the "ContactPresenterView" interface with the @FunctionalInterface annotation(´ÉÜñ
 n"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(·à9
+o"squid:LeftCurlyBraceStartLineCheck	"AMove this left curly brace to the beginning of next line of code.(×Œ¶¾
+msquid:S1609"VAnnotate the "ContactPresenterView" interface with the @FunctionalInterface annotation(´ÉÜñ
 o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(´ÉÜñ

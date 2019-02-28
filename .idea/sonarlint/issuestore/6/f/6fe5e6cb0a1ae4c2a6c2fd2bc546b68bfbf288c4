@@ -1,0 +1,73 @@
+
+v"squid:LeftCurlyBraceStartLineCheck3"AMove this left curly brace to the beginning of next line of code.(¸Ã…ô8ıˆò¨“-
+|"squid:LeftCurlyBraceStartLineCheckÉ"AMove this left curly brace to the beginning of next line of code.(µš¿ªøÿÿÿÿ8ıˆò¨“-
+|"squid:LeftCurlyBraceStartLineCheckØ"AMove this left curly brace to the beginning of next line of code.(œ†ˆşÿÿÿÿ8ıˆò¨“-
+v"squid:LeftCurlyBraceStartLineCheckC"AMove this left curly brace to the beginning of next line of code.(Ğ¤ÉÒ8ıˆò¨“-
+bsquid:S3340y"?Reorder annotation arguments to match the order of declaration.(õ ãİÿÿÿÿÿ8ıˆò¨“-
+w"squid:LeftCurlyBraceStartLineCheck¹"AMove this left curly brace to the beginning of next line of code.(â”îô8ıˆò¨“-
+|"squid:LeftCurlyBraceStartLineCheck–"AMove this left curly brace to the beginning of next line of code.(â–Õçüÿÿÿÿ8ıˆò¨“-
+v"squid:LeftCurlyBraceStartLineCheck^"AMove this left curly brace to the beginning of next line of code.(¤Ãõã8ıˆò¨“-
+u"squid:LeftCurlyBraceStartLineCheck•"AMove this left curly brace to the beginning of next line of code.(Ó÷…ûÿÿÿÿ
+u"squid:LeftCurlyBraceStartLineCheck¡"AMove this left curly brace to the beginning of next line of code.(ˆ¹äøÿÿÿÿ
+v"squid:LeftCurlyBraceStartLineCheck¢"AMove this left curly brace to the beginning of next line of code.(ºˆâ8ıˆò¨“-
+Wsquid:S1213á"8Move this variable to comply with Java Code Conventions.(—”İŸ8ıˆò¨“-
+isquid:S00103Á"KSplit this 236 characters long line (which is greater than 120 authorized).(áûªÎøÿÿÿÿ
+bsquid:S3340H"?Reorder annotation arguments to match the order of declaration.(õ ãİÿÿÿÿÿ8ıˆò¨“-
+w"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Ğ¤ÉÒ8ıˆò¨“-
+|"squid:LeftCurlyBraceStartLineCheck÷"AMove this left curly brace to the beginning of next line of code.(èÏåúÿÿÿÿ8ıˆò¨“-
+v"squid:LeftCurlyBraceStartLineCheckJ"AMove this left curly brace to the beginning of next line of code.(Ğ¤ÉÒ8ıˆò¨“-
+|"squid:LeftCurlyBraceStartLineCheck­"AMove this left curly brace to the beginning of next line of code.(Õ’º¼ùÿÿÿÿ8ıˆò¨“-
+{"squid:LeftCurlyBraceStartLineCheckg"AMove this left curly brace to the beginning of next line of code.(Ş¤¬ùÿÿÿÿ8ıˆò¨“-
+w"squid:LeftCurlyBraceStartLineCheckà"AMove this left curly brace to the beginning of next line of code.(İó“º8ıˆò¨“-
+[squid:S1213U"8Move this variable to comply with Java Code Conventions.(ØÔ–„üÿÿÿÿ8ıˆò¨“-
+v"squid:LeftCurlyBraceStartLineCheck²"AMove this left curly brace to the beginning of next line of code.(éÉ×/8ıˆò¨“-
+\squid:S1213î"8Move this variable to comply with Java Code Conventions.(¤ôŠüıÿÿÿÿ8ıˆò¨“-
+t"squid:LeftCurlyBraceStartLineCheckB"AMove this left curly brace to the beginning of next line of code.(®ºÊáşÿÿÿÿ
+|"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(æ¼‰şÿÿÿÿ8ıˆò¨“-
+|"squid:LeftCurlyBraceStartLineCheck›"AMove this left curly brace to the beginning of next line of code.(Ò±º™ıÿÿÿÿ8ıˆò¨“-
+bsquid:S3340A"?Reorder annotation arguments to match the order of declaration.(õ ãİÿÿÿÿÿ8ıˆò¨“-
+w"squid:LeftCurlyBraceStartLineCheck‰"AMove this left curly brace to the beginning of next line of code.(²×æ8ıˆò¨“-
+bsquid:S3340]"?Reorder annotation arguments to match the order of declaration.(õ ãİÿÿÿÿÿ8ıˆò¨“-
+w"squid:LeftCurlyBraceStartLineCheck·"AMove this left curly brace to the beginning of next line of code.(…ùš’8ıˆò¨“-
+Vsquid:S1213¯"8Move this variable to comply with Java Code Conventions.(„ƒ™88ıˆò¨“-
+|"squid:LeftCurlyBraceStartLineCheckğ"AMove this left curly brace to the beginning of next line of code.(ŠÒ°‡üÿÿÿÿ8ıˆò¨“-
+csquid:S3340¸"?Reorder annotation arguments to match the order of declaration.(õ ãİÿÿÿÿÿ8ıˆò¨“-
+u"squid:LeftCurlyBraceStartLineCheckÈ"AMove this left curly brace to the beginning of next line of code.(ÇÃõùÿÿÿÿ
+csquid:S3340é"?Reorder annotation arguments to match the order of declaration.(õ ãİÿÿÿÿÿ8ıˆò¨“-
+v"squid:LeftCurlyBraceStartLineCheckz"AMove this left curly brace to the beginning of next line of code.(µÀ‘²8ıˆò¨“-
+csquid:S3340ö"?Reorder annotation arguments to match the order of declaration.(õ ãİÿÿÿÿÿ8ıˆò¨“-
+w"squid:LeftCurlyBraceStartLineChecké"AMove this left curly brace to the beginning of next line of code.(ßË‘è8ıˆò¨“-
+Tsquid:S1213T"8Move this variable to comply with Java Code Conventions.(­Ÿ™Šşÿÿÿÿ
+v"squid:LeftCurlyBraceStartLineCheckW"AMove this left curly brace to the beginning of next line of code.(”ÙµŞ8ıˆò¨“-
+csquid:S3340¶"?Reorder annotation arguments to match the order of declaration.(õ ãİÿÿÿÿÿ8ıˆò¨“-
+|"squid:LeftCurlyBraceStartLineCheck±"AMove this left curly brace to the beginning of next line of code.(ßÁ†°øÿÿÿÿ8ıˆò¨“-
+csquid:S3340 "?Reorder annotation arguments to match the order of declaration.(õ ãİÿÿÿÿÿ8ıˆò¨“-
+v"squid:LeftCurlyBraceStartLineCheckl"AMove this left curly brace to the beginning of next line of code.(©şÖµ8ıˆò¨“-
+|"squid:LeftCurlyBraceStartLineCheck”"AMove this left curly brace to the beginning of next line of code.(¢’üÂøÿÿÿÿ8ıˆò¨“-
+9squid:S00121ø"Missing curly brace.(¶‡ÿÒùÿÿÿÿ8ıˆò¨“-
+bsquid:S3340f"?Reorder annotation arguments to match the order of declaration.(õ ãİÿÿÿÿÿ8ıˆò¨“-
+w"squid:LeftCurlyBraceStartLineCheckĞ"AMove this left curly brace to the beginning of next line of code.(ó‹œÎ8ıˆò¨“-
+Psquid:S1213Ó"8Move this variable to comply with Java Code Conventions.(ƒåÚô
+w"squid:LeftCurlyBraceStartLineCheckê"AMove this left curly brace to the beginning of next line of code.(ú«úü8ıˆò¨“-
+|"squid:LeftCurlyBraceStartLineCheckÊ"AMove this left curly brace to the beginning of next line of code.(¢ÑÃŞúÿÿÿÿ8ıˆò¨“-
+csquid:S3340”"?Reorder annotation arguments to match the order of declaration.(õ ãİÿÿÿÿÿ8ıˆò¨“-
+csquid:S3340Ç"?Reorder annotation arguments to match the order of declaration.(õ ãİÿÿÿÿÿ8ıˆò¨“-
+o"squid:LeftCurlyBraceStartLineCheckI"AMove this left curly brace to the beginning of next line of code.(´ô»Î
+csquid:S3340Ş"?Reorder annotation arguments to match the order of declaration.(õ ãİÿÿÿÿÿ8ıˆò¨“-
+|"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(şØÂ¼ûÿÿÿÿ8ıˆò¨“-
+°squid:S1200-"‘Split this class into smaller and more specialized ones to reduce its dependencies on other classes from 35 to the maximum authorized 20 or less.(€ƒã±8ıˆò¨“-
+Wsquid:S1213‹"8Move this variable to comply with Java Code Conventions.(¸‹ªŸ8ıˆò¨“-
+w"squid:LeftCurlyBraceStartLineCheckÀ"AMove this left curly brace to the beginning of next line of code.(Ï ûü8ıˆò¨“-
+|"squid:LeftCurlyBraceStartLineCheckÁ"AMove this left curly brace to the beginning of next line of code.(áûªÎøÿÿÿÿ8ıˆò¨“-
+p"squid:LeftCurlyBraceStartLineCheckß"AMove this left curly brace to the beginning of next line of code.(ı—ë‹
+\squid:S1213Ö"8Move this variable to comply with Java Code Conventions.(ïİ½·şÿÿÿÿ8ıˆò¨“-
+Psquid:S1213Õ"8Move this variable to comply with Java Code Conventions.(Õäöœ
+csquid:S3340“"?Reorder annotation arguments to match the order of declaration.(õ ãİÿÿÿÿÿ8ıˆò¨“-
+v"squid:LeftCurlyBraceStartLineCheck-"AMove this left curly brace to the beginning of next line of code.(€ƒã±8ıˆò¨“-
+v"squid:LeftCurlyBraceStartLineCheck7"AMove this left curly brace to the beginning of next line of code.(½Ä±‘8ıˆò¨“-
+csquid:S3340ï"?Reorder annotation arguments to match the order of declaration.(õ ãİÿÿÿÿÿ8ıˆò¨“-
+Usquid:S1213Ô"8Move this variable to comply with Java Code Conventions.(Î’¥ıÿÿÿÿ
+Usquid:S1213Š"8Move this variable to comply with Java Code Conventions.(–ÖÈùÿÿÿÿ
+v"squid:LeftCurlyBraceStartLineCheckğ"AMove this left curly brace to the beginning of next line of code.(æôÜ8ıˆò¨“-
+w"squid:LeftCurlyBraceStartLineCheckã"AMove this left curly brace to the beginning of next line of code.(õ¨’â8ıˆò¨“-
+\squid:S1213¿"8Move this variable to comply with Java Code Conventions.(¾îÙèúÿÿÿÿ8ıˆò¨“-

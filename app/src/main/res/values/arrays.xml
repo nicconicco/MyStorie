@@ -4,5 +4,11 @@
         <item>Connect</item>
         <item>Fixtures</item>
         <item>Table</item>
-    </string-array>>
+    </string-array>
+    <string-array name="credit_installment_insurance_info_coverage">
+        <item>Desemprego involuntário ou incapacidade física total temporária</item>
+        <item>Pagamento de até 4 (quatro) parcelas limitadas a R$ 3.000,00 (três mil reais) por parcela</item>
+        <item>Morte ou invalidez permanente total por acidente</item>
+        <item>Pagamento do valor da operação de até R$ 1.300.000,00 (um milhão e trezentos mil reais).</item>
+    </string-array>
 </resources>
