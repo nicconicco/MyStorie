@@ -1,8 +1,6 @@
 
 ‰
 Yprocessor/src/main/java/com/cgalves/mystorie/processor/CustomAnnotationProcessorNico.java,d/0/d0dfa9246fece6ec55f4823399df7ad7c2ea7ef4
-F
-processor/build.gradle,e/d/edf76954d418700040ece0aa12711f130a5321e0
 ‰
 Yapp/src/main/java/com/cgalves/mystorie/feature/noticias/view/adapter/NoticiasAdapter.java,3/4/34f4977faab5f8ef969e323d454b8c41d10fe966
 o
@@ -152,8 +150,6 @@ y
 Iapp/src/main/java/com/cgalves/mystorie/common/presenter/MvpPresenter.java,d/2/d29823e23581e815194e1cfcb7aba93d8f01b4c2
 \
 ,app/assets/sonarqube-config/sonar_config_txt,2/1/217de3aea88637393db25a43108af5461a078460
-Œ
-\app/src/main/java/com/cgalves/mystorie/feature/simulate/view/CreditsSimulatePageAdapter.java,d/6/d64a49ee13ba3bf8a03394a1006e1f95b58fa03a
 ‰
 Yapp/src/main/java/com/cgalves/mystorie/feature/simulate/view/CreditsSimulateListener.java,4/a/4a67fcc4380518c4b0e7bbd1e8c5e5d05974ba25
 „

@@ -1,55 +1,0 @@
-
-csquid:S1774A"GConvert this usage of the ternary operator to an "if"/"else" structure.(İÆÂÿÿÿÿÿÿ
-bsquid:S1301L"KReplace this "switch" statement by "if" statements to increase readability.(æ³½¬
-bsquid:S1301g"KReplace this "switch" statement by "if" statements to increase readability.(æ³½¬
-bsquid:S1301t"KReplace this "switch" statement by "if" statements to increase readability.(æ³½¬
-Csquid:S1602D",Remove useless curly braces around statement(™ï»º
-esquid:S1854"IRemove this useless assignment to local variable "isInsuranceSimulation".(¯±—şÿÿÿÿ
-o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(§èé¥
-t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ŠÔ®óıÿÿÿÿ
-o"squid:LeftCurlyBraceStartLineCheck$"AMove this left curly brace to the beginning of next line of code.(ÒÊÏ·
-t"squid:LeftCurlyBraceStartLineCheck)"AMove this left curly brace to the beginning of next line of code.(•¹Ë úÿÿÿÿ
-o"squid:LeftCurlyBraceStartLineCheck."AMove this left curly brace to the beginning of next line of code.(Œ¤ûÊ
-t"squid:LeftCurlyBraceStartLineCheck>"AMove this left curly brace to the beginning of next line of code.(Àò“ƒûÿÿÿÿ
-o"squid:LeftCurlyBraceStartLineCheckC"AMove this left curly brace to the beginning of next line of code.(êöç“
-t"squid:LeftCurlyBraceStartLineCheckK"AMove this left curly brace to the beginning of next line of code.(¾—¦­ûÿÿÿÿ
-o"squid:LeftCurlyBraceStartLineCheckL"AMove this left curly brace to the beginning of next line of code.(æ³½¬
-o"squid:LeftCurlyBraceStartLineCheckN"AMove this left curly brace to the beginning of next line of code.(Èƒéã
-o"squid:LeftCurlyBraceStartLineCheckP"AMove this left curly brace to the beginning of next line of code.(–æ»¶
-o"squid:LeftCurlyBraceStartLineCheckR"AMove this left curly brace to the beginning of next line of code.(å¥‡
-o"squid:LeftCurlyBraceStartLineCheckX"AMove this left curly brace to the beginning of next line of code.(Èƒéã
-o"squid:LeftCurlyBraceStartLineCheckZ"AMove this left curly brace to the beginning of next line of code.(–æ»¶
-o"squid:LeftCurlyBraceStartLineCheck\"AMove this left curly brace to the beginning of next line of code.(å¥‡
-o"squid:LeftCurlyBraceStartLineCheckd"AMove this left curly brace to the beginning of next line of code.(ø—Ÿñ
-o"squid:LeftCurlyBraceStartLineCheckg"AMove this left curly brace to the beginning of next line of code.(æ³½¬
-t"squid:LeftCurlyBraceStartLineChecks"AMove this left curly brace to the beginning of next line of code.(Ùæ¼Şıÿÿÿÿ
-o"squid:LeftCurlyBraceStartLineCheckt"AMove this left curly brace to the beginning of next line of code.(æ³½¬
-o"squid:LeftCurlyBraceStartLineCheck~"AMove this left curly brace to the beginning of next line of code.(¨¹Ø€
-p"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(—ÂÈ©
-p"squid:LeftCurlyBraceStartLineCheck„"AMove this left curly brace to the beginning of next line of code.(¡é††
-p"squid:LeftCurlyBraceStartLineCheck…"AMove this left curly brace to the beginning of next line of code.(Èƒéã
-p"squid:LeftCurlyBraceStartLineCheck‡"AMove this left curly brace to the beginning of next line of code.(–æ»¶
-p"squid:LeftCurlyBraceStartLineCheck‰"AMove this left curly brace to the beginning of next line of code.(å¥‡
-P"squid:SwitchLastCaseIsDefaultCheckL""Add a default case to this switch.(æ³½¬
-P"squid:SwitchLastCaseIsDefaultCheckg""Add a default case to this switch.(æ³½¬
-P"squid:SwitchLastCaseIsDefaultCheckt""Add a default case to this switch.(æ³½¬
-o2squid:RightCurlyBraceDifferentLineAsNextBlockCheckP"1Move this "else" keyword to a new dedicated line.(–æ»¶
-o2squid:RightCurlyBraceDifferentLineAsNextBlockCheckR"1Move this "else" keyword to a new dedicated line.(å¥‡
-o2squid:RightCurlyBraceDifferentLineAsNextBlockCheckZ"1Move this "else" keyword to a new dedicated line.(–æ»¶
-o2squid:RightCurlyBraceDifferentLineAsNextBlockCheck\"1Move this "else" keyword to a new dedicated line.(å¥‡
-p2squid:RightCurlyBraceDifferentLineAsNextBlockCheck‡"1Move this "else" keyword to a new dedicated line.(–æ»¶
-p2squid:RightCurlyBraceDifferentLineAsNextBlockCheck‰"1Move this "else" keyword to a new dedicated line.(å¥‡
-.squid:S2211D"Specify a type for: 'v'(™ï»º
-Vsquid:S1481":Remove this unused "isInsuranceSimulation" local variable.(¯±—şÿÿÿÿ
-hsquid:S00103?"KSplit this 123 characters long line (which is greater than 120 authorized).(¯±—şÿÿÿÿ
-hsquid:S00103O"KSplit this 126 characters long line (which is greater than 120 authorized).(°°œßüÿÿÿÿ
-hsquid:S00103Q"KSplit this 129 characters long line (which is greater than 120 authorized).(Ä‚€üÿÿÿÿ
-hsquid:S00103S"KSplit this 132 characters long line (which is greater than 120 authorized).(¬ê¨ñıÿÿÿÿ
-hsquid:S00103Y"KSplit this 129 characters long line (which is greater than 120 authorized).(ì‚’Ûüÿÿÿÿ
-bsquid:S00103["KSplit this 132 characters long line (which is greater than 120 authorized).(éÛãw
-hsquid:S00103]"KSplit this 135 characters long line (which is greater than 120 authorized).(¥ÑÏñıÿÿÿÿ
-hsquid:S00103v"KSplit this 167 characters long line (which is greater than 120 authorized).(û‹ùÃüÿÿÿÿ
-hsquid:S00103y"KSplit this 231 characters long line (which is greater than 120 authorized).(ëïÜ†üÿÿÿÿ
-hsquid:S00103"KSplit this 123 characters long line (which is greater than 120 authorized).(¯±—şÿÿÿÿ
-€squid:S1151M"iReduce this switch case number of lines from 8 to at most 5, for example by extracting code into methods.(¾Â½Ù
-€squid:S1151W"iReduce this switch case number of lines from 8 to at most 5, for example by extracting code into methods.(€¯—Œ

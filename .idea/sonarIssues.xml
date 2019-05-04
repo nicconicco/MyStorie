@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.hockeyapp.android/HockeySDK/4.1.0/cca1aa6339365f8e2c9126d3f6c16e433e87fd51/HockeySDK-4.1.0-sources.jar!/net/hockeyapp/android/metrics/model/Data.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../AndroidNext/app/src/main/java/br/com/next/api/Service.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../AndroidNext/app/src/main/java/br/com/next/api/call/investments/InvestmentsAbstractCall.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../AndroidNext/app/src/main/java/br/com/next/api/vm/ActionHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../AndroidNext/app/src/main/java/br/com/next/api/vm/Callback.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../AndroidNext/app/src/main/java/br/com/next/api/vm/Response.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../AndroidNext/app/src/main/java/br/com/next/api/vm/Service.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../AndroidNext/app/src/main/java/br/com/next/controller/InvestmentsController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../AndroidNext/app/src/main/java/br/com/next/feature/investments/receipt/ReceiptsInvestmenViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../AndroidNext/app/src/main/java/br/com/next/feature/investments/receipt/ReceiptsInvestmentActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../AndroidNext/app/src/main/java/br/com/next/ui/utils/Response.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../AndroidNext/app/src/main/res/raw/investment_receipts_stateent_goal_period_vo.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../AndroidNext/app/src/mock/Java/br/com/next/api/call/investments/InvestmentsCallImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../AndroidNext/app/src/test/java/br/com/next/test/investments/BaseViewModelTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../AndroidNext/app/src/test/java/br/com/next/test/investments/ReceiptsInvestmentsViewModelTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/cgalves/mystorie/common/utils/ActionHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/cgalves/mystorie/feature/login/DataUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/cgalves/mystorie/feature/login/MockUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/cgalves/mystorie/feature/login/ReceiptsStatementGoalPeriodsVO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/cgalves/mystorie/feature/login/ReturnSystemVO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/cgalves/mystorie/feature/login/view/LoginActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/test/java/com/mystorie/cgalves/mystorie/callbackmockito/BaseViewModelTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/test/java/com/mystorie/cgalves/mystorie/callbackmockito/ReceiptsInvestmentsViewModelTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
